@@ -403,6 +403,9 @@ class AdvancedRAGWorkflow(Workflow):
     async def HandleHighKRAG(self, ctx: Context, ev: RAGhighK) -> ResponseEvent:
         agent = await create_agent(course=self.course, index=ctx.data["chromaindex"], topk=6,chunksize=1024)
         response = await agent.achat(ev.query)
+        print("RAG HIGH K S LENGTH:" + str(len(response.sources)))
+        print("RAG HIGH K S CONTENT:" + str(response.sources[0].content))
+        ctx.data["contextResponse1"] = "\n\n".join(source.content for source in response.sources if source.content)
         self.send_event(ResponseEvent(query=ev.query,source="High K", response=response.response))
         #return StopEvent(result="Hi")
     
@@ -410,6 +413,9 @@ class AdvancedRAGWorkflow(Workflow):
     async def HandleLowKRAG(self, ctx: Context, ev: RAGlowK) -> ResponseEvent:
         agent = await create_agent(course=self.course, index=ctx.data["chromaindex"])
         response = await agent.achat(ev.query)
+        print("RAG LOW K S LENGTH:" + str(len(response.sources)))
+        print("RAG LOW K S CONTENT:" + str(response.sources[0].content))
+        ctx.data["contextResponse2"] = "\n\n".join(source.content for source in response.sources if source.content)
         self.send_event(ResponseEvent(query=ev.query,source="Low K", response=response.response))
         #return StopEvent(result="Hi")
     
@@ -420,30 +426,43 @@ class AdvancedRAGWorkflow(Workflow):
             return None
         query = ev.query
         response_1 = ready[0].response
+        context_1 = ctx.data["contextResponse1"]
         response_2 = ready[1].response
-
+        context_2 = ctx.data["contextResponse2"]
         evaluation_prompt = f"""
         Du bist ein Assistent, der zwei Antworten auf die gleiche Frage bewertet.
         
         **Frage:** {query}
         
+        **Kontext für Antwort 1:**
+        {context_1}
+        
         **Antwort 1:**
         {response_1}
+        
+        **Kontext für Antwort 2:**
+        {context_2}
         
         **Antwort 2:**
         {response_2}
         
         **Bewertungsanweisungen:**
         - Die beste Antwort sollte **präziser, vollständiger und genauer** sein.
+        - Berücksichtige den bereitgestellten Kontext bei der Bewertung der Antworten.
+        - Prüfe, ob die Antworten den verfügbaren Kontext effektiv nutzen.
         - Falls beide Antworten ähnlich gut sind, wähle die mit der besseren Formulierung.
         - Gib die bessere Antwort zurück.
         
         **Ausgabeformat:**  
-        Antworte nur mit der besseren Antwort, ohne zusätzliche Erklärungen. Antworte in der Sprache des Sprachcodes:[{ctx.data["language"]}].
+        Gib ausschließlich die bessere Antwort zurück. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der exakten Antwort.
         """
 
         best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)
-        best_response.response = remove_parentheses(best_response.response)
+        best_response = remove_parentheses(best_response.text)
+
+        if ctx.data["language"] != "de":
+            best_response = await classifier_manager.translate(best_response, "de", ctx.data["language"] )
+
         return StopEvent(result=best_response)
     
 
