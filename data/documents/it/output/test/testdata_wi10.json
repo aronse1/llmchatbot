@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Was bedeutet finanzielle Unabhängigkeit im dualen Studium der DHBW?",
+        "reference": "Studierende erhalten während des gesamten Studiums eine monatliche Vergütung.",
+        "keywords": "duales Studium  monatliche Vergütung "
+    },
+    {
+        "question": "Wie lange dauert das Studium an der DHBW?",
+        "reference": "Das Studium an der DHBW dauert drei Jahre und gliedert sich in Theorie- und Praxisphasen. ",
+        "keywords": "drei Jahre"
+    },
+    {
+        "question": "Wann beginnt das Studium an der DHBW jedes Jahr?",
+        "reference": "Das Studium an der DHBW beginnt jedes Jahr zum 1. Oktober.",
+        "keywords": "jedes Jahr"
+    },
+    {
+        "question": "Was ist der Abschluss, den die Studierenden nach dem Studium im Studiengang Wirtschaftsinformatik an der DHBW erhalten?",
+        "reference": "Die Absolventen des Studiengangs Wirtschaftsinformatik erhalten einen Bachelor of Science.",
+        "keywords": "Absolventen"
+    },
+    {
+        "question": "Warum ist der Wechsel zwischen Theorie- und Praxisphasen ein Vorteil?",
+        "reference": "Er sorgt für ein abwechslungsreiches und praxisnahes Studium.",
+        "keywords": "Theorie- und Praxisphasen"
+    },
+    {
+        "question": "Wie werden soziale und kommunikative Fähigkeiten der Studierenden gefördert?",
+        "reference": "Das Wissen wird nicht nur in Lehrveranstaltungen, sondern auch im Rahmen von Projekten in den Theorie- und Praxisphasen vermittelt",
+        "keywords": "nicht nur in Lehrveranstaltungen"
+    },
+    {
+        "question": "Wie wird die Internationalisierung im Studium gefördert?",
+        "reference": "Durch Sprachkurse, englischsprachige Lehrveranstaltungen und Auslandssemester.",
+        "keywords": "Sprachkurse, englischsprachige Lehrveranstaltungen"
+    },
+    {
+        "question": "Welche typischen Arbeitsgebiete gibt es für Wirtschaftsinformatiker*innen?",
+        "reference": "Projektmanagement, Organisationsentwicklung und -beratung, Anwendungsentwicklung und -beratung, Systemanalyse, -konfiguration und -integration, Vertrieb, Online-Marketing, Logistik, Materialwirtschaft und Einkauf",
+        "keywords": "Projektmanagement, Organisationsentwicklung und -beratung, Anwendungsentwicklung und -beratung, Systemanalyse, -konfiguration und -integration, Vertrieb, Online-Marketing, Logistik, Materialwirtschaft und Einkauf"
+    },
+    {
+        "question": "Wer ist der Studiengangsleiter im Studiengang Wirtschaftsinformatik?",
+        "reference": "Der Studiengangsleiter ist Prof. Dr. Jürgen Seitz",
+        "keywords": "Studiengangsleiter"
+    },
+    {
+        "question": "Wie wird der Studiengang Wirtschaftsinformatik geleitet?",
+        "reference": "Durch einen Studiengangsleiter. Der Studiengangsleiter ist Prof. Dr. Jürgen Seitz",
+        "keywords": "Studiengangsleiter"
+    },
+    {
+        "question": "Unter welcher E-Mail-Adresse können Studierende mit dem Sekretariat des Studiengangs Wirtschaftsinformatik Kontakt aufnehmen?",
+        "reference": "Die E-Mail des Sekretariats ist wi@dhbw-heidenheim.de",
+        "keywords": "Sekretariat"
+    }
+]

@@ -1,0 +1,46 @@
+Anforderungen Projekt- und Bachelorarbeiten HDH-INF/AI
+Umfangreiche und auch hilfreiche Hinweise zur Bearbeitung der Projekt- und Bachelorarbeiten finden Sie in den
+Leitlinien für die Praxismodule, die Sie bei der Planung und Bearbeitung unbedingt berücksichtigen sollten. Formal
+sind die Anforderungen in der Prüfungsordnung und den Modulbeschreibungen der Praxismodule definiert, ein paar
+Auszüge:
+„Die Projektarbeit dokumentiert die konkrete Lösung einer Ingenieuraufgabe […] Die Projektarbeit lässt eine einge-
+hende, umfassende und selbstständige Bearbeitung erkennen und verknüpft die praktischen Aufgabenstellungen
+mit aktueller Fachliteratur aus Theorie und Praxis.“ [Prüfungsordnung].
+„Sie [die Studierenden] analysieren kritisch, welche Einflussfaktoren zur Lösung des Problems beachtet werden
+müssen und beurteilen, inwiefern einzelne theoretische Modelle einen Beitrag zur Lösung des Problems leisten
+können. […] Absolventinnen und Absolventen kennen übliche Vorgehensweisen der industriellen Praxis und können
+diese selbstständig umsetzen. […] Dazu gehören auch das eigenständige kritische Beobachten, das systematische
+Suchen alternativer Lösungsansätze sowie eine erste Einschätzung der Anwendbarkeit von Theorien für Praxis.“
+[Modulbeschreibung].
+Übersetzung
+Eine Arbeit braucht eine definierte Problemstellung („Worüber muss ich nachdenken ?“). Diese ist in der Einleitung
+darzustellen und in den relevanten Kontext (des Ausbildungsunternehmens sowie Allgemein) zu setzen („Warum ist
+das wichtig ?“. Zahlen, Fakten, Belege). Aufbauend auf den konkreten Anforderungen des Unternehmens wird sys-
+tematisch, also insbesondere nachvollziehbar, eine Lösung konstruiert. Dabei werden übliche Vorgehensweisen und
+der Stand der Technik berücksichtigt („Wie könnte man das lösen “ (Literatur) führt zu „Wie löst man das“ (andere
+Literatur) führt zu „Wie löse ich das“ (Argumentation basierend auf Anforderungen). Die Argumentation muss nach-
+vollziehbar sein, das heißt, jede Behauptung muss begründet werden, entweder durch Zitieren einer Quelle, durch
+eine eigene Untersuchung oder durch eine unmittelbar einsichtige Schlussfolgerung aus anderen Argumenten.
+Auf die Darstellung der Lösung („Wie“) folgt die kritische Reflexion („Warum genau so ?“, „Warum machen das nicht
+alle so ?“ ). Welche dieser Punkte bei der Bewertung wie relevant sind, kann den Bewertungsformularen entnommen
+werden, deren Lektüre sich deshalb in jedem Fall lohnt.
+Wofür (Projektarbeit, Bachelorarbeit …) gilt das ?
+Das oben Geschriebene gilt für alle Arbeiten von T1000 bis Bachelorarbeit mit unterschiedlichem Schwerpunkt. Im-
+mer gleich wichtig ist die Definition des Problems und des Kontexts (Anforderungen usw.). Schwerpunkt im ersten
+Jahr (T1000) liegt auf dem „Wie“, also der vollständigen, nachvollziehbaren, widerspruchsfreien Dokumentation der
+gewählten Lösung mit allen relevanten Einflussfaktoren. Die verwendete Literatur spiegelt dies in Art und Umfang
+der Verwendung wider: Im ersten Jahr eher Fachbücher/Lehrbücher/Herstellerdokumentation zu verwendeten Me-
+thoden und Technologien, also zum „Wie“. Im zweiten Jahr auch zu Methoden und der Anwendbarkeit für die spe-
+zielle Art von Problem, also eher Fachartikel zum Stand der Technik, in der Informatik auch geeignete Blogs usw. Im
+dritten Jahr hauptsächlich zum aktuellen Stand der Technik und dem Stand der akademischen Erkenntnis. Einen
+Überblick über die Unterschiede gibt es auf Seite 6 in den Leitlinien.
+Bachelorarbeit:
+Ein relevantes (technisches) Problem realistischer Komplexität wird selbstständig gelöst, breiter Kontext, Alternati-
+ven auf dem Stand der Technik werden analysiert und bewertet
+T2000:
+(Teil-) Problem wird selbstständig gelöst, Lösungsweg i.w. nach Stand der Technik (Literatur) klar, Kontext berück-
+sichtigt
+T1000:
+Eigenständige Bearbeitung einer Aufgabe nach vorgegebener Methode/Technologie, Einarbeitung mit Literatur, Er-
+arbeitung der Problemdefinition und Darstellung des Kontexts.
+

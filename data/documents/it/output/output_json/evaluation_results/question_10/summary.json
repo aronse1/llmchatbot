@@ -1,0 +1,10 @@
+{
+    "question": "Wie viele ECTS Punkte gibt Mathe I?",
+    "metrics": {
+        "avg_bleu": 3.607033773254162e-155,
+        "avg_rouge": 0.2858387754021116,
+        "avg_trust": 0.6666666666666666,
+        "pass_rate": 0.6666666666666666,
+        "number_of_runs": 3
+    }
+}

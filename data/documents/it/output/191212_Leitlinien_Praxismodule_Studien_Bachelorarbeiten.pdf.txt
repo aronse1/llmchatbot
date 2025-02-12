@@ -1,0 +1,1103 @@
+LEITLINIEN
+für die Bearbeitung und Dokumentation der Module
+Praxisprojekt I bis III
+Studienarbeit I / II
+Bachelorarbeit
+Fachkommission Technik
+Oktober 2021
+Inhaltsverzeichnis Seite
+1 Vorwort ..................................................................................................................... 1
+2 Allgemeine Hinweise zu den Modulen ................................................................... 2
+2.1 Generelle Anforderungen und Betreuung in den Praxismodulen .......................................................... 2
+2.2 Benotung und Beurteilungskriterien ....................................................................................................... 2
+2.3 Dokumentation und äußere Form .......................................................................................................... 3
+2.4 Aufgabenstellung und Änderungen bei Aufgabenstellung und Titel ...................................................... 3
+2.5 Vertraulichkeit, Geheimhaltung .............................................................................................................. 3
+2.6 Termine und Abbruch ............................................................................................................................ 4
+2.7 Abgabe der Arbeiten .............................................................................................................................. 4
+2.8 Eigenleistung ......................................................................................................................................... 4
+2.9 Übersicht der zu erstellenden Berichte und Arbeiten für das Curriculum 2017 (Studienjahrgänge ab
+2017) ...................................................................................................................................................... 6
+3 Modul Praxisprojekt I (T3_1000 in 1. und 2. Praxisphase) ................................... 8
+3.1 Anforderungen ....................................................................................................................................... 8
+3.2 Dokumentation ....................................................................................................................................... 8
+3.3 Bearbeitungszeit .................................................................................................................................... 9
+3.4 Abgabe und Bewertung ......................................................................................................................... 9
+4 Modul Praxisprojekt II (T3_ 2000 in 3. und 4. Praxisphase) ............................... 10
+4.1 Anforderungen ..................................................................................................................................... 10
+4.2 Themenfindung, Anmeldung und Genehmigung der Projektarbeit ..................................................... 10
+4.3 Dokumentation ..................................................................................................................................... 10
+4.4 Bearbeitungszeit .................................................................................................................................. 11
+4.5 Abgabe und Bewertung ....................................................................................................................... 11
+5 Modul Praxisprojekt III (T3_3000 in der 5. Praxisphase) .................................... 12
+5.1 Anforderungen ..................................................................................................................................... 12
+5.2 Dokumentation ..................................................................................................................................... 12
+5.3 Bearbeitungszeit .................................................................................................................................. 12
+5.4 Abgabe und Bewertung ....................................................................................................................... 12
+6 Modul Studienarbeit (T3_3100 bzw. T3_3200 in 5./6. Theoriephase) ................ 13
+6.1 Anforderungen und Ablauf ................................................................................................................... 13
+6.2 Betreuung ............................................................................................................................................ 13
+6.3 Dokumentation ..................................................................................................................................... 13
+II / 55
+6.4 Bearbeitungszeit .................................................................................................................................. 14
+6.5 Abgabe der Studienarbeit und Bewertung ........................................................................................... 14
+7 Modul Bachelorarbeit (T3_3300 in der 6. Praxisphase) ..................................... 15
+7.1 Anforderungen und Ablauf ................................................................................................................... 15
+7.2 Dokumentation ..................................................................................................................................... 16
+7.3 Bearbeitungszeit .................................................................................................................................. 16
+7.4 Betreuung ............................................................................................................................................ 17
+7.5 Abgabe der Arbeit und Bewertung ....................................................................................................... 17
+8 Aufbau und Ausführung der Arbeiten ................................................................. 18
+8.1 Äußere Form ........................................................................................................................................ 18
+8.2 Gliederung der Arbeit ........................................................................................................................... 18
+8.3 Regeln für den redaktionellen Teil ....................................................................................................... 19
+8.4 Gestaltung der inhaltlichen Abschnitte/Kapitel .................................................................................... 20
+9 Quellennachweis und Zitierweise ........................................................................ 22
+9.1 Quellenangabe ..................................................................................................................................... 23
+9.2 Zitierweise ............................................................................................................................................ 25
+10 Literaturverzeichnis .............................................................................................. 28
+10.1 Bücher und Schriften ........................................................................................................................... 29
+10.2 Aufsätze in Zeitschriften ....................................................................................................................... 29
+10.3 Beiträge in Sammel- und Nachschlagewerken .................................................................................... 30
+10.4 Dissertationen ...................................................................................................................................... 30
+10.5 Zeitungsartikel ...................................................................................................................................... 31
+10.6 Juristische Veröffentlichungen ............................................................................................................. 31
+10.7 Internetquellen ..................................................................................................................................... 32
+10.8 Sonstige Quellen .................................................................................................................................. 33
+10.9 Anhang ................................................................................................................................................. 33
+10.10 Alternative Formate .............................................................................................................................. 33
+11 Hinweise zur Quellensuche und -beschaffung ................................................... 34
+12 Anhang – Unterschied zwischen Curriculum 2011 und Curriculum 2017 ........ 35
+13 Anhang – Modulbeschreibungen Curriculum 2017 (ab Studienjahrgänge
+2017) ....................................................................................................................... 36
+14 Anhang – Curriculum 2011 (Studienjahrgänge 2011 bis 2016) ......................... 42
+14.1 Übersicht der zu erstellenden Berichte und Arbeiten für das Curriculum 2011 (Studienjahrgänge bis
+einschließlich 2016) ............................................................................................................................. 42
+III / 55
+14.2 Modul T2_3000 in der 5. Praxisphase für die Studienjahrgänge 2011 bis 2016 ................................. 43
+14.3 Anhang – Modulbeschreibungen Curriculum 2011 (ab Studienjahrgänge 2011 bis 2016) ................. 44
+IV / 55
+
+1 Vorwort
+Diese Leitlinien sollen allen bei Durchführung, Erstellung und Begutachtung der genannten Module Beteiligten
+die wesentlichen Anforderungen und Erwartungen verdeutlichen.
+Die Leitlinien haben damit insbesondere für die Erstellung der Arbeiten empfehlenden Charakter, ein sinnvol-
+les und begründbares Abweichen ist zulässig, sollte aber mit allen Beteiligten abgestimmt werden. Dabei sind
+die Regelungen der Studien- und Prüfungsordnung für die Bachelorstudiengänge im Studienbereich Technik
+der Dualen Hochschule Baden-Württemberg (DHBW) (Studien- und Prüfungsordnung DHBW Technik) sowie
+der Modulbeschreibungen einzuhalten.
+Diese Ausgabe der Leitlinien korreliert mit der Studien- und Prüfungsordnung DHBW Technik vom 01. Oktober
+2015 sowie der vom 01. Oktober 2017 inklusive aller Änderungssatzungen in der jeweils gültigen Fassung.
+Für die Fachkommission Technik
+Prof. Dr. J. Frech, DHBW CAS Heilbronn Prof. Dr. C. Mühlhan, DHBW Mannheim
+Vorsitzender der Fachkommission Technik Geschäftsführer der Fachkommission Technik
+Bitte beachten Sie:
+Die aktuelle Version dieser Leitlinien und alle Formulare finden Sie unter
+http://www.dhbw.de/die-dhbw/dokumente.html#Dokumente_Technik
+Vorschläge zur weiteren Verbesserung dieser Leitlinie bitte an joachim.frech@cas.dhbw.de oder claus.muehl-
+han@dhbw-mannheim.de.
+Danke!
+1 / 55
+2 Allgemeine Hinweise zu den Modulen
+2.1 Generelle Anforderungen und Betreuung in den Praxismodulen
+Die Studierenden sollen durch die Module Praxisprojekt I, II und III die in den Modulen genannten Lernziele
+erreichen und die entsprechenden Kompetenzen erwerben (vgl. dazu die Beschreibungen der Module
+T3_1000, T3_2000 und T3_3X00 für die Studienjahrgänge ab 2017, in der Anlage).
+Die Dokumentation der Module erfolgt jeweils durch eine „Tabellarische Übersicht des Ablaufs der Praxis-
+phase“, die „Studentische Reflexion der Praxisphase“ und die in dem jeweiligen Modul anzufertigende Projek-
+tarbeit. Das Thema der Projektarbeit wird in der Regel vom Dualen Partner gestellt und orientiert sich dabei
+an den Ausbildungsplänen des entsprechenden Studiengangs.
+Die Grundlagen zur Erstellung einer qualifizierten Dokumentation werden in den Seminaren „Wissenschaftli-
+ches Arbeiten I, II und III“ im jeweiligen Studienjahr vermittelt.
+Die Studienakademie benennt für die Betreuung der Projektarbeit eine wissenschaftlich qualifizierte Prüferin
+oder einen wissenschaftlich qualifizierten Prüfer. Diese Person muss eine fachlich und wissenschaftlich aus-
+gewiesene Vertreterin bzw. ein fachlich und wissenschaftlich ausgewiesener Vertreter der Praxis, eine Pro-
+fessorin oder ein Professor oder akademische Mitarbeiterin oder akademischer Mitarbeiter einer Hochschule
+sein. Die betriebliche Betreuerin bzw. der betriebliche Betreuer gehört in der Regel dem Dualen Partner an, in
+dem die Projektarbeiten erstellt werden, und betreut die Studierenden bei der Durchführung der Projektarbei-
+ten. Bei Bedarf können organisatorische und administrative Fragen außerdem mit den Ausbildungsverantwort-
+lichen des Dualen Partners besprochen werden.
+Die haupt- und nebenberuflichen Dozentinnen und Dozenten der DHBW stehen insbesondere für die wissen-
+schaftlichen Aspekte ebenfalls zur Verfügung.
+Es ist eine Mitarbeit beim eigenen Unternehmen oder einem Tochter- oder Partnerunternehmen auch im Aus-
+land möglich. Die Projektarbeiten können in Deutsch oder einer Fremdsprache erstellt werden. Die Fremd-
+sprache ist zu Beginn des Moduls durch die Studienakademie nach Rücksprache mit der Studierenden oder
+dem Studierenden sowie der Betreuerin oder dem Betreuer des Dualen Partners festzulegen.
+Die Erstellung der Projektarbeiten und der Bachelorarbeit sind Prüfungsleistungen des Studiums. Für die An-
+fertigung ist den Studierenden ausreichend Gelegenheit in dem in den „Richtlinien für die Eignungsvorausset-
+zungen und das Zulassungsverfahren von Praxispartnern (Ausbildungsstätten) der Dualen Hochschule Ba-
+den-Württemberg für ein Bachelor-Studium“ festgelegten Umfang einzuräumen (Studienvertrag DHBW – Ver-
+sion 07/2018 Ziffer 5.6).
+2.2 Benotung und Beurteilungskriterien
+Die Bewertung der Module erfolgt nach Maßgabe der Studien- und Prüfungsordnung DHBW Technik in den
+meisten Modulen mit einer Note. Diese wird mit einer Dezimalstelle angegeben und kann zwischen 1,0 (sehr
+gut) und 5,0 (mangelhaft) liegen. Die „Anleitung zur Bewertung von Projekt-, Studien- und Bachelorarbeiten“
+enthält das Bewertungsschema der Fachkommission Technik zur Beurteilung der Arbeiten.
+2 / 55
+2.3 Dokumentation und äußere Form
+Für alle Arbeiten sind die im Kapitel 8 dargestellten Ausführungen einzuhalten. Bachelorarbeiten, Projektar-
+beiten, Studienarbeiten sowie Hausarbeiten sind jeweils einmal in gedruckter Ausfertigung und einmal in elekt-
+ronischer Form (Textdatei und gegebenenfalls weiterer digitaler Anlagen) bei der Studienakademie einzu-
+reichen. Abweichungen definiert die Studienakademie.
+Alle Umfangsangaben sind jeweils Richtwerte, die keinesfalls dazu führen sollen, dass Trivialitäten dokumen-
+tiert werden, um die vorgegebenen Angaben zu erreichen. Andererseits sollen Studierende nicht genötigt wer-
+den, wesentliche Teile ihrer Arbeit zur Erreichung der Angaben zu kürzen. In aller Regel ist jedoch im jeweils
+angegebenen Umfang eine Arbeit problemlos zu bewältigen. Bei Ausnahmen sollten die Studierenden die
+Arbeit ggf. mit Hilfe der Betreuenden kritisch analysieren.
+2.4 Aufgabenstellung und Änderungen bei Aufgabenstellung und Titel
+Die Studierenden können in Abstimmung mit der betrieblichen Betreuerin bzw. dem betrieblichen Betreuer der
+Projekt-, Studien- oder Bachelorarbeit, den genehmigten Titel der Arbeit anpassen, insbesondere, wenn in-
+haltliche Gründe dies erfordern. Die Betreuerin bzw. der Betreuer prüft, dass keine oder nur geringfügige Än-
+derungen der inhaltlichen Thematik mit der Änderung des Titels einhergehen.
+Geänderte Titel sind dem Studiengangssekretariat mitzuteilen, damit die korrekten Angaben ins Zeugnis über-
+nommen werden können.
+Bei Projekt- und Bachelorarbeiten ist eine Kopie des Anmeldeformulars und ggf. eine schriftliche Begründung
+für die Änderung des Titels oder der Inhalte zu Beginn der Arbeit einzufügen.
+Eine mehr als geringfügige inhaltliche Änderung genehmigungspflichtiger Arbeiten nach ihrer Freigabe muss
+– wie eine erste Anmeldung – schriftlich von der Hochschule genehmigt werden.
+2.5 Vertraulichkeit, Geheimhaltung
+Alle Berichte und Arbeiten sind für Beurteilung und Bewertung den hauptamtlichen Mitarbeiterinnen und Mit-
+arbeitern der DHBW und den eventuell mit der Betreuung oder Bewertung betrauten nebenberuflichen Dozen-
+ten und Dozentinnen bzw. Mitgliedern des Prüfungsausschusses zugänglich. Diese sind zur Vertraulichkeit
+verpflichtet.
+Einschränkungen bezüglich der Weitergabe zu Beurteilungs- und Bewertungszwecken, z.B. Ausschluss von
+bestimmten Personen oder Mitgliedern bestimmter Dualer Partner bei der Mitarbeit im Prüfungsausschuss,
+werden nach Möglichkeit bei der Planung berücksichtigt, können jedoch nicht gewährleistet werden. Ggf. muss
+die Arbeit entsprechend formuliert oder im Extremfall ein anderes Thema gewählt werden.
+Bei Bedarf können die Arbeiten mit einem entsprechenden Sperrvermerk (auf dem Titelblatt oder auf der zwei-
+ten Seite) versehen werden. Dadurch wird gewährleistet, dass die Arbeit im Anschluss an die Bewertung an-
+deren Personenkreisen nicht zugänglich gemacht wird (z.B. Auslage in der Bibliothek).
+Weitere Informationen finden Sie im Infoblatt: Vertraulichkeit Studentischer Arbeiten.
+http://www.dhbw.de/fileadmin/user_upload/Dokumente/Broschueren_Handbuch_Betriebe/Infoblatt_Vertrau-
+lichkeit.pdf
+3 / 55
+2.6 Termine und Abbruch
+Die Abgabetermine jeder Arbeit sowie ggf. die Termine für die Bewertung durch die Betreuenden und Prüfen-
+den werden rechtzeitig – spätestens mit dem Beginn der Arbeit – von der Studiengangsleitung bekannt gege-
+ben.
+Diese Termine sind einzuhalten, da sonst aus rechtlichen Gründen die Arbeit als mit der Note „nicht ausrei-
+chen“ (5,0) bzw. „nicht bestanden“ bewertetet gilt und dies eine Wiederholung der Arbeit zur Folge hat. Nicht
+bestandene Projektarbeiten können einmal wiederholt werden und sind dazu nochmals zu überarbeiten. Stu-
+dien- und Bachelorarbeiten können dagegen nicht mit dem gleichen Thema wiederholt werden.
+Muss eine Arbeit durch Verschulden der bzw. des Studierenden abgebrochen werden, wird sie als nicht be-
+standen bewertet.
+Aus wichtigen Gründen – wie z.B. bei längerer Krankheit – kann mit einem Antrag (ggf. inklusive Krankmel-
+dung) beim zuständigen Sekretariat um eine Verschiebung des Abgabetermins gebeten werden. Der wichtige
+Grund muss der Hochschule – unverzüglich – schriftlich – glaubhaft – gemacht werden. Im Krankheitsfall ist
+unverzüglich ein ärztliches Attest vorzulegen. Wenn Sie aus wichtigem Grund an der Abgabe einer Prüfungs-
+leistung verhindert sind, können Sie die Prüfungsleistung später nachholen (§ 13 Studien- und Prüfungsord-
+nung DHBW Technik).
+Die Ausführungen der Studien- und Prüfungsordnung DHBW Technik sind zu beachten.
+2.7 Abgabe der Arbeiten
+Die Arbeiten können per Post eingesandt werden. Alternativ können während der Theoriephasen die Arbeiten
+auch persönlich im zuständigen Sekretariat abgegeben werden, zu anderen Zeiten ggf. nach vorheriger Ab-
+sprache. Die Arbeiten sind jeweils einmal in gedruckter Ausfertigung und einmal in elektronischer Form (Text-
+datei und gegebenenfalls weiterer digitaler Anlagen) bei der Studienakademie einzureichen.
+Eine Empfangsbestätigung wird nicht ausgestellt. Bei Bedarf ist die Form des Einschreibens zu wählen.
+Maßgeblich für die fristgerechte Abgabe bei Postversand ist das Datum des Poststempels.
+2.8 Eigenleistung
+Bei Bachelor-, Studien- und Projektarbeiten hat die Studierende bzw. der Studierende schriftlich zu erklären,
+dass die Prüfungsleistung selbstständig und nur mit den angegebenen Quellen und Hilfsmitteln verfasst wurde.
+Der Text dieser Erklärung muss auf der zweiten Seite der Arbeit lauten:
+4 / 55
+Erklärung
+Ich versichere hiermit, dass ich meine Bachelorarbeit (bzw. Projektarbeit oder Studienarbeit bzw.
+Hausarbeit) mit dem Thema: (…) selbstständig verfasst und keine anderen als die angegebenen Quel-
+len und Hilfsmittel benutzt habe. Ich versichere zudem, dass die eingereichte elektronische Fassung
+mit der gedruckten Fassung übereinstimmt.
+-------------------------------------------------- -----------------------------------
+Ort Datum Unterschrift
+Abbildung 1: Muster der Erklärung
+Eine unzulässige Verwendung von Quellen (Plagiarismus) führt nach § 11 Absatz 5, 6 und 7 Studien- und
+Prüfungsordnung DHBW Technik zur Note “nicht ausreichend“ (5,0) bzw. „nicht bestanden“!
+5 / 55
+
+1 Der Begriff „Praxisphase 5“ bezeichnet beispielsweise diejenigen Praxisabschnitte, die in das fünfte Stu-
+dienhalbjahr fallen. Dabei kann die konkrete Lage der Praxiseinsätze im betreffenden Studienjahr von
+Studiengang zu Studiengang variieren.
+2 Die Angabe der Dauer bezieht sich auf den zugrundeliegenden Workload aus Präsenzstunden und
+Selbststudiumsstunden der Projekt-, Studien-, bzw. Bachelorarbeiten aus der Unit 1 (siehe auch Work-
+loadtabelle und Modulbeschreibungen in der Anlage).
+3 ohne Verzeichnisse und Anhänge
+Bitte beachten: Die Umfangsangaben für eine Arbeit sind grobe Richtwerte, keinesfalls soll eine gute
+Arbeit aufgrund dieser Richtwerte mit Füllmaterial gestreckt werden oder durch Löschen von qualifizier-
+ten Inhalten gekürzt werden.
+4 Statt einer Projektarbeit sind auch zwei kleine Projektarbeiten möglich.
+5 Das Modul Praxisprojekt II beinhaltet auch eine Unit Mündliche Prüfung, die mit 1 Präsenzstunde und 9
+Selbststudiumsstunden beinhaltet.
+Die Übersicht für noch offene Leistungen aus dem Curriculum 2011 (Studienjahrgänge bis 2016) befindet sich
+im Anhang)
+7 / 55
+3 Modul Praxisprojekt I (T3_1000 in 1. und 2. Praxisphase)
+3.1 Anforderungen
+Die Studierenden kennen die wichtigsten technischen und organisatorischen Prozesse in Teilbereichen ihres
+Dualen Partners und können deren Funktion darlegen. Mit der Projektarbeit im ersten Studienjahr soll eine
+fachlich fundierte Ausarbeitung erstellt werden, die eine fachorientierte Reflexion der Prozesse und Strukturen
+des Unternehmens ermöglicht.
+Diese kann keinesfalls lediglich ein Berichtsheft über den Ablauf der Praxisphasen sein. Vielmehr weist die
+Projektarbeit nach, dass die Studierenden die Verbindung von Praxis zu Theorie herstellen können und dazu
+sowohl akademische Themen in betrieblichen Prozessen wiederfinden als auch betriebliche Praxis vor dem
+Hintergrund von Studieninhalten einordnen können. Hierfür sollen einzelne Tätigkeitsschwerpunkte der ersten
+und/oder zweiten Praxisphase exemplarisch detaillierter beleuchtet werden.
+Die Themenstellung der Praxisarbeiten der T3_1000 wird entsprechend der „Praxispläne der Studiengänge“
+vom Dualen Partner spezifiziert.
+3.2 Dokumentation
+Für die Dokumentation wird folgende Gliederung (vgl. 8.2) erwartet:
+ Titelblatt mit Angabe wesentlicher Daten wie Namen, Dualer Partner und den bearbeiteten Tätigkeits-
+schwerpunkten
+ Überblick Tätigkeiten der Praxisphasen (Ablauf und Reflexion der Praxisphase Teil A)
+ Inhaltsverzeichnis
+ Ggf. weitere Verzeichnisse
+ Tätigkeitsschwerpunkt 1
+o Aufgabenstellung
+o Einordnung der Aufgabenstellung in übergeordnete Prozesse/Geschäftsziele
+o Verknüpfung zu Vorlesungsinhalten
+o Praktische Lösung
+o Kritische, inhaltliche Reflexion von Theorie und Praxis
+ Tätigkeitsschwerpunkt 2
+o …
+ Ggf. Zusammenfassung und Ausblick
+ Literaturverzeichnis
+ Ggf. Anhang
+8 / 55
+Die Projektarbeit soll für das erste Studienjahr 25 bis 35 Seiten umfassen (ohne Verzeichnisse und Anhänge),
+sowie alle nötigen Abbildungen und Tabellen beinhalten. Verwendete Quellen sind formal korrekt zu zitieren.
+Wichtige Grundlagen sind anhand geeigneter Literatur zu belegen.
+Zusätzlich zur Projektarbeit ist ein „Ablauf- und Reflexionsbericht“ separat abzugeben (Ablauf und Reflexion
+der Praxisphase).
+3.3 Bearbeitungszeit
+Je Praxisphase (d.h. also je Studienhalbjahr) sind die Tätigkeiten im Tätigkeitsnachweis aufzuführen. Die im
+Formular Ablauf und Reflexion der Praxisphase – Teil A – Tabellarische Übersicht des Ablaufs der Praxis-
+phase dokumentiert dabei die Tätigkeitsschwerpunkt(e).
+3.4 Abgabe und Bewertung
+Die Arbeiten können per Post eingesandt werden. Alternativ können während der Theoriephasen die Arbeiten
+auch persönlich im zuständigen Sekretariat abgegeben werden, zu anderen Zeiten ggf. nach vorheriger Ab-
+sprache. Die Arbeiten sind jeweils einmal in gedruckter Ausfertigung und einmal in elektronischer Form (Text-
+datei und gegebenenfalls weiterer digitaler Anlagen) bei der Studienakademie einzureichen.
+Eine Empfangsbestätigung wird nicht ausgestellt. Bei Bedarf ist die Form des Einschreibens zu wählen.
+Maßgeblich für die fristgerechte Abgabe bei Postversand ist das Datum des Poststempels.
+Die betriebliche Betreuerin bzw. der betriebliche Betreuer prüft anhand des Berichtes, ob die gestellten Anfor-
+derungen hinsichtlich fachlicher Inhalte, erworbener und dokumentierter Kompetenzen und Dokumentation
+erfüllt sind. Die betriebliche Betreuerin bzw. der betriebliche Betreuer erstellt einen Bewertungsvorschlag (be-
+standen/nicht bestanden). Der Prüfungsausschuss bewertet die Projektarbeit unter Berücksichtigung des Be-
+wertungsvorschlags, d.h., dass der Bewertungsvorschlag übernommen werden kann, in begründeten Fällen
+aber auch geändert werden kann. Bei positiver Prüfung wird die Prüfungsleistung entsprechend mit „bestan-
+den“ bewertet.
+9 / 55
+4 Modul Praxisprojekt II (T3_ 2000 in 3. und 4. Praxisphase)
+4.1 Anforderungen
+Mit den Projektarbeiten im 2. Studienjahr wird die Fähigkeit erreicht, das bisher erworbene Wissen aus ver-
+schiedenen Fachgebieten auf Projekte anzuwenden und innerhalb einer vorgegebenen Frist ein Problem aus
+dem jeweiligen Fachgebiet nach wissenschaftlichen Methoden unter Anleitung zu bearbeiten.
+Die Studierenden lernen die Arbeitsweise einer Ingenieurin bzw. eines Ingenieurs oder einer Informatikerin
+bzw. eines Informatikers kennen und dabei theoretische, fachliche und betriebspraktische Inhalte miteinander
+zu verbinden.
+Die Projektarbeiten sollen das qualifizierte Arbeiten an einem kleinen, weitgehend selbstständig bearbeiteten
+Projekt dokumentieren.
+4.2 Themenfindung, Anmeldung und Genehmigung der Projektarbeit
+Ausgehend von einer gegebenen Problemstellung muss das Ziel der Projektarbeit klar definiert werden. Aus
+der Beschreibung des geplanten Vorgehens muss darüber hinaus der Eigenanteil der Studierenden am Pro-
+jekt eindeutig erkennbar sein.
+Bei der Konkretisierung und inhaltlichen Ausgestaltung der Aufgabenstellung ist darauf zu achten, dass die
+wesentlichen Aspekte einer Projektarbeit, wie beispielsweise die Analyse der gegebenen Problemstellung so-
+wie die Reflexion und Bewertung der erhaltenen Ergebnisse, in angemessener Weise Berücksichtigung finden
+Die auf diese Weise definierte Aufgabenstellung wird der zuständigen Studiengangsleitung vorgelegt. Diese
+prüft und genehmigt das Thema und erteilt die endgültige Freigabe.
+Die Projektarbeiten werden beim Dualen Partner durchgeführt.
+Die bei der Anmeldung einzuhaltenden Formalien werden rechtzeitig vom Studiengang mitgeteilt. Alle Formu-
+lare finden sich unter http://www.dhbw.de/die-dhbw/dokumente.html#Dokumente_Technik.
+4.3 Dokumentation
+Die Projektarbeit(en)
+ dokumentieren Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert.
+ weisen nach, dass die Studierenden die Verbindung von Praxis zu Theorie herstellen und dazu sowohl
+akademische Themen in betrieblichen Prozessen wiederfinden als auch betriebliche Praxis vor dem
+Hintergrund von Wissenschaft und Forschung einordnen können.
+ genügen in Inhalt, Form und Sprache einer wissenschaftlichen Arbeit. Hierbei ist insbesondere auf die
+Verwendung gendergerechter Sprache zu achten.
+ sollten bei zwei Arbeiten jeweils 25 – 35 Seiten bzw. bei einer Arbeit 50 – 70 Seiten umfassen (ohne
+Verzeichnisse und Anhänge),
+10 / 55
+Bitte beachten: Die Umfangsangaben für eine Arbeit sind grobe Richtwerte, keinesfalls soll eine gute Arbeit
+aufgrund dieser Richtwerte mit Füllmaterial gestreckt oder durch Löschen von qualifizierten Inhalten gekürzt
+werden.
+Zusätzlich zur Hausarbeit ist ein „Ablauf- und Reflexionsbericht“ separat abzugeben (Ablauf und Reflexion der
+Praxisphase).
+4.4 Bearbeitungszeit
+Je Praxisphase (d.h. also je Studienhalbjahr) sind die Tätigkeiten im Tätigkeitsnachweis aufzuführen. Die im
+Formular Ablauf und Reflexion der Praxisphase – Teil A – Tabellarische Übersicht des Ablaufs der Praxis-
+phase dokumentiert dabei die Tätigkeitsschwerpunkt(e).
+4.5 Abgabe und Bewertung
+Die Arbeiten können per Post eingesandt werden. Alternativ können während der Theoriephasen die Arbeiten
+auch persönlich im zuständigen Sekretariat abgegeben werden, zu anderen Zeiten ggf. nach vorheriger Ab-
+sprache. Die Arbeiten sind jeweils einmal in gedruckter Ausfertigung und einmal in elektronischer Form (Text-
+datei und gegebenenfalls weiterer digitaler Anlagen) bei der Studienakademie einzureichen.
+Eine Empfangsbestätigung wird nicht ausgestellt. Bei Bedarf ist die Form des Einschreibens zu wählen.
+Maßgeblich für die fristgerechte Abgabe bei Postversand ist das Datum des Poststempels.
+Die von der Studienakademie benannte Prüferin (betriebliche Betreuerin) bzw. der von der Studienakademie
+benannte Prüfer (betrieblicher Betreuer) bewertet die Projektarbeit auf Grundlage des vom Studienbereich
+Technik festgelegten Bewertungsschemas (“Schematische Bewertung“ unter http://www.dhbw.de/die-
+dhbw/dokumente.html#Dokumente_Technik) und begründet die Bewertung. Dieser Notenvorschlag wird
+durch den Prüfungsausschuss bestätigt bzw. kann in begründeten Fällen durch den Ausschuss auch geändert
+werden.
+Ein zweiter Teil der Bewertung der Praxisphasen 3 und 4 erfolgt durch eine mündliche Prüfung.
+Die mündliche Prüfung besteht aus zwei Teilen:
+1.Teil: Präsentation der Projektarbeit
+2.Teil: Fragen, die sich überwiegend auf die praxisbezogenen Studieninhalte sowie die zu Grunde liegen-
+den theoretischen Konzepte beziehen.
+Die Notengewichtung der Mündlichen Prüfung:
+30 % für die Präsentation (1. Teil)
+70 % für die Fragen (2. Teil)
+Organisation und Ablauf wird vom Prüfungsausschuss festgelegt. Außerdem wird auf die Studien- und Prü-
+fungsordnung DHBW Technik verwiesen.
+11 / 55
+5 Modul Praxisprojekt III (T3_3000 in der 5. Praxisphase)
+5.1 Anforderungen
+Die Studierenden können theoretisches Wissen in Beziehung zur praktischen Anwendung setzen und damit
+qualifizierte Problemlösungen entwickeln und bewerten. Die dazugehörige Prüfungsleistung des Moduls in
+Form der Hausarbeit soll für eine praktische Problemstellung wissenschaftliches Arbeiten und Dokumentieren
+nachweisen. Dies kann in der Praxisphase selbst, im Seminar „Wissenschaftliches Arbeiten“, im Rahmen der
+Studienarbeit oder der Bachelorarbeit erfolgen.
+5.2 Dokumentation
+Die Dokumentation wird im Seminar „Wissenschaftliches Arbeiten III“, im Praxisprojekt III oder während der
+Studien- bzw. Bachelorarbeit entwickelt und als Hausarbeit von den Studierenden abgegeben.
+Für die Dokumentation wird folgende Gliederung empfohlen:
+• Gliederung der Arbeit, alternativ zur Gliederung ein Arbeitsplan
+• Wissenschaftliche Vorgehensweise (Methoden, Literatur)
+• Ggf. auch ein kurzes Feedback, was umgesetzt wurde
+• Umfang: 3 – 7 Seiten
+Zusätzlich zur Hausarbeit ist ein „Ablauf- und Reflexionsbericht“ separat abzugeben (Ablauf und Reflexion der
+Praxisphase).
+5.3 Bearbeitungszeit
+Je Praxisphase (d.h. also je Studienhalbjahr) sind die Tätigkeiten im Tätigkeitsnachweis aufzuführen. Die im
+Formular Ablauf und Reflexion der Praxisphase – Teil A – Tabellarische Übersicht des Ablaufs der Praxis-
+phase dokumentiert dabei die Tätigkeitsschwerpunkt(e).
+5.4 Abgabe und Bewertung
+Die Arbeiten können per Post eingesandt werden. Alternativ können während der Theoriephasen die Arbeiten
+auch persönlich im zuständigen Sekretariat abgegeben werden, zu anderen Zeiten ggf. nach vorheriger Ab-
+sprache. Die Arbeiten sind jeweils einmal in gedruckter Ausfertigung und einmal in elektronischer Form (Text-
+datei und gegebenenfalls weiterer digitaler Anlagen) bei der Studienakademie einzureichen.
+Eine Empfangsbestätigung wird nicht ausgestellt. Bei Bedarf ist die Form des Einschreibens zu wählen.
+Maßgeblich für die fristgerechte Abgabe bei Postversand ist das Datum des Poststempels.
+Die Hausarbeit wird mit „bestanden“ oder „nicht bestanden“ bewertet.
+12 / 55
+6 Modul Studienarbeit (T3_3100 bzw. T3_3200 in 5./6. Theoriephase)
+6.1 Anforderungen und Ablauf
+Während der fünften und/oder sechsten Theoriephase sollen die Studierenden eigenständig wissenschaftliche
+Arbeiten anfertigen. Dadurch sollen sie die im entsprechenden Modul genannten Lernziele erreichen und die
+entsprechenden Kompetenzen erwerben.
+Die Themen der Studienarbeiten werden von der DHBW gestellt, Themenvorschläge durch den Dualen Part-
+ner oder nebenberufliche Dozentinnen bzw. Dozenten sind willkommen. Die Aufgabenstellungen orientieren
+sich dabei an den Studienplänen der Studiengänge. Die Studienakademie führt die Vergabe der Themen an
+die Studierenden durch.
+Im Rahmen der Studienarbeit soll für die Studierenden neben der fachlichen Auseinandersetzung mit dem
+gestellten Thema insbesondere das eigenverantwortliche Einarbeiten in eine neue Themenstellung, das Su-
+chen und Auswerten geeigneter Informationen, die Verknüpfung zugrundeliegender theoretischer Überlegun-
+gen mit den praktischen Gegebenheiten und die wissenschaftlich korrekte Darstellung und Aufbereitung ihrer
+Ergebnisse im Vordergrund stehen.
+6.2 Betreuung
+Jede Studienarbeit wird von einem haupt- oder nebenberuflichen Mitglied des Lehrkörpers individuell betreut.
+Die Betreuerinnen und Betreuer werden durch Besprechungen regelmäßig über Stand und Entwicklung und
+weiteren Ablauf der Arbeit informiert. Bei dringender Notwendigkeit kann zu diesen Zeiten der Umfang der
+Aufgabenstellung angepasst werden.
+6.3 Dokumentation
+Die Dokumentation des Moduls erfolgt durch schriftlich ausgearbeitete Studienarbeiten. Diese dokumentieren
+Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert, zeigen eine gründliche
+Aufarbeitung der theoretischen Hintergründe der Themenstellung. Dies beinhaltet vor allem eine entspre-
+chende Literaturrecherche und Diskussion und die Auswahl geeigneter Lösungsansätze für die konkrete Fra-
+gestellung der Arbeit, weisen nach, dass die Studierenden die Verbindung von Praxis zu Theorie herstellen
+und dazu sowohl akademische Themen in betrieblichen Prozessen wiederfinden als auch betriebliche Praxis
+vor dem Hintergrund von Wissenschaft und Forschung einordnen können, genügen in Inhalt, Form und Spra-
+che einer wissenschaftlichen Arbeit. Hierbei ist auf die Verwendung gendergerechter Sprache zu achten.
+Die Studienarbeiten sollten jeweils 40 – 70 Seiten umfassen (ohne Verzeichnisse und Anhänge).
+Bitte beachten: Die Umfangsangaben für eine Arbeit sind Richtwerte, keinesfalls soll eine gute Arbeit aufgrund
+dieser Richtwerte mit Füllmaterial gestreckt werden oder durch Löschen von qualifizierten Inhalten gekürzt
+werden.
+13 / 55
+6.4 Bearbeitungszeit
+Die Bearbeitung der Studienarbeiten erfolgt in der fünften und/oder sechsten Theoriephase. Der Zeitaufwand
+für die Bearbeitung der Themenstellung einer Studienarbeit und die Dokumentation der Ergebnisse sollte in
+der Größenordnung von 150 Arbeitsstunden (5 ECTS) bzw. 300 Arbeitsstunden (10 ECTS) liegen.
+Die Dokumentation ist fristgerecht abzugeben (siehe Kapitel 2.6).
+6.5 Abgabe der Studienarbeit und Bewertung
+Die Arbeiten können per Post eingesandt werden. Die Arbeiten sind jeweils einmal in gedruckter Ausfertigung
+und einmal in elektronischer Form (Textdatei und gegebenenfalls weiterer digitaler Anlagen) bei der Studien-
+akademie einzureichen.
+Eine Empfangsbestätigung wird nicht ausgestellt. Bei Bedarf ist die Form des Einschreibens zu wählen.
+Maßgeblich für die fristgerechte Abgabe bei Postversand ist das Datum des Poststempels.
+Der Abgabetermin wird von der DHBW bei Ausgabe des Themas festgelegt. Die Betreuerin bzw. der Betreuer
+erstellt, unter Anwendung der „Anleitung zur Bewertung von Projekt-, Studien- und Bachelorarbeiten“ eine
+Bewertung in Form einer Note. Die Note ist in einer schriftlichen, kurzen Beurteilung zu begründen.
+14 / 55
+7 Modul Bachelorarbeit (T3_3300 in der 6. Praxisphase)
+7.1 Anforderungen und Ablauf
+In der Bachelorarbeit sollen die Studierenden zeigen, dass sie in der Lage sind, durch wirtschaftlich-technisch-
+wissenschaftliches Denken und Arbeiten eine aus der betrieblichen Anwendung vorgeschlagene Aufgabe mit
+Hilfe der an der Hochschule vermittelten Stoffinhalte, wissenschaftlicher Literatur sowie der im Ausbildungs-
+betrieb erworbenen Fertigkeiten und Kenntnisse selbständig und fristgerecht zu lösen (vgl. dazu die Beschrei-
+bung des Moduls T3_3300). Die Bachelorarbeit wendet die im Studium erworbenen Fach- und Methodenkom-
+petenzen unter Einbeziehung der je nach Studiengang speziell erworbenen Fähigkeiten in experimenteller,
+theoretischer oder konstruktiver Art an. Sie kann daher aus einer beliebigen Kombination dieser Möglichkeiten
+bestehen.
+Das Thema und der Titel der Bachelorarbeit werden vom Dualen Partner formuliert und mit Aufgabenstellung
+und Herangehensweise der Hochschule zur Genehmigung vorgelegt. Es kann – jeweils angepasst an die
+Ausbildungspläne des entsprechenden Studiengangs – von theoretischer, praktischer oder konstruktiver Art
+sein oder aus einer beliebigen Kombination dieser 3 Möglichkeiten bestehen. Die Hochschule gibt nach Über-
+prüfung und Genehmigung das Thema an die Studierenden aus. Für den Genehmigungs- und Freigabepro-
+zess werden von der DHBW Termine vorgegeben.
+Bei der Formulierung des Titels ist auf folgendes zu achten:
+ Länge: Der Titel sollte ca. 5 bis 10 Worte lang sein, längere Titel deuten auf eine extreme Einschränkung
+des Themas hin.
+ Ein Tätigkeitsverb oder Nomen, die die Tätigkeit beschreiben, sollten enthalten sein.
+ Allgemeinverständlichkeit: Der Titel sollte einem externen Dritten (z.B. Bewerbungsempfänger) eine grobe
+Einordnung der Arbeit ermöglichen.
+ Produkt- und Firmennamen: Der Titel sollte keine Produkt- und Firmennamen enthalten, da diese die All-
+gemeinverständlichkeit reduzieren und das Thema einschränken.
+ Abkürzungen: Der Titel sollte keine Abkürzungen enthalten; Ausnahmen sind dabei allgemeinverständli-
+che Abkürzungen für Technologien und Verfahren (z.B. CAD, RFID oder IFRS)
+Der Titel der Bachelorarbeit wird im Abschlusszeugnis aufgenommen, deshalb sollte ein Titel entwickelt wer-
+den, der noch in vielen Jahren verständlich und nachvollziehbar ist.
+Sollte eine Änderung an Titel oder Themenstellung nötig werden, ist Kapitel 2.4 zu beachten.
+15 / 55
+7.2 Dokumentation
+Die schriftliche Dokumentation der Bachelorarbeit muss
+ Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert dokumentieren,
+ eine gründliche Aufarbeitung der theoretischen Hintergründe der Themenstellung zeigen. Dies beinhaltet
+vor allem eine entsprechende Literaturrecherche und Diskussion und die Auswahl geeigneter Lösungsan-
+sätze für die konkrete Fragestellung der Arbeit,
+ nachweisen, dass der Studierende die Verbindung von Praxis zu Theorie herstellen und dazu sowohl
+akademische Themen in betrieblichen Prozessen wiederfinden als auch betriebliche Praxis vor dem Hin-
+tergrund von Wissenschaft und Forschung einordnen kann,
+ in Inhalt, Form und Sprache einer wissenschaftlichen Arbeit genügen. Hierbei ist auch auf Verwendung
+gendergerechter Sprache zu achten.
+Die Dokumentation der Arbeit soll dabei eine geordnete Darstellung und Diskussion der angestellten Untersu-
+chungen und Ergebnisse in knapper Form beinhalten, jedoch so ausführlich sein, dass eine Nachprüfung im
+Einzelnen möglich ist. Genau wie in der Praxis sollen andere diese Unterlagen verstehen, nachprüfen und
+verwerten können.
+Die Darstellung soll sich auf das Wesentliche und Notwendige beschränken. Ausführliche Ableitungen, die in
+der Literatur nachgelesen werden können, gehören nicht in die Ausarbeitung. Eine Diskussion des augen-
+blicklichen Standes der Technik im bearbeiteten Themengebiet muss allerdings erfolgen.
+Es ist stets darauf zu achten, dass sich die Ausführungen in straffer Gedankenführung auf die wesentlichen
+Punkte, Probleme und Ergebnisse beschränken. Die Bachelorarbeit sollte in der Regel 60 – 80 Seiten (ohne
+Verzeichnisse und Anhänge) umfassen; sofern die Aufgabenstellung eine umfangreichere Dokumentation er-
+fordert ist dies mit der Studiengangsleitung abzustimmen.
+Details zur Erstellung einer qualifizierten Dokumentation werden im Seminar „Wissenschaftliches Arbeiten III“
+im dritten Studienjahr vermittelt.
+Bitte beachten: Die Umfangsangaben für eine Arbeit sind Richtwerte, keinesfalls soll eine gute Arbeit aufgrund
+dieser Richtwerte mit Füllmaterial gestreckt oder durch Löschen von qualifizierten Inhalten gekürzt werden.
+7.3 Bearbeitungszeit
+Für die Bachelorarbeit ist gemäß der Studien- und Prüfungsordnung DHBW Technik eine Bearbeitungszeit
+von 12 Wochen vorgesehen. In begründeten Ausnahmefällen wie z.B. bei längerer Krankheit, erlaubt die Stu-
+dien- und Prüfungsordnung DHBW Technik aufgrund eines formlosen Antrags (ggf. inklusive Krankmel-
+dung/Attest) bei der Studienakademie eine Verlängerung der Bearbeitungszeit. Der Antrag ist vor Ablauf der
+Bearbeitungszeit einzureichen und mit einer Stellungnahme des Dualen Partners zu versehen.
+16 / 55
+7.4 Betreuung
+Die Studierenden haben während der Bearbeitungszeit eine zugeordnete betriebliche Betreuerin bzw. einen
+zugeordneten betrieblichen Betreuer, deren bzw. dessen Qualifikation im fachlichen und wissenschaftlichen
+Bereich den Anforderungen an eine nebenberufliche Dozentin bzw. einen nebenberuflichen Dozenten ent-
+spricht. Bei Bedarf können organisatorische und administrative Fragen außerdem mit den Ausbildungsverant-
+wortlichen des Dualen Partners besprochen werden.
+Zusätzlich wird für jede Arbeit von der Studienakademie eine zweite Betreuerin (Gutachterin) bzw. ein zweiter
+Betreuer (Gutachter) benannt. Diese Gutachterinnen und Gutachter werden bei Besprechungen und Firmen-
+besuchen regelmäßig über Stand, Entwicklung und weiteren Ablauf der Arbeit informiert.
+7.5 Abgabe der Arbeit und Bewertung
+Die Arbeiten können per Post eingesandt werden. Die Arbeiten sind jeweils einmal in gedruckter Ausfertigung
+und einmal in elektronischer Form (Textdatei und gegebenenfalls weiterer digitaler Anlagen) bei der Studien-
+akademie einzureichen.
+Eine Empfangsbestätigung wird nicht ausgestellt. Bei Bedarf ist die Form des Einschreibens zu wählen.
+Maßgeblich für die fristgerechte Abgabe bei Postversand ist das Datum des Poststempels.
+Berücksichtigen Sie in Ihrem Arbeitsplan entsprechend die notwendigen Zeiten für Kopieren, Binden und Lo-
+gistik!
+Bei nicht fristgerechter Abgabe der Bachelorarbeit gilt diese als mit der Note „nicht ausreichend“ (5,0)
+bewertet und muss wiederholt werden.
+Die Bachelorarbeit wird von den benannten Prüferinnen und Prüfern bewertet. Besteht zwischen den beiden
+Bewertungen ein Unterschied bis zu einem ganzen Notenwert, so wird die Note als arithmetisches Mittel fest-
+gesetzt. Dabei wird nur die erste Dezimalstelle ohne Rundung berücksichtigt. Bei einem Unterschied von mehr
+als einem ganzen Notenwert wird vom Prüfungsausschuss eine dritte Prüferin oder ein dritter Prüfer bestellt,
+die oder der die Note festsetzt. Dabei gelten die von der ersten Prüferin oder dem ersten Prüfer und der
+zweiten Prüferin oder dem zweiten Prüfer erteilten Notenwerte als Grenzwerte. (siehe § 19 Absatz 3 Studien-
+und Prüfungsordnung DHBW Technik).
+Sofern in den Arbeiten andere als die genannten Hilfsmittel verwendet oder in Teilen ohne Kennzeich-
+nung/Quellenangabe aus anderen Quellen entnommen wurden, werden sie als Täuschungsversuch gewertet.
+Die betreffende benotete Prüfungsleistung gilt als mit der Note „nicht ausreichend" (5,0) bewertet.
+17 / 55
+8 Aufbau und Ausführung der Arbeiten
+Alle in diesem Dokument angesprochenen Arbeiten sollten hinsichtlich ihrer äußeren Form, ihrer Gliederung,
+der Sprache, der redaktionellen Ausgestaltung und der Angabe von Quellen den Ansprüchen wissenschaftli-
+cher Arbeiten genügen.
+Im Folgenden sind einige zentrale Empfehlungen, die sich studiengang- und standortübergreifend bewährt
+haben, angegeben.
+Verbindliche Vorgaben können von einzelnen Studiengängen oder Standorten gemacht werden.
+8.1 Äußere Form
+Weißes Schreibmaschinenpapier DIN A 4 (Gewicht ca. 80 g/qm), nur einseitig beschrieben. Format: 1,5 -zeilig,
+je Zeile ca. 70 Anschläge, Schriftgröße i.d.R. 12 Punkte (z.B. bei Arial, bei anderen Schriften ggf. anzupassen).
+Randabstand mindestens 2,5 cm allseits. Bei den verschieden Schreibprogrammen (z.B. unter Windows, Mac
+OS oder Linux) kann es minimale Unterschiede geben.
+Unter „Titelblatt der Bachelorarbeit Muster“ auf http://www.dhbw.de/die-dhbw/dokumente.html#Doku-
+mente_Technik ist ein Muster für das Titelblatt der Bachelorarbeiten enthalten.
+Alle Arbeiten sind jeweils einmal in gedruckter Ausfertigung und einmal in elektronischer Form (Textdatei und
+gegebenenfalls weiterer digitaler Anlagen) bei der Studienakademie einzureichen.
+Eventuelle Konstruktionszeichnungen oder andere Anhänge, die nicht sinnvoll auf das Format DIN A4 zu ver-
+kleinern sind, können den Arbeiten in einem Schnellhefter beigelegt werden. Im gebundenen Teil muss jedes
+Blatt des separaten Anhangs in einer Liste vermerkt werden. Die Abgabe der gedruckten Form wird von der
+Studienakademie vorgegeben.
+8.2 Gliederung der Arbeit
+Die Arbeiten sollten sich in folgende grobe Blöcke unterteilen
+ Vorspann (Titelblatt, eventuell Sperrvermerk, Erklärung zur Eigenleistung [siehe Kapitel 2.8], Zusammen-
+fassung in Deutsch und Englisch, Inhaltsverzeichnis, Abkürzungsverzeichnis, Abbildungs- und Tabellen-
+verzeichnis, eventuell Formelgrößen, eventuell Vorwort)
+ Problemstellung, Ziel und Vorgehensweise der Arbeit (Gegenstand und Ziele der Arbeit/Aufgabenbe-
+schreibung, geplante Vorgehensweise, Einführung in Thema, Motivation der Aufgabenstellung/Voraus-
+blick)
+ Grundlagen (z.B. Stand der Technik/Forschung, Voraussetzungen beim Dualen Partner)
+ Hauptteil (Anforderungsdefinition, Anforderungsanalyse, Lösungsgenerierung, Lösungsbewertung, Um-
+setzung), ggf. in mehreren sinnvollen Gliederungspunkten
+ Kritische Reflexion und Ausblick
+ Literaturverzeichnis
+ Anhänge
+18 / 55
+
+Beispiel Formelgrößen:
+A mm2 Fläche
+D mm Werkstückdurchmesser
+d mm kleinster Schaftdurchmesser
+min
+L mm Länge des Werkstückes Nr. 1
+1
+Grad Freiwinkel
+Grad Keilwinkel
+Beispiel Abkürzungen:
+UP Unterprogramm
+WZM Werkzeugmaschinen
+Formelzeichen werden kursiv gesetzt, Abkürzungen stehen aufrecht.
+8.4 Gestaltung der inhaltlichen Abschnitte/Kapitel
+Problemstellung, Ziel und Vorgehensweise der Arbeit
+Die Einleitung soll den Ausgangspunkt der Arbeit umreißen, in kurzer Form zur Problemstellung hinführen und
+das Interesse der lesenden Person für die Arbeit wecken. Allgemeine Einleitung ins Thema, keine Unterneh-
+mens- oder Produktbeschreibungen, Organigramme u.ä., wenn diese nicht direkt zum Thema führen. Ziele
+und Vorgehensweise nicht vermischen.
+Aufgabenstellung
+Die Fragestellung der Aufgabe ist zu präzisieren. Insbesondere sind das Umfeld, die vorhandenen Randbe-
+dingungen und Betrachtungsgrenzen darzustellen.
+Grundlagen
+Ausgehend von der Aufgabenstellung ist der derzeitige Stand der Technik für die Lösungsfindung zu beschrei-
+ben. Es sind z.B. die Vor- und Nachteile bisheriger Lösungen bzw. fundamentaler Lösungsprinzipien fundiert
+von und ggf. anderen Quellen darzulegen.
+Hauptteil
+Der Text soll knapp und klar sein und die wesentlichen Gedanken der Arbeit beinhalten. Ein gewähltes Ver-
+fahren oder ein bestimmter Lösungsweg muss begründet werden. Es ist nicht notwendig, alle Vorversuche
+einzeln zu schildern. Bei Versuchen sind Voraussetzungen und Vernachlässigungen sowie die Anordnung,
+Leistungsfähigkeit und Messgenauigkeit der Versuchsanordnung anzugeben.
+Die Ergebnisse der Arbeit sind unter Berücksichtigung der Voraussetzungen ausführlich zu diskutieren und
+mit den bereits bekannten Anschauungen und Erfahrungen zu vergleichen.
+20 / 55
+Ziel der Arbeit ist es, eindeutige Folgerungen und Richtlinien für die Praxis zu finden.
+Kritische Reflexion und Ausblick
+Aufgabenstellung, Vorgehensweise und wesentliche Ergebnisse werden kurz und präzise dargestellt und kri-
+tisch reflektiert. Die Zusammenfassung ist eigenständig verständlich. Länge ca. 1 bis 1,5 Seiten (Problem,
+Ziele, Vorgehensweise, Ergebnisse und Ausblick).
+Stil der Ausarbeitung
+Es ist darauf zu achten, dass die Ausarbeitung wissenschaftlichen Charakter hat. Insbesondere ein Erzählstil
+(„Ich habe ….“) bzw. Erlebnisbericht ist zu vermeiden.
+8.4.1 Abbildungen und Tabellen, Formeln und Gleichungen, Querverweise
+Abbildungen und Tabellen
+Sämtliche Abbildungen (Skizzen, Zeichnungen, Diagramme, Messkurven usw.) und Tabellen sind fortlaufend
+mit Nummern zu versehen. Es kann hierbei auch die Hauptkapitel-Nummerierung vorgesetzt werden. Jede
+Abbildung und jede Tabelle hat neben der Nummer eine Unterschrift (Legende). Diese Bildunterschrift muss
+knapp gefasst und ohne den Haupttext verständlich sein. Auf jede Abbildung und jede Tabelle muss an den
+entsprechenden Stellen im Text unter Angabe der zugehörigen Nummer hingewiesen werden.
+Bei Abbildungen und Tabellen, die von anderen Autoren übernommen wurden, erfolgt der Quellennachweis
+unmittelbar hinter der Legende.
+Beispiel: Bildunterschrift
+Bild 3.1: Pressungsverlauf über der Auflagenfläche
+Formeln und Gleichungen
+Formeln sind, wenn immer möglich, als Größengleichungen anzugeben. Zahlenwertgleichungen sind zu ver-
+meiden. Jedes verwendete Formelsymbol ist zu definieren (siehe Formelgrößen und Einheiten).
+Wichtige Formeln werden jeweils bei ihrem ersten Auftreten durch eingeklammerte Zahlen am Ende oder
+Anfang der Zeile gekennzeichnet. Die gewählte Kennzeichnung ist in der gesamten Arbeit einheitlich beizu-
+behalten.
+Beispiel: Kennzeichnung wichtiger Formeln
+M = Fr (12) oder (12) M = Fr
+Diese Benummerung dient u. a. zur Erläuterung, welche Formel in welcher Gleichung eingesetzt wurde. Ein-
+zelne Zeilen einer fortlaufenden Rechnung müssen nicht nummeriert werden.
+Querverweise
+Bei Hinweisen auf Textstellen der Arbeit ist die entsprechende Seitenzahl oder der betreffende Abschnitt bzw.
+das Kapitel zu nennen. Ein Hinweis auf bereits angegebene Gleichungen erfolgt unter Angabe deren Nummer.
+21 / 55
+9 Quellennachweis und Zitierweise
+Die Notwendigkeit, Quellen zu zitieren, ergibt sich aus dem Qualitätsanspruch wissenschaftlichen Arbeitens
+und aus dem Urheberrechtsgesetz. Generell wird angenommen, dass der gesamte Text, alle Abbildungen und
+Tabellen eigene Gedanken der Verfasserin bzw. des Verfassers sind, wenn sie nicht als fremdes Gedankengut
+kenntlich gemacht wurden.
+Aussagen, Überlegungen und Ergebnisse, die aus fremden Quellen übernommen werden, sind durch Angabe
+der Herkunft kenntlich zu machen. Hierbei sind möglichst Originalarbeiten anzugeben.
+Durch fundierte Angabe von Quellen wird so in einer Arbeit der Umfang der Recherche zum Thema kenntlich.
+Dies prägt die wissenschaftliche Qualität einer Arbeit enorm und ist damit auch von hoher Bedeutung für die
+Notengebung.
+Zitiert werden muss jedes fremde Gedankengut aus wissenschaftlich anerkannter Literatur (wissenschaftliche
+Bücher, höherwertige Lehrbücher, Handbücher, Lexika, Aufsätze in wissenschaftlichen Zeitschriften, wichtige
+Zeitungsartikel z.B. im Wirtschaftsteil, Berichte von Verbänden oder Aktiengesellschaften, Gesetzestexte und
+-kommentare, Gerichtsentscheidungen und Verwaltungsanweisungen). Sofern keine Zitate vorliegen, das Ge-
+dankengut jedoch als fremd identifiziert werden kann, liegt keine eigene geistige Leistung vor, es ist von geis-
+tigem Diebstahl und einer Verletzung des Urheberrechts auszugehen. Diese Arbeiten werden mit einem deut-
+lichen Notenabschlag bewertet, ggf. muss die Arbeit wiederholt werden.
+Es ist im Rahmen des wissenschaftlichen Arbeitens ausdrücklich gewünscht, sich auf fremdes Gedankengut
+zu stützen und auf dem „Stand der Technik“/„Stand der Forschung“ aufzubauen. Existierende Erkenntnisse
+und Methoden sind das Fundament einer wissenschaftlichen Arbeit. Daraus ergibt sich ein Anspruch an die
+Qualität und Quantität der Quellen. Quellen sollten nicht unreflektiert übernommen, sondern im Rahmen der
+Arbeit diskutiert werden.
+Ziel aller Quellenangaben ist es zum einen, die Verwendung fremden Gedankenguts sichtbar zu machen. Zum
+anderen soll die interessierte Leserin bzw. der interessierte Leser die Möglichkeit erhalten, die genannten
+Quellen schnellstmöglich zu finden. Dies bedeutet, dass insbesondere auf Seitenangaben bei umfangreiche-
+ren Quellen (Büchern, Artikel, etc.) nicht verzichtet werden kann.
+Außerdem sollte die Angabe von Quellen die Lesbarkeit der Arbeit nicht erschweren, der Leserin bzw. dem
+Leser aber bereits über die Quellenangabe möglichst viele Informationen vermitteln.
+Um dies zu erreichen, sind verschiedenen Möglichkeiten etabliert und in der Wissenschaft gebräuchlich. Die
+folgenden Kapitel führen dazu nur einige Möglichkeiten aus.
+22 / 55
+9.1 Quellenangabe
+9.1.1 Quellenverweise im Text
+Wird aus einem Buch oder einer Veröffentlichung sinngemäß zitiert oder von dort eine Formel, eine Tabelle
+oder eine Abbildung übernommen, so wird dies in der Regel hinter dem sinngemäß zitierten Text bzw. hinter
+der zitierten Formel bzw. im Titel der Abbildung/Tabelle durch Angabe der Quelle (Nummer der Quelle im
+Literaturverzeichnis in eckigen Klammer) vermerkt.
+(z.B. "... kann mit folgender Gleichung [3] berechnet werden: 2 2r).
+Im Literaturverzeichnis ist dann unter der angegebenen Nummer das Buch bzw. die Veröffentlichung zu
+finden. Für einfache bzw. triviale Formeln (z.B. U=RI) muss keine Quelle angegeben werden.
+Im Literaturverzeichnis werden sämtliche verwendeten Quellen aufgeführt, auf die im Text Bezug genommen
+wurde. Das heißt, wenn man eine Quelle zitieren will, muss man dies im Text tun und darf nicht global im
+Literaturverzeichnis eine Reihe von Büchern oder Skripten zitieren, die der eigenen Meinung nach zum Thema
+passen. Dies bedeutet gleichzeitig, dass Quellenangaben, die nicht im Text (oder in den Fußnoten) erschei-
+nen, im Allgemeinen auch nicht in das Literaturverzeichnis gehören.
+Die einzelnen Quellen werden im Literaturverzeichnis in der Regel durchnummeriert und nach Reihenfolge
+ihres Erscheinens im Text geordnet.
+Nochmals zusammengefasst: Es kann auf eine Quelle direkt im Text verwiesen werden, indem die Nummer
+der Quelle im Literaturverzeichnis in eckigen Klammern hinter das Zitat gestellt wird, z.B. „Die Grundlagen der
+Mikrokontrollertechnik werden in [1], [2] und [3] ausführlich dargestellt.“.
+9.1.2 Quellenangabe in Fußnoten (alternativ zu Kapitel 9.1.1)
+Um den „Fußnotenapparat“ klein zu halten, erfolgt die Quellenangabe zu wörtlichen oder sinngemäßen Zitaten
+(siehe unten) im Textteil grundsätzlich als KURZBELEG (Verweis auf das Literaturverzeichnis) in Fußnoten
+am unteren Blattende (Abtrennung vom Text durch einen ca. 4 cm langen Strich). Auf diese Fußnote ist im
+Text durch eine (möglichst) hochgestellte arabische Ziffer (ggf. mit schließender Klammer) hinzuweisen.
+Die Fußnoten sind einzeilig zu schreiben; eine kleinere Schriftgröße als der eigentliche Text ist zugelassen.
+Der Verweis auf das Literaturverzeichnis muss eindeutig sein; d.h. die Quellenangaben der Fußnoten müssen
+sich auch im Literaturverzeichnis finden. Zusätzlich müssen die Quellenangaben in den Fußnoten (im Gegen-
+satz zum Literaturverzeichnis) die konkrete Seitenangabe (bzw. Spaltenangabe z.B. bei Aufsätzen) enthalten,
+auf die an der betreffenden Stelle Bezug genommen wird.
+Prinzipiell sind beim Kurzbeleg in der Fußnote nur anzugeben:
+Autorin bzw. Autor mit abgekürzten Vornamen (Erscheinungsjahr), Seite(n)
+Mehrere Namen von Autorinnen und Autoren werden durch Schrägstrich getrennt.
+Beispiele: 1) Pleil, G. (2014), S. 17 f.
+2) Vgl. Böttcher, E. / Homann, K. (2015), S. 23 ff.
+23 / 55
+Mehrere verschiedene Arbeiten einer Autorin oder eines Autors mit gleichem Erscheinungsjahr werden durch
+nachgestellte Kleinbuchstaben (die auch im Literaturverzeichnis bei betreffenden Quellen erscheinen) unter-
+schieden.
+Beispiele: 1) Schmidt, G. (2013a), S. 35
+2) Schmidt, G. (2013b), S. 19 f.
+Bei Hinweis auf verschiedene Literaturquellen in einer Fußnote werden die einzelnen Quellen jeweils durch
+ein Semikolon (;) abgetrennt; nach der letzten Quelle folgt ein Abschlusspunkt. Erläuternde Hinweise (z.B.
+„vgl. dazu auch...“) sind erlaubt.
+Bei Quellen ohne Angabe von Autorin bzw. Autor, jedoch mit erkennbarer Herausgeberin bzw. erkennbarem
+Herausgeber, ist zu zitieren:
+Herausgeber/in (Erscheinungsjahr), Seite(n)
+Bei Quellen ohne Angabe von Autorin oder Autor und ohne erkennbare Herausgeberin oder erkennbaren
+Herausgeber ist mit dem Hinweis „o. V.“ (ohne Verfasserinnen- oder Verfasserangabe) zu zitieren:
+o. V. (Erscheinungsjahr), Seite(n)
+Bei Quellen ohne Erscheinungsjahr ist der Hinweis „o. J.“ (ohne Jahresangabe), ggf. mit unterscheidenden
+Kleinbuchstaben, zu verwenden:
+Autorin bzw. Autor (o. J.), Seite(n)
+Beispiele: 1) o. V. (2015), S. 8
+2) IBM-Deutschland GmbH (o. J.a), S. 3
+3) Vgl. IBM-Deutschland GmbH (o. J.b), S. 9 ff.
+9.1.3 Quellenangabe bei Abbildungen, Tabellen und Anlagen
+Abbildungen, Tabellen und Anlagen müssen eine klare Inhaltsbezeichnung tragen. Auf eine genaue örtliche,
+zeitliche und sachliche Abgrenzung des Dargestellten ist besonders zu achten. Unmittelbar unter die Tabelle
+oder Abbildung sind eine kurze Erklärung der verwendeten Symbole (unbeschadet ihrer ausführlichen Erläu-
+terung im Text), die von der Verfasserin bzw. vom Verfasser hinzugefügten oder übernommenen Anmerkun-
+gen und die Quellenangabe(n) zu setzen. Die Abbildungen und Tabellen sind fortlaufend zu nummerieren.
+Abbildungen, Schaubilder, Tabellen etc. sind wie textliche Zitate zu behandeln und entsprechend wie wörtliche
+Zitate oder sinngemäße Zitate zu dokumentieren.
+Generell wird angenommen, dass alle Abbildungen und Tabellen sowie auch der sonstige Text eigene Ge-
+danken der Verfasserin bzw. des Verfassers sind, wenn sie nicht als fremdes Gedankengut kenntlich ge-
+macht wurden.
+9.1.4 Alternative Formate
+Alternativ zur beschriebenen Formatierung der Quellenangaben kann auch eins der folgenden Formate ver-
+wendet werden: ISO 690, APA, Harvard, Chicago, Turabian, IEEE oder MLA. Das gewählte Format ist ein-
+heitlich in der gesamten Arbeit einzuhalten.
+24 / 55
+9.2 Zitierweise
+9.2.1 Sinngemäßes Zitieren
+Viel häufiger als wörtliche Zitate sollen in studentischen Arbeiten sinngemäße (indirekte) Zitate verwendet
+werden. Auch die sinngemäße Wiedergabe fremden geistigen Eigentums ist aber durch eine genaue Quellen-
+angabe kenntlich zu machen. Es muss unmissverständlich erkennbar sein, dass es sich um die Wiedergabe
+fremder Gedanken handelt (z.B. Formulierung im Konjunktiv); auch der Umfang einer sinngemäßen Über-
+nahme muss eindeutig erkennbar sein.
+Die Kennzeichnung kann wiederum auf zwei unterschiedliche Arten erfolgen. Entweder durch die Quellenan-
+gabe im Text gem. Kapitel 9.1.1 (hauptsächlich in naturwissenschaftlich-technischen Arbeiten zu finden) oder
+durch eine hochgestellte arabische Ziffer ggf. mit einer hinten angestellten Klammer „)“ für die Quellenangabe.
+Sinngemäßes Zitieren wird üblicherweise am Ende der gedanklichen Entnahme sichtbar gemacht.
+Werden längere fremde Gedanken sinngemäß zitiert, kann die Fußnotenziffer auch zu Beginn der Entnahme
+(nach einem einleitenden Satz oder Halbsatz) stehen.
+Beispiel: Haberfellner gliedert die Aufgaben der Organisationsmethodik folgendermaßen: 1)
+Bei sinngemäßem Zitieren wird in der Fußnote vor die Quellenangabe der Zusatz „Vergleiche“ in der Abkür-
+zung „Vgl.“ eingefügt; im Text selbst entfallen die Anführungsstriche.
+Es sind aber auch andere erläuternde Zusätze in der Fußnote möglich, wie etwa „Vgl. dazu ebenso: ...“, „Vgl.
+dazu auch: ...“ oder „Vgl. dazu ausführlich: ...“. Diese Zusätze sind sinnvoll, wenn sie auf weitere Literaturquel-
+len (mehrere verschiedene Autorinnen bzw. Autoren) verweisen sollen oder wenn die lesende Person darauf
+hingewiesen werden soll, dass die andere Verfasserin bzw. der andere Verfasser sich zu diesem speziellen
+Thema ausführlicher äußert, als es an dieser Stelle möglich ist.
+Beispiel für sinngemäßes Zitieren: Im Juli war die Bankenliquidität durch den bis dahin stärksten Devi-
+senzustrom gekennzeichnet. 2)
+Bei Angabe der Seitenziffer ist streng darauf zu achten, ob nur eine Stelle zitiert wird (z.B. S. 20), ob die
+übernommene Stelle auch noch die folgende Seite des Werkes berührt (S. 20 f.) oder ob Aussagen sich über
+mehrere Seiten erstrecken (S. 20 ff.). Dasselbe gilt sinngemäß für die Angabe von Spaltenziffern (z.B. bei
+Sammelwerken oder Lexika als Literaturquellen, die dann mit „Sp.“ bezeichnet werden).
+9.2.2 Wörtliches Zitieren
+Jeder wörtlich übernommene Text (direktes Zitat) ist in doppelte Anführungsstriche zu setzen. Die Quellenan-
+gabe in der Fußnote beginnt direkt hinter der Fußnoten-Nummer (im Gegensatz zur indirekten Zitierweise, die
+bei der Nennung der Literaturquelle ein “Vgl.“ verwendet). Bei der Angabe der Seitenzahl ist streng darauf zu
+achten, ob nur eine Stelle zitiert wird (z.B. S. 20) oder ob die übernommene Stelle auch noch die folgende
+Seite des Werkes berührt (z.B. S. 20 f.). Die Übernahme längerer wörtlicher Zitate ist zu vermeiden; es ist
+dann häufig besser, den Zusammenhang referierend wiederzugeben (mit Quellennachweis „Vgl. ...“ in der
+Fußnote).
+Wörtliche Zitate sollten in der Regel nur dann verwendet werden, wenn es entweder auf den genauen Wortlaut
+ankommt oder wenn es sich um besonders prägnante Sätze handelt. Muss dennoch ein längerer Text (mehr
+als fünf Zeilen) zitiert werden, so rückt man ihn am besten um drei Anschläge ein und schreibt ihn einzeilig.
+25 / 55
+Bei wörtlicher Wiedergabe dürfen grundsätzlich keinerlei Veränderungen am Originalzitat vorgenommen wer-
+den, auch dann nicht, wenn die Schreibweise veraltet und die Zeichensetzung falsch ist. Nur offensichtliche
+Druckfehler dürfen berichtigt werden.
+Zitate dürfen nicht aus dem Zusammenhang gerissen werden. Das Zitat darf im Original keinen anderen Sinn
+ergeben als nach der Übernahme in den eigenen Text. Die Auslassung eines Wortes im Zitat ist durch zwei
+Punkte, bei mehreren Wörtern durch drei Punkte zu kennzeichnen. Wird der ursprüngliche Text durch eigene
+Einschübe ergänzt, so sind die Hinzufügungen des Verfassers in eckige Klammern zu setzen.
+Beispiel: Im Juli stand „...die Entwicklung der Bankenliquidität ...unter dem Einfluss des
+[bis dahin] stärksten Devisenzustroms“. 1)
+Eigene Hervorhebungen sind mit dem Zusatz „(Hervorhebung von der Verfasserin bzw. vom Verfasser)“ oder
+„(Hervorhebung durch die Verfasserin bzw. den Verfasser)“ am Schluss der Fußnote zu kennzeichnen (ggf. in
+der abgekürzten Form „Herv. v. Verf.“ oder „Herv. durch die bzw. den Verf.“).
+Beispiel: Im Juli stand „...die Entwicklung der B a n k e n l i q u i d i t ä t ... unter dem
+Einfluss des stärksten Devisenzustroms“. 2)
+Werden Hervorhebungen (Sperrungen, Fett- oder Kursivdruck) aus dem Original nicht übernommen, so muss
+dies hinter der Quellenangabe in der Fußnote in Klammern vermerkt werden mit einem entsprechenden Hin-
+weis: “im Original gesperrt“ oder „im Original kursiv“ usw.
+Zitate in einem Zitat werden am Anfang und am Ende mit einem Apostroph (‘...’) versehen.
+Beispiel: Dietrich von Kyaw, Wirtschaftsgesandter an der deutschen Botschaft in Washington, führte unter
+Berufung auf ein Wort des damaligen US-Außenministers George Shultz wörtlich aus: „Selbst
+wenn die heutige US-Administration die protektionistischen Teile des Gesetzes nicht anwende,
+wisse man nicht, wie dies spätere Regierungen handhaben würden. ... ‘Protektionismus ist der
+falsche Weg, um nicht mehr wettbewerbsfähige Industrien zu schützen’.“ 3)
+____________________
+1) Deutsche Bundesbank (1957a), S. 3
+2) Deutsche Bundesbank (1957a), S. 3 (Herv. v. Verf.)
+3) o. V. (2015a), S. 8
+In fremdsprachigen Zitaten wird (außer bei Zitaten aus dem Englischen) eine Übersetzung in den Text und
+das Original-Zitat in die Fußnote genommen. Die Übersetzung kann auch aus einer anderen Veröffentlichung
+stammen (auch diese ist dann in der Fußnote zu zitieren). Ansonsten ist es Sache der Verfasserin bzw. des
+Verfassers, eine Übersetzung zu erstellen, die wörtlich sein kann oder aber den Inhalt des Zitates sinngemäß
+wiedergibt.
+26 / 55
+9.2.3 Zitieren von Sekundärliteratur
+Grundsätzlich ist nach dem Originaltext zu zitieren. Nur wenn das Originalwerk nicht zugänglich ist, kann nach
+einer Quellenangabe in der Sekundärliteratur zitiert werden. Der Quellenhinweis in der Fußnote nennt zuerst
+die Originalquelle mit allen bibliographischen Angaben (z.B. Titel, Erscheinungsort und -jahr) und dann mit
+dem Zusatz „zit. nach ...“ auch die Sekundärliteratur (jeweils in der Form des KURZBELEGS). Die
+Originalquelle wird im Gegensatz zur Sekundärliteratur nicht in das Literaturverzeichnis (vgl. Kapitel 10) über-
+nommen.
+____________________
+1) Vgl. Haberfellner, R. (2014), Sp. 1701
+2) Vgl. Deutsche Bundesbank (1957), S. 3
+9.2.4 Wiederholtes Zitieren
+Wird dieselbe Quelle wiederholt zitiert, ist der Quellenhinweis beim Kurzbeleg jeweils derselbe; es ist also bei
+jedem Zitat anzugeben:
+Autor(en) (Erscheinungsjahr), Seite(n)
+Wird dieselbe Schrift auf ein und derselben Textseite mehrmals unmittelbar nacheinander zitiert, kann anstelle
+des Namens der Verfasserin bzw. des Verfassers und des Erscheinungsjahres der Hinweis „Ebenda“ (bei
+wörtlichem Zitat) bzw. „Vgl. ebenda“ (bei sinngemäßem Zitat) stehen, gefolgt von der (exakten) Seitenangabe.
+Beispiel: 1) Schmidt, G. (2014), S. 19
+2) Ebenda, S. 27
+3) Vgl. ebenda, S. 41 ff.
+27 / 55
+10 Literaturverzeichnis
+Im Literaturverzeichnis werden sämtliche Quellen aufgeführt, auf die in der Arbeit Bezug genommen wurde,
+entweder in der Reihenfolge ihres Erscheinens im Text gem. Kapitel 9.1.1 oder in alphabetischer Reihenfolge
+bei Quellenangaben mit Fußnoten nach Kapitel 9.1.2. Dies bedeutet gleichzeitig, dass Quellenangaben, die
+nicht im Text bzw. nicht in den Fußnoten oder im Anhang erscheinen, auch nicht in das Literaturverzeichnis
+gehören. Im Folgenden wird beispielhaft aufgezeigt, wie ein Literaturverzeichnis aufgebaut sein kann. Alter-
+nativ sind natürlich auch andere Zitationsstile in Absprache mit den Betreuerinnen und Betreuern anzuwenden.
+Hier sind Literaturverwaltungsprogramme (wie z.B. Citavi) hilfreich.
+Die Anforderungen an das Literaturverzeichnis können durch folgende Kriterien gekennzeichnet werden:
+ Richtigkeit (fehlerfreie Angaben);
+ Vollständigkeit (alle Angaben, die zur Wiederauffindung benötigt werden);
+ Einheitlichkeit (Beibehalten eines bestimmten Schemas);
+ Übersichtlichkeit (z.B. Nennung der Autorinnen und Autoren in alphabetischer Reihenfolge ihres Fa-
+miliennamens; eventuell 2-spaltige Darstellung).
+Alle Quellenangaben erfolgen im Literaturverzeichnis ohne Untergruppen. Bei alphabetischer Ordnung sortiert
+nach dem Nachnamen der (erstgenannten) Verfasserin bzw. des (erstgenannten) Verfassers. Vornamen der
+Verfasserinnen und Verfasser werden sinnvollerweise abgekürzt. Akademische Titel werden nicht angegeben.
+Bei Quellen ohne Angabe von Verfasserin bzw. Verfasser, jedoch mit erkennbarer Herausgeberin bzw. er-
+kennbarem Herausgeber, wird anstelle eines Namens von Autorin oder Autor die Herausgeberin bzw. der
+Herausgeber mit dem nachgestellten Zusatz „Hrsg.“ (in Klammern) gesetzt. Die alphabetische Ordnung erfolgt
+dabei nach dem Nachnamen der (erstgenannten) Herausgeberin bzw. des (erstgenannten) Herausgebers.
+Der Klammerzusatz „Hrsg.“ erscheint nur im Literaturverzeichnis, nicht jedoch in den Fußnoten des Textteils.
+Bei mehreren Autorinnen bzw. Autoren (oder auch Herausgeberinnen bzw. Herausgebern) einer Quelle gilt:
+ Hinweis „und“ oder Schrägstrich „/“ nach dem (abgekürzten) Vornamen der erstgenannten Autorin
+bzw. des erstgenannten Autors (bei 2 Autoren);
+ Trennung nach dem (abgekürzten) Vornamen mit Schrägstrich „/“ (bei 3 Autorinnen bzw. Autoren);
+ Nennung nur der erstgenannten Autorin bzw. des erstgenannten Autors mit Nachnamen und (abge-
+kürztem) Vornamen mit dem Hinweis „u. a.“; „et al.“ (bei mehr als 3 Autorinnen bzw. Autoren).
+Bei Quellen ohne Angabe von Verfasserin oder Verfasser und ohne erkennbare Herausgeberin bzw. erkenn-
+baren Herausgeber beginnt die Quellenangabe mit dem Hinweis „O. V.“ (ohne Verfasserinnen- oder Ver-
+fasserangabe).
+Bei Quellen ohne Ortsangabe erfolgt der Hinweis „o. O.“ (ohne Ortsangabe). Bei mehreren Erscheinungsorten
+steht zwischen den einzelnen Ortsangaben ein Schrägstrich („/“) oder das Wort „und“.
+Die Angabe des Verlages erfolgt wahlweise, die der ISBN-Nummer nicht.
+Bei Quellen ohne Erscheinungsjahr ist der Hinweis „o. J.“ (ohne Jahresangabe) zu verwenden.
+28 / 55
+Mehrere verschiedene Arbeiten von Autorinnen bzw. Autoren mit dem gleichen Erscheinungsjahr werden
+durch Kleinbuchstaben (direkt hinter Erscheinungsjahr) unterschieden. Erscheinungsjahr und ggf. Kleinbuch-
+stabe stehen in Klammern hinter dem (den) Autorennamen. Die unterscheidenden Kleinbuchstaben sind in
+gleicher Form auch in die Fußnoten des Textteils zu übernehmen.
+Hinweis: die Angaben zu Erscheinungsort und -jahr (und häufig die CIP-Kurztitelaufnahme der Deutschen
+Bibliothek) finden sich i. d. R. zusammen mit der ISBN-Nummer auf Seite 4 eines Buches (linke Buchseite,
+unten).
+Die Zitierweise, d.h. der Umfang und die Reihenfolge der Nennung der erforderlichen Quellendaten ist je nach-
+dem, welche Art von Quellen verwandt wird, unterschiedlich. Genaueres ergibt sich aus den folgenden Aus-
+führungen.
+10.1 Bücher und Schriften
+Nachname, Vorname: Titel der Arbeit, ggf. Untertitel, ggf. Schriftenreihe, (Hrsg.:), Band, Auflage, Er-
+scheinungsort Escheinungsjahr
+Erläuterungen:
+- Herausgeberin oder Herausgeber mit dem Hinweis „Hrsg.:“ in Klammern;
+- Nummer des Bandes nur bei mehrbändigen Werken;
+- Nummer der Auflage (+ ggf. Zusätze wie „völlig neubearb.“) nur, wenn nicht erste Auflage;
+- kein Komma zwischen Erscheinungsort und -jahr.
+Beispiele:
+Bargel, H.-J./Schulze, G.: Werkstoffkunde, Springer, 11. Auflage, Heidelberg, 2013
+Hahn, D./Taylor, B.(Hrsg.): Strategische Unternehmensplanung, Stand und Entwicklungstendenzen,
+4. Auflage, Heidelberg und Wien 2005
+Schmidt, G.: Methode und Techniken der Organisation, 8. Auflage, Gießen 2000
+(Aber: in den Fußnoten im Textteil sowie in den Quellenangaben von Abbildungen und Tabellen ist die kon-
+krete Seitenangabe der betreffenden Fundstelle zwingend.)
+10.2 Aufsätze in Zeitschriften
+Nachname, Vorname: Aufsatztitel, ggf. Untertitel, in: Zeitschriftentitel, Jahrgang (Jahr), Heftnummer,
+Seite(n)
+Erläuterungen:
+- zwischen Jahrgang und (in Klammern gesetzter) Jahresausgabe steht kein Komma;
+- Seitenangabe des gesamten Aufsatzes (bei mehrseitigen Aufsätzen) immer in der Form:
+„S. XX - YY“ .(S. = Seiten).
+(Aber: in den Fußnoten im Textteil sowie in den Quellenangaben von Abbildungen und Tabellen ist die kon-
+krete Seitenangabe der betreffenden Fundstelle anstelle der „Von-Bis“-Seitenangabe zwingend.)
+29 / 55
+Beispiele:
+Eichhorn, S.: Krankenhausmanagement, Führungsaufgaben und Leitungsorganisation, in:
+führen & wirtschaften, 8. Jg. (1991a), Heft 4, Seite 244-250 oder:.8 (1991) 4..
+Eichhorn, S.: Krankenhausmanagement, Gegenwärtige Situation und Perspektiven, in: Die
+Betriebswirtschaft, 51. Jg. (1991b), Heft 4, S. 455-465 oder: ...51 (1991) 4...
+o. V.: Drehbearbeitung von Stahl, in VDI-Z, (2015), Nr. II, S.29
+10.3 Beiträge in Sammel- und Nachschlagewerken
+Nachname, Vorname: Titel bzw. Stichwort, ggf. Untertitel, in: Sammelwerk, (ggf. Hrsg.:), ggf. Band,
+Auflage, Erscheinungsort Erscheinungsjahr, Seite(n) bzw. Spalte(n)
+Erläuterungen:
+- Nummer des Bandes nur bei mehrbändigen Sammelwerken;
+- Nummer der Auflage nur, wenn nicht 1. Auflage;
+- Seiten- bzw. Spaltenangabe des gesamten Beitrages (bei mehrseitigen Beiträgen) immer in der Form:
+„S. XX - YY“ bzw. „Sp. XX - YY“ (S. = Seiten; Sp. = Spalten).
+(Aber: in den Fußnoten im Textteil sowie in den Quellenangaben von Abbildungen und Tabellen ist die kon-
+krete Seitenangabe der betreffenden Fundstelle anstelle der „Von-Bis“-Seitenangabe zwingend.)
+Beispiele:
+Günther, H.-O.: Materialflußsteuerung in der Einzelfertigung, in: Logistik, (Hrsg. Isermann, H.),
+Landsberg 2003
+Hoffmann, F.: Organisation, in: Handwörterbuch der Organisation,
+(Hrsg.: Grochla, E.), 2., völlig neu gest. Aufl., Stuttgart 1980, Sp. 1425 - 1431
+Scharfenberg, H.: (Hrsg.) (1988): Jahrbuch der Bürokommunikation, Band 4, Baden-Baden
+1988
+10.4 Dissertationen
+Nachname, Vorname: Titel der Arbeit, ggf. Untertitel, Diss., Erscheinungsort Erscheinungsjahr
+Erläuterungen:
+- Hinweis auf Dissertation durch Abkürzung „Diss.“;
+- Angabe des Faches und der Hochschule nach dem Hinweis „Diss.“ ist möglich (z.B. „Diss. rer. pol.“);
+- kein Komma zwischen Erscheinungsort und -jahr.
+Beispiel:
+Bagh, A.: Auslegung PVD-beschichteter Stirnräder, Diss., RWTH Aachen 2015
+30 / 55
+(Aber: in den Fußnoten im Textteil sowie in den Quellenangaben von Abbildungen und Tabellen ist die kon-
+krete Seitenangabe der betreffenden Fundstelle zwingend.)
+Erscheint eine Dissertation (in der Regel bei späteren Auflagen) im Rahmen einer Schriftenreihe, sind die
+zusätzlichen Angaben (Schriftenreihe, ggf. Hrsg., ggf. Band und Auflage) nach dem Hinweis „Diss.“ und
+vor Erscheinungsort und -jahr einzufügen.
+10.5 Zeitungsartikel
+Nachname, Vorname: Überschrift/Titel des Artikels, ggf. Untertitel, in: „Zeitung“ Nr. vom
+Tag. Monat. Jahr, Seite(n)
+Erläuterungen:
+- „o. V.“ = ohne Verfasserangabe, wenn keine erkennbare Autorin bzw. kein erkennbarer Autor;
+- Datum der Zeitungsausgabe immer vollständig (TT.MM.JJJJ); dabei kann der Monat als Zahl oder aus-
+geschrieben sein (Beibehaltung der einmal gewählten Form zwingend);
+- bei Zeitungsartikeln über mehrere Seiten erfolgt die Seitenangabe in der Form: „S. XX - YY“
+(Aber: in den Fußnoten im Textteil sowie in den Quellenangaben von Abbildungen und Tabellen ist bei mehr-
+seitigen Zeitungsartikeln die konkrete Seitenangabe der betreffenden Fundstelle anstelle einer „Von-Bis“-
+Seitenangabe zwingend.)
+Beispiele:
+Lobenstein, C.: Ökonomie und Krisen, in: „Die Zeit“ Nr. 53 vom 23.12.2014, S. 28
+o. V.: Chinas Stahlexporte fluten die Weltmärkte, in: „VDI Nachrichten“ Nr. 33/34
+vom 14.08.2015, S. 7
+10.6 Juristische Veröffentlichungen
+Gängige Gesetzestexte brauchen nicht in das Literaturverzeichnis übernommen zu werden. Es genügt, die
+Paragraphen (Artikel), Absätze und Sätze des verwendeten Gesetzes (neuester Stand!) im Textteil (z.B. in
+Klammern oder aber in Fußnoten) zu erwähnen.
+Im Gegensatz zu gängigen Gesetzestexten sind Kommentare zu Gesetzen, Gerichtsentscheidungen sowie
+Verwaltungsanweisungen jedoch zusätzlich in das Literaturverzeichnis aufzunehmen.
+Gesetzes-Kommentare werden dabei sinngemäß wie selbstständige Bücher und Schriften (vgl. Kapitel 10.1)
+zitiert.
+Gerichtsentscheidungen und Verwaltungsanweisungen sind jeweils in einem gesonderten Verzeichnis am
+Ende des Literaturverzeichnisses zu führen (ggf. getrennt nach Entscheidungsinstitutionen). Dabei sind die-
+selben Angaben zu machen wie bei der Zitation im Textteil in Form des speziellen Vollbelegs.
+31 / 55
+Beispiel für Gerichtsentscheidungen:
+1) BFH-Urteil vom 17.12.1986, VII R 34/86,
+BStBl II 1986, S. 123
+2) BFH-Urteil vom 27.10.1977, IV R 60/74,
+BStBl 1978 II, S. 100 - 102
+Beispiel für Verwaltungsanweisungen:
+1) Bundesminister der Finanzen, Schreiben vom 11.07.1974, IV C l – S. 1340-
+32/74, BStBl 1974 I, S. 442 – 492
+10.7 Internetquellen
+Nachname, Vorname: Titel/Thema der Internet-Seite/-Quelle, Internet-Adresse, Erscheinungsjahr,
+Einsichtnahme: TT.MM.JJJJ
+Erläuterungen:
+- mit Internet-Adresse wird im Allgemeinen eine Web-Seite (http-Adresse) oder ein Web-Dokument (http-
+Adresse für pdf-, docx-, …-Dokument) angegeben;
+- Autor und Erscheinungsjahr sind oft am Ende einer Web-Seite zu finden; (bei fehlendem Autor / Erschei-
+nungsjahr: „o. V.“ / „o. J.“)
+Beispiele:
+Allianz: Zwei Schritte auf einmal :Duale Hochschule,
+http://perspektiven.allianz.de/karriere/schueler/DHBW/index.html 2003, Ein-
+sichtnahme: 02.06.2003
+o. V.: Homepage der DHBW Stuttgart, http://www.DHBW-stuttgart.de, o. J., Ein-
+sichtnahme: 01.09.2015
+o. V.: Ausbildungsvertrag,
+http://www.dhbw-stuttgart.de/zielgruppen/duale-partner/studien-und-ausbil-
+dungsvertrag-verguetung/, o. J., Einsichtnahme: 04.09.2015
+Alle Quellen, auch Internetquellen sollten mit Vorsicht gehandhabt und zitiert werden. Es entspricht nicht dem
+wissenschaftlichen Standard, Internetquellen beliebiger Herkunft ohne kritische Reflexion als gesichertes
+Wissen anzuführen. Für Definitionen von Grundbegriffen sind Internetquellen möglichst nicht zu verwen-
+den, sondern angemessene Fachliteratur ist einzusetzen.
+Wenn wesentliche Kernaussagen einer Arbeit auf Internetquellen basieren, sollten die entsprechenden Seiten
+bzw. entsprechende Teile davon der Arbeit im Anhang oder in der elektronischen Dokumentation ange-
+fügt werden.
+32 / 55
+10.8 Sonstige Quellen
+Hierunter fallen z.B. allgemein nicht zugängliche Unterlagen wie
+- firmeninterne Schriften und Publikationen;
+- Produkt-Beschreibungen oder Schulungsunterlagen von Herstellern (z.B. Software- Anbietern) usw.;
+- Vorlesungs-Skripte (wenn vom Dozenten verteilt);
+- eigene studentische Arbeiten (z.B. Diplomarbeiten);
+- eigene Interviews und Gespräche.
+Die Zitation dieser sonstigen Quellen muss einen deutlichen Hinweis auf die Herausgeberin bzw. den Heraus-
+geber der Publikation oder des Interviewers enthalten; die o. g. Angaben zur Reihenfolge der Nennungen
+gelten sinngemäß. Grundsätzlich sollte auf Originalquellen zurückgegriffen werden.
+Beispiele:
+Jordt, A. / Gscheidle, K.: Fernkurs für Organisation, Lehrbrief 2, Wiesbaden o. J.
+Müller, A.: Führung I, Manuskript (Vorlesungsbegleiter) einer Vorlesung an der DHBW
+Stuttgart, Stuttgart 2013
+Meixner, B.: Interview/Gespräch mit dem Verfasser am 12. April 2015 in Firma Compu-
+terservice, Stuttgart (ggf. Funktionsbezeichnung des Interviewpartners)
+Microsoft: Microsoft Windows 286/386, Datenblatt Microsoft GmbH,
+Unterschleißheim 1989
+Siemens: Siemens - Erfolgsbilanz, in: Siemens-Berater-Brief, Dezember, München
+1989, S. 6
+10.9 Anhang
+Hier sollen, wenn dies notwendig erscheint, Vorversuche, mathematische Herleitungen, Arbeitsanleitungen,
+Rechnerprogramme usw. ausführlich wiedergegeben werden. Ebenso können umfangreiche Ergebnisse
+gleichartiger Versuche in Diagramm- oder Tabellenform zusammengefasst werden.
+Die im Anhang aufgenommenen Arbeiten sind in einem speziellen Anhang-Verzeichnis aufzulisten.
+10.10 Alternative Formate
+Alternativ zur beschriebenen Formatierung des Literaturverzeichnisses kann auch eins der folgenden Formate
+verwendet werden: DIN 1505-2, APA, Harvard, Chicago, Turabian oder MLA.
+33 / 55
+11 Hinweise zur Quellensuche und -beschaffung
+Die Erstellung einer wissenschaftlichen Arbeit setzt grundsätzlich eine Auseinandersetzung mit dem aktuellen,
+in Quellen (Bücher, Dissertationen, Zeitschriften oder auch dem Internet) veröffentlichten Wissen voraus.
+Entsprechende Recherchen sind damit eine Grundlage solcher Arbeiten.
+Recherchemöglichkeiten finden sich in den Fachbibliotheken oder auch in den online-Bibliotheken des Inter-
+nets, sowie über die allgemeinen Suchmöglichkeiten des Internets. Quellen können auch unveröffentlichte
+Materialien, Briefe, Vortragsmanuskripte sein.
+Achtung: Ein reines Suchen im Internet über Suchmaschinen ist keine vollständige Quellenrecherche.
+Die Maßnahmen zur Sicherstellung der „Vertraulichkeit Studentischer Arbeiten“ sind im gleichnamigen
+Infoblatt zusammengefasst.
+http://www.dhbw.de/fileadmin/user_upload/Dokumente/Broschueren_Handbuch_Betriebe/Infoblatt_Vertrau-
+lichkeit.pdf
+Bei allen weiteren Fragen zu diesen Arbeiten wenden Sie sich zur Klärung bitte an Ihre Betreuerin bzw.
+Ihren Betreuer, die zuständigen Sekretariate oder die Studiengangsleitungen.
+34 / 55
+
+13 Anhang – Modulbeschreibungen Curriculum 2017 (ab Studienjahrgänge 2017)
+36/ 55
+
+
+
+
+
+
+
+
+
+
+Literatur
+Kornmeier, M., Wissenschaftlich schreiben leicht gemacht für Bachelor, Master und Dissertation, Bern
+Stand vom 11.12.2019 Seite 26
+
+
+14.2 Modul T2_3000 in der 5. Praxisphase für die Studienjahrgänge 2011 bis 2016
+14.2.1 Anforderungen
+Die Studierenden können theoretisches Wissen in Beziehung zur praktischen Anwendung setzen und damit
+qualifizierte Problemlösungen entwickeln und bewerten. Die Projektarbeit soll das Arbeiten an einem kleinen,
+weitgehend selbstständig bearbeiteten Projekt dokumentieren.
+14.2.2 Dokumentation
+Für die Dokumentation wird folgende Gliederung empfohlen:
+ Titelblatt mit Angabe wesentlicher Daten wie Namen, Firma und dem dokumentierten Projekt
+ Überblick Tätigkeiten der Praxisphasen (Formular im Internet)
+ Projekt
+o Aufgabenstellung
+o Einordnung der Aufgabenstellung in übergeordnete Prozesse/Geschäftsziele
+o Projektablauf
+o Ergebnisse
+Die Dokumentation soll 25 bis 35 Seiten umfassen (ohne Verzeichnisse und Anhänge), sowie alle nötigen
+Abbildungen und Tabellen beinhalten. Als Dokumentation kann auch eine kommentierte Präsentation mit 25
+bis 35 Seiten sowie dazugehörige Verzeichnisse und Anhänge abgegeben werden.
+Zusätzlich zur Projektarbeit nach obiger Gliederung ist eine „Studentische Reflexion der Praxisphase“ separat
+abzugeben.
+14.2.3 Bearbeitungszeit
+Für die Praxisphase sind Tätigkeiten im Umfang von mindestens 200 h im Tätigkeitsnachweis aufzuführen.
+Das dokumentierte Projekt soll davon einen Umfang von mindestens 150 h umfassen.
+14.2.4 Abgabe und Bewertung
+Die von der Studienakademie benannte Prüferin (betriebliche Betreuerin) bzw. der von der Hochschule be-
+nannte Prüfer (betrieblicher Betreuer) bewertet die Projektarbeit auf Grundlage des vom Studienbereich Tech-
+nik festgelegten Bewertungsschemas (“Schematische Bewertung“ unter http://www.dhbw.de/die-dhbw/doku-
+mente.html#Dokumente_Technik) und begründet ihre bzw. seine Bewertung. Dieser Notenvorschlag wird
+durch den Prüfungsausschuss bestätigt bzw. kann in begründeten Fällen durch den Ausschuss auch geändert
+werden.
+43/ 55
+14.3 Anhang – Modulbeschreibungen Curriculum 2011 (ab Studienjahrgänge 2011 bis 2016)
+44/ 55
+
+
+
+
+
+
+
+
+
+
+IMPRESSUM
+Herausgeberin: Duale Hochschule Baden-Württemberg, Fachkommission Technik
+Internet: www.dhbw.de
+Redaktion: Prof. Dr. Joachim Frech, Prof. Dr. Claus Mühlhan, Prof. Dr. Georg Fehling, Silke
+Weniger
+Layout: DHBW Präsidium
+Oktober 2021
+Kontakt: Prof. Dr. Joachim Frech, frech@cas.dhbw.de;
+Prof. Dr. Claus Mühlhan, claus.muehlhan@dhbw-mannheim.de
+50/ 55

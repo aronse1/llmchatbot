@@ -1,0 +1,30 @@
+{
+    "overall_stats": {
+        "avg_bleu": 0.0933187505946236,
+        "avg_rouge": 0.319824776296584,
+        "avg_trust": 0.84,
+        "overall_pass_rate": 0.84
+    },
+    "per_run_stats": {
+        "bleu_score": {
+            "evaluation_results.json": 0.10476728619297149,
+            "evaluation_results2.json": 0.07981253377570191,
+            "evaluation_results3.json": 0.09537643181519745
+        },
+        "rouge_f1": {
+            "evaluation_results.json": 0.33624313952863427,
+            "evaluation_results2.json": 0.30441750072700197,
+            "evaluation_results3.json": 0.31881368863411574
+        },
+        "trust_score": {
+            "evaluation_results.json": 0.88,
+            "evaluation_results2.json": 0.8,
+            "evaluation_results3.json": 0.84
+        },
+        "passed": {
+            "evaluation_results.json": 0.88,
+            "evaluation_results2.json": 0.8,
+            "evaluation_results3.json": 0.84
+        }
+    }
+}

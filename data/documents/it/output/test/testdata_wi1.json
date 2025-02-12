@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Was bedeutet finanzielle Unabhängigkeit im dualen Studium der DHBW?",
+        "reference": "Studierende erhalten während des gesamten Studiums eine monatliche Vergütung.",
+        "keywords": "duales Studium  monatliche Vergütung "
+    },
+    {
+        "question": "Wie lange dauert das Studium an der DHBW?",
+        "reference": "Das Studium an der DHBW dauert drei Jahre und gliedert sich in Theorie- und Praxisphasen. ",
+        "keywords": "drei Jahre"
+    }
+]

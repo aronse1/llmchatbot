@@ -1,6 +1,9 @@
 from src.logger import chatbot_logger, message_logger
 from src.discord.DiscordBot import DiscordBot
 import os
+import dotenv
+
+dotenv.load_dotenv()
 
 
 chatbot_logger = chatbot_logger(logLevel=10)

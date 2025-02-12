@@ -1,0 +1,130 @@
+[
+    [
+        {
+            "question": "Was ist der Abschluss eines dualen Studiums an der DHBW?",
+            "context": "Das Studium beginnt jeweils am 1. Oktober und schließt nach drei Jahren mit dem international anerkannten Abschluss Bachelor of Science (B.Sc. mit 210 Credit Points) ab.",
+            "answer": "Das duale Studium an der DHBW wird mit dem Bachelor of Science (B.Sc.) abgeschlossen."
+        },
+        {
+            "question": "Wie groß sind die Kursgruppen an der DHBW?",
+            "context": "Eine Kursgruppe besteht aus rund 30 Studierenden. Eine intensive Betreuung durch Professor*innen und Dozent*innen ist daher gewährleistet.",
+            "answer": "Die Kursgruppen an der DHBW bestehen aus rund 30 Studierenden."
+        },
+        {
+            "question": "Wer vermittelt die Inhalte im dualen Studium an der DHBW?",
+            "context": "Neben den Professor*innen der Dualen Hochschule Baden-Württemberg vermitteln besonders qualifizierte Expert*innen aus Unternehmen sowie Dozent*innen von Universitäten und anderen Hochschulen Inhalte aus ihren Spezialgebieten.",
+            "answer": "Inhalte im dualen Studium an der DHBW werden von Professor*innen, Expert*innen aus Unternehmen und Dozent*innen von Universitäten vermittelt."
+        },
+        {
+            "question": "Wie ist die finanzielle Situation der Studierenden an der DHBW?",
+            "context": "Die Studierenden der Dualen Hochschule Baden-Württemberg sind vom ersten Studientag an finanziell unabhängig: Als Angestellte erhalten sie für die gesamte Studiendauer eine monatliche Vergütung.",
+            "answer": "Die Studierenden an der DHBW sind finanziell unabhängig, da sie eine monatliche Vergütung erhalten."
+        },
+        {
+            "question": "Wie viele Unternehmen arbeiten mit der DHBW Heidenheim zusammen?",
+            "context": "Mehr als 900 Unternehmen, sowohl mittelständische Betriebe als auch internationale Großunternehmen, arbeiten bereits erfolgreich mit der DHBW Heidenheim zusammen.",
+            "answer": "Mehr als 900 Unternehmen arbeiten mit der DHBW Heidenheim zusammen."
+        }
+    ],
+    [
+        {
+            "question": "Was ist die Duale Hochschule Baden-Württemberg (DHBW)?",
+            "context": "Die DHBW ist das duale Original: die erste duale, praxisintegrierende Hochschule in Deutschland. Gegründet am 1. März 2009 basiert sie auf dem seit vielen Jahrzehnten erfolgreichen dualen Studienkonzept der baden-württembergischen Berufsakademie. Mit derzeit mehr als 34.000 Studierenden, rund 9.000 kooperierenden Unternehmen und sozialen Einrichtungen sowie über 190.000 Alumni ist die DHBW die größte Hochschule des Landes. Die Duale Hochschule Baden-Württemberg bietet ein breites Spektrum an national und international akkreditierten dualen Bachelorstudiengängen in den Bereichen Gesundheit, Sozialwesen, Technik und Wirtschaft und ist zwölfmal in Baden-Württemberg vertreten. Darüber hinaus zählen auch berufsintegrierende und berufsbegleitende Masterstudiengänge zum Angebot der Hochschule.",
+            "answer": "Die Duale Hochschule Baden-Württemberg (DHBW) ist die erste duale, praxisintegrierende Hochschule in Deutschland, gegründet am 1. März 2009, basierend auf dem erfolgreichen dualen Studienkonzept der baden-württembergischen Berufsakademie."
+        },
+        {
+            "question": "Wer ist der Studiengangsleiter für Allgemeine Informatik an der DHBW Heidenheim?",
+            "context": "STUDIENGANGSLEITUNG Allgemeine Informatik Prof. Till Hänisch till.haenisch@dhbw-heidenheim.de Telefon +49 . 73 21 . 27 22 - 292",
+            "answer": "Der Studiengangsleiter für Allgemeine Informatik an der DHBW Heidenheim ist Prof. Till Hänisch."
+        },
+        {
+            "question": "Welche Fakultät umfasst den Studiengang Informatik an der DHBW Heidenheim?",
+            "context": "DHBW HEIDENHEIM FAKULTÄT TECHNIK Informatik",
+            "answer": "Der Studiengang Informatik an der DHBW Heidenheim gehört zur Fakultät Technik."
+        },
+        {
+            "question": "Welche Kontaktinformationen gibt es für den Laborleiter der DHBW Heidenheim?",
+            "context": "LABORLEITER Dipl.-Ing. Boris Bahrs boris.bahrs@dhbw-heidenheim.de Telefon +49 . 73 21 . 27 22 - 314",
+            "answer": "Der Laborleiter der DHBW Heidenheim ist Dipl.-Ing. Boris Bahrs, erreichbar unter der E-Mail boris.bahrs@dhbw-heidenheim.de und der Telefonnummer +49 7321 2722-314."
+        },
+        {
+            "question": "Wer ist an der DHBW Heidenheim im Bereich Informationstechnik aktiv?",
+            "context": "STUDIENINHALTE UND PROFIL DES STUDIENGANGS INFORMATIK Sie können an der Dualen Hochschule Baden-Württemberg Heidenheim innerhalb des Studiengangs Informatik zwischen folgenden Studienrichtungen wählen: • Allgemeine Informatik • Informationstechnik mit den Schwerpunkten • Industrielle Automatisierung • Informationsmanagement",
+            "answer": "Im Bereich Informationstechnik an der DHBW Heidenheim können Sie sich auf Industrielle Automatisierung und Informationsmanagement spezialisieren."
+        }
+    ],
+    [
+        {
+            "question": "Welche Kernmodule sind in allen Studienrichtungen enthalten?",
+            "context": "Kernmodule: Mathematik, Theoretische Informatik, Programmieren, Software-Engineering, Datenbanken, Technische Informatik, Kommunikations- und Netztechnik, IT-Sicherheit, Web-Engineering sowie Schlüsselqualifikationen.",
+            "answer": "Die Kernmodule umfassen Mathematik, Theoretische Informatik, Programmieren, Software-Engineering, Datenbanken, Technische Informatik, Kommunikations- und Netztechnik, IT-Sicherheit, Web-Engineering und Schlüsselqualifikationen."
+        },
+        {
+            "question": "In welchen Berufsfeldern arbeiten Absolvent*innen des Studiengangs Informatik?",
+            "context": "Absolvent*innen arbeiten als Softwareentwickler*innen, Projektingenieur*innen, Systembetreuer*innen, Consultants, Projektmanager*innen oder IT-Abteilungsleiter*innen.",
+            "answer": "Absolvent*innen des Studiengangs Informatik arbeiten in Berufsfeldern wie Softwareentwicklung, Projektingenieurwesen, Systembetreuung, Consulting, Projektmanagement und als IT-Abteilungsleiter*innen."
+        },
+        {
+            "question": "Warum sind die Verdienstmöglichkeiten im IT-Bereich so gut?",
+            "context": "Verdienstmöglichkeiten sind ausgezeichnet, da es im IT-Bereich mehr offene Stellen als qualifizierte Bewerber*innen gibt.",
+            "answer": "Die Verdienstmöglichkeiten im IT-Bereich sind ausgezeichnet, da es mehr offene Stellen als qualifizierte Bewerber*innen gibt."
+        },
+        {
+            "question": "Welche Fähigkeiten neben Fach- und Methodenkompetenz sind wichtig für den Erfolg in der IT-Branche?",
+            "context": "Neben der Fach- und Methodenkompetenz wird Kommunikations- und Teamfähigkeit immer wichtiger.",
+            "answer": "Neben Fach- und Methodenkompetenz sind Kommunikations- und Teamfähigkeit wichtig für den Erfolg in der IT-Branche."
+        },
+        {
+            "question": "Welches ist der thematische Schwerpunkt der Studienrichtung Allgemeine Informatik?",
+            "context": "Die Entwicklung sicherer Software ist der thematische Schwerpunkt der Studienrichtung Allgemeine Informatik.",
+            "answer": "Der thematische Schwerpunkt der Studienrichtung Allgemeine Informatik ist die Entwicklung sicherer Software."
+        }
+    ],
+    [
+        {
+            "question": "Wer betreut die Projekte in der Studienrichtung Informationstechnik?",
+            "context": "Projekte werden von erfahrenen Expert*innen aus Hochschulen und der Industrie betreut.",
+            "answer": "Die Projekte in der Studienrichtung Informationstechnik werden von erfahrenen Expert*innen aus Hochschulen und der Industrie betreut."
+        },
+        {
+            "question": "Welche Aspekte werden in jeder Entwicklungsphase analysiert?",
+            "context": "Dabei wird in jeder Entwicklungsphase analysiert, welche Aspekte der IT-Sicherheit berücksichtigt und implementiert werden müssen.",
+            "answer": "In jeder Entwicklungsphase werden die Aspekte der IT-Sicherheit analysiert, die berücksichtigt und implementiert werden müssen."
+        },
+        {
+            "question": "Was ist das Ziel am Ende der Entwicklung in Bezug auf IT-Sicherheit?",
+            "context": "Dadurch wird gewährleistet, dass am Ende ein ganzheitliches Bild der Entwicklung sicherer Software entsteht.",
+            "answer": "Das Ziel ist, dass am Ende der Entwicklung ein ganzheitliches Bild der sicheren Software entsteht."
+        },
+        {
+            "question": "An wen richtet sich die Studienrichtung Informationstechnik?",
+            "context": "Die Studienrichtung Informationstechnik wendet sich an alle, die Interesse am Zusammenwirken von Soft- und Hardware haben oder Kompetenzen im Umgang mit Daten aus technischen Prozessen erwerben möchten.",
+            "answer": "Die Studienrichtung Informationstechnik richtet sich an Personen, die Interesse am Zusammenwirken von Soft- und Hardware haben oder Kompetenzen im Umgang mit Daten aus technischen Prozessen erwerben möchten."
+        },
+        {
+            "question": "Welche gemeinsamen Inhalte gibt es unabhängig vom Schwerpunkt in der Informationstechnik?",
+            "context": "Unabhängig vom Schwerpunkt sind folgende Inhalte gemeinsam: • Informatik-Kernmodule • Elektrotechnik • Elektronik • Schaltungstechnik • Physik • Rechnerarchitekturen • Softwarequalität • DB-Programmierschnittstellen • Verteilte Systeme • Computergrafik und Bildverarbeitung",
+            "answer": "Unabhängig vom Schwerpunkt gibt es folgende gemeinsame Inhalte: Informatik-Kernmodule, Elektrotechnik, Elektronik, Schaltungstechnik, Physik, Rechnerarchitekturen, Softwarequalität, DB-Programmierschnittstellen, verteilte Systeme, Computergrafik und Bildverarbeitung."
+        },
+        {
+            "question": "Welchen Schwerpunkt können Studierende im dritten Studienjahr wählen?",
+            "context": "Zum dritten Studienjahr wählen die Studierenden einen Schwerpunkt:",
+            "answer": "Im dritten Studienjahr können Studierende zwischen den Schwerpunkten 'Industrielle Automatisierung' und 'Informationsmanagement und -systeme' wählen."
+        },
+        {
+            "question": "Was beschreibt der Begriff 'Industrie 4.0' im Kontext des Studiums?",
+            "context": "Der Begriff „Industrie 4.0“ beschreibt die Digitalisierung der Fertigungstechnik hin zur intelligenten Fabrik, in der viele verschiedene Vernetzungarten, Rechnertypen und Programmierarten auf technische/organisatorische Herausforderungen treffen.",
+            "answer": "Im Kontext des Studiums beschreibt der Begriff 'Industrie 4.0' die Digitalisierung der Fertigungstechnik hin zur intelligenten Fabrik mit verschiedenen Vernetzungarten, Rechnertypen und Programmierarten, die auf technische und organisatorische Herausforderungen treffen."
+        },
+        {
+            "question": "Welche Ausrichtung haben die Fächer im Schwerpunkt Industrielle Automatisierung?",
+            "context": "Die angebotenen Fächer haben daher überwiegend eine elektrotechnische und ingenieurwissenschaftliche Ausrichtung.",
+            "answer": "Die Fächer im Schwerpunkt Industrielle Automatisierung haben überwiegend eine elektrotechnische und ingenieurwissenschaftliche Ausrichtung."
+        },
+        {
+            "question": "Worum geht es im Schwerpunkt Informationsmanagement und -systeme?",
+            "context": "Im Schwerpunkt Informationsmanagement und -systeme geht es unter anderem darum, wie große Datenmengen verwaltet und wiedergewonnen werden können (BigData) und wie Daten exploriert, analysiert (Data-Mining), verwaltet und dargestellt werden (Data-Science) bzw. welche Infrastruktur und Organisation hierzu notwendig ist.",
+            "answer": "Im Schwerpunkt Informationsmanagement und -systeme geht es um die Verwaltung und Wiedergewinnung großer Datenmengen (BigData), die Analyse und Darstellung von Daten (Data-Science) sowie die notwendige Infrastruktur und Organisation."
+        }
+    ]
+]

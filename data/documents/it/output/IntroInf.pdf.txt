@@ -1,0 +1,235 @@
+WISSENSCHAFTLICHES ARBEITEN
+Eine Einführung
+Überblick
+wissenschaftliche(s) Arbeiten
+¨
+wie ?
+¤
+warum ?
+¤
+Beispiele
+¤
+Projekt-/Bachelorarbeit
+¨
+Ziel, Themenwahl, Vorgehen
+¤
+Rahmenbedingungen
+¤
+Zusammenfassung/Fragen
+¨
+Prüfungsordnung
+Die Studierenden sollen durch das Studium die Kompetenzen
+¨
+erwerben, die erforderlich sind, um in der Berufspraxis die
+fachlichen Zusammenhänge zu überblicken, übergreifende Probleme
+zu lösen und wissenschaftliche Erkenntnisse anzuwenden.
+Die Bachelorarbeit ist eine eigenständige Prüfungsleistung. Sie soll
+¨
+zeigen, dass die Studierenden in der Lage sind, innerhalb einer
+vorgegebenen Frist eine praxisbezogene Problemstellung
+selbstständig unter Anwendung praxisbezogener sowie
+wissenschaftlicher Erkenntnisse und Methoden zu bearbeiten
+„Die Projektarbeit dient dazu, den Transfer der in den
+¨
+Theoriephasen gelegten wissenschaftlichen Grundlagen und deren
+Anwendung in den betrieblichen Praxisphasen zu dokumentieren. Die
+Erkenntnisse der jeweiligen Fachwissenschaft (z.B.
+Betriebswirtschaftslehre oder Informatik) sollen auf eine betriebliche
+Fragestellung angewandt werden.“
+Wissenschaft
+Wissenschaft = Schaffung von Wissen
+¨
+gesammeltes (kumuliertes) Wissen
+¨
+Wissen = Feststellungen über die Wirklichkeit
+¨
+Fakten
+¤
+Aussagen
+¤
+Aussagensysteme: Theorien, Modelle
+¤
+wozu Theorien ?
+§ Beschreibung: Aufzeigen von Fakten
+F1: Fritz ist tot, F2: Fritz hat Zyankali gegessen
+§ Erklärung: Kausales Zurückführen von Fakten auf andere Fakten auf der Basis einer Theorie
+T: Wenn Menschen Zyankali essen, sterben sie.
+F1:Fritz ist tot, F2: Fritz hat Zyankali gegessen
+èFritz ist tot, weil er Zyankali gegessen hat.
+§ Prognose: Herleitung von zukünftigen Fakten aufgrund einer Theorie und jetziger Fakten
+T: Wenn Menschen Zyankali essen, sterben sie.
+F1: Fritz isst gerade Zyankali
+èF2: Fritz wird bald tot sein
+§ Technologie: Bestimmung von jetzigen Fakten, damit aufgrund einer Theorie sich zukünftige
+Fakten ergeben
+T: Wenn Menschen Zyankali essen, sterben sie.
+F1: Fritz soll sterben
+èF2: Fritz muss Zyankali essen
+Wie funktioniert das ?
+Sammlung von Wissen
+¨
+Evolution
+¨
+Erkenntnisgewinn führt (im Lauf der Zeit) zu
+¨
+verbesserten Theorien
+Wissenschaftstheorie, Beweisbarkeit von Theorien,
+¨
+Popper, Falsifizierung
+Kommunikation
+¨
+Publikation
+¨
+Fachartikel à Ein Problem
+¤
+Fachbücher à Gruppe von Problemen
+¤
+Erkenntnisgewinn durch Diskurs
+¤
+Arten wissenschaftlicher Arbeiten
+Neue Entdeckung (z.B. neue Primzahl)
+¨
+Erklärung eines (bisher nicht verstandenen) Phänomens/Lösung eines bisher
+¨
+ungelösten Problems („Ein Verfahren zum Bestehen des Turing Tests“)
+Überprüfung einer (neuen) Hypothese
+¨
+Kombination/Übertragung bekannter Lösungen auf ein neues Problem
+¨
+(„Neuronale Netze zur Bewertung der Titel von Projektarbeiten“)
+Anwendung einer (bekannten) Theorie auf ein konkretes Problem UND
+¨
+ÜBERPRÜFUNG
+Verifizierung/Falsifizierung (!) etablierten Wissens
+¤
+„Die Anwendung der Prügelstrafe zur Erhöhung des Lernerfolgs“
+¤
+Sammlung und Vergleich verschiedener Methoden/Theorien
+¨
+(kompilatorische Arbeit, Review, “Welche Möglichkeiten gibt es ? Was sagt
+die Literatur dazu ? Entwicklung im Lauf der Zeit”)
+Empirische Forschung
+¨
+„Einfluss der Geschwisterzahl auf die Studiengangswahl bei DHBW-
+Studenten“
+Wissenschaft in der WI
+Physik : Quantitative Beschreibung von
+¨
+Naturphänomenen
+Informatik ?
+¨
+Methoden/Algorithmen
+¤
+Wie löst man typische Probleme im Bereich der Informatik ?
+n
+Etwa:
+n
+Auswahl von Software
+n
+Vorgehen bei der SW-Entwicklung
+n
+Erkenntnisse über Informations- und Kommunikationssysteme
+¤
+Etwa:
+n
+Architekturen
+n
+Technologien
+n
+Nutzerverhalten
+n
+Eine wissenschaftliche Arbeit ist ....
+... begründet in der Auswahl von ... nachprüfbar
+¨ ¨
+¤ Problem/Thema/Aufgabe ¤ Behauptungen/Argumente (Inhalt)
+theoretischer Ansatz/Analysemethode
+¤
+¤
+Quellen-Nachweis (Fachliteratur)
+Lösungsvorschlag
+¤
+¤
+eigene Erhebungen (Befragung Mitarbeiter)
+Umsetzungsmaßnahmen
+¤
+¤
+unmittelbar einsichtig (Beweis,
+... methodisch
+¨ Schlussfolgerung aus anderen Argumenten)
+Vorgehensmodell
+¤ Aufbau der Arbeit (Form)
+¨
+Anwendung von Standardmethoden
+¤
+strukturiert
+¤
+... korrekt
+¨ n inhaltlich (Lokalität,
+Inhalt Redundanzvermeidung)
+¤
+Rechnungsergebnisse n optisch (Absätze, Überschriftenformat)
+Verweise/Belege
+¤ ¤ einfach lesbar (keine betriebsinternen Kürzel,
+Seitenangaben bei Quellen Schachtelsätze)
+Rechtschreibung
+¤ ¤ gewohnt (Lehrbuch- bzw. Fachartikel-Stil, nicht:
+Kommafehler, fehlende Bindestriche
+Journalistenstil)
+richtlinien-orientiert
+¤
+mit Standardmethoden visualisiert
+Umfangsbegrenzung, Zitierweise, ... ¤
+(Ablaufdiagramme, Tabelle, Radiochart)
+vollständig
+¤
+keine offenen Fragen, außer in
+Ausblick/Fazit
+Stand: 27.03.23 Skript: Wissenschaftliches Arbeiten, Prof. Dr. H. J. Ott9
+
+Argumentation.
+Jede Behauptung ist zu begründen !
+durch Zitieren einer Quelle
+¨
+Hinweis auf eine Quelle: Fachbuch, Fachartikel, Internet-Quelle, Gespräch mit
+¤
+Experten
+wissenschaftliche Qualität und Seriosität der Quelle beachten
+¤
+n Review-/Referee-Prozess: Herausgeber/Editorial Board
+n Ruf des Autors
+n Verwendung der Quelle: Argumentation, Beleg, empirischer Befund
+durch eigene Untersuchung
+¨
+Primäruntersuchung: Befragung (Interview, Fragebogen), Beobachtung,
+¤
+Experiment
+Sekundäruntersuchung: Dokumentenanalyse
+¤
+durch unmittelbar einsichtige Schlussfolgerung aus anderen Argumenten
+¨
+Skript: Wissenschaftliches Arbeiten, Prof. Dr. H. J. Ott Stand: 27.03.23
+wissenschaftliches Arbeiten
+systematisch
+¨
+objektiv nachvollziehbar
+¨
+alle (!) Aussagen müssen
+¤
+belegt (Quellen)
+¤
+oder zwingend begründet werden
+¤
+wiederholbar
+¤
+diszipliniert
+¨
+Arbeiten (Methodik)
+¤
+Denken (Stringenz)
+¤
+Schreiben
+¤
+n Inhalt
+n Form
+nicht die eigene Meinung, sondern Fakten !
+¨

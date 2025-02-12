@@ -2,7 +2,7 @@ import json
 import logging
 import os
 from enum import Enum
-
+import asyncio
 import torch
 from llama_index.core import (Settings, SimpleDirectoryReader, StorageContext,
                               VectorStoreIndex, load_index_from_storage)
@@ -15,7 +15,6 @@ from llama_index.llms.ollama import Ollama
 from src.helpers.PriorityNodeScoreProcessor import PriorityNodeScoreProcessor
 from src.helpers.RagPrompt import rag_messages, rag_template
 from src.helpers.SystemMessage import system_message
-
 message_logger = logging.getLogger('Messages')
 chatbot_logger = logging.getLogger('ChatBot')
 unanswered_questions_logger = logging.getLogger('UnansweredQuestions')
@@ -47,6 +46,7 @@ class ChatBot(object):
         # Check if CUDA is available
         device = "cuda" if torch.cuda.is_available() else "cpu"
         chatbot_logger.info(f"Using device: {device}")
+        print(f"Using device: {device}")
 
         # Embeddings model
         Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-m3")
@@ -54,7 +54,7 @@ class ChatBot(object):
         # Language model
         Settings.llm = Ollama(
             model="llama3.1", request_timeout=360.0, device=device)
-
+            #model="llama3.1:8b-instruct-fp16", request_timeout=360.0, device=device)
         for course in Course:
             self.__load_index(course)
             self.refresh_index(course)
@@ -178,14 +178,18 @@ class ChatBot(object):
         :param course: the desired course
         :return: agent to chat with
         """
+        tools = []
+        
+        #if intent == "instructions":
+            # Load index and set up the RAG query engine
         index = self.__load_index(course)
 
-        # RAG engine to receive data from documents
         query_engine = CitationQueryEngine.from_args(
             index,
             similarity_top_k=3,
             citation_chunk_size=512,
-            node_postprocessors=[PriorityNodeScoreProcessor()]
+            node_postprocessors=[PriorityNodeScoreProcessor()],
+            streaming=True
         )
 
         rag_tool = QueryEngineTool(
@@ -193,20 +197,29 @@ class ChatBot(object):
             metadata=ToolMetadata(
                 name="rag_tool",
                 description=(
-                    "This tool provides several information about the course. Use the complete user prompt question as input!"),
+                    "This tool provides several information about the course. Use the complete user prompt question as input!"
+                ),
             )
         )
-
-        # tool to log questions not answered trough ai
+        tools.append(rag_tool)
+        
+        # Add log tool for unanswered questions
         log_tool = FunctionTool.from_defaults(fn=self.log_unanswered_question)
+        tools.append(log_tool)
 
+        # Combine system messages with chat history
         messages = system_message + (chat_history or [])
-
+        
+        # Return the agent with the relevant tools
         return ReActAgent.from_tools(
             chat_history=messages,
-            tools=[rag_tool, log_tool],
+            tools=tools,
             verbose=True,
-            max_iterations=10)
+            max_iterations=10
+        )
+
+
+
 
     def build_sources_output(self, ai_response, max_sources=None):
         """
@@ -254,15 +267,21 @@ class ChatBot(object):
         chatbot_logger.info(f"Performing query")
         chatbot_logger.debug(f"Query: {query}")
         chatbot_logger.debug(f"Course: {course}")
+        #intent = self.classifier.classify_intent(query)
         agent = self.__create_agent(course)
-
+       
         try:
             response = agent.chat(query)
-            message_logger.info(
-                f"Course: {course} \t Query: {query} \t response: {response}")
+            #response = agent.stream_chat(query)
+            #responseasList['response'] = response
+            #message_logger.info(
+            #    f"Course: {course} \t Query: {query} \t response: {response}")
+            #for r in response.response_gen:
+            #    yield r
+            #if(intent == "instructions"):
+                #yield self.build_sources_output(response)
 
-            output = response.response + self.build_sources_output(response)
-
-            return output
+            return response
         except:
-            return "Diese Frage kann leider nicht beantwortet werden!"
+            return "Nothing"
+            #yield "Diese Frage kann leider nicht beantwortet werden!"

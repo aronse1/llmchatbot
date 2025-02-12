@@ -1,0 +1,573 @@
+DIE PROJEKTARBEIT
+Aufbau und Vorgehen
+Formalien
+1.1.9 Projektarbeit (PA)
+¨
+Die Projektarbeit dokumentiert die konkrete Lösung
+einer Ingenieuraufgabe (bzw. von zwei kleineren
+Aufgaben) in der Praxisphase. Die Projektarbeit lässt
+eine eingehende, umfassende und selbstständige
+Bearbeitung erkennen und verknüpft die praktischen
+Aufgabenstellungen mit aktueller Fachliteratur aus
+Theorie und Praxis. […]
+„Was“, „Wie“
+¨
+Auch: Wie macht „man“ das, wie machen das andere ?
+¤
+à Literatur
+Modul T1000
+Die Absolventinnen und Absolventen erfassen industrielle
+¨
+Problemstellungen in ihrem Kontext und in angemessener
+Komplexität. Sie analysieren kritisch, welche Einflussfaktoren zur
+Lösung des Problems beachtet werden müssen und beurteilen,
+inwiefern einzelne theoretische Modelle einen Beitrag zur Lösung des
+Problems leisten können.
+Idealbild … in der Realität eher T2000 (Vorkenntnisse)
+¤
+Die Studierenden kennen die zentralen manuellen und maschinellen
+¨
+Grundfertigkeiten des jeweiligen Studiengangs, sie können diese an
+praktischen Aufgaben anwenden und haben deren Bedeutung für
+die Prozesse im Unternehmen kennen gelernt.
+[…]
+„Warum“ macht man das ?
+¨
+Warum macht man das so ?
+¤
+Ziel
+Lösung eines Problems/Aufgabe
+¨
+ein (!) Problem
+¤
+konkrete (!) Lösung
+¤
+keine Beschreibung von allgemeinen Technologien/Lösungen
+¤
+wissenschaftlicher Gehalt ?
+¨
+systematisches, d.h. wissenschaftliches Vorgehen
+¤
+strukturierte Form
+n
+Argumentation
+n
+Literatur
+n
+Anwendung einer Theorie == Methode
+¤
+Überblick über den Stand der Technik
+¤
+Welches Problem wird gelöst ?
+n
+Aufbau
+Kurzfassung
+¨
+Gliederung
+¨
+Einleitung
+¨
+Hintergrund
+¨
+Hauptteil
+¨
+Fazit
+¨
+Literaturverzeichnis
+¨
+Achtung: Das sind nicht die Gliederungspunkte/
+Kapitelüberschriften !
+Wie liest man eine Arbeit ?
+Titel
+1
+Kurzfassung
+2
+Einleitung
+3
+Fazit
+4
+Gliederung
+5
+Hintergrund (wenn überhaupt)
+6
+Hauptteil
+7
+Was folgt daraus ?
+Titel
+definiert das Problem
+¨
+kurz, aber möglichst aussagekräftig
+¨
+schwierig !
+¤
+Vorgehen:
+¨
+Problem definieren
+n
+schriftlich
+n
+Erster Teil der Kurzfassung
+n
+Gliederung
+n
+Entwurf, endgültige Fassung später
+n
+vorläufigen Titel festlegen
+n
+Erfahrung: Gute Wahl des Titels ergibt (meistens) gute Arbeit,
+schlechte Wahl des Titels ergibt (immer) schlechte Arbeit
+Kurzfassung
+Die Kurzfassung gibt eine Zusammenfassung des
+¨
+Problems und der erzielten Ergebnisse
+Problem / praktischen Bezug aufzeigen
+¤
+Ergebnisse darstellen und nicht den Weg dorthin
+¤
+Dem Leser die Argumentationslinie verdeutlichen
+¤
+Die Kurzfassung ist gleichsam die Visitenkarte der
+¨
+Arbeit
+Sie muß daher interessant sein
+¤
+Darf keine Fehler (Rechtschreibung, Form) enthalten
+¤
+Sollte im Umfang eine Seite nicht überschreiten
+¤
+Gliederung
+definiert das Vorgehen
+¨
+stellt den „roten Faden“ dar
+¨
+Die Gliederung
+¨
+Ergibt sich aus dem Titel
+¤
+Muß für sich alleine lesbar sein
+¤
+Muß übersichtlich sein
+¤
+Formal sauber ausgeführt werden
+n
+Die zentralen Begriffe des Titels müssen sich
+¨
+wiederfinden lassen!
+Die Überschriften sollten „sprechend“ sein
+¨
+Einleitung
+definiert das Ziel der Arbeit
+¨
+führt zum Thema
+¨
+knapp und spannend
+¤
+Sie soll außerdem
+¨
+dem Leser einen Eindruck vermitteln, warum es für ihn gewinnbringend ist, das
+¤
+Werk zu lesen
+das praktische Problem, den praktischen Bezug herstellen(!)
+¤
+Sie kann
+¨
+das Thema der Arbeit eingrenzen
+¤
+die Argumentationslinie darstellen
+¤
+einen Überblick über den Aufbau der Arbeit geben
+¤
+Hintergrund
+Definitionen der grundlegenden - für die Arbeit zentralen - Begriffe
+¨
+Zentrale Begriffe finden sich im Titel der Arbeit
+¤
+Hier ist klar zu stellen, was Sie (!) unter den Begriffen verstehen
+¤
+Theoretischer Bezugsrahmen
+¨
+Theorien, die im Lauf der Arbeit zur Lösung des Problems verwendet
+¤
+werden
+nur (!) Theorien, die nachher auch verwendet werden
+¤
+So kurz wie möglich !
+¤
+Soviel, dass der Leser dem Hauptteil folgen kann
+¤
+kein „Allgemeinwissen“, „Lehrbuchwissen“ ...
+¤
+wer ist der Leser ? was weiss er ?
+¤
+n schwer zu sagen .... Ansatz: Ein Kommilitone
+Hauptteil
+Die eigentliche Arbeit
+¨
+Ihre (!) Leistung
+¤
+größter Teil der Arbeit (auch des Umfangs)
+¤
+Inhalt, Aufbau
+¨
+hängt von der Arbeit ab
+¤
+keine allgemeinen Regen möglich
+¤
+Fazit
+Lösung des Problems
+¨
+Ist das Ziel der Arbeit erreicht?
+¤
+Was genau ist das Ergebnis? (Wofür wollen Sie später mal zitiert werden?)
+¤
+Hinterfragen des Ergebnisses
+¨
+Verallgemeinerungsfähig oder andere Lösungen denkbar?
+¤
+Vorwegnahme - aber vorsichtig! - möglicher Kritikpunkte
+¤
+Weiterer Forschungsbedarf
+¨
+Interessante Randthemen Ihrer Arbeit, die weiteren Forschungsbedarf
+¨
+aufgeworfen haben
+Fortsetzung der vorliegenden Arbeit
+¨
+„Knaller“
+¨
+Zitieren von Quellen
+Sinn und Funktion:
+¨
+Zitierungen belegen (= beweisen!) Aussagen des Verfassers
+¤
+Weisen den Leser auf die vertiefte Darstellung einzelner Sachverhalte hin
+¤
+Stellen Zusammenhänge zu anderen Autoren her
+¤
+Was ist mit Zitaten zu belegen?
+¨
+Wörtliche Übernahme von Aussagen anderer Autoren
+¤
+Sinngemäße Wiedergabe der Gedanken anderer Autoren
+¤
+„Gewagte“ Aussagen
+¤
+Zitierfähige Literatur
+¨
+Es sind grundsätzlich die Original (= Primär) Quellen anzugeben
+¤
+Nicht zitierfähig sind
+¤
+n Lehrbücher
+n Studien- und Diplomarbeiten
+n Allgemeine Zeitschriften
+n Wikipedia
+Zitieren von Quellen contd.
+Zitierfähige Literatur (Forts.)
+¨
+Nicht zitiert werden sollten
+¨
+¤ Interne Berichte (und schon gar nicht, wenn sie vertraulich sind)
+n Quellen müssen für den Leser verfügbar sein
+n Wenn interne Quellen nötig à Anhang
+¤ Foliensätze von Präsentationen
+¤ Herstellerunterlagen, nur dann geeigent, wenn es um Produkteigenschaften geht
+Grundsätzlich gilt:
+¨
+¤ Je anerkannter der Autor und die Quelle, desto besser
+¤ Nichts zitieren, was man nicht gelesen hat
+¤ Die Menge der angegeben Literatur ist ein Indiz für den Fleiß des Verfassers
+¤ Internetquellen sind nur bedingt geeignet
+Weiter ist zu beachten:
+¨
+¤ Die Zitierweise muß praktisch sein
+¤ Konsequent durchziehen
+Zitierweise
+Üblich sind heute zwei Arten der Zitierung
+¨
+Kurzform: Autor Jahr, Seite
+¤
+In Klammern im laufenden Text [Müller 1995]
+¤
+Die Kombination (Autor Jahr) muß eindeutig sein
+¤
+Langform:
+¤
+Fußnote im Text
+¤
+Ausführliches Zitat in der Fußnote
+¤
+Literaturverzeichnis
+¨
+Aufbau entsprechend der Zitierweise
+¤
+Kurzform: Literaturverzeichnis beginnt mit Autor Jahr, dann folgt die volle Quellenangabe
+¤
+Langform: beginnt mit Autor
+¤
+Quellen, die nicht im Text angegeben wurden gehören nicht in das Literaturverzeichnis!
+¤
+Nebenbei: Das Literaturverzeichnis anderer Autoren ist eine sehr gute und v. a.
+¨
+leicht verwendbare Zusammenstellung von Quellen zu einem Thema. Es kann daher
+für eigene Recherchen die Grundlage bilden.
+Fußnoten
+Fußnoten dienen zur Ergänzung des Textes
+¨
+Erklärung von Fachbegriffen
+¤
+Hinweise auf weitere Quellen
+¤
+Kritische Anmerkungen
+¤
+Quellenangaben (insbes. bei der langen Zitierweise)
+¤
+URL
+¤
+Nicht in die Fußnoten gehören
+¨
+Wesentliche Aussagen der Arbeit
+¤
+Grafiken
+¤
+Wichtig:
+¨
+Fußnoten erschweren das Lesen des Textes
+¤
+Der Text sollte ohne Beachtung der Fußnoten les- und verstehbar sein
+¤
+Grafiken
+Verdeutlichung eines (komplexen) Sachverhaltes
+¨
+müssen erklärt werden
+¤
+Verweis auf die Grafik im Text
+¤
+Nummer und Beschriftung
+¤
+Technisches
+¨
+Kopien von Grafiken aus dem Internet sehen im Druck schlecht aus
+¤
+(Auflösung!). Daher sind diese Abbildungen neu zu erstellen.
+Farben sollten nur dann eingesetzt werden, wenn sie sinnvoll sind
+¤
+Screenshots aus Softwarepaketen machen in der Regel
+¨
+wenig Sinn
+Relation Platzbedarf (cid:0) Aussagekraft
+¨
+Sprache
+Eine wissenschaftliche Arbeit muß sachlich sein
+¨
+Keine eigene Meinung
+¤
+Keine Ich-Form
+¤
+Keine „gekünstelte“ Sprache
+¤
+„man“ gibt es nicht
+¤
+Indizien für einen guten Stil (in wissenschaftlichen Arbeiten)
+¨
+Klare und eindeutige Aussagen
+¤
+Kurze Sätze
+¤
+Vermeidung des Konjunktivs
+¤
+Keine Füllwörter verwenden („eigentlich“...)
+¤
+Keine Wortwiederholungen, aber durchgängige Verwendung von Fachbegriffen
+¤
+Überleitungen schaffen
+¤
+Form
+Der Sinn von Formvorschriften liegt in der Standardisierung des Schriftgutes
+¨
+Leichtes Lesen (Gewöhnungseffekt)
+¤
+Gute Übersicht
+¤
+Formvorschriften sind einzuhalten
+¨
+Die sorgfältige Gestaltung der Form wird als Indiz für die Qualität des
+¨
+Inhaltes gewertet
+„Wer kein fehlerfreies Deckblatt schafft, schafft auch keine ordentliche
+¤
+Argumentation...“
+„Wer zu faul ist, eine Internetgrafik neu zu zeichnen, ist auch zu faul zum
+¤
+Überlegen...“
+Die Form ist ein Hilfsmittel und kein Selbstzweck!
+¨
+Vorgehen
+Formulieren des Problems
+¨
+Eingrenzen des Themas
+¤
+Ist das Problem „lösbar“ ?
+¤
+Wenn ja: wie könnten die möglichen Lösungen aussehen ?
+¤
+Klären der verfügbaren Literatur
+¨
+Literatur = Buch & Artikel
+¤
+Literatur = Internetquellen ?
+¤
+Ableiten einer Grobgliederung aus der Problemstellung
+¨
+Sichten der Literatur
+¨
+Lesen, lesen, lesen...
+¤
+Besonders wichtige Punkte notieren
+¤
+Zuordnen der Literatur zu den einzelnen (Grob-) kapiteln
+¤
+Todsünden I
+Gliederung
+¨
+„A“ aber nicht „B“ sagen
+¤
+Zentrale Begriffe / Argumentationslinie nicht erkennbar
+¤
+Fehlende Übereinstimmung von Gliederung und Überschriften im Text
+¤
+Nichtssagende Überschriften („Theorieteil“)
+¤
+Einleitung
+¨
+Kein praktischer Bezug hergestellt
+¤
+Problematik nicht verdeutlicht
+¤
+Grundlagen / Begriffsdefinitionen
+¨
+Begriffe / Theorien dargestellt, die im Lauf der Arbeit nicht weiter verwendet werden
+¤
+Grundlagen falsch dargestellt
+¤
+Keine Belege aus der Literatur
+¤
+Todsünden II
+Fazit
+¨
+Keine kritische Reflektion
+¤
+fehlt völlig
+¤
+Problem nicht gelöst/Lösung nicht dargestellt
+¤
+Ergebnis der Arbeit bleibt unklar
+¤
+Form
+¨
+Notwendige Sorgfalt nicht erkennbar
+¤
+Fehler in Deckblatt, Gliederung
+¤
+Inkonsistente Formatierungen
+¤
+Nicht durchgängige Zitierweise
+¤
+Quellenangabe
+¨
+Vorwiegend Sekundärliteratur oder Quellen aus dem Internet verwendet
+¤
+Wenig bis keine Quellenangaben
+¤
+Todsünden III
+Inhalt
+¨
+Willkürliche Festlegung/Auswahl von Kriterien
+¤
+Projektbericht, keine Reflexion, nur Beschreibung
+¤
+Unbelegte (= unbewiesene) Aussagen
+¤
+Unkritische / unreflektierte Verwendung von Modewörtern
+¤
+Inhaltliche Fehler
+¤
+Oberflächliche, ungenaue und unkritische Darstellung von Sachverhalten
+¤
+Argumentation
+¨
+Argumentationslinie durchbrochen, nicht vorhanden
+¤
+Faule Ausreden
+¤
+Einseitige Argumentation (nur Vorteile...)
+¤
+Blödsinn I
+„... Dieser Frage wird in der folgenden Praxisarbeit nachgegangen.“
+¨
+<Absatz> „Die Frage kann nicht pauschal beantwortet werden, da...“
+[also ist sie falsch gestellt]
+„In der Praxisarbeit ‚...‘ geht es um die Beschreibung eines Tools mit dem
+¨
+man System-Analysen durchführen kann.“
+[Warum sollte ich das machen wollen?]
+„Selbstverständlich sind die hier genannten Kriterien für und gegen das
+¨
+Data-Warehouse Ansichtssache.“
+Genau, deshalb ersparen wir uns die Begründung und Herleitung der
+Kriterien und schauen auch nicht in Bücher
+Diese Aussage noch mal deutlich: „Ich schreibe hier meine eigene
+– offenbar nicht fundierte - Meinung.“
+Blödsinn II
+Quellenangaben: ein Buch und zwei
+¨
+Internetquellen..
+Bei amazon findet man fast 6000 Treffer zum Thema CRM
+„...Diese Tatsache erfordert die rasche Nutzung neuer
+¨
+Technologien wie elektronischer Archivierung,
+Dokumenten-Management und Workflow-Management,
+auf die hier aber nicht eingegangen wird.“
+Soso, mal wieder moderne Begriffe aufgeschnappt und zu faul
+zum nachschlagen gewesen... Klingen aber immer gut
+Fehlende Begründung der Ausgrenzung
+Blödsinn III
+„Die Inhalte dieser Arbeit entstammen Broschüren von verschiedenen
+¨
+Anbietern von SAN-Konzepten, (!) sowie der Erfahrung und des
+Wissens von Mitarbeitern in einem solchen Projekt. In diesen
+Broschüren standen viele Informationen, [ach was? du armer Kerl, so
+viel zu lesen] die nicht alle in diese Arbeit einbezogen werden
+konnten, da der Umfang sonst gesprengt worden wäre.“
+Aha. Ein Hochglanzprospekt im Postkorb gefunden und als Quelle
+genutzt...
+Nicht eine Quelle zitiert, also zu faul gewesen, überhaupt was zu
+lesen... Gut, dass es keine Bücher und Zeitschriften gibt.
+Erfahrene Mitarbeiter als Informationsquelle vorgeschoben
+Keinen Blick für die wichtigen Inhalte
+
+Tips
+Schreiben Sie keinen Bericht
+¨
+über die Arbeit anderer Leute
+¤
+Schreiben Sie kein Lehrbuch
+¨
+nicht: „Barrierefreies Web Design“
+¤
+Reden Sie nicht von Dingen, die Sie nicht verstehen
+¨
+nicht: „Einsatz von Quantencomputern im Machine Learning“
+¤
+Praxisbezug
+¨
+„... am Beispiel der xy GmbH“
+¤
+„... für die xy GmbH“
+¤
+Bleiben Sie bescheiden
+¨
+Lieber ein „kleines“ Thema gut behandelt, als ein „wichtiges“
+¤
+oberflächlich
+Viel Spass beim Schreiben !

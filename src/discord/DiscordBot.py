@@ -1,7 +1,7 @@
 import discord
 import functools
 import logging
-
+import asyncio
 from discord import Message
 from discord.ext import commands
 from src.ChatBot import ChatBot, Course
@@ -54,7 +54,25 @@ class DiscordBot(commands.Bot):
             view = DropdownView()
             await message.channel.send('Bitte wähle deinen Kurs und stelle die Frage anschließend erneut', view=view)
         else:
+            sent_message = await message.channel.send("Thinking...")
             fun = functools.partial(
-                self.chatbot.perform_query, message.content, course)
+               self.chatbot.perform_query, message.content, course)
             response = await self.loop.run_in_executor(None, fun)
-            await message.channel.send(response)
+            await sent_message.edit(content=response.response)
+            #await message.channel.send(response.response)
+            #full_response = ""
+            #chunk_size = 8  # 
+            # chunk = ""
+            # i = 0
+            # responseaslist = {}
+            # for result in self.chatbot.perform_query(message.content, course, responseasList=responseaslist):
+            #     chunk += result
+            #     i+=1
+            #     if i == chunk_size:
+            #         full_response += chunk
+            #         await sent_message.edit(content=full_response)
+            #         chunk = ""  # Reset chunk
+            #         i = 0
+            
+            # full_response += chunk
+            # await sent_message.edit(content=full_response)

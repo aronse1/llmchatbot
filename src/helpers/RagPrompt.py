@@ -1,10 +1,10 @@
-from llama_cloud import ChatMessage, MessageRole
+from llama_cloud import InputMessage, MessageRole
 from llama_index.core import ChatPromptTemplate
 
 additional_kwargs = {}
 
 rag_messages = [
-    ChatMessage(
+    InputMessage(
         id=1,
         index=1,
         role=MessageRole.SYSTEM,
@@ -16,7 +16,7 @@ rag_messages = [
         ),
         additional_kwargs=additional_kwargs
     ),
-    ChatMessage(
+    InputMessage(
         id="user",
         index=1,
         role=MessageRole.USER,

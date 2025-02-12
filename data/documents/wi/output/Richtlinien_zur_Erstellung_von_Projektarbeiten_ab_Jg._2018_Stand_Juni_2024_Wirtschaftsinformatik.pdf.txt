@@ -1,0 +1,340 @@
+Fakultät Wirtschaft
+Studiengang Wirtschaftsinformatik
+Prof. Dr. Anke Hutzschenreuter
+Prof. Dr. Jürgen Seitz
+Richtlinien zur Gestaltung
+wissenschaftlicher Arbeiten
+(Version vom 25.06.2024; gültig für StuPro 2018; ab Studienjahrgang 2022)
+1 / 12
+Inhalt
+1. Grundsätzliche Hinweise 3
+2. Formalien 3
+2.1 Layout 3
+2.2 Aufbau der Arbeit 4
+2.3 Quellenangaben im Literaturverzeichnis 5
+2.3.1 Form und Aufbau des Literaturverzeichnisses 5
+2.3.2 Quellenangaben bei Büchern 5
+2.3.3 Quellenangaben bei Artikeln aus einem Sammelband 6
+2.3.4 Quellenangaben bei Artikeln in Zeitschriften 6
+2.3.5 Quellenangaben bei Internetveröffentlichungen 6
+2.3.6 Quellenangaben bei unternehmensinternem Material 6
+2.3.7 Quellenangaben bei Normen 7
+3. Zitierweise im Text 7
+4. Ehrenwörtliche Erklärung 8
+5. Titelblatt (Muster) 9
+Anlage 1: Eignung von Projektarbeitsthemen 10
+Anlage 2: Kurzfassung 12
+2 / 12
+1. Grundsätzliche Hinweise
+Die vorliegenden Richtlinien beschreiben wesentliche formale Anforderungen an wissenschaftliche
+Arbeiten der DHBW Heidenheim im Studiengang Wirtschaftsinformatik. Sie basieren auf der aktuell
+gültigen Studien- und Prüfungsordnung. Wissenschaftliche Arbeiten sind insbesondere Seminarar-
+beiten, Projektarbeiten und die Bachelorarbeit. Es wird empfohlen, den Leitfaden für gendersensible
+Sprache bei der Erstellung wissenschaftlicher Arbeiten zu beachten. Die wissenschaftlich Betreu-
+enden können abweichende Vereinbarungen treffen.
+2. Formalien
+2.1 Layout
+Die leitenden Grundsätze beim Layout sind Lesefreundlichkeit und Einheitlichkeit, das heißt ein
+einmal gewähltes Gestaltungsprinzip ist durchzuhalten. Es sind folgende Formatvorgaben zu ver-
+wenden:
+Format A4, weißes Papier (auch Recyclingpapier), einseitig beschrieben, Blocksatz (im Textteil)
+Ränder links: 3 cm – rechts: 3 cm – oben: 2 cm (bis Text) – unten: 2 cm (bis Fußnote)
+Schrift Arial oder Times New Roman (12 Punkt) im Fließtext, in den Fußnoten zwei Punkte
+weniger
+Absatz Im Text 1,5-zeilig zzgl. 6 Punkt Abstand am Absatzende
+In den Fußnoten einzeilig ohne zusätzlichen Abstand zum Absatzende
+Der Textteil wird mit arabischen Seitenzahlen beginnend mit „1“ versehen. Für die Verzeichnisse
+sind römische Seitenzahlen zu verwenden (I, II, III, …). Die Seitennummerierung beginnt auf der
+ersten Seite nach dem Deckblatt mit „II“ und wird ab dem Textteil mit arabischen Seitenzahlen fort-
+laufend nummeriert.
+Verzeichnisse werden linksbündig mit Flattersatz formatiert.
+Abbildungen bzw. Tabellen sind fortlaufend zu nummerieren und zu betiteln. Sofern eine Abbildung
+oder Tabelle aus der Literatur übernommen bzw. aus einer entsprechenden Darstellung in der Lite-
+ratur weiterentwickelt wurde, ist die genaue Quelle zu benennen. Siehe dazu auch Abschnitt 3.
+Wissenschaftliche Arbeiten (Seminararbeit, Projektarbeit und Bachelorarbeit) sind jeweils zweimal
+in gedruckter Ausfertigung einzureichen. Zusätzlich wird die Arbeit in elektronischer Form im PDF-
+und im Word-Format (oder ähnliches Textverarbeitungsprogramm) auf die Lernplattform Moodle der
+DHBW Heidenheim hochgeladen (jeweils inklusive Deckblatt, Verzeichnisse, Anhänge und Ehren-
+wörtliche Erklärung). Seminar- und Projektarbeiten sind im Schnellhefter (Karton) einzureichen, die
+Bachelorarbeit in gebundener Form (Leimbindung, keine Spiralbindung). Weitere Anlagen können
+gesondert per Upload bereitgestellt werden.
+3 / 12
+2.2 Aufbau der Arbeit
+Eine wissenschaftliche Arbeit besteht aus den folgenden Abschnitten, die in einer festgelegten Rei-
+henfolge angeordnet werden:
+1. Titelblatt/Deckblatt
+Siehe Vorlage auf der letzten Seite dieses Dokuments.
+2. Eventuell Vorwort
+Ein Vorwort dient als persönliche Textergänzung, Wertschätzung oder Kommentierung.
+3. Inhaltsverzeichnis
+Im Inhaltsvereichnis ist jeder Gliederungspunkt der Arbeit – außer Inhaltsverzeichnis – mit der
+entsprechenden Seitenanfangszahl aufzuführen
+4. Eventuell Abkürzungsverzeichnis
+Ein Abkürzungsverzeichnis ist erforderlich, wenn mehrere nicht gängige Abkürzungen (zum Bei-
+spiel fachspezifische Abkürzungen) verwendet werden. Gängige Abkürzungen wie „etc.“, „u.a.“,
+„z.B.“ werden nicht erfasst.
+5. Eventuell Abbildungsverzeichnis
+Ein Abbildungsverzeichnis ist erforderlich, wenn mindestens eine Abbildung (beispielsweise Fo-
+tos, Zeichnungen, Schaubilder) eingesetzt wird.
+6. Eventuell Tabellenverzeichnis
+Ein Tabellenverzeichnis ist erforderlich, wenn mindestens eine Tabelle dargestellt wird.
+7. Textteil
+Der Umfang einer Projektarbeit beträgt 4.500 - 5.500 Wörter (20 - 30 Seiten), der Umfang der
+Bachelorarbeit beträgt 9.000-11.000 Wörter (40 – 60 Seiten). Bei der Ermittlung des Textseiten-
+umfangs – auch bei Seminararbeiten und Projektberichten – werden Deckblatt, Abbildungen,
+Tabellen, Verzeichnisse und Anhänge nicht berücksichtigt. Die Beschränkung der Darstellung
+auf diesen Umfang ist Teil der zu bewertenden Leistung. Unter- oder Überschreitung des vorge-
+gebenen Umfangs führen zu deutlichen Notenabschlägen!
+8. Literaturverzeichnis
+Im Literaturverzeichnis ist jede Literaturquelle aufgelistet, auf die im Text oder in den Fußnoten
+Bezug genommen wird. Auch unternehmensinternes Material ist aufzuführen. Quellen, die im Li-
+teraturverzeichnis geführt werden, müssen auch im Text verwertet sein.
+9. Eventuell Anhang (mit Anhangsverzeichnis)
+Im Anhang sind ergänzende Materialien sowie Abbildungen und Tabellen enthalten, die nicht
+zum Verständnis des laufenden Textes benötigt werden. Der Anhang stellt sicher, dass ein
+durchgängiger Nachweis erbracht wird, wie das Ergebnis hergeleitet wurde. Der Anhang wird mit
+einem Anhangsverzeichnis eingeleitet, falls es mehr als einen Anhang gibt.
+10. Ehrenwörtliche Erklärung
+Zur Ehrenwörtlichen Erklärung siehe Abschnitt 4.
+4 / 12
+2.3 Quellenangaben im Literaturverzeichnis
+Im folgenden Abschnitt werden Form und Aufbau des Literaturverzeichnisses dargestellt. Zudem
+wird für jede Art von Quelle im Literaturverzeichnis, wie beispielsweise ein Lehruch oder ein Artikel,
+sowohl die Struktur als auch ein Beispiel angegeben.
+Struktur
+Beispiel
+2.3.1 Form und Aufbau des Literaturverzeichnisses
+Im Literaturverzeichnis werden alle im Text verwendeten Quellen – und ausschließlich diese − ein-
+heitlich mit den bibliografischen Angaben aufgelistet. Die Quellen der wissenschaftlichen Arbeit sind
+vollständig und eindeutig offenzulegen, so dass ein Leser öffentliche Quellen eigenständig prüfen
+kann. Nicht öffentliche Quelle (wie unternehmensinterne Materialien) sind auf Verlangen zu Prüf-
+zwecken vorzulegen. Die Quellen müssen zitierfähig und zitierwürdig sein. Verlage, die vorwiegend
+Bachelor- und Masterarbeiten vertreiben, gehören nicht dazu.
+Die Quellen werden alphabetisch nach den Nachnamen der Verfasser bzw. Herausgeber aufgelis-
+tet. Es erfolgt keine Unterteilung des Literaturverzeichnisses nach Quellenarten (z.B. eine geson-
+derte Auflistung der Onlinequellen). Werke desselben Verfassers/Herausgebers sind chronologisch
+nach Erscheinungsjahr aufzuführen. Bei gleichem Erscheinungsjahr wird nach den Titeln alphabe-
+tisch geordnet. Bei der Kurzzitierweise sind diese Werke mit „a, b, c“ etc. zu kennzeichnen [Beispiel:
+Vgl. Wöhe 2010a, S. 13; Wöhe 2010b, S. 27] und entsprechend im Literaturverzeichnis anzugeben.
+Interviewprotokolle, unternehmensinterne Materialien und andere selbst erarbeitete Materialien
+werden nach Absprache mit der wissenschaftlichen Betreuung zur Verfügung gestellt.
+Akademische Titel (Prof., Dr.) werden im Text und im Literaturverzeichnis weggelassen. Mehrere
+Autoren werden durch „;“ getrennt. Bei bis zu zwei Autoren werden alle genannt, ab drei Autoren
+wird nur der erste Autor genannt, die restlichen Autoren werden durch den Zusatz „et al.“ (et
+alii/aliae) erfasst.
+Die Auflagenzahl muss zwingend angegeben werden, jedoch erst ab Erscheinen einer zweiten Auf-
+lage.
+Bei mehreren Verlagsorten wird generell nur der erste mit dem Zusatz „u. a.“ erfasst. Falls ein Ver-
+fassername nicht angegeben ist, wird „o. V.“ (ohne Verfasserangabe) eingefügt. Ersatzweise kann
+der Name der Institution, wie zum Beispiel bei Internetquellen „Bundesamt für Sicherheit in der In-
+formationstechnik“ oder „Bitkom e.V.“, verwendet werden. Den Verlagsort anzugeben ist Pflicht, der
+Verlagsname kann angegeben werden. Wenig bekannte ausländische Verlagsorte werden mit dem
+Land in Klammern bezeichnet.
+2.3.2 Quellenangaben bei Büchern
+Nachname, Initiale des Verfassers (Erscheinungsjahr). Buchtitel, Auflage, Verlagsort, Verlag.
+doi/URL
+Heesen, B. (2021) Wissenschaftliches Arbeiten – Methodenwissen für Wirtschafts-, Ingenieur- und
+Sozialwissenschaftler, 4. akt. Aufl., Berlin u.a., Springer.
+5 / 12
+Müller, J. (2021). One- and two-stage traffic light detection and attribute classification using convolu-
+tional neural networks. Dissertation. Universität Ulm.
+Dohmen, Daniela (2023): Berufliche Entwicklungserwartungen älterer Führungskräfte im Transforma-
+tionsprozess eines Unternehmens: Eine empirische Untersuchung innerhalb der Finanzwirtschaft.
+Wiesbaden: Springer Fachmedien Wiesbaden GmbH - Springer Gabler. Zugl. Dissertation Universität
+Erlangen-Nürnberg, 2022
+2.3.3 Quellenangaben bei Artikeln aus einem Sammelband
+Nachname, Initiale des Verfassers. (Erscheinungsjahr). Titel des Kapitels. In Nachname, Initial des
+Herausgebers (Hrsg.), Titel des Sammelwerks, Volume- und/oder Seitennummern. Verlagsort,
+Verlag. doi/URL
+Beyer, A. (2021). Cybersecurity in der unternehmerischen Praxis des Mittelstandes. In Bittner, M.-P.
+et al. (Hrsg.), Cybersecurity als Unternehmensleitungsaufgabe, S. 127-154. Baden-Baden, Nomos
+Verlagsgesellschaft mbH & Co. KG.
+2.3.4 Quellenangaben bei Artikeln in Zeitschriften
+Nachname, Initiale des Verfassers (Erscheinungsjahr). Titel des Artikels. Titel der Zeitschrift, Aus-
+gabe (Nummer), S.-S. doi/URL
+Sabale, R. G.; Dani, A. R. (2012). Comparative study of prototype model for software engineering
+with system development life cycle. IOSR Journal of Engineering, 2(7), S. 21-24.
+„Volume“ (im Beispiel oben die Zahl „2“) beschreibt, um die wievielte periodische Ausgabe es sich
+handelt. „Issue“ (im Beispiel oben die Zahl „7“) beschreibt um die wievielte Ausgabe innerhalb der
+periodischen Ausgabe es sich handelt. Wenn die Zeitschrift keine „Issue“ zuordnet, muss diese
+Information nicht aufgeführt werden.
+2.3.5 Quellenangaben bei Internetveröffentlichungen
+Nachname, Initiale des Verfassers (Erscheinungsjahr). Titel des Beitrags. Online im Internet, kom-
+plette URL mit Veröffentlichungsdatum (falls angegeben), Abfrage v. „Datum“
+Rohleder, B., Meinel, T. (2022). Die Digitalisierung der Landwirtschaft. Online im Internet,
+https://www.bitkom.org/sites/main/files/2022-05/Bitkom-Charts%20Landwirtschaft.pdf, Abfrage v.
+25.04.2023
+OECD (2020), "Building digital workforce capacity and skills for data-intensive science", OECD
+Science, Technology and Industry Policy Papers, No. 90, Paris, OECD Publishing. Online im Inter-
+net, https://www.oecd-ilibrary.org/science-and-technology/building-digital-workforce-capacity-and-
+skills-for-data-intensive-science_e08aa3bb-en, Abfrage v. 25.04.2023
+Quellen aus dem Internet sollten gespeichert werden (im pdf-Format, html-Format oder als
+Screenshot), so dass diese auch nach einer möglichen Löschung nachgewiesen werden können.
+2.3.6 Quellenangaben bei unternehmensinternem Material
+Firma, ggf. Abteilung oder Verfasser (Erscheinungsjahr). Titel. Erstellungsdatum.
+DHBW (2022). Qualitätshandbuch der DHBW.
+Unternehmensinterne Materialien sind zum Beispiel Projektberichte, Verfahrensanweisungen oder
+Daten.
+6 / 12
+2.3.7 Quellenangaben bei Normen
+Hinweis: Bei bestimmten Informationsquellen oder bei Werken, die aus einer Kooperation vieler
+Beteiligter entstanden sind, ohne dass es einen herausgehobenen Autor gibt, ist es sinnvoll, den
+Titel des Werkes an erster Stelle zu nennen. Ein Beispiel für einen solchen Fall stellt die Zitierung
+von Normen dar.
+Normbezeichnung (Jahr). Titel der Norm. Verlagsort: Herausgeber.
+DIN EN ISO 9001:2015 (2015). Qualitätsmanagementsysteme – Anforderungen. Genf, Schweiz:
+ISO.
+3. Zitierweise im Text
+Eine wörtliche oder auch sinngemäß übernommene Stelle aus einem anderen Text stellt ein Zitat
+dar. Zitate müssen immer als solche gekennzeichnet werden und damit nachprüfbar sein. Einwand-
+freies Zitieren ist die Basis wissenschaftlichen Arbeitens. Bei Quellenverwendungen ohne Zitat kann
+die wissenschaftliche Arbeit auch nachträglich als „nicht ausreichend“ und als Täuschungsversuch
+gewertet werden.
+Die Zitierweise ist so gestaltet, dass der Leser eindeutig auf eine im Literaturverzeichnis aufgeführte
+Quelle verwiesen wird. Häufig wird die Kurzzitierweise gewählt, entweder in Form der Harvard-
+Methode oder in Fußnoten. Die Syntax der Kurzzitierweise ist: „Nachname (Jahr), Seitenangabe“,
+z.B. „Qamar; Raza (2020) S. 81-83)“. Bei der Harvard-Methode folgen diese Angaben unmittelbar
+im laufenden Text im Anschluss an das Zitat in Klammern. Bei der Fußnotenzitierweise erfolgen
+diese Angaben in Form von Fußnoten unterhalb des Textes auf derselben Seite.
+Wird ein Abschnitt durch mehrere Literaturquellen belegt, werden diese durch ein Semikolon vonei-
+nander getrennt, zum Beispiel: „Qamar; Raza (2020) S. 81-83; Mount; Zummel (2019), S. 55“. Fuß-
+notentexte enthalten Quellenverweise sowie gegebenenfalls Erläuterungen. Am Ende einer Fußnote
+ist ein Punkt zu setzen.
+Sinngemäße Entnahmen (indirekte Zitate) in eigener Formulierung werden nicht in Anführungszei-
+chen gesetzt. Auch diese Quellen sind exakt zu belegen. Beim Quellenbeleg wird „vgl.“ (für „verglei-
+che“) vorangestellt.
+Wörtliche Zitate (direkte Zitate) werden mit Anführungszeichen („.....“) kenntlich gemacht und müs-
+sen immer wörtlich angeführt werden, d.h. es muss genau auf die Interpunktion und Schreibung
+geachtet werden. Auslassungen sind mit drei Punkten („…“) zu kennzeichnen. Es wird nur dann
+wörtlich zitiert, wenn es auf den Wortlaut ankommt. Bei wörtlichen Zitaten steht kein „vgl.“.
+Bei allen Formen des Zitats muss die genaue Fundstelle mit Seitenzahlen von Anfang bis Ende der
+herangezogenen Stelle angegeben werden (z.B. „S. 81–85“).
+Quellennachweise für Tabellen und Abbildungen erfolgen, entsprechend den Text-Zitaten, entweder
+nach Harvard-Methode oder in Form von Fußnoten.
+Auch Zitate und Angaben, die aus unternehmensinternem oder selbst erarbeiteten Material, wie
+Interviews, entnommen wurden, müssen mit einer Quellenangabe versehen werden.
+7 / 12
+Internetquellen werden bei der Kurzzitierweise wie alle Quellen mit Nachname, Jahr und Seitenan-
+gabe verwendet. Kann keine Seite angegeben werden (z.B. bei einer Hompage eines Unterneh-
+mens), wird dies durch „o.S.“ (ohne Seitenangabe) kenntlich gemacht. Die URL wird nur im Litera-
+turverzeichnis erfasst, zum Beispiel „Duale Hochschule Baden-Württemberg Heidenheim 2023,
+o.S.“.
+4. Ehrenwörtliche Erklärung
+Die Arbeit muss die Erklärung enthalten, dass sie selbständig verfasst wurde:
+Ehrenwörtliche Erklärung
+Ich versichere hiermit, dass ich meine <Projektarbeit | Seminararbeit | Bachelor-Arbeit>
+mit dem Titel
+<Titel der Arbeit>
+selbständig verfasst und keine anderen als die angegebenen Quellen und erlaubten
+Hilfsmittel benutzt habe. Alle wörtlichen Zitate in der Arbeit wurden durch Anführungs-
+zeichen eindeutig gekennzeichnet. Die Arbeit wurde in gleicher oder ähnlicher Form bei
+keiner anderen Prüfung vorgelegt. Die elektronische Fassung stimmt mit der gedruckten
+Fassung überein.
+Der Textteil der Arbeit umfasst <Anzahl Wörter> Wörter.
+<Ort>, <Datum>
+<Unterschrift>
+Wissenschaftliche Arbeiten der DHBW Heidenheim sind vertraulich. Soll eine wissenschaftliche
+Arbeit Dritten zugänglich gemacht werden, so ist eine explizite Genehmigung von Autor und be-
+darfsweise Ausbildungsbetrieb einzuholen.
+8 / 12
+5. Titelblatt (Muster)
+Wirtschaftlichkeitsanalyse des Einsatzes
+von Kokoli-Techniken in der Leuchtenproduktion
+am Beispiel der H & L Allzweckleuchten GmbH
+Bachelor-Arbeit
+an der Dualen Hochschule Baden-Württemberg Heidenheim
+in der Fakultät Wirtschaft
+im Studiengang Wirtschaftsinformatik
+eingereicht von
+Gitti Nimmermüd
+Großer Durchblick 13
+70707 Trübsee an der Neitze
+Ausbildungsbetrieb: H & L Allzweckleuchten GmbH
+76567 Nebelbank
+Semester 2020/6
+Abgabedatum: 25.06.2023
+Betriebliche Betreuung Max Mustermann
+Wissenschaftliche Betreuung Erika Müller
+9 / 12
+Anlage 1: Eignung von Projektarbeitsthemen
+In einer Projektarbeit soll der Studierende zeigen, dass er in der Lage ist, Erkenntnisse der Wirt-
+schaftsinformatik auf ein praktisches Problem im Ausbildungsunternehmen anzuwenden und damit
+zu dessen Lösung beizutragen. Die Projektarbeit stellt eine wissenschaftliche Arbeit dar. Sie ist kein
+Tätigkeitsbericht über die Praxisphase. Eine wissenschaftliche Arbeit generalisiert typische betriebli-
+che Sachverhalte und erarbeitet als Ergebnis eigene Lösungsansätze oder begründet die Auswahl
+und Anpassung eines existierenden Lösungsansatzes. Die Lösungsansätze sind prinzipiell auch auf
+ähnlich gelagerte Problemstellungen angewandt werden können. Es können auch Umsetzungshin-
+weise in die betriebliche Praxis (Vorgehensmodell, Checkliste, etc.) erarbeitet werden.
+Damit die Anforderungen an eine wissenschaftliche Arbeit erfüllt werden können und der Studieren-
+de auch seine Fähigkeiten zeigen kann, muss das ausgewählte Projektarbeitsthema bestimmte
+Merkmale erfüllen:
+- Das Thema besitzt eine Problemstellung mit informationstechnischen oder betriebswirt-
+schaftlichen Aspekten.
+- Aus der Problemstellung lässt sich eine Zielsetzung für die schriftliche Arbeit entwickeln.
+- Das Thema wird in der Wissenschaft diskutiert oder erlaubt die Anwendung einer Theorie
+auf ein praktisches Fallbeispiel, das die Falsifikation der Theorie erlaubt.
+- Das Thema besitzt genügend inhaltliche Substanz, so dass eine informationstechnische
+oder betriebswirtschaftliche Analyse durchgeführt werden kann.
+- Das Thema lässt die Diskussion verschiedener Lösungsalternativen zu.
+Das Thema wird von dem Studierenden in Absprache mit dem Ausbildungsbetrieb gewählt und for-
+muliert. Dabei ist zu beachten, dass die zweite Projektarbeit zu präsentieren ist. Bei Auswahl und
+Formulierung des Themas kann die wissenschaftliche Betreuung beratend mitwirken. Die Studien-
+gangsleitung prüft und genehmigt die Themeneinreichung.
+Wann ist eine Projektarbeit wissenschaftlich?
+Eine Projektarbeit ist wissenschaftlich, wenn…
+- sie einen erkennbaren Gegenstand behandelt, der so genau umrissen ist, dass er auch für
+Dritte erkennbar ist.
+- sie über einen Gegenstand Dinge sagt, die noch nicht gesagt worden sind, oder sie Dinge,
+die schon gesagt worden sind, in einen neuen Blickwinkel stellt.
+- der Nutzen für andere erkennbar ist.
+- die Arbeit Angaben enthält, die es ermöglichen die aufgestellten Hypothesen nachzuprüfen.
+- die Arbeit die intensive Auseinandersetzung mit fremdem Gedankengut erkennen lässt, Be-
+züge herstellt, Begriffe und Definitionen diskutiert, eigene Perspektiven herausarbeitet und
+diskutiert.
+- die Argumentation ausführlich ist und Tiefe besitzt.
+Grundsätzlich soll jede/r Studierende ein Thema allein bearbeiten. In besonderen Ausnahmefällen
+kann aber auch ein Thema von mehreren Studierenden gemeinsam bearbeitet werden. Dazu bedarf
+es der schriftlichen Zustimmung der Studiengangsleitung, die in Abstimmung mit der wissenschaftli-
+chen Betreuung die genauen Bedingungen für eine Gemeinschaftsarbeit regelt. Die Arbeiten sind
+10 / 12
+auf jeden Fall so zu gestalten, dass die Leistung jedes Studierenden gesondert bewertet werden
+kann.
+Beispiele für nicht geeignete Themen:
+Thema Mängel
+Erstellung einer Webseite Keine Problemstellung erkennbar, keine Möglichkeit der in-
+formationstechnischen oder betriebswirtschaftlichen Analyse
+und Diskussion, keine inhaltliche Substanz, reine Fleißarbeit,
+Thema trivial
+Reine Implementierung von Schwierigkeit, eine informationstechnische oder betriebswirt-
+Software oder Prototypen schaftliche Analyse und Diskussion durchzuführen, Gefahr
+der reinen Beschreibung der (technischen) Vorgehensweise
+Künstliche Intelligenz Thema zu wenig umrissen, kann auf der begrenzten Zahl von
+Seiten nicht dargestellt werden
+Unter Umständen lässt sich aus einem an sich nicht geeigneten Thema ein Geeignetes machen,
+indem man es weiter bzw. enger fasst.
+Beispiel 1: Eine reine Prozessbeschreibung, die für ein Handbuch vorgenommen werden soll, ist an
+sich nicht projektarbeitsgeeignet. Ein geeignetes Thema kann aber daraus entstehen, wenn der
+Studierende eine Prozessanalyse mit dem Ziel einer Prozessoptimierung (Zeitersparnis, Kostenre-
+duktion, etc.) durchführen soll und sich daraus eine entsprechende Prozessdefinition ableitet, die
+dann für das Handbuch erläutert wird.
+Beispiel 2: Das breite Thema "Künstliche Intelligenz" sollte enger gefasst werden, indem ein spezifi-
+scher Aspekt oder Anwendungsbereich ausgewählt wird. Beispielsweise könnte ein Thema lauten
+«Automatisierung von Kundeninteraktionen mit KI: Analyse von Chatbot-Technologien im Hinblick
+auf die Akzeptanz im Kunden-Support am Beispiel des Unternehmens xy».
+11 / 12
+Anlage 2: Kurzfassung
+Zu jeder wissenschaftlichen Arbeit (Projekt-, und Bachelor-Arbeit) ist eine 1-seitige Kurzfassung
+anzufertigen. Die Kurzfassung wird nur in elektronischer Form (Word-/tex- und pdf-Datei) auf der
+Lernplattform Moodle hochgeladen. Die Abgabe der Arbeit ist nur dann vollständig, wenn die Kurz-
+fassung beigefügt ist. Die Kurzfassung enthält folgende Informationen:
+- Name, Studienjahrgang des Studierenden – Ausbildungsbetrieb,
+- Titel der Arbeit – wissenschaftliche Betreuung
+Inhaltlich geht die Kurzfassung knapp, strukturiert und ergebnisorientiert (nicht in Stichworten) ein
+auf
+- Problemstellung und Zielsetzung,
+- gewählte Vorgehensweise,
+- Ergebnisse.
+Die Kurzfassung umfasst eine Seite und wird den Mitgliedern des Prüfungsausschusses der Präsen-
+tation der 2. Projektarbeit und der mündlichen Prüfung des dritten Studienjahres zur Vorbereitung
+auf die Prüfung zur Verfügung gestellt und kann als Diskussionsgrundlage dienen.
+12 / 12

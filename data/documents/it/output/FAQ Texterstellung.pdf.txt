@@ -1,0 +1,63 @@
+Aufstellung häufiger und ärgerlicher Fehler bei der Texterstellung bei der T2000
+ Generelles:
+ Inhaltliche Aspekte der Reflexionsberichte haben in der Arbeit nichts verloren.
+Abschnitte wie "Verknüpfung von Theorie und Praxis" oder "Vorlesungsbezug"
+(obwohl es anders in den Leitlinien steht) gehören in den Reflexionsbericht und
+nicht in den Projektbericht.
+ Deckblatt: Dipl.-Ing. mit Bindestrich!
+Zum Zitieren und zum Literturverzeichnis:
+ Das Literaturverzeichnis ist kein nummeriertes Kapitel.
+ Zitierweise ist nicht in Ordnung! - Vollständige Quellenangaben gehören ins
+Literaturverzeichnis und nicht in die Fußnote!
+ URLs gehören nicht in Fußnoten, sondern ins Literaturverzeichnis
+ Die Unterscheidung zwischen Quellenverzeichnis und Literaturverzeichnis ist
+Quatsch!
+ Zitiermarken wie "1)" sind falsch!
+ Literaturverzeichnis: Wo sind die Zitiermarken??? Wo wird Literatur im Text
+bezogen???
+ Literaturverzeichnis als Tabelle ist unüblich! Literaturverzeichnis formal
+inkorrekt!
+ Literaturverzeichnis: Anlehnungsintensitäten wie "vgl." gehören an das Zitat und
+haben im Literaturverzeichnis nichts verloren
+Absätze und Textausformung:
+ Sie machen zu häufig Absätze! - Absätze enthalten normalerweise wesentlich
+mehr als einen Satz. So wie in 1.1. ist das ein NoGo!!! Absätze immer dann, wenn
+ein neuer Gedanke beginnt.
+ Ab und zu fangen Absätze an wie "Zudem...." oder "Aus diesem...." Verdeutlicht
+wird dies...." - Das sind kohäsive Elemente, die den Satz an den vorangehenden
+Satz binden und wo sich dadurch ein Absatz eigentlich genau verbietet. Absatz
+immer nur dann, wenn ein neuer Gedanke kommt.
+ Neue Absätze beginnen niemals mit Worten wie: "Außerdem....", "Somit..." oder
+"Deswegen...."
+Gliederung:
+ Das erste Kapitel heißt z.B. "Einführung" o.ä. aber niemals "Vorwort"! - Ein
+Vorwort ist was anderes als eine Einleitung und ist in akademischen Arbeiten
+unüblich.
+ Bitte generell kein Vorwort in der Art: "....Ich bedanke mich bei meinem Betreuer,
+Herr.... "
+ Abkürzungsverzeichnis als Kapitel 1 und Einführung als Kapitel 2 ist ziemlich
+merkwürdig!!!
+ Abschnitt 1.1: - Bei nur einem Abschnitt ist es fragwürdig, das Kapitel überhaupt
+in Abschnitte zu gliedern.
+ Es finden sich zweierlei Arten von Absätzen: Mit Leerzeile und ohne Leerzeile...
+Dies ist ein NoGo!
+ Warum sind Überschriften im Text eingerückt???
+ Die Arbeit ist mit 5 Gliederungsebenen viel zu tief gegliedert. Das ist übertrieben
+und zwei Ebenen sollten ausreichen!
+ Warum gibt es bunte Überschriften?
+ Das Pflichtenheft kann nicht Teil der Ausarbeitung sein. In so einem Fall setzt
+man dieses in den Anhang, um den Charakter eines separaten Werks zu
+betonen.
+ Vermeiden Sie diese riesigen und bunten Überschriften. Das soll ein
+wissenschaftlicher Text sein und keine Werbebroschüre!
+ Verwirrend: Einem Satz wie "The system trace tool consists of two components."
+sollte eine Bullet-Liste folgen und kein Prosatext.
+ Warum bringen Sie die Überschrift nochmals auf Seite 1 ??? - Das ist doch
+kappes!
+Konventionen der Textsorte:
+ Sie schreiben in der Ich-Form. Das ist ein absolutes No-Go!!!!
+ Immer sachlich bleiben: Auch persönliche Anmerkungen wie im letzten Absatz
+haben in der Ausarbeitung nichts verloren. So etwas kann allenfalls in einem
+"Preface" gemacht werden.
+ Sie haben ein Vorwort, das aber keine persönliche Perspektive hat. Inhaltlich
+gehört es daher in die Einführung nach Kapitel 1 !!!

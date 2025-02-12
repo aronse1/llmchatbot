@@ -1,0 +1,327 @@
+
+{
+    "question": "Wer ist für die Betreuung der Projektarbeit zuständig?",
+    "context": "Studienakademie benennt eine wissenschaftlich qualifizierte Prüferin oder einen wissenschaftlich qualifizierten Prüfer. Diese Person muss entweder eine fachlich und wissenschaftlich ausgewiesene Vertreterin oder Vertreter der Praxis, eine Professorin oder Professor oder akademische Mitarbeiterin oder akademischer Mitarbeiter einer Hochschule sein.",
+    "answer": "Für die Betreuung der Projektarbeit ist eine wissenschaftlich qualifizierte Prüferin oder ein Prüfer zuständig, die bzw. der eine ausgewiesene Vertreterin bzw. ein Vertreter der Praxis, eine Professorin oder Professor oder ein akademischer Mitarbeiter einer Hochschule sein muss."
+}
+{
+    "question": "Wer betreut die Studierenden bei der Durchführung der Projektarbeiten?",
+    "context": "Die betriebliche Betreuerin bzw. der betriebliche Betreuer gehört in der Regel dem Dualen Partner an, in dem die Projektarbeiten erstellt werden.",
+    "answer": "Die betriebliche Betreuerin bzw. der betriebliche Betreuer des Dualen Partners betreut die Studierenden bei der Durchführung der Projektarbeiten."
+}
+{
+    "question": "Welche zusätzlichen Unterstützung bieten die Dozentinnen und Dozenten der DHBW?",
+    "context": "Die haupt- und nebenberuflichen Dozentinnen und Dozenten der DHBW stehen insbesondere für die wissenschaftlichen Aspekte zur Verfügung.",
+    "answer": "Die Dozentinnen und Dozenten der DHBW stehen für die wissenschaftlichen Aspekte der Projektarbeiten zur Verfügung."
+}
+{
+    "question": "In welchen Sprachen können die Projektarbeiten erstellt werden?",
+    "context": "Die Projektarbeiten können in Deutsch oder einer Fremdsprache erstellt werden. Die Fremdsprache ist zu Beginn des Moduls durch die Studienakademie festzulegen.",
+    "answer": "Die Projektarbeiten können in Deutsch oder einer festgelegten Fremdsprache erstellt werden."
+}
+{
+    "question": "Wie erfolgt die Benotung der Module?",
+    "context": "Die Bewertung der Module erfolgt nach Maßgabe der Studien- und Prüfungsordnung DHBW Technik mit einer Note, die mit einer Dezimalstelle angegeben wird.",
+    "answer": "Die Benotung der Module erfolgt nach Maßgabe der Studien- und Prüfungsordnung der DHBW Technik, meist mit einer Note, die eine Dezimalstelle hat."
+}
+
+
+{
+    "question": "Wie finde ich ein Thema für meine Projektarbeit und wie melde ich es an?",
+    "context": "Ausgehend von einer gegebenen Problemstellung muss das Ziel der Projektarbeit klar definiert werden. Aus der Beschreibung des geplanten Vorgehens muss darüber hinaus der Eigenanteil der Studierenden am Projekt eindeutig erkennbar sein. Die auf diese Weise definierte Aufgabenstellung wird der zuständigen Studiengangsleitung vorgelegt. Diese prüft und genehmigt das Thema und erteilt die endgültige Freigabe. Die Projektarbeiten werden beim Dualen Partner durchgeführt.",
+    "answer": "Das Thema für die Projektarbeit sollte aus einer gegebenen Problemstellung abgeleitet werden, wobei das Ziel klar definiert und der Eigenanteil der Studierenden erkennbar sein muss. Die Aufgabenstellung wird der Studiengangsleitung vorgelegt, die sie prüft und genehmigt."
+},
+{
+    "question": "Welche Formalien sind bei der Anmeldung der Projektarbeit zu beachten?",
+    "context": "Die bei der Anmeldung einzuhaltenden Formalien werden rechtzeitig vom Studiengang mitgeteilt. Alle Formulare finden sich unter http://www.dhbw.de/die-dhbw/dokumente.html#Dokumente_Technik.",
+    "answer": "Die spezifischen Formalien für die Anmeldung der Projektarbeit werden vom Studiengang rechtzeitig mitgeteilt. Alle erforderlichen Formulare sind verfügbar unter http://www.dhbw.de/die-dhbw/dokumente.html#Dokumente_Technik."
+},
+{
+    "question": "Welche Anforderungen muss die Dokumentation der Projektarbeit erfüllen?",
+    "context": "Die Projektarbeit(en) dokumentieren Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert. Sie weisen nach, dass die Studierenden die Verbindung von Praxis zu Theorie herstellen können. Sie genügen in Inhalt, Form und Sprache einer wissenschaftlichen Arbeit. Gendergerechte Sprache ist zu beachten.",
+    "answer": "Die Dokumentation der Projektarbeit muss die Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert festhalten. Sie muss die Verbindung zwischen Praxis und Theorie nachweisen und in Inhalt, Form und Sprache den wissenschaftlichen Standards entsprechen, wobei gendergerechte Sprache verwendet werden soll."
+},
+{
+    "question": "Wie umfangreich sollte eine Projektarbeit sein?",
+    "context": "Die Projektarbeit(en) sollten bei zwei Arbeiten jeweils 25 – 35 Seiten bzw. bei einer Arbeit 50 – 70 Seiten umfassen (ohne Verzeichnisse und Anhänge).",
+    "answer": "Die Projektarbeit sollte bei zwei Arbeiten jeweils 25–35 Seiten und bei einer Arbeit 50–70 Seiten umfassen, exklusive Verzeichnisse und Anhänge. Dies sind jedoch grobe Richtwerte."
+},
+{
+    "question": "Kann der Umfang einer Projektarbeit angepasst werden?",
+    "context": "Bitte beachten: Die Umfangsangaben für eine Arbeit sind grobe Richtwerte, keinesfalls soll eine gute Arbeit aufgrund dieser Richtwerte mit Füllmaterial gestreckt oder durch Löschen von qualifizierten Inhalten gekürzt werden.",
+    "answer": "Ja, der Umfang kann angepasst werden. Die Umfangsangaben sind nur grobe Richtwerte. Eine gute Arbeit sollte nicht gestreckt oder gekürzt werden, um diese zu erfüllen, sondern der Qualität der Inhalte Vorrang gegeben werden."
+}
+
+
+{
+    "question": "Wie erfolgt die Bewertung der Hausarbeit an der Studienakademie?",
+    "context": "Studienakademie einzureichen. Eine Empfangsbestätigung wird nicht ausgestellt. Bei Bedarf ist die Form des Einschreibens zu wählen. Maßgeblich für die fristgerechte Abgabe bei Postversand ist das Datum des Poststempels. Die Hausarbeit wird mit „bestanden“ oder „nicht bestanden“ bewertet.",
+    "answer": "Die Hausarbeit wird mit ‚bestanden‘ oder ‚nicht bestanden‘ bewertet."
+},
+{
+    "question": "Was sind die Anforderungen und Abläufe für die Modul Studienarbeit (T3_3100 bzw. T3_3200)?",
+    "context": "6 Modul Studienarbeit (T3_3100 bzw. T3_3200 in 5./6. Theoriephase) 6.1 Anforderungen und Ablauf Während der fünften und/oder sechsten Theoriephase sollen die Studierenden eigenständig wissenschaftliche Arbeiten anfertigen. Dadurch sollen sie die im entsprechenden Modul genannten Lernziele erreichen und die entsprechenden Kompetenzen erwerben. Die Themen der Studienarbeiten werden von der DHBW gestellt, Themenvorschläge durch den Dualen Partner oder nebenberufliche Dozentinnen bzw. Dozenten sind willkommen. Die Aufgabenstellungen orientieren sich dabei an den Studienplänen der Studiengänge. Die Studienakademie führt die Vergabe der Themen an die Studierenden durch.",
+    "answer": "Während der fünften und/oder sechsten Theoriephase sollen die Studierenden eigenständig wissenschaftliche Arbeiten anfertigen. Die Themen werden von der DHBW gestellt, aber auch Vorschläge vom Dualen Partner oder Dozenten sind willkommen. Die Aufgaben orientieren sich an den Studienplänen."
+},
+{
+    "question": "Worauf liegt der Fokus bei der Erstellung der Studienarbeit?",
+    "context": "Im Rahmen der Studienarbeit soll für die Studierenden neben der fachlichen Auseinandersetzung mit dem gestellten Thema insbesondere das eigenverantwortliche Einarbeiten in eine neue Themenstellung, das Suchen und Auswerten geeigneter Informationen, die Verknüpfung zugrundeliegender theoretischer Überlegungen mit den praktischen Gegebenheiten und die wissenschaftlich korrekte Darstellung und Aufbereitung ihrer Ergebnisse im Vordergrund stehen.",
+    "answer": "Der Fokus liegt auf dem eigenverantwortlichen Einarbeiten in eine neue Themenstellung, dem Suchen und Auswerten von Informationen, der Verknüpfung von Theorie und Praxis, sowie der korrekten wissenschaftlichen Darstellung der Ergebnisse."
+},
+{
+    "question": "Wer betreut die Studienarbeiten und wie erfolgt die Betreuung?",
+    "context": "6.2 Betreuung Jede Studienarbeit wird von einem haupt- oder nebenberuflichen Mitglied des Lehrkörpers individuell betreut. Die Betreuerinnen und Betreuer werden durch Besprechungen regelmäßig über Stand und Entwicklung und weiteren Ablauf der Arbeit informiert.",
+    "answer": "Jede Studienarbeit wird von einem haupt- oder nebenberuflichen Mitglied des Lehrkörpers individuell betreut. Die Betreuung erfolgt durch regelmäßige Besprechungen über den Stand und den weiteren Ablauf der Arbeit."
+},
+{
+    "question": "Wie erfolgt die Dokumentation des Moduls Studienarbeit?",
+    "context": "6.3 Dokumentation Die Dokumentation des Moduls erfolgt durch schriftlich ausgearbeitete Studienarbeiten. Diese dokumentieren Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert.",
+    "answer": "Die Dokumentation erfolgt durch schriftlich ausgearbeitete Studienarbeiten, die Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert darstellen."
+}
+
+
+{
+    "question": "Was ist eine gründliche Aufarbeitung der theoretischen Hintergründe einer Themenstellung?",
+    "context": "zeigen eine gründliche Aufarbeitung der theoretischen Hintergründe der Themenstellung. Dies beinhaltet vor allem eine entsprechende Literaturrecherche und Diskussion und die Auswahl geeigneter Lösungsansätze für die konkrete Fragestellung der Arbeit, weisen nach, dass die Studierenden die Verbindung von Praxis zu Theorie herstellen und dazu sowohl akademische Themen in betrieblichen Prozessen wiederfinden als auch betriebliche Praxis vor dem Hintergrund von Wissenschaft und Forschung einordnen können, genügen in Inhalt, Form und Sprache einer wissenschaftlichen Arbeit.",
+    "answer": "Eine gründliche Aufarbeitung der theoretischen Hintergründe einer Themenstellung beinhaltet eine umfangreiche Literaturrecherche und Diskussion sowie die Auswahl geeigneter Lösungsansätze für die spezifische Fragestellung. Sie zeigt auch, wie Studierende die Verbindung zwischen Praxis und Theorie herstellen und betriebliche Prozesse im Kontext von Wissenschaft und Forschung einordnen können."
+},
+{
+    "question": "Welcher Umfang wird für Studienarbeiten empfohlen?",
+    "context": "Die Studienarbeiten sollten jeweils 40 – 70 Seiten umfassen (ohne Verzeichnisse und Anhänge).",
+    "answer": "Der empfohlene Umfang für Studienarbeiten liegt zwischen 40 und 70 Seiten, exklusiv Verzeichnisse und Anhänge."
+},
+{
+    "question": "Wie viele Arbeitsstunden sind für die Bearbeitung einer Studienarbeit vorgesehen?",
+    "context": "Der Zeitaufwand für die Bearbeitung der Themenstellung einer Studienarbeit und die Dokumentation der Ergebnisse sollte in der Größenordnung von 150 Arbeitsstunden (5 ECTS) bzw. 300 Arbeitsstunden (10 ECTS) liegen.",
+    "answer": "Für die Bearbeitung einer Studienarbeit sind zwischen 150 Arbeitsstunden (5 ECTS) und 300 Arbeitsstunden (10 ECTS) vorgesehen."
+},
+{
+    "question": "In welchen Theoriephasen erfolgt die Bearbeitung der Studienarbeiten?",
+    "context": "Die Bearbeitung der Studienarbeiten erfolgt in der fünften und/oder sechsten Theoriephase.",
+    "answer": "Die Bearbeitung der Studienarbeiten findet in der fünften und/oder sechsten Theoriephase statt."
+},
+{
+    "question": "Wie erfolgt die Abgabe der Studienarbeit?",
+    "context": "Die Arbeiten können per Post eingesandt werden. Die Arbeiten sind jeweils einmal in gedruckter Ausfertigung und einmal in elektronischer Form (Textdatei und gegebenenfalls weiterer digitaler Anlagen) bei der Studienakademie einzureichen.",
+    "answer": "Die Studienarbeit muss sowohl in gedruckter Form als auch elektronisch als Textdatei (und möglicherweise anderen digitalen Unterlagen) bei der Studienakademie eingereicht werden."
+}
+
+
+{
+    "question": "Welche Elemente sollte der Titel einer Bachelorarbeit vermeiden?",
+    "context": "Firmennamen: Der Titel sollte keine Produkt- und Firmennamen enthalten, da diese die Allgemeinverständlichkeit reduzieren und das Thema einschränken. Abkürzungen: Der Titel sollte keine Abkürzungen enthalten; Ausnahmen sind dabei allgemeinverständliche Abkürzungen für Technologien und Verfahren (z.B. CAD, RFID oder IFRS)",
+    "answer": "Der Titel einer Bachelorarbeit sollte keine Produkt- und Firmennamen sowie keine Abkürzungen enthalten, es sei denn, es handelt sich um allgemeinverständliche Abkürzungen für Technologien und Verfahren."
+},
+{
+    "question": "Warum sollte der Titel der Bachelorarbeit verständlich bleiben?",
+    "context": "Der Titel der Bachelorarbeit wird im Abschlusszeugnis aufgenommen, deshalb sollte ein Titel entwickelt werden, der noch in vielen Jahren verständlich und nachvollziehbar ist.",
+    "answer": "Der Titel der Bachelorarbeit sollte verständlich und nachvollziehbar bleiben, da er im Abschlusszeugnis aufgenommen wird und auch in vielen Jahren noch verständlich sein sollte."
+},
+{
+    "question": "Welche Anforderungen gibt es an die Dokumentation der Bachelorarbeit?",
+    "context": "Die schriftliche Dokumentation der Bachelorarbeit muss Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse detailliert dokumentieren, eine gründliche Aufarbeitung der theoretischen Hintergründe der Themenstellung zeigen, dass der Studierende die Verbindung von Praxis zu Theorie herstellen kann, und in Inhalt, Form und Sprache einer wissenschaftlichen Arbeit genügen.",
+    "answer": "Die Dokumentation der Bachelorarbeit muss detailliert die Aufgabenstellung, Herangehensweise, Lösungsvorschläge und Ergebnisse umfassen, theoretische Hintergründe gründlich aufbereiten und die Verbindung von Praxis zu Theorie aufzeigen. Zudem muss sie den Anforderungen an Inhalt, Form und Sprache einer wissenschaftlichen Arbeit genügen."
+},
+{
+    "question": "Warum sollten ausführliche Ableitungen nicht in die Ausarbeitung aufgenommen werden?",
+    "context": "Ausführliche Ableitungen, die in der Literatur nachgelesen werden können, gehören nicht in die Ausarbeitung.",
+    "answer": "Ausführliche Ableitungen sollten nicht in die Ausarbeitung aufgenommen werden, da sie in der Literatur nachgelesen werden können und die Darstellung sich auf das Wesentliche und Notwendige beschränken soll."
+},
+{
+    "question": "Was ist das Ziel der geordneten Darstellung und Diskussion in der Dokumentation?",
+    "context": "Die Dokumentation der Arbeit soll dabei eine geordnete Darstellung und Diskussion der angestellten Untersuchungen und Ergebnisse in knapper Form beinhalten, jedoch so ausführlich sein, dass eine Nachprüfung im Einzelnen möglich ist.",
+    "answer": "Das Ziel der geordneten Darstellung und Diskussion in der Dokumentation ist es, die Untersuchungen und Ergebnisse so darzustellen, dass sie nachvollziehbar und nachprüfbar sind, während sie dennoch in kompakter Form präsentiert werden."
+}
+
+
+{
+    "question": "Welche alternativen Zitierstile können für die Formatierung der Quellenangaben verwendet werden?",
+    "context": "9.1.4 Alternative Formate Alternativ zur beschriebenen Formatierung der Quellenangaben kann auch eins der folgenden Formate verwendet werden: ISO 690, APA, Harvard, Chicago, Turabian, IEEE oder MLA. Das gewählte Format ist einheitlich in der gesamten Arbeit einzuhalten.",
+    "answer": "Für die Formatierung der Quellenangaben können folgende Zitierstile verwendet werden: ISO 690, APA, Harvard, Chicago, Turabian, IEEE oder MLA."
+}
+{
+    "question": "Was ist sinngemäßes Zitieren und wie wird es gekennzeichnet?",
+    "context": "9.2.1 Sinngemäßes Zitieren Viel häufiger als wörtliche Zitate sollen in studentischen Arbeiten sinngemäße (indirekte) Zitate verwendet werden. Auch die sinngemäße Wiedergabe fremden geistigen Eigentums ist aber durch eine genaue Quellenangabe kenntlich zu machen. Es muss unmissverständlich erkennbar sein, dass es sich um die Wiedergabe fremder Gedanken handelt (z.B. Formulierung im Konjunktiv); auch der Umfang einer sinngemäßen Übernahme muss eindeutig erkennbar sein.",
+    "answer": "Sinngemäßes Zitieren ist das indirekte Wiedergeben von fremden Gedanken in eigenen Worten. Es muss klar durch eine genaue Quellenangabe gekennzeichnet sein, damit die Herkunft der Gedanken transparent bleibt."
+}
+{
+    "question": "Wie kann die Kennzeichnung von sinngemäßen Zitaten im Text erfolgen?",
+    "context": "Die Kennzeichnung kann wiederum auf zwei unterschiedliche Arten erfolgen. Entweder durch die Quellenangabe im Text gem. Kapitel 9.1.1 (hauptsächlich in naturwissenschaftlich-technischen Arbeiten zu finden) oder durch eine hochgestellte arabische Ziffer ggf. mit einer hinten angestellten Klammer „)“ für die Quellenangabe.",
+    "answer": "Die Kennzeichnung von sinngemäßen Zitaten im Text kann entweder durch eine direkte Quellenangabe im Text oder durch eine hochgestellte arabische Ziffer mit einer möglichen Klammer erfolgen."
+}
+{
+    "question": "Wann wird die Fußnotenziffer bei längeren sinngemäßen Zitaten gesetzt?",
+    "context": "Werden längere fremde Gedanken sinngemäß zitiert, kann die Fußnotenziffer auch zu Beginn der Entnahme (nach einem einleitenden Satz oder Halbsatz) stehen.",
+    "answer": "Bei längeren sinngemäßen Zitaten kann die Fußnotenziffer zu Beginn der Entnahme, nach einem einleitenden Satz oder Halbsatz, gesetzt werden."
+}
+{
+    "question": "Welche Zusätze können in einer Fußnote bei sinngemäßen Zitaten eingefügt werden?",
+    "context": "Bei sinngemäßem Zitieren wird in der Fußnote vor die Quellenangabe der Zusatz „Vergleiche“ in der Abkürzung „Vgl.“ eingefügt; im Text selbst entfallen die Anführungsstriche. Es sind aber auch andere erläuternde Zusätze in der Fußnote möglich, wie etwa „Vgl. dazu ebenso: ...“, „Vgl. dazu auch: ...“ oder „Vgl. dazu ausführlich: ...“. Diese Zusätze sind sinnvoll, wenn sie auf weitere Literaturquellen hinweisen.",
+    "answer": "In einer Fußnote bei sinngemäßen Zitaten kann der Zusatz „Vergleiche“ in der Abkürzung „Vgl.“ eingefügt werden. Weitere mögliche Zusätze sind „Vgl. dazu ebenso: ...“, „Vgl. dazu auch: ...“ oder „Vgl. dazu ausführlich: ...“."
+}
+
+
+{
+    "question": "Welche Kriterien kennzeichnen die Anforderungen an das Literaturverzeichnis?",
+    "context": "Die Anforderungen an das Literaturverzeichnis können durch folgende Kriterien gekennzeichnet werden: Richtigkeit (fehlerfreie Angaben); Vollständigkeit (alle Angaben, die zur Wiederauffindung benötigt werden); Einheitlichkeit (Beibehalten eines bestimmten Schemas); Übersichtlichkeit (z.B. Nennung der Autorinnen und Autoren in alphabetischer Reihenfolge ihres Familiennamens; eventuell 2-spaltige Darstellung).",
+    "answer": "Die Kriterien für ein Literaturverzeichnis sind Richtigkeit, Vollständigkeit, Einheitlichkeit und Übersichtlichkeit."
+},
+{
+    "question": "Wie sollten Autorennamen im Literaturverzeichnis angegeben werden?",
+    "context": "Vornamen der Verfasserinnen und Verfasser werden sinnvollerweise abgekürzt. Akademische Titel werden nicht angegeben.",
+    "answer": "Die Vornamen der Verfasser sollten abgekürzt werden und akademische Titel werden nicht angegeben."
+},
+{
+    "question": "Wie wird eine Quelle im Literaturverzeichnis behandelt, wenn kein Autor angegeben ist, aber ein Herausgeber erkennbar ist?",
+    "context": "Bei Quellen ohne Angabe von Verfasserin bzw. Verfasser, jedoch mit erkennbarer Herausgeberin bzw. erkennbarem Herausgeber, wird anstelle eines Namens von Autorin oder Autor die Herausgeberin bzw. der Herausgeber mit dem nachgestellten Zusatz “Hrsg.” (in Klammern) gesetzt.",
+    "answer": "Wenn kein Autor angegeben ist, wird der Herausgeber mit dem Zusatz 'Hrsg.' in Klammern angegeben."
+},
+{
+    "question": "Wie wird bei mehreren Autoren im Literaturverzeichnis verfahren?",
+    "context": "Bei mehreren Autorinnen bzw. Autoren (oder auch Herausgeberinnen bzw. Herausgebern) einer Quelle gilt: Hinweis “und” oder Schrägstrich “/” nach dem (abgekürzten) Vornamen der erstgenannten Autorin bzw. des erstgenannten Autors (bei 2 Autoren).",
+    "answer": "Bei mehreren Autoren wird der Hinweis 'und' oder '/' nach dem abgekürzten Vornamen des erstgenannten Autors verwendet."
+},
+{
+    "question": "Wie wird die alphabetische Ordnung im Literaturverzeichnis bei Herausgebern gehandhabt?",
+    "context": "Die alphabetische Ordnung erfolgt dabei nach dem Nachnamen der (erstgenannten) Herausgeberin bzw. des (erstgenannten) Herausgebers.",
+    "answer": "Die Ordnung erfolgt nach dem Nachnamen der erstgenannten Herausgeberin oder des Herausgebers."
+}
+
+{"question": "Wann kann eine kombinierte Prüfung wiederholt werden, wenn sie mit 'nicht bestanden' bewertet wurde?", 
+"context": "Wurde die Kombinierte Prüfung als unbenotete Prüfungsleistung erbracht und mit 'nicht bestanden' bewertet, kann sie einmal nach den Maßgaben des § 17 Absatz 3 wiederholt werden.",
+"answer": "Die kombinierte Prüfung kann nach den Maßgaben des § 17 Absatz 3 einmal wiederholt werden."}
+
+{"question": "Wie wird die zweite Wiederholung einer Prüfungsleistung durchgeführt?", 
+"context": "Die zweite Wiederholung wird als mündliche Prüfung durchgeführt und entscheidet nur noch über die Note 'ausreichend' (4,0) oder 'nicht ausreichend' (5,0) beziehungsweise über die Bewertung 'bestanden' oder 'nicht bestanden'.",
+"answer": "Die zweite Wiederholung wird als mündliche Prüfung durchgeführt und entscheidet über die Note 'ausreichend' (4,0) oder 'nicht ausreichend' (5,0) beziehungsweise über die Bewertung 'bestanden' oder 'nicht bestanden'."}
+
+{"question": "Wie oft darf eine zweite Wiederholungsprüfung pro Studienjahr durchgeführt werden?",
+"context": "Eine zweite Wiederholungsprüfung nach Absatz 6 ist pro Studienjahr in dem betreffenden Studiengang nur jeweils einmal möglich.",
+"answer": "Eine zweite Wiederholungsprüfung ist pro Studienjahr in dem betreffenden Studiengang nur jeweils einmal möglich."}
+
+{"question": "Wer führt die zweite Wiederholungsprüfung durch?",
+"context": "Die zweite Wiederholungsprüfung nach Absatz 6 führt eine Studiengangsleitung des jeweiligen Studiengangs mit mindestens einem von der Studienakademie bestimmten fachlich zuständigen Mitglied des Lehrkörpers durch.",
+"answer": "Die Studiengangsleitung des jeweiligen Studiengangs und mindestens ein fachlich zuständiges Mitglied des Lehrkörpers führen die zweite Wiederholungsprüfung durch."}
+
+{"question": "Was passiert, wenn eine Prüfungsleistung auch in der Wiederholung nicht bestanden wird?",
+"context": "Wurde eine Prüfungsleistung auch in der Wiederholung nicht bestanden, so kann diese in der Regel innerhalb von zwei bis sechs Wochen nach Mitteilung des Prüfungsergebnisses ein zweites Mal wiederholt werden.",
+"answer": "Wenn eine Prüfungsleistung auch in der Wiederholung nicht bestanden wird, kann sie in der Regel innerhalb von zwei bis sechs Wochen nach Mitteilung des Prüfungsergebnisses ein zweites Mal wiederholt werden."}
+
+{
+  "question": "Was ist der Zweck der Projektarbeit (PA) im Modul T1000?",
+  "context": "Die Projektarbeit dokumentiert die konkrete Lösung einer Ingenieuraufgabe in der Praxisphase. Sie ermöglicht eine umfassende und selbstständige Bearbeitung und verknüpft praktische Aufgabenstellungen mit Fachliteratur.",
+  "answer": "Der Zweck der Projektarbeit ist es, eine konkrete Ingenieuraufgabe eigenständig und umfassend zu bearbeiten und dabei praktische Aufgabenstellungen mit theoretischen Aspekten zu verknüpfen."
+},
+{
+  "question": "Was sollen die Absolventen im Modul T1000 erfassen?",
+  "context": "Die Absolventen sollen industrielle Problemstellungen in ihrem Kontext und in angemessener Komplexität erfassen und kritisch analysieren, welche Einflussfaktoren zur Lösung beachtet werden müssen.",
+  "answer": "Absolventen sollen die Fähigkeit entwickeln, industrielle Problemstellungen zu erkennen, zu analysieren und mögliche Lösungen durch theoretische Modelle zu bewerten."
+},
+{
+  "question": "Wie ist der ideale Aufbau einer Projektarbeit im Modul T1000?",
+  "context": "Der Aufbau umfasst eine Kurzfassung, Einleitung, Hintergrund, Hauptteil, Fazit und ein Literaturverzeichnis.",
+  "answer": "Eine Projektarbeit sollte in eine Kurzfassung, Einleitung, den Hintergrund, den Hauptteil, das Fazit und ein Literaturverzeichnis gegliedert sein."
+},
+{
+  "question": "Was ist bei der Benennung des Titels einer Projektarbeit zu beachten?",
+  "context": "Ein Titel soll das Problem definieren und kurz, aber aussagekräftig sein. Dies ist oft schwierig.",
+  "answer": "Der Titel sollte das Problem definieren und möglichst kurz und aussagekräftig sein."
+},
+{
+  "question": "Was soll nicht Inhalt der Projektarbeit im Modul T1000 sein?",
+  "context": "Es sollte keine allgemeine Beschreibung von Technologien oder Lösungen, sondern eine konkrete Lösung eines Problems bieten.",
+  "answer": "Die Projektarbeit sollte sich nicht auf allgemeine Technologien oder Lösungen beschränken, sondern eine spezifische Problemlösung darstellen."
+}
+
+
+{
+    "question": "Welche Module gibt es im Curriculum 2017 für Praxisprojekte und Abschlussarbeiten?",
+    "context": "[{\"0\":\"Modul\",\"1\":\"Praxisprojekt \\nI \\n(T3_1000) \\n1. Studienjahr\",\"2\":\"Praxisprojekt \\nII \\n(T3_2000) \\n2. Studienjahr5\",\"3\":\"Praxisprojekt \\nIII \\n(T3_3000)  \\n3. Studienjahr\",\"4\":\"Studienarbeit(en) \\n(T3_3100 \\nbzw. T3_3200) 3. Studienjahr\",\"5\":\"Bachelorarbeit \\n(T3_3300)  \\n3. Studienjahr\"}]",
+    "answer": "Im Curriculum 2017 gibt es die folgenden Module für Praxisprojekte und Abschlussarbeiten: Praxisprojekt I (T3_1000) im 1. Studienjahr, Praxisprojekt II (T3_2000) im 2. Studienjahr, Praxisprojekt III (T3_3000) im 3. Studienjahr, Studienarbeiten (T3_3100 bzw. T3_3200) im 3. Studienjahr und die Bachelorarbeit (T3_3300) im 3. Studienjahr."
+}
+{
+    "question": "Wann finden die Praxisprojekte und die Bachelorarbeit typischerweise statt?",
+    "context": "[{\"0\":\"Zeitpunkt1\",\"1\":\"Praxisphase 1 und 2\",\"2\":\"Praxisphase 3 und 4\",\"3\":\"Praxisphase 5\",\"4\":\"Theoriephase 5 und\\/oder 6\",\"5\":\"Praxisphase 6\"}]",
+    "answer": "Die Praxisprojekte und die Bachelorarbeit finden typischerweise zu den folgenden Zeitpunkten statt: Praxisprojekt I während Praxisphase 1 und 2, Praxisprojekt II während Praxisphase 3 und 4, Praxisprojekt III während Praxisphase 5, die Studienarbeiten während Theoriephase 5 und/oder 6, und die Bachelorarbeit während der Praxisphase 6."
+}
+{
+    "question": "Wie viele Seiten soll die Dokumentation für die verschiedenen Reports und Arbeiten im Curriculum 2017 umfassen?",
+    "context": "[{\"0\":\"Umfang  \\nDoku (Unit 1)\",\"1\":\"ca. 25 \\u2013 35 Seiten3\",\"2\":\"ca. \\n50 \\n\\u2013 \\n70 \\nSeiten3 \\nbzw. je 25 \\u2013 35 Seiten3,4\",\"3\":\"ca. 3 \\u2013 7 Seiten3\",\"4\":\"ca. 40 \\u2013 70 Seiten3  \\nca. 60 \\u2013 80 Seiten3 (bei 10 ECTS)\",\"5\":\"ca. 60 \\u2013 80 Seiten3\"}]",
+    "answer": "Der Umfang der Dokumentation für die verschiedenen Arbeiten im Curriculum 2017 ist wie folgt: Praxisprojekt I ca. 25–35 Seiten, Praxisprojekt II ca. 50–70 Seiten bzw. je 25–35 Seiten, Praxisprojekt III ca. 3–7 Seiten, die Studienarbeiten ca. 40–70 Seiten oder 60–80 Seiten (bei 10 ECTS), und für die Bachelorarbeit ca. 60–80 Seiten."
+}
+{
+    "question": "Wie wird die Bewertung der verschiedenen Praxisprojekte und Abschlussarbeiten vorgenommen?",
+    "context": "[{\"0\":\"Bewertung\",\"1\":\"Bewertungsvorschlag (bestan-\\nden  \\/  nicht  bestanden)  durch \\nBetreuungsperson, Bewertung \\ndurch Pr\\u00fcfungsausschuss\",\"2\":\"Bewertungsvorschlag \\n(diffe-\\nrenzierte  Note  mit  Gutachten) \\ndurch  Betreuungsperson,  Be-\\nwertung  durch  Pr\\u00fcfungsaus-\\nschuss. \\nNote m\\u00fcndliche Pr\\u00fcfung durch \\nPr\\u00fcfungsausschuss\",\"3\":\"Bewertung \\n(bestanden\\/nicht \\nbestanden)  durch  die  Dozen-\\ntin\\/den  Dozenten \\nf\\u00fcr  wissen-\\nschaftliches  Arbeiten  oder  der \\nPr\\u00fcferin\\/des Pr\\u00fcfers der Haus-\\narbeit\",\"4\":\"Note der Dozentin\\/des Dozen-\\nten  f\\u00fcr  wissenschaftliches  Ar-\\nbeiten oder der Betreuerin\\/des \\nBetreuers der Studienarbeit\",\"5\":\"Je  eine  Gutachterin  bzw.  ein \\nGutachter des Dualen Partners \\nund der DHBW\"}]",
+    "answer": "Die Bewertung der Praxisprojekte und Abschlussarbeiten erfolgt auf unterschiedliche Weise: Praxisprojekt I erhält einen Bewertungsvorschlag (bestanden/nicht bestanden) durch die Betreuungsperson, dann erfolgt die Bewertung durch den Prüfungsausschuss. Praxisprojekt II erhält einen Bewertungsvorschlag mit differenzierter Note durch die Betreuungsperson, gefolgt von einer Bewertung durch den Prüfungsausschuss sowie einer Note für die mündliche Prüfung. Praxisprojekt III wird bestanden/nicht bestanden durch die Dozentin/den Dozenten für wissenschaftliches Arbeiten bewertet. Die Studienarbeiten werden von der Dozentin/dem Dozenten für wissenschaftliches Arbeiten oder dem Betreuer bewertet. Für die Bachelorarbeit gibt es je eine/n Gutachter/in des dualen Partners und der DHBW."
+}
+{
+    "question": "Welche Rolle spielt die Literaturrecherche in den Arbeiten des Curriculums 2017?",
+    "context": "[{\"0\":\"Literaturrecher-\\nche\",\"1\":\"Notwendig \\n(in geringem Umfang)\",\"2\":\"Notwendig\",\"3\":\"Notwendig\",\"4\":\"Umfassend notwendig\",\"5\":\"Umfassend notwendig\"}]",
+    "answer": "Die Literaturrecherche spielt eine unterschiedliche Rolle in den verschiedenen Arbeiten des Curriculums 2017: Für das Praxisprojekt I ist eine Literaturrecherche in geringem Umfang notwendig, während sie für das Praxisprojekt II und III einfach notwendig ist. Für die Studienarbeiten und die Bachelorarbeit ist eine umfassende Literaturrecherche notwendig."
+}
+
+
+[
+    {
+        "question": "Welche Qualifikationsziele und Kompetenzen sollen durch das Modul 'Studienarbeit (T3_3100)' erreicht werden?",
+        "context": "Fachkompetenz Methodenkompetenz Personale und Soziale Kompetenz Übergreifende Handlungskompetenz Die Studierenden können sich unter begrenzter Anleitung in ein recht komplexes, aber eng umgrenztes Gebiet vertiefend einarbeiten und den allgemeinen Stand des Wissens erwerben. Sie können sich Lösungen entwickeln und Alternativen bewerten. Dazu nutzen sie bestehendes Fachwissen und bauen es selbständig im Thema der Studienarbeit aus. Die Studierenden kennen und verstehen die Notwendigkeit des wissenschaftlichen Recherchierens und Arbeitens. Sie sind in der Lage eine wissenschaftliche Arbeit zu steuern und wissenschaftlich korrekt und verständlich zu dokumentieren.",
+        "answer": "Durch das Modul 'Studienarbeit (T3_3100)' sollen die Studierenden erlernen, sich in komplexe, eng umrissene Gebiete einzuarbeiten und Lösungen zu entwickeln. Sie sollen darin geschult werden, wissenschaftlich zu recherchieren und ihre Arbeit sowohl korrekt zu dokumentieren als auch wissenschaftliche Methoden zur Informationssammlung und -interpretation anzuwenden. Außerdem erwerben sie persönliche und soziale Kompetenzen wie Ausdauer, Selbstmanagement und die Fähigkeit, Argumente plausibel darzustellen."
+    },
+    {
+        "question": "Wer ist die Modulverantwortung für das Modul 'Studienarbeit'?",
+        "context": "Modulbezeichnung Modulnummer Sprache Modulverantwortung Studienarbeit T3_3100 Deutsch Prof. Dr.-Ing. Joachim Frech",
+        "answer": "Die Modulverantwortung für das Modul 'Studienarbeit' (T3_3100) liegt bei Prof. Dr.-Ing. Joachim Frech."
+    },
+    {
+        "question": "Wie hoch ist der Workload insgesamt für die Studienarbeit (T3_3100) und wie setzt sich dieser zusammen?",
+        "context": "Workload insgesamt (in h) davon Präsenzzeit (in h) davon Selbststudium (in h) ECTS-Leistungspunkte 150,0 6,0 144,0 5",
+        "answer": "Der Gesamt-Workload für die Studienarbeit (T3_3100) beträgt 150 Stunden, wovon 6 Stunden auf die Präsenzzeit und 144 Stunden auf das Selbststudium entfallen. Das Modul umfasst 5 ECTS-Leistungspunkte."
+    },
+    {
+        "question": "Welche Lehrformen und Prüfungsleistungen umfasst das Modul 'Studienarbeit (T3_3100)'?",
+        "context": "Lehrformen Individualbetreuung Lehrmethoden Projekt Prüfungsleistung Prüfungsumfang (in Minuten) Benotung Studienarbeit Siehe Pruefungsordnung ja",
+        "answer": "Das Modul 'Studienarbeit (T3_3100)' beinhaltet die Lehrformen der Individualbetreuung und die Lehrmethode "Projekt". Die Prüfungsleistung besteht aus einer Studienarbeit, die gemäß der Prüfungsordnung benotet wird."
+    },
+    {
+        "question": "Welche Lehr- und Lerneinheiten umfasst die Studienarbeit und welcher Anteil entfällt auf Präsenzzeit und Selbststudium?",
+        "context": "Lehr- und Lerneinheiten Präsenzzeit Selbststudium Studienarbeit 6,0 144,0",
+        "answer": "Die Studienarbeit umfasst 6 Stunden Präsenzzeit und 144 Stunden Selbststudium."
+    }
+]
+
+
+{
+    "question": "Wie viele ECTS-Leistungspunkte hat das Modul 'Mathematisch naturwissenschaftliche Grundlagen'?",
+    "context": "[{\"0\":\"Modul\",\"1\":\"ECTS-\\nLeistungspunkte\",\"2\":\"Anzahl \\nbenotete \\nPr\\u00fcfungsl.\",\"3\":\"Anzahl \\nunbenotete \\nPr\\u00fcfungsl.\"},{\"0\":\"Mathematisch naturwissenschaftliche \\nGrundlagen\",\"1\":\"5\",\"2\":\"1\",\"3\":\"0\"}]",
+    "answer": "Das Modul 'Mathematisch naturwissenschaftliche Grundlagen' hat 5 ECTS-Leistungspunkte."
+},
+{
+    "question": "Wie viele benotete Prüfungsleistungen gibt es im Modul 'Grundlagen Maschinenbau II'?",
+    "context": "[{\"0\":\"Modul\",\"1\":\"ECTS-\\nLeistungspunkte\",\"2\":\"Anzahl \\nbenotete \\nPr\\u00fcfungsl.\",\"3\":\"Anzahl \\nunbenotete \\nPr\\u00fcfungsl.\"},{\"0\":\"Grundlagen Maschinenbau II\",\"1\":\"5\",\"2\":\"1\",\"3\":\"0\"}]",
+    "answer": "Es gibt 1 benotete Prüfungsleistung im Modul 'Grundlagen Maschinenbau II'."
+},
+{
+    "question": "Wie viele unbenotete Prüfungsleistungen gibt es im Modul 'Praxisprojekt I'?",
+    "context": "[{\"0\":\"Modul\",\"1\":\"ECTS-\\nLeistungspunkte\",\"2\":\"Anzahl \\nbenotete \\nPr\\u00fcfungsl.\",\"3\":\"Anzahl \\nunbenotete \\nPr\\u00fcfungsl.\"},{\"0\":\"Praxisprojekt I\",\"1\":\"20\",\"2\":\"0\",\"3\":\"2\"}]",
+    "answer": "Im Modul 'Praxisprojekt I' gibt es 2 unbenotete Prüfungsleistungen."
+},
+{
+    "question": "Wie viele ECTS-Leistungspunkte hat das 'Bachelorarbeit' Modul?",
+    "context": "[{\"0\":\"Modul\",\"1\":\"ECTS-\\nLeistungspunkte\",\"2\":\"Anzahl \\nbenotete \\nPr\\u00fcfungsl.\",\"3\":\"Anzahl \\nunbenotete \\nPr\\u00fcfungsl.\"},{\"0\":\"Bachelorarbeit\",\"1\":\"12\",\"2\":\"1\",\"3\":\"0\"}]",
+    "answer": "Das 'Bachelorarbeit' Modul hat 12 ECTS-Leistungspunkte."
+},
+{
+    "question": "Welches Wahlmodul hat eine unbenotete Prüfungsleistung?",
+    "context": "[{\"0\":\"Modul\",\"1\":\"ECTS-\\nLeistungspunkte\",\"2\":\"Anzahl \\nbenotete \\nPr\\u00fcfungsl.\",\"3\":\"Anzahl \\nunbenotete \\nPr\\u00fcfungsl.\"},{\"0\":\"Wahlmodul1\",\"1\":\"5\",\"2\":\"1\",\"3\":\"1\"}]",
+    "answer": "Das Wahlmodul1 hat eine unbenotete Prüfungsleistung."
+}
+
+{"question": "Was ist das Ziel des Datensatzes, der zur Feinabstimmung eines LLM-Chatbots verwendet wird?", "context": "Sie sind eine API, die Textkörper in ein einziges Frage-Antwort-Format im JSON-Format umwandelt. Jedes JSON enthält fünf Fragen mit je fünf Antworten und ihrem Kontext. Antworten Sie nur mit dem JSON und ohne zusätzlichen Text. Alle Antworten müssen auf Deutsch sein und als hilfsbereiter Assistent beantwortet werden. Einige gegebene Textkörper enthalten JSON-Tabellen. Wenn dies der Fall ist, ignorieren Sie die Begrenzung von Fragen und Antworten und erstellen Sie ein Frage-Antwort-Paar für jede Zeile und Spalte.", "answer": "Das Ziel des Datensatzes ist es, zur Feinabstimmung eines LLM-Chatbots verwendet zu werden, um dessen Fähigkeiten in der Beantwortung von Fragen und der Bereitstellung von Informationen in hoher Qualität zu verbessern."}
+
+{"question": "Wie soll die Antwortstruktur eines JSON aussehen, das zur Feinabstimmung eines LLM-Chatbots dient?", "context": "Sie sind eine API, die Textkörper in ein einziges Frage-Antwort-Format im JSON-Format umwandelt. Jedes JSON enthält fünf Fragen mit je fünf Antworten und ihrem Kontext. Antworten Sie nur mit dem JSON und ohne zusätzlichen Text.", "answer": "Jedes JSON soll im Frage-Antwort-Format strukturiert sein und fünf Fragen mit ihren jeweiligen Antworten und Kontext enthalten."}
+
+{"question": "Welche Sprache sollen die Antworten in den JSON-Datensätzen haben?", "context": "Antworten Sie nur mit dem JSON und ohne zusätzlichen Text. Alle Antworten müssen auf Deutsch sein und als hilfsbereiter Assistent beantwortet werden.", "answer": "Alle Antworten müssen auf Deutsch sein."}
+
+{"question": "Wie viele Fragen-Antwort-Paare soll ein JSON normalerweise enthalten?", "context": "Jedes JSON enthält fünf Fragen mit je fünf Antworten und ihrem Kontext.", "answer": "Ein JSON soll normalerweise fünf Fragen-Antwort-Paare enthalten."}
+
+{"question": "Was sollen Sie tun, wenn der gegebene Textkörper eine JSON-Tabelle enthält?", "context": "Einige gegebene Textkörper enthalten JSON-Tabellen. Wenn dies der Fall ist, ignorieren Sie die Begrenzung von Fragen und Antworten und erstellen Sie ein Frage-Antwort-Paar für jede Zeile und Spalte.", "answer": "Wenn der gegebene Textkörper eine JSON-Tabelle enthält, soll die Begrenzung von Fragen und Antworten ignoriert werden, und es soll ein Frage-Antwort-Paar für jede Zeile und Spalte erstellt werden."}
