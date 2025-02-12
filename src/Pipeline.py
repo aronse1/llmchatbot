@@ -418,10 +418,33 @@ class AdvancedRAGWorkflow(Workflow):
         ready = ctx.collect_events(ev, [ResponseEvent]*2)
         if ready is None:
             return None
+        query = ev.query
+        response_1 = ready[0].response
+        response_2 = ready[1].response
+
+        evaluation_prompt = f"""
+        Du bist ein Assistent, der zwei Antworten auf die gleiche Frage bewertet.
         
-        result = f"Response 1 ({ready[0].source}): " + ready[0].response + "\n\n"
-        result += f"Response 2 ({ready[1].source}): " + ready[1].response
-        return StopEvent(result=result)
+        **Frage:** {query}
+        
+        **Antwort 1:**
+        {response_1}
+        
+        **Antwort 2:**
+        {response_2}
+        
+        **Bewertungsanweisungen:**
+        - Die beste Antwort sollte **präziser, vollständiger und genauer** sein.
+        - Falls beide Antworten ähnlich gut sind, wähle die mit der besseren Formulierung.
+        - Gib die bessere Antwort zurück.
+        
+        **Ausgabeformat:**  
+        Antworte **nur mit der besseren Antwort**, ohne zusätzliche Erklärungen.
+        """
+
+        best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)
+
+        return StopEvent(result=best_response)
     
 
 
