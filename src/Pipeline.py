@@ -51,6 +51,7 @@ from fachwoerter import fachwoerter, expand_query
 import asyncio
 from  llama_index.core.node_parser import TextSplitter
 import glob
+from chromadb.errors import InvalidCollectionException
 
 
 DATA_DIR = ""
@@ -77,9 +78,9 @@ class RAGhighK(Event):
 class RAGlowK(Event):
     query : str
 
-class EvaluationEvent(Event):
-    query : str
-    response : str
+# class EvaluationEvent(Event):
+#     query : str
+#     response : str
 
 class ResponseEvent(Event):
     query: str
@@ -186,40 +187,7 @@ def loadOrCreateIndex(course : Course):
 
     return index
 
-from chromadb.utils import embedding_functions
 
-
-# def loadOrCreateIndexChroma(course: Course):
-#     global chromastore
-#     collection_name = f"{course.value}_embeddings"
-    
-#     # Create embedding function
-#     embed_fn = embedding_functions.DefaultEmbeddingFunction()
-    
-#     # Initialize the vector store with the persistent client directly
-#     vector_store = ChromaVectorStore(
-#         chroma_collection=chromastore.get_or_create_collection(
-#             name=collection_name,
-#             embedding_function=embed_fn
-#         )
-#     )
-    
-#     storage_context = StorageContext.from_defaults(vector_store=vector_store)
-
-#     try:
-#         index = VectorStoreIndex.from_vector_store(vector_store, storage_context=storage_context)
-#         print(f"Index für {course.value} geladen.")
-#     except Exception as e:
-#         print(f"Erstelle neuen Index für {course.value}... Fehler: {e}")
-#         documents = load_documents_oldway(course)
-#         index = VectorStoreIndex.from_documents(documents, storage_context=storage_context)
-    
-#     collection = chromastore.get_collection("it_embeddings")
-#     print("\n\n\n\n\n##############################################################\n"+str(collection.count()))
-#     return index
-
-
-from chromadb.errors import InvalidCollectionException
 
 def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
     global chromastore
@@ -330,7 +298,7 @@ async def create_agent(course: Course, chat_history=None, index=None, topk=3,chu
         index,
         similarity_top_k=topk,         #3
         citation_chunk_size=chunksize,    #512
-        #node_postprocessors=[PriorityNodeScoreProcessor()],
+        node_postprocessors=[SimilarityPostprocessor(similarity_cutoff=0.7)],
         #streaming=True
     )
 
