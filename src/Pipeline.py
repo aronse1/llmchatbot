@@ -52,7 +52,7 @@ import asyncio
 from  llama_index.core.node_parser import TextSplitter
 import glob
 from chromadb.errors import InvalidCollectionException
-
+import re
 
 DATA_DIR = ""
 PERSIST_DIR = ""
@@ -298,7 +298,6 @@ async def create_agent(course: Course, chat_history=None, index=None, topk=3,chu
         index,
         similarity_top_k=topk,         #3
         citation_chunk_size=chunksize,    #512
-        node_postprocessors=[SimilarityPostprocessor(similarity_cutoff=0.7)],
         #streaming=True
     )
 
@@ -328,7 +327,8 @@ async def create_agent(course: Course, chat_history=None, index=None, topk=3,chu
         max_iterations=10
     )
 
-
+def remove_parentheses(text: str) -> str:
+    return re.sub(r'\([^)]*\)', '', text)
     
 class AdvancedRAGWorkflow(Workflow):
     def __init__(self, course=None, timeout = 10, disable_validation = False, verbose = False, service_manager = ...):
@@ -439,11 +439,11 @@ class AdvancedRAGWorkflow(Workflow):
         - Gib die bessere Antwort zurück.
         
         **Ausgabeformat:**  
-        Antworte **nur mit der besseren Antwort**, ohne zusätzliche Erklärungen.
+        Antworte nur mit der besseren Antwort, ohne zusätzliche Erklärungen. Antworte in der Sprache des Sprachcodes:[{ctx.data["language"]}].
         """
 
         best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)
-
+        best_response.response = remove_parentheses(best_response.response)
         return StopEvent(result=best_response)
     
 
@@ -452,7 +452,7 @@ class AdvancedRAGWorkflow(Workflow):
 
 async def main():
     initialise()
-    c = AdvancedRAGWorkflow(timeout=360, verbose=True, course=Course.IT)
+    c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=Course.IT)
 
     while True:
         user_input = input("Frage: ")
