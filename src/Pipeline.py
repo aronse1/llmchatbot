@@ -54,12 +54,15 @@ import glob
 from chromadb.errors import InvalidCollectionException
 import re
 
+
+
+
 DATA_DIR = ""
 PERSIST_DIR = ""
 
 
 classifier_manager = ClassifierManager()
-quadrantclient = QdrantClient(host="localhost", port=6333)
+
 chromastore = PersistentClient(path="./chroma_db")  
 
 
@@ -86,24 +89,24 @@ class ResponseEvent(Event):
     query: str
     response: str
 
-# class Course(Enum):
-#     WI = "wi"
-#     IT = "it"
-
-#     def data_dir(self) -> str:
-#         return DATA_DIR + "/" + self.value + "/output"
-
-
 class Course(Enum):
     WI = "wi"
     IT = "it"
 
     def data_dir(self) -> str:
-        dirz= DATA_DIR + "/" + self.value
-        return DATA_DIR + "/" + self.value
+        return DATA_DIR + "/" + self.value + "/output"
 
-    def persist_dir(self) -> str:
-        return PERSIST_DIR + "/" + self.value
+
+# class Course(Enum):
+#     WI = "wi"
+#     IT = "it"
+
+#     def data_dir(self) -> str:
+#         dirz= DATA_DIR + "/" + self.value
+#         return DATA_DIR + "/" + self.value
+
+#     def persist_dir(self) -> str:
+#         return PERSIST_DIR + "/" + self.value
 
 
 def get_source_info(course, document):
@@ -145,48 +148,24 @@ def load_documents(course):
     """
     Lädt Plaintext-Dokumente und Tabellen getrennt und gibt sie als kombinierte Liste zurück.
     """
-    text_docs = SimpleDirectoryReader(course.data_dir(), required_exts=[".txt"]).load_data()
-    table_docs = []
+    text_docs = SimpleDirectoryReader(course.data_dir(), required_exts=[".txt", ".table"]).load_data()
+    # table_docs = []
 
   
-    for file in glob.glob(os.path.join(course.data_dir(), "*.table")):
-        with open(file, "r", encoding="utf-8") as f:
-            content = f.read()
-            tables = content.split("-------------------------\n")
+    # for file in glob.glob(os.path.join(course.data_dir(), "*.table")):
+    #     with open(file, "r", encoding="utf-8") as f:
+    #         content = f.read()
+    #         tables = content.split("-------------------------\n")
 
-            for table_json in tables:
-                table_docs.append(Document(
-                    text=table_json,
-                    metadata={"file_name": os.path.basename(file)}
-                ))
+    #         for table_json in tables:
+    #             table_docs.append(Document(
+    #                 text=table_json,
+    #                 metadata={"file_name": os.path.basename(file)}
+    #             ))
 
-    alldocs = text_docs + table_docs
+    alldocs = text_docs #+ table_docs
     enrich_metadata(documents=alldocs, course=course)
     return alldocs
-
-
-
-def loadOrCreateIndex(course : Course):
-    collection_name = f"{course.value}_embeddings"
-    if collection_name not in [col.name for col in quadrantclient.get_collections().collections]:
-        print(f"Erstelle neue Collection für {course.value} in Qdrant...")
-        quadrantclient.create_collection(
-            collection_name=collection_name,
-            vectors_config=VectorParams(size=384, distance=Distance.COSINE)
-        )
-    
-    vector_store = QdrantVectorStore(client=quadrantclient, collection_name=collection_name)
-    storage_context = StorageContext.from_defaults(vector_store=vector_store)
-    try:
-        index = VectorStoreIndex.from_vector_store(vector_store, storage_context=storage_context)
-        print(f"Index für {course.value} geladen.")
-    except:
-        print(f"Erstelle neuen Index für {course.value}...")
-        documents = load_documents_oldway(course)
-        index = VectorStoreIndex.from_documents(documents, storage_context=storage_context)
-
-    return index
-
 
 
 def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
@@ -221,7 +200,7 @@ def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
     # 2. Collection existed but was empty/corrupt
     
     print(f"Creating new index for collection '{collection_name}'")
-    documents = load_documents_oldway(course)
+    documents = load_documents(course)
     
     # Create new collection
     collection = chromastore.create_collection(collection_name)
