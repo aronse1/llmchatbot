@@ -1,5 +1,33 @@
 Eine Arbeit ist:
-[{"0":"\u2022 \nbegr\u00fcndet in der Auswahl von \nProblem\/Thema\/Aufgabe \no \ntheoretischem \nAnsatz\/Analyseme-\no \nthode \nL\u00f6sungsvorschlag \no \nUmsetzungsma\u00dfnahmen \no \n\u2022 \nmethodisch \nVorgehensmodell \no \nAnwendung von Standardmethoden \no \n\u2022 \nkorrekt \nInhalt  \no \nRechnungsergebnisse \no \nVerweise\/Belege \no \nSeitenangaben bei Quellen","1":"Rechtschreibung \no \nKommafehler, fehlende Bindestriche \nrichtlinien-orientiert \no \nUmfangsbegrenzung, Zitierweise, ... \nvollst\u00e4ndig \no \nkeine  offenen  Fragen,  au\u00dfer  in  Aus-\nblick\/Fazit ...  \n\u2022 \nnachpr\u00fcfbar \nBehauptungen\/Argumente (Inhalt) \no \nQuellen-Nachweis (Fachliteratur) \no \neigene  Erhebungen  (Befragung  Mit-\no \narbeiter) \nunmittelbar \neinsichtig \n(Beweis, \no \nSchlussfolgerung  aus  anderen  Argu-\nmenten)"}]Verweise
+|    | 0                               | 1                                        |
+|---:|:--------------------------------|:-----------------------------------------|
+|  0 | •                               | Rechtschreibung                          |
+|    | begründet in der Auswahl von    | o                                        |
+|    | Problem/Thema/Aufgabe           | Kommafehler, fehlende Bindestriche       |
+|    | o                               | richtlinien-orientiert                   |
+|    | theoretischem                   | o                                        |
+|    | Ansatz/Analyseme-               | Umfangsbegrenzung, Zitierweise, ...      |
+|    | o                               | vollständig                              |
+|    | thode                           | o                                        |
+|    | Lösungsvorschlag                | keine  offenen  Fragen,  außer  in  Aus- |
+|    | o                               | blick/Fazit ...                          |
+|    | Umsetzungsmaßnahmen             | •                                        |
+|    | o                               | nachprüfbar                              |
+|    | •                               | Behauptungen/Argumente (Inhalt)          |
+|    | methodisch                      | o                                        |
+|    | Vorgehensmodell                 | Quellen-Nachweis (Fachliteratur)         |
+|    | o                               | o                                        |
+|    | Anwendung von Standardmethoden  | eigene  Erhebungen  (Befragung  Mit-     |
+|    | o                               | o                                        |
+|    | •                               | arbeiter)                                |
+|    | korrekt                         | unmittelbar                              |
+|    | Inhalt                          | einsichtig                               |
+|    | o                               | (Beweis,                                 |
+|    | Rechnungsergebnisse             | o                                        |
+|    | o                               | Schlussfolgerung  aus  anderen  Argu-    |
+|    | Verweise/Belege                 | menten)                                  |
+|    | o                               |                                          |
+|    | Seitenangaben bei Quellen       |                                          |Verweise
 Leitlinien für die Praxismodule
 https://www.dhbw.de/fileadmin/user_upload/Dokumente/Dokumente_fuer_Studierende/191212_Leitlinien_Pra-
 xismodule_Studien_Bachelorarbeiten.pdf

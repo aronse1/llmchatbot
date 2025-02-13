@@ -89,24 +89,24 @@ class ResponseEvent(Event):
     query: str
     response: str
 
-class Course(Enum):
-    WI = "wi"
-    IT = "it"
-
-    def data_dir(self) -> str:
-        return DATA_DIR + "/" + self.value + "/output"
-
-
 # class Course(Enum):
 #     WI = "wi"
 #     IT = "it"
 
 #     def data_dir(self) -> str:
-#         dirz= DATA_DIR + "/" + self.value
-#         return DATA_DIR + "/" + self.value
+#         return DATA_DIR + "/" + self.value + "/output"
 
-#     def persist_dir(self) -> str:
-#         return PERSIST_DIR + "/" + self.value
+
+class Course(Enum):
+    WI = "wi"
+    IT = "it"
+
+    def data_dir(self) -> str:
+        dirz= DATA_DIR + "/" + self.value
+        return DATA_DIR + "/" + self.value
+
+    def persist_dir(self) -> str:
+        return PERSIST_DIR + "/" + self.value
 
 
 def get_source_info(course, document):
@@ -200,7 +200,7 @@ def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
     # 2. Collection existed but was empty/corrupt
     
     print(f"Creating new index for collection '{collection_name}'")
-    documents = load_documents(course)
+    documents = load_documents_oldway(course)
     
     # Create new collection
     collection = chromastore.create_collection(collection_name)
@@ -276,7 +276,7 @@ async def create_agent(course: Course, chat_history=None, index=None, topk=3,chu
     query_engine = CitationQueryEngine.from_args(
         index,
         similarity_top_k=topk,         #3
-        citation_chunk_size=chunksize,    #512
+        citation_chunk_size=chunksize   #512
         #streaming=True
     )
 
