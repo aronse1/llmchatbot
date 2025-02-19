@@ -48,32 +48,21 @@ class ClassifierManager:
     #         result = self.intent_classifier(query, candidate_labels=intents, hypothesis_template="This sentence belongs to the category: {}.")
     #         return result['labels'][0] if result['scores'][0] > 0.4 else "unclear"
     async def classify_intent(self, query: str, threshold: float = 0.4) -> str:
-        """Klassifiziert den Intent mit verbesserter Kontextberücksichtigung"""
         async with self.lock:
-            # Erstelle erweiterte Hypothesen für jede Kategorie
             hypotheses = []
             for intent, data in self.intent_categories.items():
-                # Füge Beispiele als zusätzlichen Kontext hinzu
                 hypothesis = f"This is a {intent} question. Similar examples: {'. '.join(data['examples'][:3])}"
                 hypotheses.append(hypothesis)
 
-           
             result = self.intent_classifier(
                 query,
                 candidate_labels=list(self.intent_categories.keys()),
                 hypothesis_template="This input is similar to: {}"
-            )
-
-          
-            print(f"Classification scores: {dict(zip(result['labels'], result['scores']))}")
-
-            
+            )     
             if "study_topics" in result['labels']:
                 study_idx = result['labels'].index("study_topics")
                 if result['scores'][study_idx] > 0.3:  
                     return "study_topics"
-
-           
             return result['labels'][0] if result['scores'][0] > threshold else "unclear"
         
     async def detect_language(self, query):
