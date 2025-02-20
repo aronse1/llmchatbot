@@ -64,26 +64,11 @@ class DiscordBot(commands.Bot):
             #response = await self.loop.run_in_executor(None, fun)
             c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course )
             response = await c.run(query=message.content)
+
+            await sent_message.edit(content=response)
             save_message(message.author.id, "user", message.content)
             save_message(message.author.id, "assistant", response)
-            await sent_message.edit(content=response)
-            #await message.channel.send(response.response)
-            #full_response = ""
-            #chunk_size = 8  # 
-            # chunk = ""
-            # i = 0
-            # responseaslist = {}
-            # for result in self.chatbot.perform_query(message.content, course, responseasList=responseaslist):
-            #     chunk += result
-            #     i+=1
-            #     if i == chunk_size:
-            #         full_response += chunk
-            #         await sent_message.edit(content=full_response)
-            #         chunk = ""  # Reset chunk
-            #         i = 0
-            
-            # full_response += chunk
-            # await sent_message.edit(content=full_response)
+
     async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
         if payload.user_id == self.user.id:
             return
@@ -116,4 +101,4 @@ class DiscordBot(commands.Bot):
     
         if payload.emoji.name == "👍":
             clear_history(payload.user_id)
-            await channel.send(f"Neuer Chat angefangen für <@{payload.user_id}>")
+            await channel.send(f"Neuer Chat für dich, <@{payload.user_id}>")
