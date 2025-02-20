@@ -5,14 +5,14 @@ from enum import Enum
 import asyncio
 import torch
 from llama_index.core import (Settings, SimpleDirectoryReader, StorageContext,
-                              VectorStoreIndex, load_index_from_storage, PromptTemplate)
+                              VectorStoreIndex, load_index_from_storage)
 from llama_index.core.agent import ReActAgent
 from llama_index.core.query_engine import CitationQueryEngine
 from llama_index.core.tools import FunctionTool, QueryEngineTool, ToolMetadata
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.openai import OpenAIEmbedding
+
 from llama_index.llms.ollama import Ollama
-from qdrant_client import QdrantClient
-from llama_index.vector_stores.qdrant import QdrantVectorStore
 from helpers.PriorityNodeScoreProcessor import PriorityNodeScoreProcessor
 from helpers.RagPrompt import rag_messages, rag_template
 from helpers.SystemMessage import system_message
@@ -30,29 +30,21 @@ from llama_index.core.workflow import (
 )
 from chromadb import PersistentClient
 from llama_index.vector_stores.chroma import ChromaVectorStore
-from qdrant_client.models import Distance, VectorParams
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.llms.openai import OpenAI
 from llama_index.llms.ollama import Ollama
-from llama_index.core.postprocessor.rankGPT_rerank import RankGPTRerank
-from llama_index.core.postprocessor.llm_rerank import LLMRerank
-from llama_index.core.query_engine import RetrieverQueryEngine
-from llama_index.core.chat_engine import SimpleChatEngine
 from llama_index.core import Settings
 from llama_index.core.tools import FunctionTool, QueryEngineTool, ToolMetadata
-from helpers.PriorityNodeScoreProcessor import PriorityNodeScoreProcessor
 import torch
 from llama_index.core.agent import ReActAgent
 from llama_index.core.query_engine import CitationQueryEngine
 from enum import Enum
-from llama_index.core.postprocessor import SimilarityPostprocessor
 from helpers.SystemMessage import system_message
 from fachwoerter import fachwoerter, expand_query
 import asyncio
-from  llama_index.core.node_parser import TextSplitter
 import glob
 from chromadb.errors import InvalidCollectionException
 import re
+from llama_index.core.text_splitter import TokenTextSplitter
 
 
 
@@ -81,9 +73,6 @@ class RAGhighK(Event):
 class RAGlowK(Event):
     query : str
 
-# class EvaluationEvent(Event):
-#     query : str
-#     response : str
 
 class ResponseEvent(Event):
     query: str
@@ -217,6 +206,7 @@ def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
     print(f"Created and persisted new index in collection '{collection_name}'")
     return index
 
+
 def load_documents_oldway(course: Course):
     """
     Loads documents for vector store
@@ -231,7 +221,18 @@ def load_documents_oldway(course: Course):
     filtered_documents = [doc for doc in documents if doc.metadata.get(
         "file_name") != "sources.json"]
 
-    return filtered_documents
+    text_splitter = TokenTextSplitter(chunk_size=1024, chunk_overlap=200)
+    chunked_documents = []
+
+    for doc in filtered_documents:
+        chunks = text_splitter.split_text(doc.text)
+        for chunk in chunks:
+            chunked_documents.append(Document(
+                text=chunk,
+                metadata=doc.metadata  # Metadaten für jeden Chunk behalten
+            ))
+
+    return chunked_documents
 
 def load_index_oldway(course: Course) -> VectorStoreIndex:
     """Load index from storage or create a new one from documents in the given directory."""
@@ -350,7 +351,6 @@ class AdvancedRAGWorkflow(Workflow):
         - Verfasse keine Gedichte.
         - Antworte in der Sprache des Sprachcodes:[{ctx.data["language"]}].
         - Sprich den Benutzer mit "du" an.
-        - Führe mit dem Benutzer eine Konversation
         - Erwähne bitte nicht dass du Small Talk führst
         
         Hier ist die Nachricht des Benutzers:
@@ -424,7 +424,7 @@ class AdvancedRAGWorkflow(Workflow):
         
         **Antwort 2:**
         {response_2}
-        
+
         **Bewertungsanweisungen:**
         - Die beste Antwort sollte **präziser, vollständiger und genauer** sein.
         - Berücksichtige den bereitgestellten Kontext bei der Bewertung der Antworten.
@@ -438,10 +438,10 @@ class AdvancedRAGWorkflow(Workflow):
 
         best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)
         best_response = remove_parentheses(best_response.text)
-
+        best_response = best_response.replace("**Antwort 1:**", "").replace("**Antwort 2:**", "").replace("  ", " ").replace("Antwort 1:", "").replace("Antwort 2:", "")
         if ctx.data["language"] != "de":
             best_response = await classifier_manager.translate(best_response, "de", ctx.data["language"] )
-
+        
         return StopEvent(result=best_response)
     
 

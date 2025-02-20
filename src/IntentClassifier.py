@@ -28,6 +28,7 @@ class ClassifierManager:
             "small_talk": {
                 "description": "Allgemeine Konversation ohne akademischen Bezug",
                 "examples": [
+                    "Hallo",
                     "Wie geht es dir?",
                     "Was machst du am Wochenende?",
                     "Schönes Wetter heute",
@@ -70,7 +71,7 @@ class ClassifierManager:
             
             if "study_topics" in result['labels']:
                 study_idx = result['labels'].index("study_topics")
-                if result['scores'][study_idx] > 0.3:  
+                if result['scores'][study_idx] > 0.4:  
                     return "study_topics"
 
            

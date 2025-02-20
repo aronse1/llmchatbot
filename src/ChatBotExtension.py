@@ -219,12 +219,8 @@ class ComplicatedWorkflow(Workflow):
     @step(pass_context=True)
     async def rerank(self, ctx: Context, ev: RerankEvent) -> ResponseEvent:
         index = ctx.data["index"]
-        #reranker = RankGPTRerank(
-        #    top_n=5,
-        #    llm=ctx.data["llm"]
-        #)
         reranker = LLMRerank(top_n=5, llm=ctx.data["llm"])
-        retriever = index.as_retriever(similarity_top_k=20)
+        retriever = index.as_retriever(similarity_top_k=5)
         engine = RetrieverQueryEngine.from_args(
             retriever=retriever,
             node_postprocessors=[reranker],
