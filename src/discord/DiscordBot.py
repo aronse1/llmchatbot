@@ -4,11 +4,11 @@ import logging
 import asyncio
 from discord import Message
 from discord.ext import commands
-#from src.ChatBot import ChatBot, Course
+from src.ChatBot import ChatBot, Course
 from src.discord.Dropdowns import DropdownView
 from src.discord.disclaimer import disclaimer
-from src.Pipeline import *
-
+#from src.Pipeline import *
+from src.discord.MessageManager import *
 chatbot_logger = logging.getLogger('ChatBot')
 
 
@@ -18,10 +18,11 @@ class DiscordBot(commands.Bot):
     def __init__(self, documents_dir: str, index_dir: str):
         intents = discord.Intents.default()
         intents.message_content = True
+        intents.dm_reactions = True
         super().__init__(command_prefix=commands.when_mentioned_or('$'), intents=intents)
         #self.chatbot = ChatBot(
         #    documents_dir=documents_dir, index_dir=index_dir)
-        initialise()
+        #initialise()
 
     async def on_ready(self):
         print(f'Logged in as {self.user} (ID: {self.user.id})')
@@ -59,11 +60,12 @@ class DiscordBot(commands.Bot):
             sent_message = await message.channel.send("Thinking...")
             #fun = functools.partial(
             #   self.chatbot.perform_query, message.content, course)
-
+            save_message(message.author.id, "user", message.content)
             #response = await self.loop.run_in_executor(None, fun)
-            c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course )
-            response = await c.run(query=message.content)
-            await sent_message.edit(content=response)
+            save_message(message.author.id, "assistant", f"Die Antwort zu: {message.content}")
+            #c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course )
+            #response = await c.run(query=message.content)
+            await sent_message.edit(content=json.dumps(get_history(message.author.id)))
             #await message.channel.send(response.response)
             #full_response = ""
             #chunk_size = 8  # 
@@ -81,3 +83,36 @@ class DiscordBot(commands.Bot):
             
             # full_response += chunk
             # await sent_message.edit(content=full_response)
+    async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
+        if payload.user_id == self.user.id:
+            return
+        channel = self.get_channel(payload.channel_id)
+        
+
+        if channel is None:
+           
+            user = self.get_user(payload.user_id)
+            if not user:
+                try:
+                    user = await self.fetch_user(payload.user_id)
+                except discord.NotFound:
+                    return
+            channel = user.dm_channel
+            
+            if channel is None:
+                channel = await user.create_dm()
+        
+        try:
+            message = await channel.fetch_message(payload.message_id)
+        except (discord.NotFound, discord.Forbidden, discord.HTTPException):
+            print(f"Konnte Nachricht {payload.message_id} nicht abrufen")
+            return
+        
+        if message.author.id != self.user.id:
+            return
+    
+        print(f"Reaktion erkannt: {payload.emoji.name} von {payload.user_id} in Channel {channel.id}")
+    
+        if payload.emoji.name == "👍":
+            clear_history(payload.user_id)
+            await channel.send(f"Neuer Chat angefangen für <@{payload.user_id}>")
