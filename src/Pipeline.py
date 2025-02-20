@@ -38,7 +38,7 @@ import torch
 from llama_index.core.agent import ReActAgent
 from llama_index.core.query_engine import CitationQueryEngine
 from enum import Enum
-from helpers.SystemMessage import system_message
+from helpers.SystemMessage import system_message, getChatHistory
 from fachwoerter import fachwoerter, expand_query
 import asyncio
 import glob
@@ -257,6 +257,7 @@ def initialise(datadir="./data/documents", index_dir="./data/index"):
     absoluter_pfad = os.path.abspath(PERSIST_DIR)
 
 
+
 async def create_agent(course: Course, chat_history=None, index=None, topk=3,chunksize=512):
     """
     Create chatbot agent and set up tools to be called trough ai. Each user needs his own agent to have its own context
@@ -300,10 +301,10 @@ def remove_parentheses(text: str) -> str:
     return re.sub(r'\([^)]*\)', '', text)
     
 class AdvancedRAGWorkflow(Workflow):
-    def __init__(self, course=None, timeout = 10, disable_validation = False, verbose = False, service_manager = ...):
+    def __init__(self, course=None, userid=None, timeout = 10, disable_validation = False, verbose = False, service_manager = ...):
         super().__init__(timeout, disable_validation, verbose, service_manager)
         self.course = course
-
+        self.userid = userid
 
     @step(pass_context=True)
     async def QueryKlassifizierung(self, ctx: Context, ev: StartEvent) ->  NoRAGQuestionEvent | QueryVerbesserungsEvent | StopEvent: # StopEvent |
@@ -358,12 +359,13 @@ class AdvancedRAGWorkflow(Workflow):
     async def LoadIndex(self, ctx : Context, ev: LoadIndexEvent) -> RAGhighK | RAGlowK:
         #ctx.data["qdrantindex"] = load_index_oldway(self.course)
         ctx.data["chromaindex"] = loadOrCreateIndexChroma(self.course)
+        ctx.data["chatHistory"] = getChatHistory(self.userid)
         self.send_event(RAGhighK(query=ev.query))
         self.send_event(RAGlowK(query=ev.query))
 
     @step(pass_context=True)
     async def HandleHighKRAG(self, ctx: Context, ev: RAGhighK) -> ResponseEvent:
-        agent = await create_agent(course=self.course, index=ctx.data["chromaindex"], topk=6,chunksize=1024)
+        agent = await create_agent(course=self.course, index=ctx.data["chromaindex"], chat_history=ctx.data["chatHistory"],topk=6,chunksize=1024)
         response = await agent.achat(ev.query)
         print("RAG HIGH K S LENGTH:" + str(len(response.sources)))
         print("RAG HIGH K S CONTENT:" + str(response.sources[0].content))
@@ -374,7 +376,7 @@ class AdvancedRAGWorkflow(Workflow):
     
     @step(pass_context=True)
     async def HandleLowKRAG(self, ctx: Context, ev: RAGlowK) -> ResponseEvent:
-        agent = await create_agent(course=self.course, index=ctx.data["chromaindex"])
+        agent = await create_agent(course=self.course, index=ctx.data["chromaindex"], chat_history=ctx.data["chatHistory"])
         response = await agent.achat(ev.query)
         print("RAG LOW K S LENGTH:" + str(len(response.sources)))
         print("RAG LOW K S CONTENT:" + str(response.sources[0].content))
