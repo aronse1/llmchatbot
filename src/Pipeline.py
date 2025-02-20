@@ -161,13 +161,11 @@ def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
     global chromastore
     collection_name = f"{course.value}_embeddings"
     try:
-        # Try to get and use existing collection
         collection = chromastore.get_collection(collection_name)
         vector_store = ChromaVectorStore(chroma_collection=collection)
         storage_context = StorageContext.from_defaults(vector_store=vector_store)
         
         try:
-            # Try to create index from existing collection
             index = VectorStoreIndex.from_vector_store(
                 vector_store,
                 storage_context=storage_context,
@@ -175,28 +173,20 @@ def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
             print(f"Loaded existing index from collection '{collection_name}'")
             return index
         except Exception as e:
-            # If loading fails, we'll recreate the index
             print(f"Existing collection found but couldn't load index: {str(e)}")
-            # Delete existing collection
             chromastore.delete_collection(collection_name)
             
     except InvalidCollectionException:
-        # Collection doesn't exist, which is fine
         pass
-        
-    # At this point, either:
-    # 1. Collection didn't exist
-    # 2. Collection existed but was empty/corrupt
+    
     
     print(f"Creating new index for collection '{collection_name}'")
     documents = load_documents_oldway(course)
     
-    # Create new collection
     collection = chromastore.create_collection(collection_name)
     vector_store = ChromaVectorStore(chroma_collection=collection)
     storage_context = StorageContext.from_defaults(vector_store=vector_store)
-    
-    # Create and persist index
+
     index = VectorStoreIndex.from_documents(
         documents,
         storage_context=storage_context,
@@ -271,8 +261,6 @@ async def create_agent(course: Course, chat_history=None, index=None, topk=3,chu
     """
     tools = []
     
-    #if intent == "instructions":
-        # Load index and set up the RAG query engine
     index = index
     query_engine = CitationQueryEngine.from_args(
         index,
@@ -292,9 +280,6 @@ async def create_agent(course: Course, chat_history=None, index=None, topk=3,chu
     )
     tools.append(rag_tool)
     
-    # Add log tool for unanswered questions
-    # log_tool = FunctionTool.from_defaults(fn=self.log_unanswered_question)
-    # tools.append(log_tool)
 
     # Combine system messages with chat history
     messages = system_message + (chat_history or [])
@@ -318,22 +303,16 @@ class AdvancedRAGWorkflow(Workflow):
 
     @step(pass_context=True)
     async def QueryKlassifizierung(self, ctx: Context, ev: StartEvent) ->  NoRAGQuestionEvent | QueryVerbesserungsEvent | StopEvent: # StopEvent |
-        """
-        Klassifiziert die Benutzereingabe als entweder 'smalltalk' oder 'study_topic'.
-        Klassifiziert die Sprache des Benutzers
-        """
         if(ev.query == ""):
             return StopEvent(result="Empty String :(")
         ctx.data["language"] = await classifier_manager.detect_language(ev.query )#languageclassifier.detect_language(ev.query)
         response = await classifier_manager.classify_intent(ev.query)
         ctx.data["intent"] = response
         result = "Language: " + ctx.data["language"] + " Intent: " +ctx.data["intent"]
-        #return StopEvent(result=result)
         print(result)
         if response == "small_talk":
            self.send_event(NoRAGQuestionEvent(query=ev.query))
         elif response == "study_topics" or response == "people_questions":
-           #return StopEvent(result="Und hier ist die Antwort zur Studienfrage")
            self.send_event(QueryVerbesserungsEvent(query=ev.query))
 
 
@@ -384,8 +363,9 @@ class AdvancedRAGWorkflow(Workflow):
         response = await agent.achat(ev.query)
         print("RAG HIGH K S LENGTH:" + str(len(response.sources)))
         print("RAG HIGH K S CONTENT:" + str(response.sources[0].content))
-        ctx.data["contextResponse1"] = "\n\n".join(source.content for source in response.sources if source.content)
-        self.send_event(ResponseEvent(query=ev.query,source="High K", response=response.response))
+        source = "High_K"
+        ctx.data[source] = "\n\n".join(source.content for source in response.sources if source.content)
+        self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
         #return StopEvent(result="Hi")
     
     @step(pass_context=True)
@@ -394,8 +374,9 @@ class AdvancedRAGWorkflow(Workflow):
         response = await agent.achat(ev.query)
         print("RAG LOW K S LENGTH:" + str(len(response.sources)))
         print("RAG LOW K S CONTENT:" + str(response.sources[0].content))
-        ctx.data["contextResponse2"] = "\n\n".join(source.content for source in response.sources if source.content)
-        self.send_event(ResponseEvent(query=ev.query,source="Low K", response=response.response))
+        source = "Low_K"
+        ctx.data[source] = "\n\n".join(source.content for source in response.sources if source.content)
+        self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
         #return StopEvent(result="Hi")
     
     @step(pass_context=True)
@@ -405,9 +386,9 @@ class AdvancedRAGWorkflow(Workflow):
             return None
         query = ev.query
         response_1 = ready[0].response
-        context_1 = ctx.data["contextResponse1"]
+        context_1 = ctx.data[ready[0].source]
         response_2 = ready[1].response
-        context_2 = ctx.data["contextResponse2"]
+        context_2 = ctx.data[ready[1].source]
         evaluation_prompt = f"""
         Du bist ein Assistent, der zwei Antworten auf die gleiche Frage bewertet.
         
@@ -435,7 +416,6 @@ class AdvancedRAGWorkflow(Workflow):
         **Ausgabeformat:**  
         Gib ausschließlich die bessere Antwort zurück. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der exakten Antwort.
         """
-
         best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)
         best_response = remove_parentheses(best_response.text)
         best_response = best_response.replace("**Antwort 1:**", "").replace("**Antwort 2:**", "").replace("  ", " ").replace("Antwort 1:", "").replace("Antwort 2:", "")
