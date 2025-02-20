@@ -4,22 +4,24 @@ import logging
 import asyncio
 from discord import Message
 from discord.ext import commands
-from src.ChatBot import ChatBot, Course
+#from src.ChatBot import ChatBot, Course
 from src.discord.Dropdowns import DropdownView
 from src.discord.disclaimer import disclaimer
+from src.Pipeline import *
 
 chatbot_logger = logging.getLogger('ChatBot')
 
 
 class DiscordBot(commands.Bot):
-    chatbot: ChatBot = None
+    #chatbot: ChatBot = None
 
     def __init__(self, documents_dir: str, index_dir: str):
         intents = discord.Intents.default()
         intents.message_content = True
         super().__init__(command_prefix=commands.when_mentioned_or('$'), intents=intents)
-        self.chatbot = ChatBot(
-            documents_dir=documents_dir, index_dir=index_dir)
+        #self.chatbot = ChatBot(
+        #    documents_dir=documents_dir, index_dir=index_dir)
+        initialise()
 
     async def on_ready(self):
         print(f'Logged in as {self.user} (ID: {self.user.id})')
@@ -55,10 +57,13 @@ class DiscordBot(commands.Bot):
             await message.channel.send('Bitte wähle deinen Kurs und stelle die Frage anschließend erneut', view=view)
         else:
             sent_message = await message.channel.send("Thinking...")
-            fun = functools.partial(
-               self.chatbot.perform_query, message.content, course)
-            response = await self.loop.run_in_executor(None, fun)
-            await sent_message.edit(content=response.response)
+            #fun = functools.partial(
+            #   self.chatbot.perform_query, message.content, course)
+
+            #response = await self.loop.run_in_executor(None, fun)
+            c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course )
+            response = await c.run(query=message.content)
+            await sent_message.edit(content=response)
             #await message.channel.send(response.response)
             #full_response = ""
             #chunk_size = 8  # 

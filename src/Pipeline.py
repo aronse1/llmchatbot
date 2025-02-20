@@ -45,8 +45,7 @@ import glob
 from chromadb.errors import InvalidCollectionException
 import re
 from llama_index.core.text_splitter import TokenTextSplitter
-
-
+from evaluator import evaluate
 
 
 DATA_DIR = ""
@@ -77,6 +76,11 @@ class RAGlowK(Event):
 class ResponseEvent(Event):
     query: str
     response: str
+
+class EvaluationEvent(Event):
+    query: str
+    response : str
+    testsetitem : dict
 
 # class Course(Enum):
 #     WI = "wi"
@@ -417,6 +421,7 @@ class AdvancedRAGWorkflow(Workflow):
         Gib ausschließlich die bessere Antwort zurück. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der exakten Antwort.
         """
         best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)
+        ctx.data["responseObj"] = best_response
         best_response = remove_parentheses(best_response.text)
         best_response = best_response.replace("**Antwort 1:**", "").replace("**Antwort 2:**", "").replace("  ", " ").replace("Antwort 1:", "").replace("Antwort 2:", "")
         if ctx.data["language"] != "de":
@@ -428,10 +433,41 @@ class AdvancedRAGWorkflow(Workflow):
 
 
 
+
+def loadTestset(file):
+    data = []
+    with open(file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
+
+
+
+async def makeEvaluation(iterations : int, course, chat_bot):
+    testset = loadTestset("./data/documents/it/output/test/testset_wi.json")
+    
+    for a in range(iterations):
+        allevaluations = []
+        i = 1
+        for item in testset: 
+            query = item['question']
+            print(f"\nIteration {a} of {iterations} Evaluating question {i} of {len(testset)}...")
+            try:
+                response = await chat_bot.run(query=query)
+            except:
+                response = "Das konnte ich nicht beantworten"
+            allevaluations.append(evaluate(item, response))
+            i+=1
+        for item in allevaluations:
+            print(item)
+        output_path = f"./data/documents/it/output/output_json/wi_new_valuation_results{a+1}.json"
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(allevaluations, f, ensure_ascii=False, indent=4)
+
+
 async def main():
     initialise()
-    c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=Course.IT)
-
+    c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=Course.WI)
+    await makeEvaluation(10, course=Course.WI, chat_bot=c)
     while True:
         user_input = input("Frage: ")
         if user_input.lower() in ["exit", "quit", "q"]:
