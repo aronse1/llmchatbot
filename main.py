@@ -131,8 +131,9 @@ async def makeEvaluation(iterations : int, course, chat_bot):
 
 async def main():
     initialise()
-    c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=Course.WI)
-    await makeEvaluation(10, course=Course.WI, chat_bot=c)
+    course = Course.WI
+    c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course)
+    await makeEvaluation(10, course=course, chat_bot=c)
     while True:
         user_input = input("Frage: ")
         if user_input.lower() in ["exit", "quit", "q"]:

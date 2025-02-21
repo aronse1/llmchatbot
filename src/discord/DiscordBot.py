@@ -62,7 +62,7 @@ class DiscordBot(commands.Bot):
             #   self.chatbot.perform_query, message.content, course)
             
             #response = await self.loop.run_in_executor(None, fun)
-            c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course )
+            c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course, userid=message.author.id)
             response = await c.run(query=message.content)
 
             await sent_message.edit(content=response)
