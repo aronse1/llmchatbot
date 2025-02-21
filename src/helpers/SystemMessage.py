@@ -52,8 +52,8 @@ async def convert_to_input_messages(messages: List[dict]) -> List[InputMessage]:
 async def getChatHistory(userID):
     if userID is None:
         return []
-    history = get_history(userID)
-    converted_messages = convert_to_input_messages(history)
+    history = await get_history(userID)
+    converted_messages = await convert_to_input_messages(history)
     return converted_messages
 
 # smalltalk_message = [

@@ -66,8 +66,8 @@ class DiscordBot(commands.Bot):
             response = await c.run(query=message.content)
 
             await sent_message.edit(content=response)
-            save_message(message.author.id, "user", message.content)
-            save_message(message.author.id, "assistant", response)
+            await save_message(message.author.id, "user", message.content)
+            await save_message(message.author.id, "assistant", response)
 
     async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
         if payload.user_id == self.user.id:

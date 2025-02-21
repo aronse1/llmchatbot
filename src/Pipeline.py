@@ -13,10 +13,10 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.embeddings.openai import OpenAIEmbedding
 
 from llama_index.llms.ollama import Ollama
-from helpers.PriorityNodeScoreProcessor import PriorityNodeScoreProcessor
-from helpers.RagPrompt import rag_messages, rag_template
-from helpers.SystemMessage import system_message
-from IntentClassifier import ClassifierManager
+from src.helpers.PriorityNodeScoreProcessor import PriorityNodeScoreProcessor
+from src.helpers.RagPrompt import rag_messages, rag_template
+from src.helpers.SystemMessage import system_message, getChatHistory
+from src.IntentClassifier import ClassifierManager
 from llama_index.core import Document
 import os
 from llama_index.core.agent.react import ReActAgent
@@ -38,8 +38,8 @@ import torch
 from llama_index.core.agent import ReActAgent
 from llama_index.core.query_engine import CitationQueryEngine
 from enum import Enum
-from helpers.SystemMessage import system_message, getChatHistory
-from fachwoerter import fachwoerter, expand_query
+
+from src.fachwoerter import fachwoerter, expand_query
 import asyncio
 import glob
 from chromadb.errors import InvalidCollectionException
@@ -359,7 +359,7 @@ class AdvancedRAGWorkflow(Workflow):
     async def LoadIndex(self, ctx : Context, ev: LoadIndexEvent) -> RAGhighK | RAGlowK:
         #ctx.data["qdrantindex"] = load_index_oldway(self.course)
         ctx.data["chromaindex"] = loadOrCreateIndexChroma(self.course)
-        ctx.data["chatHistory"] = getChatHistory(self.userid)
+        ctx.data["chatHistory"] = await getChatHistory(self.userid)
         self.send_event(RAGhighK(query=ev.query))
         self.send_event(RAGlowK(query=ev.query))
 
@@ -436,54 +436,4 @@ class AdvancedRAGWorkflow(Workflow):
 
 
 
-def loadTestset(file):
-    data = []
-    with open(file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data
 
-
-
-async def makeEvaluation(iterations : int, course, chat_bot):
-    testset = loadTestset("./data/documents/it/output/test/testset_wi.json")
-    
-    for a in range(iterations):
-        allevaluations = []
-        i = 1
-        for item in testset: 
-            query = item['question']
-            print(f"\nIteration {a} of {iterations} Evaluating question {i} of {len(testset)}...")
-            try:
-                response = await chat_bot.run(query=query)
-            except:
-                response = "Das konnte ich nicht beantworten"
-            allevaluations.append(evaluate(item, response))
-            i+=1
-        for item in allevaluations:
-            print(item)
-        output_path = f"./data/documents/it/output/output_json/wi_new_valuation_results{a+1}.json"
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(allevaluations, f, ensure_ascii=False, indent=4)
-
-
-async def main():
-    initialise()
-    c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=Course.WI)
-    await makeEvaluation(10, course=Course.WI, chat_bot=c)
-    while True:
-        user_input = input("Frage: ")
-        if user_input.lower() in ["exit", "quit", "q"]:
-            print("Beende den Chat...")
-            break
-    
-        result = await c.run(query=user_input)
-        print("Antwort:", result)
-    # result = await c.run(
-    # #query="How has spending on police changed in San Francisco's budgets from 2016 to 2018?"
-    # query="Hi how are you?"
-    # #query="How has spending changed?"
-    # )
-    # print(result)
-
-if __name__ == "__main__":
-    asyncio.run(main())
