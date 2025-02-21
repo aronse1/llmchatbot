@@ -67,7 +67,7 @@ class DiscordBot(commands.Bot):
 
             await sent_message.edit(content=response)
             await save_message(message.author.id, "user", message.content)
-            await save_message(message.author.id, "assistant", response)
+            await save_message(message.author.id, "assistant", str(response))
 
     async def on_raw_reaction_add(self, payload: discord.RawReactionActionEvent):
         if payload.user_id == self.user.id:
@@ -100,5 +100,5 @@ class DiscordBot(commands.Bot):
         print(f"Reaktion erkannt: {payload.emoji.name} von {payload.user_id} in Channel {channel.id}")
     
         if payload.emoji.name == "👍":
-            clear_history(payload.user_id)
+            await clear_history(payload.user_id)
             await channel.send(f"Neuer Chat für dich, <@{payload.user_id}>")
