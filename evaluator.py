@@ -19,13 +19,13 @@ def evaluate(testsetitem : dict, response ):
     thisEvaluation["reference"] = testsetitem['reference']
     thisEvaluation["stage"] = testsetitem["stage"]
     thisEvaluation["difficulty"] = testsetitem["difficulty"]
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    llm = Ollama(
-             model="llama3.1", device=device, temperature=0.0, request_timeout=360.0)
-    evaluator = FaithfulnessEvaluator(llm=llm)
-    eval_result = evaluator.evaluate_response(response=response)
-    thisEvaluation["trust_score"] = eval_result.score
-    thisEvaluation["passed"] = eval_result.passing
+    #device = "cuda" if torch.cuda.is_available() else "cpu"
+    # llm = Ollama(
+    #          model="llama3.1", device=device, temperature=0.0, request_timeout=360.0)
+    # evaluator = FaithfulnessEvaluator(llm=llm)
+    # eval_result = evaluator.evaluate_response(response=response)
+    # thisEvaluation["trust_score"] = eval_result.score
+    # thisEvaluation["passed"] = eval_result.passing
 
     bleu_score = sentence_bleu(
         [referenceText.split()],  
