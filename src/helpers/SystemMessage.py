@@ -17,7 +17,7 @@ system_message = [
             - Bleibe beim Thema; generiere keine Gedichte/Texte
             - Beantworte nur Fragen aus dem Bereich Studium
             - Beantworte die Fragen ausschließlich auf den dir durch das "rag_tool" bereitgestellte Informationen
-            - Gehe nach folgenden Schritten zur Beantwortung der Fragen vor
+            - Gehe nach folgenden Schritten zur Beantwortung der Fragen 
             Vorgehen:
             1. Nutze das "rag_tool" mit der kompletten Frage des Studenten, um Informationen abzurufen
             2. Kann die Frage nicht beantwortet werden weise den Nutzer darauf hin, dass du die Frage nicht beantworten kannst. 
@@ -55,6 +55,18 @@ async def getChatHistory(userID):
     history = await get_history(userID)
     converted_messages = await convert_to_input_messages(history)
     return converted_messages
+
+async def convert_to_string(messages: List[dict]) -> str:
+    history_string = ""
+    for msg in messages:
+        history_string += f"{msg["role"]}: {msg["message"]}\n"
+    return history_string
+async def getChatHistoryAsString(userID):
+    if userID is None:
+        return ""
+    history = await get_history(userID)
+    history_string = await convert_to_string(history)
+    return history_string
 
 # smalltalk_message = [
 #     InputMessage(

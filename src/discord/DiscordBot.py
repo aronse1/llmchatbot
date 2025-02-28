@@ -62,9 +62,11 @@ class DiscordBot(commands.Bot):
             #   self.chatbot.perform_query, message.content, course)
             
             #response = await self.loop.run_in_executor(None, fun)
-            c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course, userid=message.author.id)
+            c = AdvancedRAGWorkflow2(timeout=3600, verbose=True, course=course, userid=message.author.id)
+            #try:
             response = await c.run(query=message.content)
-
+            # except:
+            #     response = "Das kann ich leider nicht Beantworten"
             await sent_message.edit(content=response)
             await save_message(message.author.id, "user", message.content)
             await save_message(message.author.id, "assistant", str(response))

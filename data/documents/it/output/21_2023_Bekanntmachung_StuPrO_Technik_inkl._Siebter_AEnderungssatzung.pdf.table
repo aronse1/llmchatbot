@@ -1,1043 +1,1111 @@
 1. Architektur
-|    | 0                                  | 1               | 2          | 3           |
-|---:|:-----------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                              | ECTS-           | Anzahl     | Anzahl      |
-|    |                                    | Leistungspunkte | benotete   | unbenotete  |
-|    |                                    |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                         |                 |            |             |
-|  2 | Gestaltung I Semesterentwürfe I    | 10              | 1          | 0           |
-|  3 | Darstellung und Raum I             | 5               | 1          | 0           |
-|  4 | Baustoffkunde, Tragwerkslehre und  | 5               | 1          | 0           |
-|    | Bauphysik I                        |                 |            |             |
-|  5 | Architektur-Designgeschichte I     | 5               | 1          | 0           |
-|  6 | Gestaltung II Semesterentwürfe II  | 10              | 1          | 0           |
-|  7 | Darstellung und Raum II            | 5               | 1          | 0           |
-|  8 | Gebäudelehre I                     | 5               | 1          | 0           |
-|  9 | Architektur-Designgeschichte II    | 5               | 1          | 0           |
-| 10 | Konstruktion Holzbau I             | 10              | 1          | 0           |
-|    | Semesterentwürfe III               |                 |            |             |
-| 11 | Baustoffkunde, Tragwerkslehre und  | 5               | 1          | 0           |
-|    | Bauphysik II                       |                 |            |             |
-| 12 | Städtebau I                        | 5               | 1          | 0           |
-| 13 | Digitale Werkstatt I               | 5               | 1          | 0           |
-| 14 | Konstruktion Holzbau II            | 10              | 1          | 0           |
-|    | Semesterentwürfe IV                |                 |            |             |
-| 15 | Gebäudelehre II                    | 5               | 1          | 0           |
-| 16 | Städtebau II                       | 5               | 1          | 0           |
-| 17 | Digitale Werkstatt II              | 5               | 1          | 0           |
-| 18 | Bauen im Bestand                   | 10              | 1          | 0           |
-|    | Semesterentwürfe V                 |                 |            |             |
-| 19 | Zukunftsfähiges Entwerfen I        | 5               | 1          | 0           |
-| 20 | Recycling und ReUse                | 5               | 1          | 0           |
-| 21 | Vertiefung Semesterentwürfe VI     | 10              | 1          | 0           |
-| 22 | Zukunftsfähiges Entwerfen II       | 5               | 1          | 0           |
-| 23 | Planungs- und Baumanagement,       | 5               | 1          | 0           |
-|    | Bauorganisation                    |                 |            |             |
-| 24 | Innenarchitektur                   | 5               | 1          | 0           |
-| 25 | Freiraum- und                      | 5               | 1          | 0           |
-|    | Landschaftsarchitektur             |                 |            |             |
-| 26 | Studienarbeit                      | 5               | 1          | 0           |
-| 27 | Praxisprojekt I                    | 20              | 0          | 2           |
-| 28 | Praxisprojekt II                   | 20              | 2          | 1           |
-| 29 | Praxisprojekt III                  | 8               | 0          | 2           |
-| 30 | Bachelorarbeit                     | 12              | 1          | 0           |
-| 31 | Wahlmodul1                         | 5               | 1          | 0           |
-| 32 | Wahlmodul2                         | 5               | 1          | 0           |
-| 33 | Wahlmodul3                         | 5               | 1          | 0           |
-| 34 | Wahlmodul4                         | 5               | 1          | 0           |
-| 35 | Wahlmodul5                         | 5               | 1          | 0           |28 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Gestaltung I Semesterentwürfe I","10","1","0"
+"Darstellung und Raum I","5","1","0"
+"Baustoffkunde, Tragwerkslehre und 
+Bauphysik I","5","1","0"
+"Architektur-Designgeschichte I","5","1","0"
+"Gestaltung II Semesterentwürfe II","10","1","0"
+"Darstellung und Raum II","5","1","0"
+"Gebäudelehre I","5","1","0"
+"Architektur-Designgeschichte II","5","1","0"
+"Konstruktion Holzbau I 
+Semesterentwürfe III","10","1","0"
+"Baustoffkunde, Tragwerkslehre und 
+Bauphysik II","5","1","0"
+"Städtebau I","5","1","0"
+"Digitale Werkstatt I","5","1","0"
+"Konstruktion Holzbau II 
+Semesterentwürfe IV","10","1","0"
+"Gebäudelehre II","5","1","0"
+"Städtebau II","5","1","0"
+"Digitale Werkstatt II","5","1","0"
+"Bauen im Bestand 
+Semesterentwürfe V","10","1","0"
+"Zukunftsfähiges Entwerfen I","5","1","0"
+"Recycling und ReUse","5","1","0"
+"Vertiefung Semesterentwürfe VI","10","1","0"
+"Zukunftsfähiges Entwerfen II","5","1","0"
+"Planungs- und Baumanagement, 
+Bauorganisation","5","1","0"
+"Innenarchitektur","5","1","0"
+"Freiraum- und 
+Landschaftsarchitektur","5","1","0"
+"Studienarbeit","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+28 / 51
 
 -------------------------------------------
 2. Bauingenieurwesen für die Studierenden, die bis zum 30. September 2020 immatrikuliert
 wurden
-|    | 0                                | 1               | 2          | 3           |
-|---:|:---------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                            | ECTS-           | Anzahl     | Anzahl      |
-|    |                                  | Leistungspunkte | benotete   | unbenotete  |
-|    |                                  |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                       |                 |            |             |
-|  2 | Baukonstruktion I                | 5               | 1          | 0           |
-|  3 | Technische Mechanik I            | 5               | 1          | 0           |
-|  4 | Mathematik I                     | 5               | 1          | 0           |
-|  5 | Angewandte Mathematik und Physik | 5               | 1          | 0           |
-|  6 | Persönlichkeitsbildung           | 5               | 1          | 0           |
-|  7 | Bauphysikalische Grundlagen      | 5               | 1          | 0           |
-|  8 | Technische Mechanik II           | 5               | 1          | 0           |
-|  9 | Mathematik II                    | 5               | 1          | 0           |
-| 10 | Grundlagen Baustatik             | 5               | 1          | 0           |
-| 11 | Technische Gebäudeausrüstung     | 5               | 1          | 0           |
-| 12 | Grundlagen Recht                 | 5               | 1          | 0           |
-| 13 | Digitalisierung im Bauwesen      | 5               | 1          | 1           |
-| 14 | Umwelt und Energie               | 5               | 1          | 0           |
-| 15 | Baurecht und Vertiefung BWL      | 5               | 1          | 0           |
-| 16 | Studienarbeit                    | 5               | 1          | 0           |
-| 17 | Ausbildung und Arbeitsschutz     | 5               | 1          | 0           |
-| 18 | Praxisprojekt I                  | 20              | 0          | 2           |
-| 19 | Praxisprojekt II                 | 20              | 2          | 1           |
-| 20 | Praxisprojekt III                | 8               | 0          | 2           |
-| 21 | Bachelorarbeit                   | 12              | 1          | 0           |
-| 22 | Studienrichtungsmodule           |                 |            |             |
-| 23 | Studienrichtungsmodul1           | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul2           | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul3           | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul4           | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul5           | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul6           | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul7           | 5               | 1          | 0           |
-| 30 | Studienrichtungsmodul8           | 5               | 1          | 0           |
-| 31 | Studienrichtungsmodul9           | 5               | 1          | 0           |
-| 32 | Studienrichtungsmodul10*         | 5               | 1          | 0           |
-| 33 | Studienrichtungsmodul11*         | 5               | 1          | 0           |
-| 34 | Studienrichtungsmodul12*         | 5               | 1          | 0           |
-| 35 | Studienrichtungsmodul13*         | 5               | 1          | 0           |
-| 36 | Studienrichtungsmodul14*         | 5               | 1          | 0           |
-| 37 | Wahlmodul1                       | 5               | 1          | 0           |
-| 38 | Wahlmodul2                       | 5               | 1          | 0           |
-| 39 | Wahlmodul3                       | 5               | 1          | 0           |
-| 40 | Wahlmodul4                       | 5               | 1          | 0           |
-| 41 | Wahlmodul5                       | 5               | 1          | 0           |* je nach Studienrichtung (siehe Studiengangsbeschreibung)
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Baukonstruktion I","5","1","0"
+"Technische Mechanik I","5","1","0"
+"Mathematik I","5","1","0"
+"Angewandte Mathematik und Physik","5","1","0"
+"Persönlichkeitsbildung","5","1","0"
+"Bauphysikalische Grundlagen","5","1","0"
+"Technische Mechanik II","5","1","0"
+"Mathematik II","5","1","0"
+"Grundlagen Baustatik","5","1","0"
+"Technische Gebäudeausrüstung","5","1","0"
+"Grundlagen Recht","5","1","0"
+"Digitalisierung im Bauwesen","5","1","1"
+"Umwelt und Energie","5","1","0"
+"Baurecht und Vertiefung BWL","5","1","0"
+"Studienarbeit","5","1","0"
+"Ausbildung und Arbeitsschutz","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+"Studienrichtungsmodul9","5","1","0"
+"Studienrichtungsmodul10*","5","1","0"
+"Studienrichtungsmodul11*","5","1","0"
+"Studienrichtungsmodul12*","5","1","0"
+"Studienrichtungsmodul13*","5","1","0"
+"Studienrichtungsmodul14*","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+* je nach Studienrichtung (siehe Studiengangsbeschreibung)
 29 / 51
 
 -------------------------------------------
 3. Bauingenieurwesen für die Studierenden, die ab dem 1. Oktober 2020 immatrikuliert
 wurden
-|    | 0                                 | 1               | 2           | 3            |
-|---:|:----------------------------------|:----------------|:------------|:-------------|
-|  0 | Modul                             | ECTS-           | Anzahl der  | Anzahl der   |
-|    |                                   | Leistungspunkte | benoteten   | unbenoteten  |
-|    |                                   |                 | Prüfungsl.  | Prüfungsl.   |
-|  1 | Kernmodule                        |                 |             |              |
-|  2 | Baukonstruktion I                 | 5               | 1           | 0            |
-|  3 | Technische Mechanik I             | 5               | 1           | 0            |
-|  4 | Mathematik I                      | 5               | 1           | 0            |
-|  5 | Naturwissenschaftliche Grundlagen | 5               | 2           | 0            |
-|  6 | Technische Mechanik II            | 5               | 1           | 0            |
-|  7 | Mathematik II                     | 5               | 1           | 0            |
-|  8 | Bauphysikalische Grundlagen       | 5               | 1           | 0            |
-|  9 | Angewandte Wissenschaften I       | 5               | 1           | 0            |
-| 10 | Grundlagen Baustatik              | 5               | 1           | 0            |
-| 11 | Technische Gebäudeausrüstung      | 5               | 1           | 0            |
-| 12 | Wasser und Umwelt                 | 5               | 1           | 0            |
-| 13 | Persönlichkeitsbildung            | 5               | 0           | 1            |
-| 14 | Baurecht                          | 5               | 1           | 0            |
-| 15 | Digitalisierung im Bauwesen       | 5               | 1           | 0            |
-| 16 | Studienarbeit                     | 5               | 1           | 0            |
-| 17 | Praxisprojekt I                   | 20              | 0           | 2            |
-| 18 | Praxisprojekt II                  | 20              | 2           | 1            |
-| 19 | Praxisprojekt III                 | 8               | 0           | 2            |
-| 20 | Bachelorarbeit                    | 12              | 1           | 0            |
-| 21 | Studienrichtungsmodule            |                 |             |              |
-| 22 | Studienrichtungsmodul1            | 5               | 1           | 0            |
-| 23 | Studienrichtungsmodul2            | 5               | 1           | 0            |
-| 24 | Studienrichtungsmodul3            | 5               | 1           | 0            |
-| 25 | Studienrichtungsmodul4            | 5               | 1           | 0            |
-| 26 | Studienrichtungsmodul5            | 5               | 1           | 0            |
-| 27 | Studienrichtungsmodul6            | 5               | 1           | 0            |
-| 28 | Studienrichtungsmodul7            | 5               | 1           | 1            |
-| 29 | Studienrichtungsmodul8            | 5               | 1           | 0            |
-| 30 | Studienrichtungsmodul9            | 5               | 1           | 0            |
-| 31 | Studienrichtungsmodul10           | 5               | 1           | 0            |
-| 32 | Studienrichtungsmodul11*          | 5               | 1           | 0            |
-| 33 | Studienrichtungsmodul12*          | 5               | 1           | 1            |
-| 34 | Studienrichtungsmodul13*          | 5               | 1           | 0            |
-| 35 | Studienrichtungsmodul14*          | 5               | 1           | 0            |
-| 36 | Studienrichtungsmodul15*          | 5               | 1           | 0            |
-| 37 | Wahlmodul1*                       | 5               | 1           | 0            |
-| 38 | Wahlmodul2*                       | 5               | 1           | 0            |
-| 39 | Wahlmodul3*                       | 5               | 1           | 1            |
-| 40 | Wahlmodul4*                       | 5               | 1           | 0            |
-| 41 | Wahlmodul5*                       | 5               | 1           | 0            |* je nach Studienrichtung (siehe Studiengangsbeschreibung)
+"Modul","ECTS-
+Leistungspunkte","Anzahl der 
+benoteten 
+Prüfungsl.","Anzahl der 
+unbenoteten 
+Prüfungsl."
+"Kernmodule","","",""
+"Baukonstruktion I","5","1","0"
+"Technische Mechanik I","5","1","0"
+"Mathematik I","5","1","0"
+"Naturwissenschaftliche Grundlagen","5","2","0"
+"Technische Mechanik II","5","1","0"
+"Mathematik II","5","1","0"
+"Bauphysikalische Grundlagen","5","1","0"
+"Angewandte Wissenschaften I","5","1","0"
+"Grundlagen Baustatik","5","1","0"
+"Technische Gebäudeausrüstung","5","1","0"
+"Wasser und Umwelt","5","1","0"
+"Persönlichkeitsbildung","5","0","1"
+"Baurecht","5","1","0"
+"Digitalisierung im Bauwesen","5","1","0"
+"Studienarbeit","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","1"
+"Studienrichtungsmodul8","5","1","0"
+"Studienrichtungsmodul9","5","1","0"
+"Studienrichtungsmodul10","5","1","0"
+"Studienrichtungsmodul11*","5","1","0"
+"Studienrichtungsmodul12*","5","1","1"
+"Studienrichtungsmodul13*","5","1","0"
+"Studienrichtungsmodul14*","5","1","0"
+"Studienrichtungsmodul15*","5","1","0"
+"Wahlmodul1*","5","1","0"
+"Wahlmodul2*","5","1","0"
+"Wahlmodul3*","5","1","1"
+"Wahlmodul4*","5","1","0"
+"Wahlmodul5*","5","1","0"
+* je nach Studienrichtung (siehe Studiengangsbeschreibung)
 30 / 51
 
 -------------------------------------------
 4. Chemische Technik für die Studierenden, die bis zum 30. September 2021
 immatrikuliert wurden
-|    | 0                                | 1               | 2          | 3           |
-|---:|:---------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                            | ECTS-           | Anzahl     | Anzahl      |
-|    |                                  | Leistungspunkte | benotete   | unbenotete  |
-|    |                                  |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                       |                 |            |             |
-|  2 | Mathematik                       | 5               | 1          | 0           |
-|  3 | Mathematik II                    | 5               | 1          | 0           |
-|  4 | Mathematik III                   | 5               | 1          | 0           |
-|  5 | Allgemeine & anorganische Chemie | 5               | 1          | 0           |
-|  6 | Programmieren                    | 5               | 1          | 0           |
-|  7 | Werkstoffkunde                   | 5               | 1          | 0           |
-|  8 | Physik                           | 5               | 1          | 0           |
-|  9 | Organische Chemie                | 5               | 1          | 0           |
-| 10 | Physikalische Chemie             | 5               | 1          | 0           |
-| 11 | Management                       | 5               | 1          | 0           |
-| 12 | Chemische Prozesskunde           | 5               | 1          | 0           |
-| 13 | Thermodynamik                    | 5               | 1          | 0           |
-| 14 | Thermodynamik II                 | 5               | 1          | 0           |
-| 15 | Wärmeübertragung                 | 5               | 1          | 0           |
-| 16 | Mechanische Verfahrenstechnik    | 5               | 1          | 0           |
-| 17 | Chemische Reaktionstechnik       | 5               | 1          | 0           |
-| 18 | Stoffübertragung                 | 5               | 1          | 0           |
-| 19 | Thermische Verfahrenstechnik     | 5               | 1          | 0           |
-| 20 | Studienarbeit                    | 10              | 1          | 0           |
-| 21 | Praxisprojekt I                  | 20              | 0          | 2           |
-| 22 | Praxisprojekt II                 | 20              | 2          | 1           |
-| 23 | Praxisprojekt III                | 8               | 0          | 2           |
-| 24 | Bachelorarbeit                   | 12              | 1          | 0           |
-| 25 | Studienrichtungsmodule           |                 |            |             |
-| 26 | Studienrichtungsmodul1           | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul2           | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul3           | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul4           | 5               | 1          | 0           |
-| 30 | Studienrichtungsmodul5           | 5               | 1          | 0           |
-| 31 | Studienrichtungsmodul6           | 5               | 1          | 0           |
-| 32 | Wahlmodul1                       | 5               | 1          | 0           |
-| 33 | Wahlmodul2                       | 5               | 1          | 0           |
-| 34 | Wahlmodul3                       | 5               | 1          | 0           |
-| 35 | Wahlmodul4                       | 5               | 1          | 0           |31 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik","5","1","0"
+"Mathematik II","5","1","0"
+"Mathematik III","5","1","0"
+"Allgemeine & anorganische Chemie","5","1","0"
+"Programmieren","5","1","0"
+"Werkstoffkunde","5","1","0"
+"Physik","5","1","0"
+"Organische Chemie","5","1","0"
+"Physikalische Chemie","5","1","0"
+"Management","5","1","0"
+"Chemische Prozesskunde","5","1","0"
+"Thermodynamik","5","1","0"
+"Thermodynamik II","5","1","0"
+"Wärmeübertragung","5","1","0"
+"Mechanische Verfahrenstechnik","5","1","0"
+"Chemische Reaktionstechnik","5","1","0"
+"Stoffübertragung","5","1","0"
+"Thermische Verfahrenstechnik","5","1","0"
+"Studienarbeit","10","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+31 / 51
 
 -------------------------------------------
 5. Chemische Technik für die Studierenden, die ab dem 1. Oktober 2021 immatrikuliert
 wurden
-|    | 0                                  | 1               | 2          | 3           |
-|---:|:-----------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                              | ECTS-           | Anzahl     | Anzahl      |
-|    |                                    | Leistungspunkte | benotete   | unbenotete  |
-|    |                                    |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                         |                 |            |             |
-|  2 | Mathematik                         | 5               | 1          | 0           |
-|  3 | Allgemeine und Anorganische Chemie | 5               | 1          | 0           |
-|  4 | Programmieren                      | 5               | 1          | 0           |
-|  5 | Werkstoffkunde                     | 5               | 1          | 0           |
-|  6 | Physik                             | 5               | 1          | 0           |
-|  7 | Mathematik II                      | 5               | 1          | 0           |
-|  8 | Organische Chemie                  | 5               | 1          | 0           |
-|  9 | Chemische Prozesskunde             | 5               | 1          | 0           |
-| 10 | Management                         | 5               | 1          | 0           |
-| 11 | Mathematik III                     | 5               | 1          | 0           |
-| 12 | Thermodynamik                      | 5               | 1          | 0           |
-| 13 | Physikalische Chemie               | 5               | 1          | 0           |
-| 14 | Thermodynamik II                   | 5               | 1          | 0           |
-| 15 | Wärmeübertragung                   | 5               | 1          | 0           |
-| 16 | Mechanische Verfahrenstechnik      | 5               | 1          | 0           |
-| 17 | Chemische Reaktionstechnik         | 5               | 1          | 0           |
-| 18 | Stoffübertragung                   | 5               | 1          | 0           |
-| 19 | Thermische Verfahrenstechnik       | 5               | 1          | 0           |
-| 20 | Studienarbeit                      | 10              | 1          | 0           |
-| 21 | Praxisprojekt I                    | 20              | 0          | 2           |
-| 22 | Praxisprojekt II                   | 20              | 2          | 1           |
-| 23 | Praxisprojekt III                  | 8               | 0          | 2           |
-| 24 | Bachelorarbeit                     | 12              | 1          | 0           |
-| 25 | Studienrichtungsmodule             |                 |            |             |
-| 26 | Studienrichtungsmodul1             | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul2             | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul3             | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul4             | 5               | 1          | 0           |
-| 30 | Studienrichtungsmodul5             | 5               | 1          | 0           |
-| 31 | Studienrichtungsmodul6             | 5               | 1          | 0           |
-| 32 | Studienrichtungsmodul7             | 5               | 1          | 0           |
-| 33 | Studienrichtungsmodul8             | 5               | 1          | 0           |
-| 34 | Wahlmodul1                         | 5               | 1          | 0           |
-| 35 | Wahlmodul2                         | 5               | 1          | 0           |32 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik","5","1","0"
+"Allgemeine und Anorganische Chemie","5","1","0"
+"Programmieren","5","1","0"
+"Werkstoffkunde","5","1","0"
+"Physik","5","1","0"
+"Mathematik II","5","1","0"
+"Organische Chemie","5","1","0"
+"Chemische Prozesskunde","5","1","0"
+"Management","5","1","0"
+"Mathematik III","5","1","0"
+"Thermodynamik","5","1","0"
+"Physikalische Chemie","5","1","0"
+"Thermodynamik II","5","1","0"
+"Wärmeübertragung","5","1","0"
+"Mechanische Verfahrenstechnik","5","1","0"
+"Chemische Reaktionstechnik","5","1","0"
+"Stoffübertragung","5","1","0"
+"Thermische Verfahrenstechnik","5","1","0"
+"Studienarbeit","10","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+32 / 51
 
 -------------------------------------------
 6. Elektrotechnik
-|    | 0                             | 1               | 2          | 3           |
-|---:|:------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                         | ECTS-           | Anzahl     | Anzahl      |
-|    |                               | Leistungspunkte | benotete   | unbenotete  |
-|    |                               |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                    |                 |            |             |
-|  2 | Mathematik I                  | 5               | 1          | 0           |
-|  3 | Mathematik II                 | 5               | 1          | 0           |
-|  4 | Physik                        | 5               | 1          | 0           |
-|  5 | Grundlagen Elektrotechnik I   | 5               | 1          | 0           |
-|  6 | Grundlagen Elektrotechnik II  | 5               | 1          | 1           |
-|  7 | Digitaltechnik                | 5               | 1          | 0           |
-|  8 | Elektronik und Messtechnik I  | 5               | 1          | 0           |
-|  9 | Informatik I                  | 5               | 1          | 0           |
-| 10 | Informatik II                 | 5               | 1          | 0           |
-| 11 | Geschäftsprozesse             | 5               | 1          | 0           |
-| 12 | Mathematik III                | 5               | 1          | 1           |
-| 13 | Grundlagen Elektrotechnik III | 5               | 1          | 1           |
-| 14 | Systemtheorie                 | 5               | 1          | 0           |
-| 15 | Regelungstechnik              | 5               | 1          | 0           |
-| 16 | Elektronik und Messtechnik II | 5               | 1          | 0           |
-| 17 | Mikrocomputertechnik          | 5               | 1          | 0           |
-| 18 | Studienarbeit                 | 5               | 1          | 0           |
-| 19 | Studienarbeit II              | 5               | 1          | 0           |
-| 20 | Praxisprojekt I               | 20              | 0          | 2           |
-| 21 | Praxisprojekt II              | 20              | 2          | 1           |
-| 22 | Praxisprojekt III             | 8               | 0          | 2           |
-| 23 | Bachelorarbeit                | 12              | 1          | 0           |
-| 24 | Studienrichtungsmodule        |                 |            |             |
-| 25 | Studienrichtungsmodul1        | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul2        | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul3        | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul4        | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul5        | 5               | 1          | 0           |
-| 30 | Wahlmodul1                    | 5               | 1          | 0           |
-| 31 | Wahlmodul2                    | 5               | 1          | 0           |
-| 32 | Wahlmodul3                    | 5               | 1          | 0           |
-| 33 | Wahlmodul4                    | 5               | 1          | 0           |
-| 34 | Wahlmodul5                    | 5               | 1          | 0           |
-| 35 | Wahlmodul6                    | 5               | 1          | 0           |
-| 36 | Wahlmodul7                    | 5               | 1          | 0           |33 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik I","5","1","0"
+"Mathematik II","5","1","0"
+"Physik","5","1","0"
+"Grundlagen Elektrotechnik I","5","1","0"
+"Grundlagen Elektrotechnik II","5","1","1"
+"Digitaltechnik","5","1","0"
+"Elektronik und Messtechnik I","5","1","0"
+"Informatik I","5","1","0"
+"Informatik II","5","1","0"
+"Geschäftsprozesse","5","1","0"
+"Mathematik III","5","1","1"
+"Grundlagen Elektrotechnik III","5","1","1"
+"Systemtheorie","5","1","0"
+"Regelungstechnik","5","1","0"
+"Elektronik und Messtechnik II","5","1","0"
+"Mikrocomputertechnik","5","1","0"
+"Studienarbeit","5","1","0"
+"Studienarbeit II","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+"Wahlmodul6","5","1","0"
+"Wahlmodul7","5","1","0"
+33 / 51
 
 -------------------------------------------
 7. Embedded Systems
-|    | 0                        | 1               | 2          | 3           |
-|---:|:-------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                    | ECTS-           | Anzahl     | Anzahl      |
-|    |                          | Leistungspunkte | benotete   | unbenotete  |
-|    |                          |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule               |                 |            |             |
-|  2 | Mathematik I             | 5               | 1          | 0           |
-|  3 | Elektrotechnik I         | 5               | 1          | 0           |
-|  4 | Technische Informatik I  | 5               | 1          | 0           |
-|  5 | Physik                   | 5               | 1          | 0           |
-|  6 | Programmieren            | 9               | 1          | 0           |
-|  7 | Mathematik II            | 5               | 1          | 0           |
-|  8 | Elektrotechnik II        | 5               | 1          | 0           |
-|  9 | Technische Informatik II | 8               | 1          | 0           |
-| 10 | Mathematik III           | 5               | 1          | 0           |
-| 11 | Elektronik               | 5               | 1          | 0           |
-| 12 | Systemtheorie            | 5               | 1          | 0           |
-| 13 | Microcomputertechnik     | 5               | 1          | 0           |
-| 14 | Regelungstechnik         | 5               | 1          | 0           |
-| 15 | Studienarbeit            | 10              | 1          | 0           |
-| 16 | Praxisprojekt I          | 20              | 0          | 2           |
-| 17 | Praxisprojekt II         | 20              | 2          | 1           |
-| 18 | Praxisprojekt III        | 8               | 0          | 2           |
-| 19 | Bachelorarbeit           | 12              | 1          | 0           |
-| 20 | Studienrichtungsmodule   |                 |            |             |
-| 21 | Studienrichtungsmodul1   | 5               | 1          | 0           |
-| 22 | Studienrichtungsmodul2   | 5               | 1          | 0           |
-| 23 | Studienrichtungsmodul3   | 9               | 1          | 0           |
-| 24 | Studienrichtungsmodul4   | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul5   | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul6   | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul7   | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul8   | 4 bzw. 5*       | 1          | 0           |
-| 29 | Wahlmodul1               | 5               | 1          | 0           |
-| 30 | Wahlmodul2               | 5               | 1          | 0           |
-| 31 | Wahlmodul3               | 5               | 1          | 0           |
-| 32 | Wahlmodul4               | 5               | 1          | 0           |
-| 33 | Wahlmodul5               | 4 bzw. 5*       | 1          | 0           |* je nach Studienrichtung (siehe Studiengangsbeschreibung)
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik I","5","1","0"
+"Elektrotechnik I","5","1","0"
+"Technische Informatik I","5","1","0"
+"Physik","5","1","0"
+"Programmieren","9","1","0"
+"Mathematik II","5","1","0"
+"Elektrotechnik II","5","1","0"
+"Technische Informatik II","8","1","0"
+"Mathematik III","5","1","0"
+"Elektronik","5","1","0"
+"Systemtheorie","5","1","0"
+"Microcomputertechnik","5","1","0"
+"Regelungstechnik","5","1","0"
+"Studienarbeit","10","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","9","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","4 bzw. 5*","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","4 bzw. 5*","1","0"
+* je nach Studienrichtung (siehe Studiengangsbeschreibung)
 34 / 51
 
 -------------------------------------------
 8. Holztechnik
-|    | 0                                   | 1               | 2          | 3           |
-|---:|:------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                               | ECTS-           | Anzahl     | Anzahl      |
-|    |                                     | Leistungspunkte | benotete   | unbenotete  |
-|    |                                     |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                          |                 |            |             |
-|  2 | Mathematik                          | 6               | 1          | 0           |
-|  3 | Technische Mechanik                 | 7               | 1          | 0           |
-|  4 | Betriebswirtschaftslehre            | 7               | 1          | 0           |
-|  5 | Konstruktion                        | 8               | 1          | 0           |
-|  6 | Werkstoffkunde                      | 6               | 1          | 0           |
-|  7 | Werkstoffkunde II                   | 5               | 1          | 0           |
-|  8 | Physik                              | 6               | 1          | 0           |
-|  9 | Elektrotechnik                      | 5               | 1          | 0           |
-| 10 | Informationsverarbeitung            | 6               | 1          | 0           |
-| 11 | Betriebswirtschaftslehre II         | 7               | 1          | 0           |
-| 12 | Mess-, Regel- und Steuerungstechnik | 7               | 1          | 0           |
-| 13 | Technische Mechanik II              | 7               | 1          | 0           |
-| 14 | Verfahrenstechnik                   | 8               | 1          | 0           |
-| 15 | Schlüsselqualifikationen            | 8               | 1          | 0           |
-| 16 | Praxisprojekt I                     | 20              | 0          | 2           |
-| 17 | Praxisprojekt II                    | 20              | 2          | 1           |
-| 18 | Praxisprojekt III                   | 8               | 0          | 2           |
-| 19 | Studienarbeit                       | 5               | 1          | 0           |
-| 20 | Bachelorarbeit                      | 12              | 1          | 0           |
-| 21 | Studienrichtungsmodule              |                 |            |             |
-| 22 | Studienrichtungsmodul1              | 5               | 1          | 0           |
-| 23 | Studienrichtungsmodul2              | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul3              | 5               | 1 bzw. 2*  | 0           |
-| 25 | Studienrichtungsmodul4*             | 5               | 1          | 0           |
-| 26 | Wahlmodul1                          | 5               | 1          | 0           |
-| 27 | Wahlmodul2                          | 5               | 1          | 0           |
-| 28 | Wahlmodul3                          | 5               | 1          | 0           |
-| 29 | Wahlmodul4                          | 5               | 1          | 0           |
-| 30 | Wahlmodul5                          | 7               | 1          | 0           |
-| 31 | Wahlmodul6                          | 5               | 1          | 0           |
-| 32 | Wahlmodul7*                         | 5               | 1          | 0           |* je nach Studienrichtung (siehe Studiengangsbeschreibung)
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik","6","1","0"
+"Technische Mechanik","7","1","0"
+"Betriebswirtschaftslehre","7","1","0"
+"Konstruktion","8","1","0"
+"Werkstoffkunde","6","1","0"
+"Werkstoffkunde II","5","1","0"
+"Physik","6","1","0"
+"Elektrotechnik","5","1","0"
+"Informationsverarbeitung","6","1","0"
+"Betriebswirtschaftslehre II","7","1","0"
+"Mess-, Regel- und Steuerungstechnik","7","1","0"
+"Technische Mechanik II","7","1","0"
+"Verfahrenstechnik","8","1","0"
+"Schlüsselqualifikationen","8","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Studienarbeit","5","1","0"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1 bzw. 2*","0"
+"Studienrichtungsmodul4*","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","7","1","0"
+"Wahlmodul6","5","1","0"
+"Wahlmodul7*","5","1","0"
+* je nach Studienrichtung (siehe Studiengangsbeschreibung)
 35 / 51
 
 -------------------------------------------
 9. Informatik
-|    | 0                               | 1               | 2          | 3           |
-|---:|:--------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                           | ECTS-           | Anzahl     | Anzahl      |
-|    |                                 | Leistungspunkte | benotete   | unbenotete  |
-|    |                                 |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                      |                 |            |             |
-|  2 | Mathematik I                    | 8               | 2          | 0           |
-|  3 | Theoretische Informatik I       | 5               | 1          | 0           |
-|  4 | Theoretische Informatik II      | 5               | 1          | 0           |
-|  5 | Programmieren                   | 9               | 1          | 0           |
-|  6 | Schlüsselqualifikationen        | 5               | 1          | 0           |
-|  7 | Technische Informatik I         | 5               | 1          | 0           |
-|  8 | Mathematik II                   | 6               | 2          | 0           |
-|  9 | Theoretische Informatik III     | 6               | 1          | 0           |
-| 10 | Software Engineering I          | 9               | 1          | 0           |
-| 11 | Datenbanken                     | 6               | 1          | 0           |
-| 12 | Technische Informatik II        | 8               | 1          | 0           |
-| 13 | Kommunikations- und Netztechnik | 5               | 1          | 0           |
-| 14 | Software Engineering II         | 5               | 1          | 0           |
-| 15 | IT-Sicherheit                   | 5               | 1          | 0           |
-| 16 | Studienarbeit                   | 10              | 1          | 0           |
-| 17 | Praxisprojekt I                 | 20              | 0          | 2           |
-| 18 | Praxisprojekt II                | 20              | 2          | 1           |
-| 19 | Praxisprojekt III               | 8               | 0          | 2           |
-| 20 | Bachelorarbeit                  | 12              | 1          | 0           |
-| 21 | Studienrichtungsmodule          |                 |            |             |
-| 22 | Studienrichtungsmodul1          | 3               | 1          | 0           |
-| 23 | Studienrichtungsmodul2          | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul3          | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul4          | 5               | 1          | 0           |
-| 26 | Wahlmodul1                      | 5               | 1          | 0           |
-| 27 | Wahlmodul2                      | 5               | 1          | 0           |
-| 28 | Wahlmodul3                      | 5               | 1          | 0           |
-| 29 | Wahlmodul4                      | 5               | 1          | 0           |
-| 30 | Wahlmodul5                      | 5               | 1          | 0           |
-| 31 | Wahlmodul6                      | 5               | 1          | 0           |
-| 32 | Wahlmodul7                      | 5               | 1          | 0           |36 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik I","8","2","0"
+"Theoretische Informatik I","5","1","0"
+"Theoretische Informatik II","5","1","0"
+"Programmieren","9","1","0"
+"Schlüsselqualifikationen","5","1","0"
+"Technische Informatik I","5","1","0"
+"Mathematik II","6","2","0"
+"Theoretische Informatik III","6","1","0"
+"Software Engineering I","9","1","0"
+"Datenbanken","6","1","0"
+"Technische Informatik II","8","1","0"
+"Kommunikations- und Netztechnik","5","1","0"
+"Software Engineering II","5","1","0"
+"IT-Sicherheit","5","1","0"
+"Studienarbeit","10","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","3","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+"Wahlmodul6","5","1","0"
+"Wahlmodul7","5","1","0"
+36 / 51
 
 -------------------------------------------
 10. Integrated Engineering
-|    | 0                              | 1               | 2           | 3            |
-|---:|:-------------------------------|:----------------|:------------|:-------------|
-|  0 | Modul                          | ECTS-           | Anzahl der  | Anzahl der   |
-|    |                                | Leistungspunkte | benoteten   | unbenoteten  |
-|    |                                |                 | Prüfungsl.  | Prüfungsl.   |
-|  1 | Kernmodule                     |                 |             |              |
-|  2 | Mathematik I                   | 5               | 1           | 0            |
-|  3 | Mathematik II                  | 5               | 1           | 0            |
-|  4 | Elektrotechnik                 | 5               | 1           | 0            |
-|  5 | Grundlagen der Informatik      | 5               | 1           | 1            |
-|  6 | Maschinenbau I                 | 5               | 1           | 0            |
-|  7 | Einführung Projektmanagement   | 5               | 1           | 0            |
-|  8 | Grundlagen VWL-BWL             | 5               | 1           | 1            |
-|  9 | Integrated Engineering I       | 5               | 1           | 0            |
-| 10 | Integrated Engineering II      | 5               | 1           | 0            |
-| 11 | Technische Anwendungen         | 5               | 1           | 0            |
-| 12 | Digitalisierung und Vernetzung | 5               | 1           | 0            |
-| 13 | Geschäftsmodelle und Prozesse  | 5               | 1           | 0            |
-| 14 | Studienarbeit                  | 5               | 1           | 0            |
-| 15 | Studienarbeit II               | 5               | 1           | 0            |
-| 16 | Praxisprojekt I                | 20              | 0           | 2            |
-| 17 | Praxisprojekt II               | 20              | 2           | 1            |
-| 18 | Praxisprojekt III              | 8               | 0           | 2            |
-| 19 | Bachelorarbeit                 | 12              | 1           | 0            |
-| 20 | Studienrichtungsmodule         |                 |             |              |
-| 21 | Studienrichtungsmodul1         | 5               | 1           | 1            |
-| 22 | Studienrichtungsmodul2         | 5               | 1           | 0            |
-| 23 | Studienrichtungsmodul3         | 5               | 1           | 0            |
-| 24 | Studienrichtungsmodul4         | 5               | 1           | 0            |
-| 25 | Studienrichtungsmodul5         | 5               | 1           | 0            |
-| 26 | Studienrichtungsmodul6         | 5               | 1           | 0            |
-| 27 | Studienrichtungsmodul7         | 5               | 1           | 0            |
-| 28 | Studienrichtungsmodul8         | 5               | 1           | 0            |
-| 29 | Wahlmodul1                     | 5               | 1           | 0            |
-| 30 | Wahlmodul2                     | 5               | 1           | 0            |
-| 31 | Wahlmodul3                     | 5               | 1           | 0            |
-| 32 | Wahlmodul4                     | 5               | 1           | 0            |
-| 33 | Wahlmodul5                     | 5               | 1           | 0            |
-| 34 | Wahlmodul6                     | 5               | 1           | 0            |
-| 35 | Wahlmodul7                     | 5               | 1           | 0            |
-| 36 | Wahlmodul8                     | 5               | 1           | 0            |37 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl der 
+benoteten 
+Prüfungsl.","Anzahl der 
+unbenoteten 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik I","5","1","0"
+"Mathematik II","5","1","0"
+"Elektrotechnik","5","1","0"
+"Grundlagen der Informatik","5","1","1"
+"Maschinenbau I","5","1","0"
+"Einführung Projektmanagement","5","1","0"
+"Grundlagen VWL-BWL","5","1","1"
+"Integrated Engineering I","5","1","0"
+"Integrated Engineering II","5","1","0"
+"Technische Anwendungen","5","1","0"
+"Digitalisierung und Vernetzung","5","1","0"
+"Geschäftsmodelle und Prozesse","5","1","0"
+"Studienarbeit","5","1","0"
+"Studienarbeit II","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","1"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+"Wahlmodul6","5","1","0"
+"Wahlmodul7","5","1","0"
+"Wahlmodul8","5","1","0"
+37 / 51
 
 -------------------------------------------
 11. Luft- und Raumfahrttechnik
-|    | 0                              | 1               | 2          | 3           |
-|---:|:-------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                          | ECTS-           | Anzahl     | Anzahl      |
-|    |                                | Leistungspunkte | benotete   | unbenotete  |
-|    |                                |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                     |                 |            |             |
-|  2 | Mathematik I                   | 5               | 1          | 0           |
-|  3 | Werkstoffkunde                 | 5               | 1          | 1           |
-|  4 | Elektrotechnik I               | 5               | 1          | 0           |
-|  5 | Technische Mechanik I          | 5               | 1          | 0           |
-|  6 | Konstruktionslehre             | 5               | 1          | 0           |
-|  7 | Geschäftsprozesse und Methoden | 5               | 1          | 0           |
-|  8 | Mathematik II                  | 5               | 1          | 0           |
-|  9 | Physik                         | 5               | 1          | 0           |
-| 10 | Elektrotechnik II              | 5               | 1          | 1           |
-| 11 | Technische Mechanik II         | 5               | 1          | 0           |
-| 12 | Mathematik III                 | 5               | 1          | 0           |
-| 13 | Informatik I                   | 5               | 1          | 0           |
-| 14 | Systemtheorie                  | 5               | 1          | 0           |
-| 15 | Regelungstechnik               | 5               | 1          | 0           |
-| 16 | Studienarbeit                  | 5               | 1          | 0           |
-| 17 | Studienarbeit II               | 5               | 1          | 0           |
-| 18 | Praxisprojekt I                | 20              | 0          | 2           |
-| 19 | Praxisprojekt II               | 20              | 2          | 1           |
-| 20 | Praxisprojekt III              | 8               | 0          | 2           |
-| 21 | Bachelorarbeit                 | 12              | 1          | 0           |
-| 22 | Studienrichtungsmodule         |                 |            |             |
-| 23 | Studienrichtungsmodul1         | 7               | 1          | 0           |
-| 24 | Studienrichtungsmodul2         | 6               | 1          | 0           |
-| 25 | Studienrichtungsmodul3         | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul4         | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul5         | 7               | 1          | 1           |
-| 28 | Studienrichtungsmodul6         | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul7         | 5               | 1          | 0           |
-| 30 | Wahlmodul1                     | 5               | 1          | 0           |
-| 31 | Wahlmodul2                     | 5               | 1          | 0           |
-| 32 | Wahlmodul3                     | 5               | 1          | 0           |
-| 33 | Wahlmodul4                     | 5               | 1          | 0           |
-| 34 | Wahlmodul5                     | 5               | 1          | 0           |
-| 35 | Wahlmodul6                     | 5               | 1          | 0           |38 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik I","5","1","0"
+"Werkstoffkunde","5","1","1"
+"Elektrotechnik I","5","1","0"
+"Technische Mechanik I","5","1","0"
+"Konstruktionslehre","5","1","0"
+"Geschäftsprozesse und Methoden","5","1","0"
+"Mathematik II","5","1","0"
+"Physik","5","1","0"
+"Elektrotechnik II","5","1","1"
+"Technische Mechanik II","5","1","0"
+"Mathematik III","5","1","0"
+"Informatik I","5","1","0"
+"Systemtheorie","5","1","0"
+"Regelungstechnik","5","1","0"
+"Studienarbeit","5","1","0"
+"Studienarbeit II","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","7","1","0"
+"Studienrichtungsmodul2","6","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","7","1","1"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+"Wahlmodul6","5","1","0"
+38 / 51
 
 -------------------------------------------
 12. Maschinenbau
-|    | 0                                         | 1               | 2          | 3           |
-|---:|:------------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                                     | ECTS-           | Anzahl     | Anzahl      |
-|    |                                           | Leistungspunkte | benotete   | unbenotete  |
-|    |                                           |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                                |                 |            |             |
-|  2 | Konstruktion                              | 5               | 1          | 0           |
-|  3 | Fertigungstechnik                         | 5               | 1          | 0           |
-|  4 | Werkstoffe                                | 5               | 1          | 0           |
-|  5 | Technische Mechanik + Festigkeitslehre    | 5               | 1          | 0           |
-|  6 | Mathematik                                | 5               | 1          | 0           |
-|  7 | Informatik                                | 5               | 1          | 0           |
-|  8 | Elektrotechnik                            | 5               | 1          | 0           |
-|  9 | Konstruktion II                           | 5               | 1          | 0           |
-| 10 | Technische Mechanik + Festigkeitslehre II | 5               | 1          | 0           |
-| 11 | Mathematik II                             | 5               | 1          | 0           |
-| 12 | Technische Mechanik + Festigkeitslehre    | 5               | 1          | 0           |
-|    | III                                       |                 |            |             |
-| 13 | Mathematik III                            | 5               | 1          | 0           |
-| 14 | Thermodynamik                             | 5               | 1          | 1           |
-| 15 | Studienarbeit* oder                       | 10              | 1          | 0           |
-| 16 | Studienarbeit und Studienarbeit II* oder  | 10              | 2          | 0           |
-| 17 | Studienarbeit und Wahlfach*               | 10              | 2          | 0           |
-| 18 | Praxisprojekt I                           | 20              | 0          | 2           |
-| 19 | Praxisprojekt II                          | 20              | 2          | 1           |
-| 20 | Praxisprojekt III                         | 8               | 0          | 2           |
-| 21 | Bachelorarbeit                            | 12              | 1          | 0           |
-| 22 | Studienrichtungsmodule                    |                 |            |             |
-| 23 | Studienrichtungsmodul1                    | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul2                    | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul3                    | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul4                    | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul5                    | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul6                    | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul7                    | 5               | 1          | 0           |
-| 30 | Wahlmodul1                                | 5               | 1          | 0           |
-| 31 | Wahlmodul2                                | 5               | 1          | 0           |
-| 32 | Wahlmodul3                                | 5               | 1          | 0           |
-| 33 | Wahlmodul4                                | 5               | 1          | 0           |
-| 34 | Wahlmodul5                                | 5               | 1          | 0           |
-| 35 | Wahlmodul6                                | 5               | 1          | 0           |
-| 36 | Wahlmodul7                                | 5               | 1          | 0           |
-| 37 | Wahlmodul8                                | 5               | 1          | 0           |* wird durch die Studienakademie festgelegt
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Konstruktion","5","1","0"
+"Fertigungstechnik","5","1","0"
+"Werkstoffe","5","1","0"
+"Technische Mechanik + Festigkeitslehre","5","1","0"
+"Mathematik","5","1","0"
+"Informatik","5","1","0"
+"Elektrotechnik","5","1","0"
+"Konstruktion II","5","1","0"
+"Technische Mechanik + Festigkeitslehre II","5","1","0"
+"Mathematik II","5","1","0"
+"Technische Mechanik + Festigkeitslehre 
+III","5","1","0"
+"Mathematik III","5","1","0"
+"Thermodynamik","5","1","1"
+"Studienarbeit* oder","10","1","0"
+"Studienarbeit und Studienarbeit II* oder","10","2","0"
+"Studienarbeit und Wahlfach*","10","2","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+"Wahlmodul6","5","1","0"
+"Wahlmodul7","5","1","0"
+"Wahlmodul8","5","1","0"
+* wird durch die Studienakademie festgelegt
 39 / 51
 
 -------------------------------------------
 13. Mechatronik
-|    | 0                                    | 1               | 2          | 3           |
-|---:|:-------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                                | ECTS-           | Anzahl     | Anzahl      |
-|    |                                      | Leistungspunkte | benotete   | unbenotete  |
-|    |                                      |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                           |                 |            |             |
-|  2 | Mathematisch naturwissenschaftliche  | 5               | 1          | 0           |
-|    | Grundlagen                           |                 |            |             |
-|  3 | Grundlagen Elektrotechnik und        | 5               | 1          | 0           |
-|    | Messtechnik                          |                 |            |             |
-|  4 | Informatik                           | 5               | 1          | 0           |
-|  5 | Grundlagen Maschinenbau              | 5               | 1          | 0           |
-|  6 | Mathematisch naturwissenschaftliche  | 5               | 1          | 0           |
-|    | Grundlagen II                        |                 |            |             |
-|  7 | Grundlagen Elektrotechnik II         | 5               | 1          | 0           |
-|  8 | Grundlagen Maschinenbau II           | 5               | 1          | 0           |
-|  9 | Mechatronische Systeme               | 5               | 1          | 0           |
-| 10 | Informatik II                        | 5               | 1          | 0           |
-| 11 | Mechatronische Systeme II            | 5               | 1          | 0           |
-| 12 | Mechatronische Systeme III           | 5               | 1          | 0           |
-| 13 | Mechatronische Systeme IV            | 5               | 1          | 0           |
-| 14 | Studienarbeit                        | 5               | 1          | 0           |
-| 15 | Studienarbeit II                     | 5               | 1          | 0           |
-| 16 | Praxisprojekt I                      | 20              | 0          | 2           |
-| 17 | Praxisprojekt II                     | 20              | 2          | 1           |
-| 18 | Praxisprojekt III                    | 8               | 0          | 2           |
-| 19 | Bachelorarbeit                       | 12              | 1          | 0           |
-| 20 | Studienrichtungsmodule               |                 |            |             |
-| 21 | Studienrichtungsmodul1               | 5               | 1          | 0           |
-| 22 | Studienrichtungsmodul2               | 5               | 1          | 0           |
-| 23 | Studienrichtungsmodul3               | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul4               | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul5               | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul6               | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul7               | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul8*              | 5               | 1          | 0           |
-| 29 | Wahlmodul1                           | 5               | 1          | 1           |
-| 30 | Wahlmodul2                           | 5               | 1          | 1           |
-| 31 | Wahlmodul3                           | 5               | 1          | 0           |
-| 32 | Wahlmodul4                           | 5               | 1          | 0           |
-| 33 | Wahlmodul5                           | 5               | 1          | 1           |
-| 34 | Wahlmodul6                           | 5               | 1          | 0           |
-| 35 | Wahlmodul7                           | 5               | 1          | 0           |
-| 36 | Wahlmodul8                           | 5               | 1          | 0           |
-| 37 | Wahlmodul9*                          | 5               | 1          | 0           |* je nach Studienrichtung (siehe Studiengangsbeschreibung)
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematisch naturwissenschaftliche 
+Grundlagen","5","1","0"
+"Grundlagen Elektrotechnik und 
+Messtechnik","5","1","0"
+"Informatik","5","1","0"
+"Grundlagen Maschinenbau","5","1","0"
+"Mathematisch naturwissenschaftliche 
+Grundlagen II","5","1","0"
+"Grundlagen Elektrotechnik II","5","1","0"
+"Grundlagen Maschinenbau II","5","1","0"
+"Mechatronische Systeme","5","1","0"
+"Informatik II","5","1","0"
+"Mechatronische Systeme II","5","1","0"
+"Mechatronische Systeme III","5","1","0"
+"Mechatronische Systeme IV","5","1","0"
+"Studienarbeit","5","1","0"
+"Studienarbeit II","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8*","5","1","0"
+"Wahlmodul1","5","1","1"
+"Wahlmodul2","5","1","1"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","1"
+"Wahlmodul6","5","1","0"
+"Wahlmodul7","5","1","0"
+"Wahlmodul8","5","1","0"
+"Wahlmodul9*","5","1","0"
+* je nach Studienrichtung (siehe Studiengangsbeschreibung)
 40 / 51
 
 -------------------------------------------
 14. Medizintechnik
-|    | 0                                          | 1               | 2          | 3           |
-|---:|:-------------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                                      | ECTS-           | Anzahl     | Anzahl      |
-|    |                                            | Leistungspunkte | benotete   | unbenotete  |
-|    |                                            |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                                 |                 |            |             |
-|  2 | Angewandte Mathematik I                    | 5               | 1          | 0           |
-|  3 | Grundlagen der Elektrotechnik I            | 5               | 1          | 0           |
-|  4 | Informatik I                               | 5               | 1          | 0           |
-|  5 | Biomedizinische Grundlagen                 | 5               | 1          | 0           |
-|  6 | Medizinische Ethik und interdisziplinäre   | 5               | 1          | 0           |
-|    | Kommunikation                              |                 |            |             |
-|  7 | Angewandte Mathematik II                   | 5               | 1          | 0           |
-|  8 | Allgemeine und medizinische Signaltheorie  | 5               | 1          | 0           |
-|  9 | Grundlagen der Elektrotechnik II           | 5               | 1          | 1           |
-| 10 | Informatik II                              | 5               | 1          | 0           |
-| 11 | Naturwissenschaftliche Grundlagen für die  | 5               | 1          | 0           |
-|    | Medizintechnik                             |                 |            |             |
-| 12 | Health Care                                | 5               | 1          | 0           |
-| 13 | Analog Signal Processing for Bio-          | 5               | 1          | 0           |
-|    | Engineers                                  |                 |            |             |
-| 14 | Electronic Circuits in Medicine            | 5               | 1          | 0           |
-| 15 | Digital Data Sciences                      | 5               | 1          | 0           |
-| 16 | Biomedical Engineering                     | 5               | 1          | 0           |
-| 17 | Digital Signal Processing                  | 5               | 1          | 0           |
-| 18 | Medical Information Technologies           | 5               | 1          | 0           |
-| 19 | Applied Mathematics for Biomedical         | 5               | 1          | 0           |
-|    | Engineers                                  |                 |            |             |
-| 20 | Clinical Workflow                          | 5               | 1          | 0           |
-| 21 | Digital Image Processing                   | 5               | 1          | 0           |
-| 22 | Interface Synthesis                        | 5               | 1          | 0           |
-| 23 | Regulatory Affairs                         | 5               | 1          | 0           |
-| 24 | Studienarbeit I                            | 5               | 1          | 0           |
-| 25 | Studienarbeit II                           | 5               | 1          | 0           |
-| 26 | Praxisprojekt I                            | 20              | 0          | 2           |
-| 27 | Praxisprojekt II                           | 20              | 2          | 1           |
-| 28 | Praxisprojekt III                          | 8               | 0          | 2           |
-| 29 | Bachelorarbeit                             | 12              | 1          | 0           |
-| 30 | Wahlmodul1                                 | 5               | 1          | 0           |
-| 31 | Wahlmodul2                                 | 5               | 1          | 1           |
-| 32 | Wahlmodul3                                 | 5               | 1          | 0           |
-| 33 | Wahlmodul4                                 | 5               | 1          | 0           |
-| 34 | Wahlmodul5                                 | 5               | 1          | 0           |
-| 35 | Wahlmodul6                                 | 5               | 1          | 0           |41 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Angewandte Mathematik I","5","1","0"
+"Grundlagen der Elektrotechnik I","5","1","0"
+"Informatik I","5","1","0"
+"Biomedizinische Grundlagen","5","1","0"
+"Medizinische Ethik und interdisziplinäre 
+Kommunikation","5","1","0"
+"Angewandte Mathematik II","5","1","0"
+"Allgemeine und medizinische Signaltheorie","5","1","0"
+"Grundlagen der Elektrotechnik II","5","1","1"
+"Informatik II","5","1","0"
+"Naturwissenschaftliche Grundlagen für die 
+Medizintechnik","5","1","0"
+"Health Care","5","1","0"
+"Analog Signal Processing for Bio-
+Engineers","5","1","0"
+"Electronic Circuits in Medicine","5","1","0"
+"Digital Data Sciences","5","1","0"
+"Biomedical Engineering","5","1","0"
+"Digital Signal Processing","5","1","0"
+"Medical Information Technologies","5","1","0"
+"Applied Mathematics for Biomedical 
+Engineers","5","1","0"
+"Clinical Workflow","5","1","0"
+"Digital Image Processing","5","1","0"
+"Interface Synthesis","5","1","0"
+"Regulatory Affairs","5","1","0"
+"Studienarbeit I","5","1","0"
+"Studienarbeit II","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","1"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+"Wahlmodul6","5","1","0"
+41 / 51
 
 -------------------------------------------
 15. Papiertechnik
-|    | 0                                      | 1               | 2          | 3           |
-|---:|:---------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                                  | ECTS-           | Anzahl     | Anzahl      |
-|    |                                        | Leistungspunkte | benotete   | unbenotete  |
-|    |                                        |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                             |                 |            |             |
-|  2 | Maschinenbau                           | 5               | 1          | 0           |
-|  3 | Elektrotechnik                         | 5               | 1          | 0           |
-|  4 | Technische Mechanik                    | 5               | 1          | 0           |
-|  5 | Chemie                                 | 5               | 1          | 0           |
-|  6 | Ingenieur-Mathematik                   | 5               | 1          | 0           |
-|  7 | Grundlagen Betriebswirtschaftslehre    | 5               | 1          | 0           |
-|  8 | Persönliche und betriebliche           | 5               | 1          | 0           |
-|    | Kommunikation                          |                 |            |             |
-|  9 | Verfahrenstechnik                      | 5               | 1          | 0           |
-| 10 | Wahrscheinlichkeitsrechnung,           | 5               | 1          | 0           |
-|    | Versuchsplanung und Statistik          |                 |            |             |
-| 11 | Maschinenbau II                        | 5               | 1          | 1           |
-| 12 | Elektronik und Sensortechnik           | 5               | 1          | 0           |
-| 13 | Managementsysteme                      | 5               | 1          | 0           |
-| 14 | Grundlagen der Automatisierungstechnik | 5               | 1          | 0           |
-| 15 | Grundlagen der Energietechnik          | 5               | 1          | 1           |
-| 16 | Fachenglisch Papiertechnik             | 5               | 1          | 0           |
-| 17 | Managementsysteme II                   | 5               | 1          | 0           |
-| 18 | Studienarbeit                          | 5               | 1          | 0           |
-| 19 | Praxisprojekt I                        | 20              | 0          | 2           |
-| 20 | Praxisprojekt II                       | 20              | 2          | 1           |
-| 21 | Praxisprojekt III                      | 8               | 0          | 2           |
-| 22 | Bachelorarbeit                         | 12              | 1          | 0           |
-| 23 | Studienrichtungsmodule                 |                 |            |             |
-| 24 | Studienrichtungsmodul1                 | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul2                 | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul3                 | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul4                 | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul5                 | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul6                 | 5               | 1          | 0           |
-| 30 | Studienrichtungsmodul7                 | 5               | 1          | 0           |
-| 31 | Studienrichtungsmodul8                 | 5               | 1          | 0           |
-| 32 | Studienrichtungsmodul9                 | 5               | 1          | 0           |
-| 33 | Studienrichtungsmodul10                | 5               | 1          | 0           |
-| 34 | Studienrichtungsmodul11                | 5               | 1          | 0           |
-| 35 | Studienrichtungsmodul12                | 5               | 1          | 0           |
-| 36 | Studienrichtungsmodul13                | 5               | 1          | 0           |42 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Maschinenbau","5","1","0"
+"Elektrotechnik","5","1","0"
+"Technische Mechanik","5","1","0"
+"Chemie","5","1","0"
+"Ingenieur-Mathematik","5","1","0"
+"Grundlagen Betriebswirtschaftslehre","5","1","0"
+"Persönliche und betriebliche 
+Kommunikation","5","1","0"
+"Verfahrenstechnik","5","1","0"
+"Wahrscheinlichkeitsrechnung, 
+Versuchsplanung und Statistik","5","1","0"
+"Maschinenbau II","5","1","1"
+"Elektronik und Sensortechnik","5","1","0"
+"Managementsysteme","5","1","0"
+"Grundlagen der Automatisierungstechnik","5","1","0"
+"Grundlagen der Energietechnik","5","1","1"
+"Fachenglisch Papiertechnik","5","1","0"
+"Managementsysteme II","5","1","0"
+"Studienarbeit","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+"Studienrichtungsmodul9","5","1","0"
+"Studienrichtungsmodul10","5","1","0"
+"Studienrichtungsmodul11","5","1","0"
+"Studienrichtungsmodul12","5","1","0"
+"Studienrichtungsmodul13","5","1","0"
+42 / 51
 
 -------------------------------------------
 16. Sicherheitswesen
-|    | 0                                     | 1               | 2          | 3           |
-|---:|:--------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                                 | ECTS-           | Anzahl     | Anzahl      |
-|    |                                       | Leistungspunkte | benotete   | unbenotete  |
-|    |                                       |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                            |                 |            |             |
-|  2 | Mathematik                            | 5               | 1          | 0           |
-|  3 | Technische Physik                     | 5               | 1          | 0           |
-|  4 | Anorganische Chemie                   | 5               | 1          | 0           |
-|  5 | Grundlagen Sicherheitswesen           | 5               | 1          | 0           |
-|  6 | Grundlagen Umwelt- und Strahlenschutz | 5               | 1          | 0           |
-|  7 | Mathematik II                         | 5               | 1          | 0           |
-|  8 | Technische Physik II                  | 5               | 1          | 0           |
-|  9 | Organische Chemie                     | 5               | 1          | 0           |
-| 10 | Sicherheitsmanagement                 | 5               | 1          | 0           |
-| 11 | Mathematik III                        | 5               | 1          | 0           |
-| 12 | Technische Physik III                 | 5               | 1          | 0           |
-| 13 | Biochemie                             | 5               | 1          | 0           |
-| 14 | Projektmanagement und                 | 5               | 1          | 0           |
-|    | Betriebswirtschaft                    |                 |            |             |
-| 15 | Mathematik IV                         | 5               | 1          | 0           |
-| 16 | Technische Physik IV                  | 5               | 1          | 0           |
-| 17 | Verfahrenstechnik                     | 5               | 1          | 0           |
-| 18 | Messen, Steuern, Regeln               | 5               | 1          | 0           |
-| 19 | Ausbreitung von Schadstoffen          | 5               | 1          | 0           |
-| 20 | Sicherheitsmanagement II              | 5               | 1          | 0           |
-| 21 | Bauwesen                              | 5               | 1          | 0           |
-| 22 | Studienarbeit                         | 5               | 1          | 0           |
-| 23 | Studienarbeit II                      | 5               | 1          | 0           |
-| 24 | Praxisprojekt I                       | 20              | 0          | 2           |
-| 25 | Praxisprojekt II                      | 20              | 2          | 1           |
-| 26 | Praxisprojekt III                     | 8               | 0          | 2           |
-| 27 | Bachelorarbeit                        | 12              | 1          | 0           |
-| 28 | Studienrichtungsmodule                |                 |            |             |
-| 29 | Studienrichtungsmodul1                | 5               | 1          | 0           |
-| 30 | Studienrichtungsmodul2                | 5               | 1          | 0           |
-| 31 | Studienrichtungsmodul3                | 5               | 1          | 0           |
-| 32 | Studienrichtungsmodul4                | 5               | 1          | 0           |
-| 33 | Studienrichtungsmodul5                | 5               | 1          | 0           |
-| 34 | Studienrichtungsmodul6                | 5               | 1          | 0           |
-| 35 | Studienrichtungsmodul7                | 5               | 1          | 0           |
-| 36 | Studienrichtungsmodul8                | 5               | 1          | 0           |43 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik","5","1","0"
+"Technische Physik","5","1","0"
+"Anorganische Chemie","5","1","0"
+"Grundlagen Sicherheitswesen","5","1","0"
+"Grundlagen Umwelt- und Strahlenschutz","5","1","0"
+"Mathematik II","5","1","0"
+"Technische Physik II","5","1","0"
+"Organische Chemie","5","1","0"
+"Sicherheitsmanagement","5","1","0"
+"Mathematik III","5","1","0"
+"Technische Physik III","5","1","0"
+"Biochemie","5","1","0"
+"Projektmanagement und 
+Betriebswirtschaft","5","1","0"
+"Mathematik IV","5","1","0"
+"Technische Physik IV","5","1","0"
+"Verfahrenstechnik","5","1","0"
+"Messen, Steuern, Regeln","5","1","0"
+"Ausbreitung von Schadstoffen","5","1","0"
+"Sicherheitsmanagement II","5","1","0"
+"Bauwesen","5","1","0"
+"Studienarbeit","5","1","0"
+"Studienarbeit II","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+43 / 51
 
 -------------------------------------------
 17. Sustainable Science and Technology für die Studierenden, die bis zum 30. September
 2023 immatrikuliert wurden
-|    | 0                                | 1               | 2          | 3           |
-|---:|:---------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                            | ECTS-           | Anzahl     | Anzahl      |
-|    |                                  | Leistungspunkte | benotete   | unbenotete  |
-|    |                                  |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                       |                 |            |             |
-|  2 | Ressourcenmanagement I           | 5               | 1          | 0           |
-|  3 | Chemie I                         | 5               | 1          | 0           |
-|  4 | Mathematik I                     | 5               | 1          | 0           |
-|  5 | Physik I                         | 5               | 1          | 0           |
-|  6 | Informationstechnologie I        | 5               | 1          | 0           |
-|  7 | Ressourcenmanagement II          | 5               | 1          | 0           |
-|  8 | Elektrotechnik: Grundlagen       | 5               | 1          | 0           |
-|  9 | Mathematik II                    | 5               | 1          | 0           |
-| 10 | Physik II                        | 5               | 1          | 0           |
-| 11 | Informationstechnologie II       | 5               | 1          | 0           |
-| 12 | Ressourcenmanagement III         | 5               | 1          | 0           |
-| 13 | Chemie II                        | 5               | 1          | 0           |
-| 14 | Umwelt- und Energietechnologie:  | 5               | 1          | 0           |
-|    | Grundlagen                       |                 |            |             |
-| 15 | Verfahrenstechnik I: Grundlagen  | 5               | 1          | 0           |
-| 16 | Corporate Social Responsibility  | 5               | 1          | 0           |
-| 17 | Studienarbeit                    | 5               | 1          | 0           |
-| 18 | Praxisprojekt I                  | 20              | 0          | 2           |
-| 19 | Praxisprojekt II                 | 20              | 2          | 1           |
-| 20 | Praxisprojekt III                | 8               | 0          | 2           |
-| 21 | Bachelorarbeit                   | 12              | 1          | 0           |
-| 22 | Studienrichtungsmodule           |                 |            |             |
-| 23 | Studienrichtungsmodul1           | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul2           | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul3           | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul4           | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul5           | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul6           | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul7           | 5               | 1          | 0           |
-| 30 | Studienrichtungsmodul8           | 5               | 1          | 0           |
-| 31 | Studienrichtungsmodul9           | 5               | 1          | 0           |
-| 32 | Studienrichtungsmodul10          | 5               | 1          | 0           |
-| 33 | Wahlmodul1                       | 5               | 1          | 0           |
-| 34 | Wahlmodul2                       | 5               | 1          | 0           |
-| 35 | Wahlmodul3                       | 5               | 1          | 0           |
-| 36 | Wahlmodul4                       | 5               | 1          | 0           |44 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Ressourcenmanagement I","5","1","0"
+"Chemie I","5","1","0"
+"Mathematik I","5","1","0"
+"Physik I","5","1","0"
+"Informationstechnologie I","5","1","0"
+"Ressourcenmanagement II","5","1","0"
+"Elektrotechnik: Grundlagen","5","1","0"
+"Mathematik II","5","1","0"
+"Physik II","5","1","0"
+"Informationstechnologie II","5","1","0"
+"Ressourcenmanagement III","5","1","0"
+"Chemie II","5","1","0"
+"Umwelt- und Energietechnologie: 
+Grundlagen","5","1","0"
+"Verfahrenstechnik I: Grundlagen","5","1","0"
+"Corporate Social Responsibility","5","1","0"
+"Studienarbeit","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+"Studienrichtungsmodul9","5","1","0"
+"Studienrichtungsmodul10","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+44 / 51
 
 -------------------------------------------
 18. Sustainable Science and Technology für die Studierenden, die ab dem 1. Oktober
 2023 immatrikuliert wurden
-|    | 0                                     | 1               | 2          | 3           |
-|---:|:--------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                                 | ECTS-           | Anzahl     | Anzahl      |
-|    |                                       | Leistungspunkte | benotete   | unbenotete  |
-|    |                                       |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                            |                 |            |             |
-|  2 | Nachhaltige Betriebswirtschaftslehre  | 5               | 1          | 0           |
-|  3 | Chemie I                              | 5               | 1          | 0           |
-|  4 | Mathematik I                          | 5               | 1          | 0           |
-|  5 | Physik I                              | 5               | 1          | 0           |
-|  6 | Informationstechnologie I             | 5               | 1          | 0           |
-|  7 | Ökologisches Ressourcenmanagement     | 5               | 1          | 0           |
-|  8 | Elektrotechnik: Grundlagen            | 5               | 1          | 0           |
-|  9 | Mathematik II                         | 5               | 1          | 0           |
-| 10 | Physik II                             | 5               | 1          | 0           |
-| 11 | Informationstechnologie II            | 5               | 1          | 0           |
-| 12 | Projekt- und Qualitätsmanagement      | 5               | 1          | 0           |
-| 13 | Chemie II                             | 5               | 1          | 0           |
-| 14 | Verfahrens- und Energietechnik:       | 5               | 1          | 0           |
-|    | Grundlagen                            |                 |            |             |
-| 15 | Rechtliche Gestaltungsgrundlagen der  | 5               | 1          | 0           |
-|    | Nachhaltigkeit                        |                 |            |             |
-| 16 | Nachhaltige Unternehmensführung       | 5               | 1          | 0           |
-| 17 | Studienarbeit                         | 5               | 1          | 0           |
-| 18 | Praxisprojekt I                       | 20              | 0          | 2           |
-| 19 | Praxisprojekt II                      | 20              | 2          | 1           |
-| 20 | Praxisprojekt III                     | 8               | 0          | 2           |
-| 21 | Bachelorarbeit                        | 12              | 1          | 0           |
-| 22 | Studienrichtungsmodule                |                 |            |             |
-| 23 | Studienrichtungsmodul1                | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul2                | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul3                | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul4                | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul5                | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul6                | 5               | 1          | 0           |
-| 29 | Studienrichtungsmodul7                | 5               | 1          | 0           |
-| 30 | Studienrichtungsmodul8                | 5               | 1          | 0           |
-| 31 | Studienrichtungsmodul9                | 5               | 1          | 0           |
-| 32 | Studienrichtungsmodul10               | 5               | 1          | 0           |
-| 33 | Wahlmodule                            |                 |            |             |
-| 34 | Wahlmodul 1                           | 5               | 1          | 0           |
-| 35 | Wahlmodul 2                           | 5               | 1          | 0           |
-| 36 | Wahlmodul 3                           | 5               | 1          | 0           |
-| 37 | Wahlmodul 4                           | 5               | 1          | 0           |45 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Nachhaltige Betriebswirtschaftslehre","5","1","0"
+"Chemie I","5","1","0"
+"Mathematik I","5","1","0"
+"Physik I","5","1","0"
+"Informationstechnologie I","5","1","0"
+"Ökologisches Ressourcenmanagement","5","1","0"
+"Elektrotechnik: Grundlagen","5","1","0"
+"Mathematik II","5","1","0"
+"Physik II","5","1","0"
+"Informationstechnologie II","5","1","0"
+"Projekt- und Qualitätsmanagement","5","1","0"
+"Chemie II","5","1","0"
+"Verfahrens- und Energietechnik: 
+Grundlagen","5","1","0"
+"Rechtliche Gestaltungsgrundlagen der 
+Nachhaltigkeit","5","1","0"
+"Nachhaltige Unternehmensführung","5","1","0"
+"Studienarbeit","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+"Studienrichtungsmodul9","5","1","0"
+"Studienrichtungsmodul10","5","1","0"
+"Wahlmodule","","",""
+"Wahlmodul 1","5","1","0"
+"Wahlmodul 2","5","1","0"
+"Wahlmodul 3","5","1","0"
+"Wahlmodul 4","5","1","0"
+45 / 51
 
 -------------------------------------------
 19. Wirtschaftsingenieurwesen
-|    | 0                                   | 1               | 2          | 3           |
-|---:|:------------------------------------|:----------------|:-----------|:------------|
-|  0 | Modul                               | ECTS-           | Anzahl     | Anzahl      |
-|    |                                     | Leistungspunkte | benotete   | unbenotete  |
-|    |                                     |                 | Prüfungsl. | Prüfungsl.  |
-|  1 | Kernmodule                          |                 |            |             |
-|  2 | Mathematik                          | 5               | 1          | 0           |
-|  3 | Volkswirtschaftslehre               | 5               | 1          | 0           |
-|  4 | Informatik                          | 5               | 1          | 0           |
-|  5 | Allgemeine Betriebswirtschaftslehre | 5               | 1          | 0           |
-|  6 | Mathematik II                       | 5               | 1          | 0           |
-|  7 | Mathematik III                      | 5               | 1          | 0           |
-|  8 | Projektmanagement                   | 5               | 1          | 0           |
-|  9 | Finanz- und Rechnungswesen          | 5               | 1          | 0           |
-| 10 | Recht                               | 5               | 1          | 0           |
-| 11 | Marketing                           | 5               | 1          | 0           |
-| 12 | Qualitätsmanagement                 | 5               | 1          | 0           |
-| 13 | Controlling                         | 5               | 1          | 0           |
-| 14 | Unternehmensführung                 | 5               | 1          | 0           |
-| 15 | Studienarbeit                       | 5               | 1          | 0           |
-| 16 | Praxisprojekt I                     | 20              | 0          | 2           |
-| 17 | Praxisprojekt II                    | 20              | 2          | 1           |
-| 18 | Praxisprojekt III                   | 8               | 0          | 2           |
-| 19 | Bachelorarbeit                      | 12              | 1          | 0           |
-| 20 | Studienrichtungsmodule              |                 |            |             |
-| 21 | Studienrichtungsmodul1              | 5               | 1          | 0           |
-| 22 | Studienrichtungsmodul2              | 5               | 1          | 0           |
-| 23 | Studienrichtungsmodul3              | 5               | 1          | 0           |
-| 24 | Studienrichtungsmodul4              | 5               | 1          | 0           |
-| 25 | Studienrichtungsmodul5              | 5               | 1          | 0           |
-| 26 | Studienrichtungsmodul6              | 5               | 1          | 0           |
-| 27 | Studienrichtungsmodul7              | 5               | 1          | 0           |
-| 28 | Studienrichtungsmodul8              | 5               | 1          | 0           |
-| 29 | Wahlmodul1                          | 5               | 1          | 0           |
-| 30 | Wahlmodul2                          | 5               | 1          | 0           |
-| 31 | Wahlmodul3                          | 5               | 1          | 0           |
-| 32 | Wahlmodul4                          | 5               | 1          | 0           |
-| 33 | Wahlmodul5                          | 5               | 1          | 0           |
-| 34 | Wahlmodul6                          | 5               | 1          | 0           |
-| 35 | Wahlmodul7                          | 5               | 1          | 0           |
-| 36 | Wahlmodul8                          | 5               | 1          | 0           |46 / 51
+"Modul","ECTS-
+Leistungspunkte","Anzahl 
+benotete 
+Prüfungsl.","Anzahl 
+unbenotete 
+Prüfungsl."
+"Kernmodule","","",""
+"Mathematik","5","1","0"
+"Volkswirtschaftslehre","5","1","0"
+"Informatik","5","1","0"
+"Allgemeine Betriebswirtschaftslehre","5","1","0"
+"Mathematik II","5","1","0"
+"Mathematik III","5","1","0"
+"Projektmanagement","5","1","0"
+"Finanz- und Rechnungswesen","5","1","0"
+"Recht","5","1","0"
+"Marketing","5","1","0"
+"Qualitätsmanagement","5","1","0"
+"Controlling","5","1","0"
+"Unternehmensführung","5","1","0"
+"Studienarbeit","5","1","0"
+"Praxisprojekt I","20","0","2"
+"Praxisprojekt II","20","2","1"
+"Praxisprojekt III","8","0","2"
+"Bachelorarbeit","12","1","0"
+"Studienrichtungsmodule","","",""
+"Studienrichtungsmodul1","5","1","0"
+"Studienrichtungsmodul2","5","1","0"
+"Studienrichtungsmodul3","5","1","0"
+"Studienrichtungsmodul4","5","1","0"
+"Studienrichtungsmodul5","5","1","0"
+"Studienrichtungsmodul6","5","1","0"
+"Studienrichtungsmodul7","5","1","0"
+"Studienrichtungsmodul8","5","1","0"
+"Wahlmodul1","5","1","0"
+"Wahlmodul2","5","1","0"
+"Wahlmodul3","5","1","0"
+"Wahlmodul4","5","1","0"
+"Wahlmodul5","5","1","0"
+"Wahlmodul6","5","1","0"
+"Wahlmodul7","5","1","0"
+"Wahlmodul8","5","1","0"
+46 / 51
 
 -------------------------------------------
 Anlage 3
 (zu § 10)
 Notendefinitionen und Notenbeschreibungen
 Notenbeschreibung
-|    | 0    | 1                 | 2                                                                    |
-|---:|:-----|:------------------|:---------------------------------------------------------------------|
-|  0 | Note | Definition        | Die  charakteristischen  Leistungen  jeder  Notenstufe  sind  unten  |
-|    |      |                   | angegeben. Es wird nicht erwartet, dass alle Kriterien bei jeder     |
-|    |      |                   | einzelnen  Prüfungsaufgabe  abgeprüft  werden,  insgesamt  soll      |
-|    |      |                   | jedoch  auf  jeder  Stufe  des  Studiengangs/Moduls grundsätzlich    |
-|    |      |                   | jedes                                                                |
-|    |      |                   | Kriterium                                                            |
-|    |      |                   | abgefragt                                                            |
-|    |      |                   | werden,                                                              |
-|    |      |                   | wie                                                                  |
-|    |      |                   | dies                                                                 |
-|    |      |                   | in                                                                   |
-|    |      |                   | den                                                                  |
-|    |      |                   | Lernergebnissen  der  jeweiligen  Stufe  beschrieben  ist,  die  im  |
-|    |      |                   | „Definitive Course  Document“ (= Modulbeschreibung) enthalten        |
-|    |      |                   | sind.                                                                |
-|  1 | 1    | „sehr gut“        | -                                                                    |
-|    |      |                   |   L                                                                  |
-|    |      | ausgezeichnet:    |   -                                                                  |
-|    |      | hervorragende     | Leistung und Ergebnis sind insgesamt hervorragend. Die Arbeit        |
-|    |      | Leistung          | der/des  Studierenden  übersteigt  bei  Weitem  den  üblichen        |
-|    |      |                   | Standard.  Das  typische  Leistungsniveau  zeichnet  sich  hierbei   |
-|    |      | (1,0-1,2)         | aus durch:                                                           |
-|    |      | sehr lobenswert:  |                                                                      |
-|    |      | anerkennenswerte  | tiefgehendes Verstehen/Beherrschen des Lehrstoffs,                   |
-|    |      | Leistung          | -                                                                    |
-|    |      |                   | sehr                                                                 |
-|    |      | (1,3-1,5)         | große                                                                |
-|    |      |                   | Fähigkeiten                                                          |
-|    |      |                   | und  Ursprünglichkeit                                                |
-|    |      |                   | bei                                                                  |
-|    |      |                   | der                                                                  |
-|    |      |                   | Anwendung von Schlüsselqualifikationen,                              |
-|    |      |                   | -                                                                    |
-|    |      |                   | tiefgehende  Fähigkeiten                                             |
-|    |      |                   | in Analyse, Synthese, Beurteilung                                    |
-|    |      |                   | und Problemlösung (höhere kognitive Fähigkeiten),                    |
-|    |      |                   | -                                                                    |
-|    |      |                   | Spitzenleistung  im  gesamten  Spektrum  der  vorgegebenen           |
-|    |      |                   | fachspezifischen/berufspraktischen Fähigkeiten.                      |
-|    |      |                   | eistung und Ergebnis sind insgesamt von sehr hohem Niveau.           |
-|    |      |                   | Die  Arbeit  der/des  Studierenden                                   |
-|    |      |                   | ist  deutlich  oberhalb  des                                         |
-|    |      |                   | üblichen Standards. Das typische Leistungsniveau zeichnet sich       |
-|    |      |                   | hierbei aus durch:                                                   |
-|    |      |                   |                                                                      |
-|    |      |                   | sehr gutes Verstehen/Beherrschen des Lehrstoffs,                     |
-|    |      |                   | -                                                                    |
-|    |      |                   | große  Fähigkeiten  und  Ursprünglichkeit  bei  der  Anwendung       |
-|    |      |                   | von Schlüsselqualifikationen,                                        |
-|    |      |                   | -                                                                    |
-|    |      |                   | große  Fähigkeiten                                                   |
-|    |      |                   | in Analyse,  Synthese,  Beurteilung  und                             |
-|    |      |                   | Problemlösung (höhere kognitive Fähigkeiten),                        |
-|    |      |                   | -                                                                    |
-|    |      |                   | sehr gute Leistung im gesamten Spektrum der vorgegebenen             |
-|    |      |                   | fachspezifischen / berufspraktischen Fähigkeiten.                    |47 / 51
+"Note","Definition","Die  charakteristischen  Leistungen  jeder  Notenstufe  sind  unten 
+angegeben. Es wird nicht erwartet, dass alle Kriterien bei jeder 
+einzelnen  Prüfungsaufgabe  abgeprüft  werden,  insgesamt  soll 
+jedoch  auf  jeder  Stufe  des  Studiengangs/Moduls grundsätzlich 
+jedes 
+Kriterium 
+abgefragt 
+werden, 
+wie 
+dies 
+in 
+den 
+Lernergebnissen  der  jeweiligen  Stufe  beschrieben  ist,  die  im 
+„Definitive Course  Document“ (= Modulbeschreibung) enthalten 
+sind."
+"1","„sehr gut“ 
+ 
+ausgezeichnet: 
+hervorragende 
+Leistung 
+ 
+(1,0-1,2) 
+sehr lobenswert: 
+anerkennenswerte 
+Leistung 
+ 
+(1,3-1,5)","-
+  L
+  -
+Leistung und Ergebnis sind insgesamt hervorragend. Die Arbeit 
+der/des  Studierenden  übersteigt  bei  Weitem  den  üblichen 
+Standard.  Das  typische  Leistungsniveau  zeichnet  sich  hierbei 
+aus durch: 
+ 
+tiefgehendes Verstehen/Beherrschen des Lehrstoffs, 
+- 
+sehr 
+große 
+Fähigkeiten 
+und  Ursprünglichkeit 
+bei 
+der 
+Anwendung von Schlüsselqualifikationen, 
+- 
+tiefgehende  Fähigkeiten 
+in Analyse, Synthese, Beurteilung 
+und Problemlösung (höhere kognitive Fähigkeiten), 
+- 
+Spitzenleistung  im  gesamten  Spektrum  der  vorgegebenen 
+fachspezifischen/berufspraktischen Fähigkeiten. 
+eistung und Ergebnis sind insgesamt von sehr hohem Niveau. 
+Die  Arbeit  der/des  Studierenden 
+ist  deutlich  oberhalb  des 
+üblichen Standards. Das typische Leistungsniveau zeichnet sich 
+hierbei aus durch: 
+ 
+sehr gutes Verstehen/Beherrschen des Lehrstoffs, 
+- 
+große  Fähigkeiten  und  Ursprünglichkeit  bei  der  Anwendung 
+von Schlüsselqualifikationen, 
+- 
+große  Fähigkeiten 
+in Analyse,  Synthese,  Beurteilung  und 
+Problemlösung (höhere kognitive Fähigkeiten), 
+- 
+sehr gute Leistung im gesamten Spektrum der vorgegebenen 
+fachspezifischen / berufspraktischen Fähigkeiten."
+47 / 51
 
 -------------------------------------------
-|    |   0 | 1                   | 2                                                                  |
-|---:|----:|:--------------------|:-------------------------------------------------------------------|
-|  0 |   2 | „gut“               | -                                                                  |
-|    |     |                     | Leistung  und  Ergebnis  sind                                      |
-|    |     | ausgesprochen       | insgesamt  erreicht.  Die  Arbeit                                  |
-|    |     | kompetente          | der/des  Studierenden  übersteigt  den  üblichen  Standard.  Das   |
-|    |     | Leistung            | typische Leistungsniveau zeichnet sich hierbei aus durch:          |
-|    |     | (1,6-2,5)           |    gutes Wissen und Verstehen des Lehrstoffs,                      |
-|    |     |                     | -   Studierende(r) ist sehr kompetent und zeigt Ursprünglichkeit   |
-|    |     |                     | bei der Anwendung von Schlüsselqualifikationen,                    |
-|    |     |                     | -   sehr                                                           |
-|    |     |                     | kompetent                                                          |
-|    |     |                     | in  Analyse,  Synthese,  Beurteilung  und                          |
-|    |     |                     | Problemlösung (höhere kognitive Fähigkeiten),                      |
-|    |     |                     | -   eine  sehr  kompetente  Leistung  im  gesamten  Spektrum  der  |
-|    |     |                     | vorgegebenen                                                       |
-|    |     |                     | fachspezifischen/berufspraktischen                                 |
-|    |     |                     | Fähig-                                                             |
-|    |     |                     | keiten.                                                            |
-|  1 |   3 | „befriedigend“      | -                                                                  |
-|    |     |                     | Insgesamt eine befriedigende Leistung (gemäß den ausführlich       |
-|    |     | zufriedenstellend:  | beschriebenen Bewertungs- und Benotungsschemata für jede           |
-|    |     | kompetente          | Prüfung). Die Arbeit der/des Studierenden entspricht dem           |
-|    |     | Leistung            | üblichen Standard. Das typische Leistungsniveau zeichnet sich      |
-|    |     |                     | hierbei aus durch:                                                 |
-|    |     | (2,6-3,5)           |    zufriedenstellendes Wissen und Verständnis des Lehrstoffs,      |
-|    |     |                     | -   die Fähigkeit, Schlüsselqualifikationen anzuwenden,            |
-|    |     |                     | -   die                                                            |
-|    |     |                     | Fähigkeit                                                          |
-|    |     |                     | zu                                                                 |
-|    |     |                     | Analyse,  Synthese,  Beurteilung                                   |
-|    |     |                     | und                                                                |
-|    |     |                     | Problemlösung (höhere kognitive Fähigkeiten),                      |
-|    |     |                     | -   Beherrschen  des                                               |
-|    |     |                     | definierten  Spektrums                                             |
-|    |     |                     | fachbezogener                                                      |
-|    |     |                     | /berufspraktischer Fähigkeiten.                                    |
-|  2 |   4 | „ausreichend“       | -                                                                  |
-|    |     |                     | Insgesamt ein Leistungsniveau, das nur teilweise die geforderte    |
-|    |     | Leistungsgrenze     | Kompetenz erreicht. Die Arbeit der/des Studierenden insgesamt      |
-|    |     | („Borderline“):     | ist im Grenzbereich. Das typische Leistungsniveau zeichnet sich    |
-|    |     | Mindestanforderung  | hierbei aus durch:                                                 |
-|    |     | en erfüllt          |   wenig                                                            |
-|    |     |                     | befriedigendes                                                     |
-|    |     | (3,6-4,0)           | fachbezogenes                                                      |
-|    |     |                     | Wissen                                                             |
-|    |     |                     | und                                                                |
-|    |     |                     | Verständnis des Lehrstoffs,                                        |
-|    |     |                     | -   Fähigkeit, Schlüsselqualifikationen anzuwenden,                |
-|    |     |                     | -   die                                                            |
-|    |     |                     | Fähigkeit                                                          |
-|    |     |                     | zu  Analyse,  Synthese,                                            |
-|    |     |                     | Beurteilung                                                        |
-|    |     |                     | und                                                                |
-|    |     |                     | Problemlösung (höhere kognitive Fähigkeiten),                      |
-|    |     |                     | -   Beherrschung                                                   |
-|    |     |                     | der                                                                |
-|    |     |                     | meisten                                                            |
-|    |     |                     | der                                                                |
-|    |     |                     | vorgegebenen                                                       |
-|    |     |                     | fachbezogenen/ berufspraktischen Fähigkeiten.                      |
+"2","„gut“ 
+ 
+ausgesprochen 
+kompetente  
+Leistung 
+(1,6-2,5)","-
+Leistung  und  Ergebnis  sind 
+insgesamt  erreicht.  Die  Arbeit 
+der/des  Studierenden  übersteigt  den  üblichen  Standard.  Das 
+typische Leistungsniveau zeichnet sich hierbei aus durch: 
+   gutes Wissen und Verstehen des Lehrstoffs, 
+-   Studierende(r) ist sehr kompetent und zeigt Ursprünglichkeit 
+bei der Anwendung von Schlüsselqualifikationen, 
+-   sehr 
+kompetent 
+in  Analyse,  Synthese,  Beurteilung  und 
+Problemlösung (höhere kognitive Fähigkeiten), 
+-   eine  sehr  kompetente  Leistung  im  gesamten  Spektrum  der 
+vorgegebenen 
+fachspezifischen/berufspraktischen 
+Fähig-
+keiten."
+"3","„befriedigend“ 
+ 
+zufriedenstellend: 
+kompetente 
+Leistung 
+ 
+(2,6-3,5)","-
+Insgesamt eine befriedigende Leistung (gemäß den ausführlich 
+beschriebenen Bewertungs- und Benotungsschemata für jede 
+Prüfung). Die Arbeit der/des Studierenden entspricht dem 
+üblichen Standard. Das typische Leistungsniveau zeichnet sich 
+hierbei aus durch: 
+   zufriedenstellendes Wissen und Verständnis des Lehrstoffs, 
+-   die Fähigkeit, Schlüsselqualifikationen anzuwenden, 
+-   die 
+Fähigkeit 
+zu 
+Analyse,  Synthese,  Beurteilung 
+und 
+Problemlösung (höhere kognitive Fähigkeiten), 
+-   Beherrschen  des 
+definierten  Spektrums 
+fachbezogener 
+/berufspraktischer Fähigkeiten."
+"4","„ausreichend“  
+ 
+Leistungsgrenze 
+(„Borderline“): 
+Mindestanforderung
+en erfüllt 
+ 
+(3,6-4,0)","-
+Insgesamt ein Leistungsniveau, das nur teilweise die geforderte 
+Kompetenz erreicht. Die Arbeit der/des Studierenden insgesamt 
+ist im Grenzbereich. Das typische Leistungsniveau zeichnet sich 
+hierbei aus durch: 
+  wenig 
+befriedigendes 
+fachbezogenes 
+Wissen 
+und 
+Verständnis des Lehrstoffs, 
+-   Fähigkeit, Schlüsselqualifikationen anzuwenden, 
+-   die 
+Fähigkeit 
+zu  Analyse,  Synthese, 
+Beurteilung 
+und 
+Problemlösung (höhere kognitive Fähigkeiten), 
+-   Beherrschung 
+der 
+meisten 
+der 
+vorgegebenen 
+fachbezogenen/ berufspraktischen Fähigkeiten."
+
 -------------------------------------------
-|    |   0 | 1                    | 2                                                                   |
-|---:|----:|:---------------------|:--------------------------------------------------------------------|
-|  0 |   5 | “nicht ausreichend”  | -                                                                   |
-|    |     |                      | Insgesamt  ist  das  vom  Studierenden gezeigte                     |
-|    |     | Ungenügend: nicht    | Leistungsniveau deutlich unterhalb der Mindestanforderungen.        |
-|    |     | den Anforderungen    | Das  typische  Leistungsniveau zeichnet  sich  hierbei  aus         |
-|    |     | entsprechend         | durch:                                                              |
-|    |     | (4,1-5,0)            |                                                                     |
-|    |     |                      | kein oder sehr begrenztes Wissen und/oder Verständnis des           |
-|    |     |                      | Lehrstoffs,                                                         |
-|    |     |                      | -   kein  oder  sehr  begrenzter  Erfolg  bei  der  Anwendung  von  |
-|    |     |                      | Schlüsselqualifikationen,                                           |
-|    |     |                      | -    kein oder sehr begrenzter Nachweis von Analyse, Synthese,      |
-|    |     |                      | Beurteilung  und  Problemlösung  zu  einem  gewissen  Grad          |
-|    |     |                      | (höhere kognitive Fähigkeiten),                                     |
-|    |     |                      | -    kein                                                           |
-|    |     |                      | oder                                                                |
-|    |     |                      | nur                                                                 |
-|    |     |                      | sehr                                                                |
-|    |     |                      | begrenztes                                                          |
-|    |     |                      | Beherrschen                                                         |
-|    |     |                      | der                                                                 |
-|    |     |                      | vorgegebenen                                                        |
-|    |     |                      | fachbezogenen                                                       |
-|    |     |                      | /                                                                   |
-|    |     |                      | berufspraktischen                                                   |
-|    |     |                      | Fähigkeiten.                                                        |
+"5","“nicht ausreichend” 
+ 
+Ungenügend: nicht 
+den Anforderungen 
+entsprechend  
+(4,1-5,0)","-
+Insgesamt  ist  das  vom  Studierenden gezeigte 
+Leistungsniveau deutlich unterhalb der Mindestanforderungen. 
+Das  typische  Leistungsniveau zeichnet  sich  hierbei  aus 
+durch: 
+ 
+kein oder sehr begrenztes Wissen und/oder Verständnis des 
+Lehrstoffs, 
+-   kein  oder  sehr  begrenzter  Erfolg  bei  der  Anwendung  von 
+Schlüsselqualifikationen, 
+-    kein oder sehr begrenzter Nachweis von Analyse, Synthese, 
+Beurteilung  und  Problemlösung  zu  einem  gewissen  Grad 
+(höhere kognitive Fähigkeiten), 
+-    kein 
+oder 
+nur 
+sehr 
+begrenztes 
+Beherrschen 
+der 
+vorgegebenen 
+fachbezogenen 
+/ 
+berufspraktischen 
+Fähigkeiten."
+
 -------------------------------------------
-|    | 0         | 1        | 2               | 3                                        |
-|---:|:----------|:---------|:----------------|:-----------------------------------------|
-|  0 |           | Beispiel |                 | Umrechnung                               |
-|  1 |           | 10       | Beste Note      |                                          |
-|  2 |           |          | (1,0 an der     |                                          |
-|  3 |           |          | DHBW)           |                                          |
-|  4 |           | 9        |                 | 10  -  8                                 |
-|  5 |           | 8        |                 | X  =  1  +  3  •  --------------  =  2,2 |
-|  6 | Bestanden |          |                 | 10  -  5                                 |
-|  7 |           | 7        |                 |                                          |
-|  8 |           | 6        |                 |                                          |
-|  9 |           | 5        | Unterste        |                                          |
-| 10 |           |          | Bestehensnote   |                                          |
-| 11 |           |          | (entspricht 4,0 |                                          |
-| 12 |           |          | an der DHBW)    |                                          |
-| 13 |           | 4        |                 |                                          |
-| 14 | Nicht     |          |                 |                                          |
-| 15 |           | 3        |                 |                                          |
-| 16 | Bestanden |          |                 |                                          |
-| 17 |           | 2        |                 |                                          |
-| 18 |           | 1        |                 |                                          |
-| 19 |           | 0        | Minimalnote     |                                          |
+"","Beispiel","","Umrechnung"
+"","10","Beste Note",""
+"","","(1,0 an der",""
+"","","DHBW)",""
+"","9","","10  -  8"
+"","8","","X  =  1  +  3  •  --------------  =  2,2"
+"Bestanden","","","10  -  5"
+"","7","",""
+"","6","",""
+"","5","Unterste",""
+"","","Bestehensnote",""
+"","","(entspricht 4,0",""
+"","","an der DHBW)",""
+"","4","",""
+"Nicht","","",""
+"","3","",""
+"Bestanden","","",""
+"","2","",""
+"","1","",""
+"","0","Minimalnote",""
+
 -------------------------------------------

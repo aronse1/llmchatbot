@@ -1,17 +1,16 @@
-|    | 0               | 1                          | 2   | 3                             |
-|---:|:----------------|:---------------------------|:----|:------------------------------|
-|  0 | typische Fehler |                            |     |                               |
-|  1 | •               | „Es ist wichtig, dass ...“ | •   | Begründung fehlt              |
-|  2 | •               | Beschreibung von Abläufen  | •   | Bild fehlt                    |
-|  3 | •               | „Da ich in der 2. Praxis-  | •   | Begründung subjektiv; allg.   |
-|  4 |                 | phase ... wurde dieses     |     | interessante Begründung       |
-|  5 |                 | Thema für mich besonders   |     | fehlt                         |
-|  6 |                 | interessant.“              |     |                               |
-|  7 | •               | Beschreibung von Vorteilen | •   | Einseitige, willkürliche      |
-|  8 |                 | und Entscheidung           |     | Entscheidung, Nachteile nicht |
-|  9 |                 |                            |     | dargestellt und abgewogen     |
-| 10 | •               | Vergleich von Verfahren    | •   | Willkür und Unstrukturiert-   |
-| 11 |                 | ohne Anforderungen         |     | heit, mangelnde Nachvoll-     |
-| 12 |                 |                            |     | ziehbarkeit                   |
-| 13 | •               | „Die folgenden Kriterien   | •   | Und die anderen ?             |
+"typische Fehler","","",""
+"•","„Es ist wichtig, dass ...“","•","Begründung fehlt"
+"•","Beschreibung von Abläufen","•","Bild fehlt"
+"•","„Da ich in der 2. Praxis-","•","Begründung subjektiv; allg."
+"","phase ... wurde dieses","","interessante Begründung"
+"","Thema für mich besonders","","fehlt"
+"","interessant.“","",""
+"•","Beschreibung von Vorteilen","•","Einseitige, willkürliche"
+"","und Entscheidung","","Entscheidung, Nachteile nicht"
+"","","","dargestellt und abgewogen"
+"•","Vergleich von Verfahren","•","Willkür und Unstrukturiert-"
+"","ohne Anforderungen","","heit, mangelnde Nachvoll-"
+"","","","ziehbarkeit"
+"•","„Die folgenden Kriterien","•","Und die anderen ?"
+
 -------------------------------------------

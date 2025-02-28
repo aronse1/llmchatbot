@@ -15,7 +15,7 @@
 #         file_path = os.path.join(folder_path, filename)
 #         with open(file_path, "r", encoding="utf-8") as file:
 #             data = json.load(file)
-#             # BLEU-Scores extrahieren
+#         
 #             for entry in data:
 #                 try:
                     
@@ -23,28 +23,28 @@
 #                 except:
 #                     continue
 
-# # BLEU-Scores in NumPy-Array umwandeln   
+
 # bleu_scores = np.array(bleu_scores)
 
-# # Berechnung von Mittelwert und Standardabweichung
+
 # mean_bleu = np.mean(bleu_scores)
 # std_bleu = np.std(bleu_scores)
 
-# # Werte für die Normalverteilung berechnen
+
 # x = np.linspace(min(bleu_scores), max(bleu_scores), 100)
 # y = stats.norm.pdf(x, mean_bleu, std_bleu)
 
-# # Plot erstellen
+
 # plt.figure(figsize=(10, 6))
 # plt.hist(bleu_scores, bins=20, density=True, alpha=0.6, color='b', label="METEOR Score Histogram")
 # plt.plot(x, y, 'r-', label="Normalverteilung")
 
-# # Mittelwert und Standardabweichung als vertikale Linien einzeichnen
+
 # plt.axvline(mean_bleu, color='g', linestyle='dashed', linewidth=1, label="Mittelwert")
 # #plt.axvline(mean_bleu - std_bleu, color='orange', linestyle='dashed', linewidth=2, label="1 Std. Abw.")
 # plt.axvline(mean_bleu + std_bleu, color='orange', linestyle='dashed', linewidth=1, label="1 Std. Abw.")
 
-# # Optional: Text hinzufügen
+
 # plt.text(mean_bleu, max(y) * 0.9, f"Ø = {mean_bleu:.2f}", color="g", ha="center", fontsize=12)
 # #plt.text(mean_bleu - std_bleu, max(y) * 0.7, f"-1σ", color="orange", ha="center", fontsize=12)
 # plt.text(mean_bleu + std_bleu, max(y) * 0.7, f"+1σ", color="orange", ha="center", fontsize=12)
@@ -66,11 +66,10 @@
 # json_files[:5]
 
 
-# # BLEU-Scores nach Schwierigkeitsgrad (difficulty) und Stage kategorisieren
+
 # bleu_by_difficulty = {"leicht": [], "mittel": [], "schwer": []}
 # bleu_by_stage = {}
 
-# # Alle JSON-Dateien einlesen und BLEU-Scores extrahieren
 # for file_path in json_files:
 #     with open(file_path, "r", encoding="utf-8") as file:
 #         data = json.load(file)
@@ -91,7 +90,6 @@
 #                     bleu_by_stage[stage] = []
 #                 bleu_by_stage[stage].append(bleu_score)
 
-# # Gemeinsame Achseneinstellungen berechnen
 # all_bleu_scores = [score for scores in bleu_by_difficulty.values() for score in scores]
 # for scores in bleu_by_stage.values():
 #     all_bleu_scores.extend(scores)
@@ -99,7 +97,7 @@
 # min_bleu = min(all_bleu_scores)
 # max_bleu = max(all_bleu_scores)
 
-# # Maximale Dichte für Normalisierung der y-Achse berechnen
+
 # max_density = 0
 # for scores in bleu_by_difficulty.values():
 #     if scores:
@@ -111,11 +109,10 @@
 #         kde = stats.gaussian_kde(scores)
 #         max_density = max(max_density, max(kde(np.linspace(min_bleu, max_bleu, 100))))
 
-# # Erstellen der Plots mit normalisierten Achsen
-# # Erstellen der Plots NUR für Difficulty (ohne Stage-Diagramme)
+
 # fig, axes = plt.subplots(1, len(bleu_by_difficulty), figsize=(15, 5))
 
-# # Plot für Difficulty
+
 # for idx, (difficulty, scores) in enumerate(bleu_by_difficulty.items()):
 #     if scores:
 #         mean_bleu = np.mean(scores)
@@ -150,7 +147,6 @@
 
 
 
-# # ROUGE-Scores extrahieren
 # rouge_r = []
 # rouge_p = []
 # rouge_f1 = []
@@ -175,17 +171,17 @@
 #                     continue
 
 
-# # # Konvertieren in NumPy-Arrays
+
 # rouge_r = np.array(rouge_r)
 # rouge_p = np.array(rouge_p)
 # rouge_f1 = np.array(rouge_f1)
 
-# # Mittelwerte und Standardabweichungen berechnen
+
 # mean_r, std_r = np.mean(rouge_r), np.std(rouge_r)
 # mean_p, std_p = np.mean(rouge_p), np.std(rouge_p)
 # mean_f1, std_f1 = np.mean(rouge_f1), np.std(rouge_f1)
 
-# # Werte für Normalverteilungen berechnen
+
 # x_r = np.linspace(min(rouge_r), max(rouge_r), 100)
 # y_r = stats.norm.pdf(x_r, mean_r, std_r)
 
@@ -195,17 +191,16 @@
 # x_f1 = np.linspace(min(rouge_f1), max(rouge_f1), 100)
 # y_f1 = stats.norm.pdf(x_f1, mean_f1, std_f1)
 
-# # Subplots erstellen
-# # Gemeinsame Achsenskalierung für besseren Vergleich
+
 # common_x_min = min(np.min(rouge_r), np.min(rouge_p), np.min(rouge_f1))
 # common_x_max = max(np.max(rouge_r), np.max(rouge_p), np.max(rouge_f1))
 # common_y_max = max(max(y_r), max(y_p), max(y_f1)) 
 # common_y_max += 4.0
 
-# # Subplots mit normalisierten Achsen erstellen
+
 # fig, axes = plt.subplots(1, 3, figsize=(18, 5), sharex=True, sharey=True)
 
-# # Plot für Recall
+
 # axes[0].hist(rouge_r, bins=20, density=True, alpha=0.6, color='b', label="Rouge-1 F1-Score")
 # axes[0].plot(x_r, y_r, 'r-', label="Normalverteilung")
 # axes[0].axvline(mean_r, color='g', linestyle='dashed', linewidth=1, label="Mittelwert")
@@ -217,7 +212,7 @@
 # axes[0].set_xlim(common_x_min, common_x_max)
 # axes[0].set_ylim(0, common_y_max)
 
-# # Plot für Precision
+
 # axes[1].hist(rouge_p, bins=20, density=True, alpha=0.6, color='b', label="Rouge-2 F1-Score")
 # axes[1].plot(x_p, y_p, 'r-', label="Normalverteilung")
 # axes[1].axvline(mean_p, color='g', linestyle='dashed', linewidth=1, label="Mittelwert")
@@ -228,7 +223,7 @@
 # axes[1].set_xlim(common_x_min, common_x_max)
 # axes[1].set_ylim(0, common_y_max)
 
-# # Plot für F1-Score
+
 # axes[2].hist(rouge_f1, bins=20, density=True, alpha=0.6, color='b', label="Rouge-l F1-Score")
 # axes[2].plot(x_f1, y_f1, 'r-', label="Normalverteilung")
 # axes[2].axvline(mean_f1, color='g', linestyle='dashed', linewidth=1, label="Mittelwert")
@@ -250,16 +245,16 @@ import matplotlib.pyplot as plt
 import scipy.stats as stats
 import json
 import os
-# Datei laden
+
 folder_path = "C:\\Users\\arons\\Desktop\\Studienarbeit\\chatbot_poc\\data\\documents\\it\\output\\output_json\\"
 
 
-# ROUGE-Scores nach Schwierigkeitsgrad (difficulty) kategorisieren
+
 rouge_by_difficulty = {"leicht": {"r": [], "p": [], "f": []}, 
                        "mittel": {"r": [], "p": [], "f": []}, 
                        "schwer": {"r": [], "p": [], "f": []}}
 
-# JSON-Daten durchgehen und ROUGE-Scores extrahieren
+
 
 for filename in os.listdir(folder_path):
     if filename.endswith(".json"):
@@ -283,7 +278,6 @@ for filename in os.listdir(folder_path):
 
 
 
-# Gemeinsame Achseneinstellungen berechnen
 all_rouge_scores = []
 for scores in rouge_by_difficulty.values():
     all_rouge_scores.extend(scores["r"])
@@ -293,7 +287,7 @@ for scores in rouge_by_difficulty.values():
 min_rouge = min(all_rouge_scores)
 max_rouge = max(all_rouge_scores)
 
-# Maximale Dichte für Normalisierung der y-Achse berechnen
+
 max_density = 0
 for scores in rouge_by_difficulty.values():
     for key in ["r", "p", "f"]:
@@ -301,7 +295,7 @@ for scores in rouge_by_difficulty.values():
             kde = stats.gaussian_kde(scores[key])
             max_density = max(max_density, max(kde(np.linspace(min_rouge, max_rouge, 100))))
 
-# Erstellen der Plots für jeden ROUGE-Wert (Recall, Precision, F1) und jede Schwierigkeit
+
 fig, axes = plt.subplots(3, len(rouge_by_difficulty), figsize=(18, 12), sharex=True, sharey=True)
 
 score_types = ["r", "p", "f"]
@@ -337,7 +331,7 @@ plt.show()
 # import matplotlib.pyplot as plt
 # import os
 
-# # Datei laden
+
 # folder_path = "C:\\Users\\arons\\Desktop\\Studienarbeit\\chatbot_poc\\data\\documents\\it\\output\\output_json\\"
 
 # categories = {
@@ -351,7 +345,7 @@ plt.show()
 # meteor_threshold = 0.3
 # rouge_threshold = 0.3
 
-# # Daten durchgehen und 
+
 # for filename in os.listdir(folder_path):
 #     if filename.endswith(".json"):
 #         file_path = os.path.join(folder_path, filename)
@@ -401,11 +395,11 @@ plt.show()
 # import matplotlib.pyplot as plt
 # import seaborn as sns
 
-# # Ordner mit den JSON-Dateien
+
 # extract_folder ="C:\\Users\\arons\\Desktop\\Studienarbeit\\chatbot_poc\\data\\documents\\it\\output\\output_json\\"
 
 
-# # Alle JSON-Dateien einlesen
+
 # data = []
 # for file_name in os.listdir(extract_folder):
 #     if file_name.endswith(".json"):
@@ -413,16 +407,15 @@ plt.show()
 #         with open(file_path, 'r', encoding='utf-8') as file:
 #             data.extend(json.load(file))
 
-# # Daten in DataFrame umwandeln
+
 # df = pd.DataFrame(data)
 
-# # Relevante Metriken extrahieren
+
 # df_scores = df[['query', 'bleu_score', 'meteor_score', 'keyword-percentage']].copy()
 # df_scores['meteor_score'] *= 100
-# # Durchschnittswerte pro Frage berechnen
+
 # df_avg_scores = df_scores.groupby('query').mean()
 
-# # Heatmap erstellen
 # plt.figure(figsize=(15, 8))
 # avg_scores = df_scores.groupby('query')[['bleu_score', 'meteor_score', 'keyword-percentage']].mean()
 # sns.heatmap(avg_scores, annot=True, cmap='YlOrRd', fmt='.3f')
@@ -446,33 +439,33 @@ plt.show()
 # import pandas as pd
 # import matplotlib.pyplot as plt
 
-# # Pfad zur hochgeladenen Datei
-# extract_folder ="C:\\Users\\arons\\Desktop\\Studienarbeit\\chatbot_poc\\data\\documents\\it\\output\\output_json\\"
+
+# folder_path ="C:\\Users\\arons\\Desktop\\Studienarbeit\\chatbot_poc\\data\\documents\\it\\output\\output_json\\"
 # data = []
-# for file in os.listdir(extract_folder):
+# for file in os.listdir(folder_path):
 #     if file.endswith(".json"):
-#         file_path = os.path.join(extract_folder, file)
+#         file_path = os.path.join(folder_path, file)
 #         with open(file_path, "r", encoding="utf-8") as f:
 #             json_data = json.load(f)
 #             data.extend(json_data)
 
-# # In DataFrame umwandeln
+
 # df = pd.DataFrame(data)
 
-# # Durchschnittliche Scores pro Stage und Schwierigkeitsgrad berechnen
+
 # df_avg_scores = df.groupby(["stage", "difficulty"]).agg(
 #     bleu_score=("bleu_score", "mean"),
 #     meteor_score=("meteor_score", "mean"),
 #     keyword_percentage=("keyword-percentage", "mean")
 # ).reset_index()
 
-# # Extrahieren des ROUGE-1-Scores aus den verschachtelten Dictionaries
+
 # df["rouge_1_score"] = df["rouge_scores"].apply(
 #     lambda x: x[0]["rouge-1"]["f"] if isinstance(x, list) and len(x) > 0 else None
 # )
 # df_avg_scores["rouge_1_score"] = df.groupby(["stage", "difficulty"])["rouge_1_score"].mean().values
 
-# # Balkendiagramme erstellen
+
 # fig, axes = plt.subplots(4, 1, figsize=(12, 24))
 # metrics = ["bleu_score", "meteor_score", "rouge_1_score", "keyword_percentage"]
 # titles = ["Durchschnittlicher BLEU-Score", "Durchschnittlicher METEOR-Score", "Durchschnittlicher ROUGE-1-Score", "Durchschnittliche Keyword Treffer"]
