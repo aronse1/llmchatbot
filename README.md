@@ -1,6 +1,8 @@
 # Chatbot
 
 A Discord-based chatbot designed to answer university-related questions using LlamaIndex and Llama 3.1.
+Fork of https://github.com/TillHaenisch2/chatbot_poc
+
 
 ## Table of Contents
 
@@ -23,7 +25,7 @@ A Discord-based chatbot designed to answer university-related questions using Ll
 - LlamaIndex
 - Llama 3.1
 - Discord.py
-
+- Docker
 ## Installation
 
 The "prooven" way to install the chatbot is via ansible on a linux system. The
@@ -33,48 +35,21 @@ directory.
 
 ### Step By Step Guide
 
-1.  Installing ansible:
+1.  Install Ollama
+   https://ollama.com/
 
-```bash
-sudo apt install ansible
-```
+2. Pull model
+   ```bash
+   ollama pull llama3.1:8b-instruct-q6_K
+   ```
 
-If the connection to the server is established via ssh useranme and password instead
-of ssh key, the package `sshpass` must be installed additionally:
-
-```bash
-sudo apt install sshpass
-```
-
-2. Clone the repository:
-
-```bash
-git clone git@github.com:felixZmn/chatbot.git
-cd chatbot
-```
-
-3. Create an inventory file:
-
-```yaml
-ungrouped:
-  vars:
-    ansible_user: <username>
-    # optional, if no ssh key is used
-    ansible_ssh_pass: <password>
-  hosts: 123.123.123.123
-```
-
-4. Execute the playbook:
-
-```bash
-ansible-playbook -i inventory.yml playbook.yml
-```
-
-5. Post-Installation steps
-
-- Create the discord bot in the Discord Developer Portal
-- Add the bot token to the `.env` file
-- Invite the bot to your Discord server using the OAuth2 URL generated in the Discord Developer Portal
+4. Install Python requirements
+   ```bash
+    pip install -r requirements.txt
+   ```
+   there may be missing some packages, just install them with pip
+5. Install docker
+   https://www.docker.com/
 
 ## Usage
 
@@ -91,6 +66,11 @@ The chatbot can be configured using environment variables. The following environ
 Variables with no default value are required.
 
 ### Running the Chatbot
+Start the redis data base by running following command:
+```bash
+docker compose up -d
+```
+
 
 To start the chatbot, run the following command:
 
