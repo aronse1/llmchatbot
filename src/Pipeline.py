@@ -15,7 +15,7 @@ from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.llms.ollama import Ollama
 from src.helpers.PriorityNodeScoreProcessor import PriorityNodeScoreProcessor
 #from src.helpers.RagPrompt import rag_messages, rag_template
-from src.helpers.SystemMessage import system_message, getChatHistory
+from src.helpers.SystemMessage import system_message, getChatHistoryAsString, getChatHistory
 from src.IntentClassifier import ClassifierManager
 from llama_index.core import Document
 import os
@@ -362,6 +362,36 @@ async def create_agent3(course: Course, chat_history=None, index=None, topk=3,ch
 def remove_parentheses(text: str) -> str:
     return re.sub(r'\([^)]*\)', '', text)
     
+
+async def makeRagQuery(chatHistory :str, query:str):
+#     prompt = f"""
+# Du bist ein KI Asistent der für die DHBW Heidenheim welcher ein retrieval System benutzt.
+# Anhand des folgenden Chatverlaufs:
+# {chatHistory}
+
+# Und der neusten Query:
+# {query}
+
+# Generiere eine optimierte Frage welche die relevanten Dokumente retrieved. Sollte die neue Query nichts mit dem Verlauf zu tun haben, gib die neuste Query zurück.
+# **Ausgabeformat:**  
+# Gib ausschließlich die verbesserte Query zurück. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der Query.
+
+# """
+    prompt = f"""
+Du bist ein KI Asistent der für die DHBW Heidenheim welcher ein retrieval System benutzt.
+Anhand des folgenden Chatverlaufs:
+{chatHistory}
+
+Und der neusten Query:
+{query}
+
+Generiere eine optimierte Frage welche die relevanten Dokumente retrieved. Sollte die neue Query nichts mit dem Verlauf zu tun haben, antworte nur mit der neusten Query ohne sie zu verändern.
+**Ausgabeformat:**  
+Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der Query.
+
+"""
+    result = await Settings.llm.acomplete(prompt=prompt)
+    return result.text
 class AdvancedRAGWorkflow(Workflow):
     def __init__(self, course=None, userid=None, timeout = 10, disable_validation = False, verbose = False, service_manager = ...):
         super().__init__(timeout, disable_validation, verbose, service_manager)
@@ -377,6 +407,7 @@ class AdvancedRAGWorkflow(Workflow):
         ctx.data["intent"] = response
         result = "Language: " + ctx.data["language"] + " Intent: " +ctx.data["intent"]
         print(result)
+
         if response == "small_talk":
            self.send_event(NoRAGQuestionEvent(query=ev.query))
         elif response == "study_topics" or response == "people_questions":
@@ -643,7 +674,9 @@ class AdvancedRAGWorkflow3(Workflow):
         response = await classifier_manager.classify_intent(ev.query)
         ctx.data["intent"] = response
         result = "Language: " + ctx.data["language"] + " Intent: " +ctx.data["intent"]
+        ctx.data["chatHistory"] = await getChatHistoryAsString(self.userid)
         print(result)
+
         if response == "small_talk":
            self.send_event(NoRAGQuestionEvent(query=ev.query))
         elif response == "study_topics" or response == "people_questions":
@@ -658,6 +691,9 @@ class AdvancedRAGWorkflow3(Workflow):
         
         Der Benutzer führt vermutlich Small Talk mit dir. Weise ihn freundlich darauf hin, dass du hauptsächlich Fragen zum Studium und wissenschaftlichen Arbeiten beantwortest.
         
+        Hier ist die bereits geführte Konversation:
+        {ctx.data["chatHistory"]}
+
         **Regeln:**
         - Erwähne bitte nicht dass du Small Talk führst
         - Bleibe sachlich und freundlich.
@@ -678,6 +714,10 @@ class AdvancedRAGWorkflow3(Workflow):
         query = ev.query
         if ctx.data["language"] != "de":
             query = await classifier_manager.translate(ev.query,ctx.data["language"], "de" )
+        
+        if ctx.data["chatHistory"] != "":
+            query = await makeRagQuery(ctx.data["chatHistory"], query)
+            print(Fore.GREEN + query + Fore.RESET)
 
         expanded_query = await expand_query(query,fachwoerter)
         
@@ -689,7 +729,6 @@ class AdvancedRAGWorkflow3(Workflow):
     async def LoadIndex(self, ctx : Context, ev: LoadIndexEvent) -> RAGhighK | RAGlowK:
         #ctx.data["qdrantindex"] = load_index_oldway(self.course)
         ctx.data["chromaindex"] = loadOrCreateIndexChroma(self.course)
-        ctx.data["chatHistory"] = await getChatHistory(self.userid)
         self.send_event(RAGhighK(query=ev.query))
         self.send_event(RAGlowK(query=ev.query))
 
@@ -697,25 +736,19 @@ class AdvancedRAGWorkflow3(Workflow):
     async def HandleHighKRAG(self, ctx: Context, ev: RAGhighK) -> ResponseEvent:
         agent = await create_agent3(course=self.course, index=ctx.data["chromaindex"], chat_history=ctx.data["chatHistory"],topk=6,chunksize=1024)
         response = await agent.aquery(ev.query)
-        #print("RAG HIGH K S LENGTH:" + str(len(response.sources)))
-        #print("RAG HIGH K S CONTENT:" + str(response.sources[0].content))
         source = "High_K"
         ctx.data[source] = "\n\n".join(source.text for source in response.source_nodes if source.text)
-        #ctx.data[source] = "\n\n".join(source.content for source in response.sources if source.content)
         self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
-        #return StopEvent(result="Hi")
+
     
     @step(pass_context=True)
     async def HandleLowKRAG(self, ctx: Context, ev: RAGlowK) -> ResponseEvent:
         agent = await create_agent3(course=self.course, index=ctx.data["chromaindex"], chat_history=ctx.data["chatHistory"])
         response = await agent.aquery(ev.query)
-        #print("RAG LOW K S LENGTH:" + str(len(response.sources)))
-        #print("RAG LOW K S CONTENT:" + str(response.sources[0].content))
         source = "Low_K"
         ctx.data[source] = "\n\n".join(source.text for source in response.source_nodes if source.text)
-        #ctx.data[source] = "\n\n".join(source.content for source in response.sources if source.content)
         self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
-        #return StopEvent(result="Hi")
+
     
     @step(pass_context=True)
     async def HandleResponse(self, ctx: Context, ev: ResponseEvent) -> StopEvent:
@@ -746,6 +779,7 @@ Du bist ein Assistent, der zwei Antworten auf die gleiche Frage bewertet.
 - Die beste Antwort sollte **präziser, genauer** sein.
 - Bevorzuge die kürzere Antwort.
 - Falls die Antworten etwas unterschiedliches Aussagen, sag ohne Begründung dass du die Frage nicht beantworten kannst
+- Sollte keiner der Antworten die Frage genau beantworten können, sag ohne Begründung dass du die Frage nicht beantworten kannst
 
 **Ausgabeformat:**  
 Gib ausschließlich die kürzere Antwort zurück. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der exakten Antwort.
@@ -757,6 +791,7 @@ Gib ausschließlich die kürzere Antwort zurück. Jegliche zusätzliche Erkläru
         best_response = best_response.replace("**Antwort 1:**", "").replace("**Antwort 2:**", "").replace("  ", " ").replace("Antwort 1:", "").replace("Antwort 2:", "")
         if ctx.data["language"] != "de":
             best_response = await classifier_manager.translate(best_response, "de", ctx.data["language"] )
+        
         
         return StopEvent(result=best_response)
     

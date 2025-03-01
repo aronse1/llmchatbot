@@ -696,7 +696,7 @@
         "keyword-percentage": 0.0
     },
     {
-        "query": "Mit welchen Hochschulen ist der Studiengang Wirtschaftsinformatik eng verbunden?",
+        "query": "Mit welchen Hochschulen ist der Studiengang Wirtschaftsinformatik eng   ?",
         "response": "Das konnte ich nicht beantworten",
         "reference": "Der Studiengang Wirtschaftsinformatik pflegt eigene Kontakte zu Hochschulen auf der ganzen Welt wie USA, China, Indien, Australien",
         "stage": "1",

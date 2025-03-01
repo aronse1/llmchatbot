@@ -38,7 +38,8 @@ class ClassifierManager:
                     "Wie alt bist du?",
                     "Woher kommst du?",
                     "Was hältst du von...?",
-                    "Magst du Sport?"
+                    "Magst du Sport?",
+                    "Was hab ich dich bereits gefragt?"
                 ]
             }
         }
