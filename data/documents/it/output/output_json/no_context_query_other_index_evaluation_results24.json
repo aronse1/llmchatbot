@@ -1,0 +1,1336 @@
+[
+    {
+        "query": "Was bedeutet „finanzielle Unabhängigkeit“ im dualen Studium der DHBW?",
+        "response": " \nFinanzielle Unabhängigkeit bedeutet, dass die Studierenden der Dualen Hochschule Baden-Württemberg vom ersten Studientag an finanziell unabhängig sind und eine monatliche Vergütung als Angestellte erhalten [1].",
+        "reference": "Studierende erhalten während des gesamten Studiums eine monatliche Vergütung.",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 1.772984226469502,
+        "meteor_score": 0.2410901467505241,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.4444444444444444,
+                    "p": 0.16,
+                    "f": 0.2352941137543253
+                },
+                "rouge-2": {
+                    "r": 0.25,
+                    "p": 0.08333333333333333,
+                    "f": 0.12499999625000012
+                },
+                "rouge-l": {
+                    "r": 0.3333333333333333,
+                    "p": 0.12,
+                    "f": 0.17647058434256063
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Wie lange dauert das Studium an der DHBW?",
+        "response": "Das Studium an der Dualen Hochschule Baden-Württemberg dauert drei Jahre [1].",
+        "reference": "Das Studium an der DHBW dauert drei Jahre und gliedert sich in Theorie- und Praxisphasen. ",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 23.587980670838615,
+        "meteor_score": 0.4738607771875874,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.4666666666666667,
+                    "p": 0.6363636363636364,
+                    "f": 0.5384615335798818
+                },
+                "rouge-2": {
+                    "r": 0.3333333333333333,
+                    "p": 0.5,
+                    "f": 0.39999999520000007
+                },
+                "rouge-l": {
+                    "r": 0.4666666666666667,
+                    "p": 0.6363636363636364,
+                    "f": 0.5384615335798818
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Wann beginnt das Studium an der DHBW jedes Jahr?",
+        "response": "Das Studium an der DHBW beginnt jeweils am 1. Oktober [1].",
+        "reference": "Das Studium an der DHBW beginnt jedes Jahr zum 1. Oktober.",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 47.987820666906636,
+        "meteor_score": 0.6289424860853432,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.7272727272727273,
+                    "p": 0.7272727272727273,
+                    "f": 0.7272727222727273
+                },
+                "rouge-2": {
+                    "r": 0.6,
+                    "p": 0.6,
+                    "f": 0.5999999950000001
+                },
+                "rouge-l": {
+                    "r": 0.7272727272727273,
+                    "p": 0.7272727272727273,
+                    "f": 0.7272727222727273
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Was ist der Abschluss, den die Studierenden nach dem Studium im Studiengang Wirtschaftsinformatik an der DHBW erhalten?",
+        "response": "Der Abschluss, den die Studierenden nach dem Studium im Studiengang Wirtschaftsinformatik an der DHBW erhalten, ist der international anerkannte Bachelor of Science [1].",
+        "reference": "Die Absolventen des Studiengangs Wirtschaftsinformatik erhalten einen Bachelor of Science.",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 1.9383418023456653,
+        "meteor_score": 0.39469026548672564,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.4,
+                    "p": 0.18181818181818182,
+                    "f": 0.2499999957031251
+                },
+                "rouge-2": {
+                    "r": 0.2222222222222222,
+                    "p": 0.09090909090909091,
+                    "f": 0.12903225394380866
+                },
+                "rouge-l": {
+                    "r": 0.4,
+                    "p": 0.18181818181818182,
+                    "f": 0.2499999957031251
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Warum ist der Wechsel zwischen Theorie- und Praxisphasen ein Vorteil?",
+        "response": "\n\nDer Wechsel zwischen Theorie- und Praxisphasen ist ein Vorteil, da er den Studierenden ermöglicht, Wissen nicht nur in Lehrveranstaltungen zu erwerben, sondern auch im Rahmen von Projekten in den Theorie- und Praxisphasen zu vermitteln . Dadurch werden die sozialen und kommunikativen Fähigkeiten des Studierenden gestärkt. Die Projekte werden in den Theoriephasen in Kleingruppen durchgeführt, wobei Inhalte realistische, betriebliche Fragestellungen sind, wie z.B. interaktive Webpräsenz oder Datenbankanwendungen . Dies ermöglicht es den Studierenden, ihre Fähigkeiten in einem praxisnahen Umfeld zu erproben und anzuwenden.\n\nDie Praxisphasen bieten den Studierenden die Möglichkeit, ihre Kenntnisse in der Realität anzuwenden und damit ihre Fähigkeit zur Lösung von Problemen und zur Entwicklung von Lösungen zu verbessern . Durch den Wechsel zwischen Theorie- und Praxisphasen können die Studierenden ein umfassenderes Verständnis des Stoffgebiets erwerben und ihre Fähigkeiten in der Anwendung von Wissen verbessern.\n\nIn diesem Zusammenhang ist es auch erwähnenswert, dass die Studierenden eine Prozessanalyse mit dem Ziel einer Prozessoptimierung durchführen sollen und sich daraus eine entsprechende Prozessdefinition ableiten . Dies ermöglicht es den Studierenden, ihre Fähigkeit zur Analyse von Prozessen und zur Entwicklung von Lösungen zu verbessern.\n\nZusammenfassend lässt sich sagen, dass der Wechsel zwischen Theorie- und Praxisphasen ein wichtiger Bestandteil des Studienprogramms ist, da er den Studierenden ermöglicht, Wissen nicht nur in Lehrveranstaltungen zu erwerben, sondern auch im Rahmen von Projekten in den Theorie- und Praxisphasen zu vermitteln .",
+        "reference": "Er sorgt für ein abwechslungsreiches und praxisnahes Studium.",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 0.09504580788881016,
+        "meteor_score": 0.05067567567567568,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.25,
+                    "p": 0.017857142857142856,
+                    "f": 0.03333333208888894
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.25,
+                    "p": 0.017857142857142856,
+                    "f": 0.03333333208888894
+                }
+            }
+        ],
+        "keyword-percentage": 66.66666666666666
+    },
+    {
+        "query": "Wie werden soziale und kommunikative Fähigkeiten der Studierenden gefördert?",
+        "response": "Das konnte ich nicht beantworten",
+        "reference": "Das Wissen wird nicht nur in Lehrveranstaltungen, sondern auch im Rahmen von Projekten in den Theorie- und Praxisphasen vermittelt",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 0.38854170183167,
+        "meteor_score": 0.056818181818181816,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.1111111111111111,
+                    "p": 0.4,
+                    "f": 0.17391304007561445
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.1111111111111111,
+                    "p": 0.4,
+                    "f": 0.17391304007561445
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Wie wird die Internationalisierung im Studium gefördert?",
+        "response": "Die Internationalisierung im Studium wird an der Dualen Hochschule Baden-Württemberg durch Sprachkurse und englischsprachigen Lehrveranstaltungen gefördert [1]. Darüber hinaus unterhält der Studiengang eigene Kontakte zu Hochschulen auf der ganzen Welt, wie zum Beispiel in den USA, China, Indien und Australien [1]. Zudem werden weltweite Auslandspraktika und -semester angeboten [2].",
+        "reference": "Durch Sprachkurse, englischsprachige Lehrveranstaltungen und Auslandssemester.",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 0.4453323527690996,
+        "meteor_score": 0.14563106796116507,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.3333333333333333,
+                    "p": 0.045454545454545456,
+                    "f": 0.07999999788800007
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.16666666666666666,
+                    "p": 0.022727272727272728,
+                    "f": 0.03999999788800011
+                }
+            }
+        ],
+        "keyword-percentage": 33.33333333333333
+    },
+    {
+        "query": "Welche typischen Arbeitsgebiete gibt es für Wirtschaftsinformatiker*innen?",
+        "response": "Ich kann die Frage nicht beantworten.",
+        "reference": "Projektmanagement, Organisationsentwicklung und -beratung, Anwendungsentwicklung und -beratung, Systemanalyse, -konfiguration und -integration, Vertrieb, Online-Marketing, Logistik, Materialwirtschaft und Einkauf",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 0,
+        "meteor_score": 0.0,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Wer ist der Studiengangsleiter im Studiengang Wirtschaftsinformatik?",
+        "response": "Der Studiengangsleiter im Studiengang Wirtschaftsinformatik ist Prof. Dr. Anke Hutzschenreuter [4].",
+        "reference": " Der Studiengangsleiter ist Prof. Dr. Jürgen Seitz ",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 11.731175160264002,
+        "meteor_score": 0.6540540540540541,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.7142857142857143,
+                    "p": 0.45454545454545453,
+                    "f": 0.5555555508024692
+                },
+                "rouge-2": {
+                    "r": 0.5,
+                    "p": 0.3,
+                    "f": 0.3749999953125
+                },
+                "rouge-l": {
+                    "r": 0.7142857142857143,
+                    "p": 0.45454545454545453,
+                    "f": 0.5555555508024692
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Wie wird der Studiengang Wirtschaftsinformatik geleitet?",
+        "response": " \nDer Studiengang Wirtschaftsinformatik wird von Prof. Dr. Anke Hutzschenreuter und Prof. Dr. Jürgen Seitz geleitet [3].",
+        "reference": "Durch einen Studiengangsleiter.  Der Studiengangsleiter ist Prof. Dr. Jürgen Seitz ",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 16.188613565728215,
+        "meteor_score": 0.45660377358490567,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.5555555555555556,
+                    "p": 0.35714285714285715,
+                    "f": 0.4347826039319471
+                },
+                "rouge-2": {
+                    "r": 0.3333333333333333,
+                    "p": 0.21428571428571427,
+                    "f": 0.26086956045368626
+                },
+                "rouge-l": {
+                    "r": 0.5555555555555556,
+                    "p": 0.35714285714285715,
+                    "f": 0.4347826039319471
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Unter welcher E-Mail-Adresse können Studierende mit dem Sekretariat des Studiengangs Wirtschaftsinformatik Kontakt aufnehmen?",
+        "response": "Die E-Mail-Adresse, unter der Studierende mit dem Sekretariat des Studiengangs Wirtschaftsinformatik Kontakt aufnehmen können, ist wi@dhbw-heidenheim.de.",
+        "reference": " Die E-Mail des Sekretariats ist wi@dhbw-heidenheim.de ",
+        "stage": "1",
+        "difficulty": "leicht",
+        "bleu_score": 1.6188613565728218,
+        "meteor_score": 0.28571428571428575,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.7142857142857143,
+                    "p": 0.29411764705882354,
+                    "f": 0.4166666625347223
+                },
+                "rouge-2": {
+                    "r": 0.3333333333333333,
+                    "p": 0.125,
+                    "f": 0.18181817785123974
+                },
+                "rouge-l": {
+                    "r": 0.7142857142857143,
+                    "p": 0.29411764705882354,
+                    "f": 0.4166666625347223
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Welche drei Bereiche werden durch das  Wirtschaftsinformatik Studium abgedeckt?",
+        "response": " \nDas Wirtschaftsinformatik-Studium an der DHBW umfasst die Bereiche Informatik, Betriebswirtschaftslehre und Recht, Volkswirtschaftslehre und Mathematik [2]. \n\nInformatik beinhaltet Themen wie Rechner-/Kommunikationssysteme, Betriebssysteme, Datenbanken, Programmierung und Verteilte Systeme [2].\nBetriebswirtschaftslehre umfasst Fächer wie Finanzbuchhaltung, Kosten- und Leistungsrechnung, Investition und Finanzierung, Bilanzierung, Marketing, Unternehmensführung und Controlling sowie Personalmanagement [2].\nDarüber hinaus werden Schlüsselqualifikationen wie Wissenschaftliches Arbeiten, Präsentationstechniken und Interkulturelles Management vermittelt [2].",
+        "reference": "Betriebswirtschaftslehre, Informatik und Wirtschaftsinformatik.",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 0.3615604940023951,
+        "meteor_score": 0.10416666666666669,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.5,
+                    "p": 0.0425531914893617,
+                    "f": 0.07843137110342178
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.5,
+                    "p": 0.0425531914893617,
+                    "f": 0.07843137110342178
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Welche betriebswirtschaftlichen Themen werden im Studium behandelt?",
+        "response": " \nIm Studium der Wirtschaftsinformatik an der Dualen Hochschule Baden-Württemberg Heidenheim werden verschiedene betriebswirtschaftliche Themen behandelt, darunter:\n\n* Finanzbuchhaltung\n* Kosten- und Leistungsrechnung\n* Investition und Finanzierung\n* Bilanzierung\n* Marketing\n* Unternehmensführung und Controlling\n* Personalmanagement\n\nDarüber hinaus werden auch aktuelle Themen wie Business Analytics, Big Data, Ubiquitous Computing, IT-Sicherheit und disruptive Geschäftsmodelle im Studium behandelt [1].\n\nDie Studierenden lernen, Erkenntnisse der Wirtschaftsinformatik auf praktische Problemstellungen anzuwenden und ihre Fähigkeiten in der Lösung von betriebswirtschaftlichen Problemen zu zeigen [2].",
+        "reference": "Finanzbuchhaltung, Kosten- und Leistungsrechnung, Investition und Finanzierung, Bilanzierung, Marketing, Unternehmensführung und Controlling, Personalmanagement",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 0.7595192904514618,
+        "meteor_score": 0.15306122448979592,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.36363636363636365,
+                    "p": 0.06451612903225806,
+                    "f": 0.10958903853631081
+                },
+                "rouge-2": {
+                    "r": 0.16666666666666666,
+                    "p": 0.025974025974025976,
+                    "f": 0.04494381789168046
+                },
+                "rouge-l": {
+                    "r": 0.36363636363636365,
+                    "p": 0.06451612903225806,
+                    "f": 0.10958903853631081
+                }
+            }
+        ],
+        "keyword-percentage": 33.33333333333333
+    },
+    {
+        "query": "Was wird in Planspielen und Simulationen vermittelt?",
+        "response": " \nIn Planspielen und Simulationen erweitern die Studierenden auf spielerische Art ihren Wissens- und Erfahrungsschatz [1]. Durch diese Aktivitäten werden nicht nur fachliche Inhalte wie Systemanalyse, IT-Management, Geschäftsprozess- und Projektmanagement vermittelt , sondern auch soziale und kommunikative Fähigkeiten gestärkt. Die Projekte in den Theoriephasen werden in Kleingruppen durchgeführt und beziehen sich auf realistische, betriebliche Fragestellungen [1].",
+        "reference": "Der Aufbau von betriebswirtschaftlichen Unternehmensanwendungen, Lösungen zum Lieferkettenmanagement und zur Managementunterstützung sowie Modellierung und Optimierung von Geschäftsprozessen werden vermittelt",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 0.47017126386039765,
+        "meteor_score": 0.08849557522123892,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.17647058823529413,
+                    "p": 0.06382978723404255,
+                    "f": 0.09374999609863297
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.17647058823529413,
+                    "p": 0.06382978723404255,
+                    "f": 0.09374999609863297
+                }
+            }
+        ],
+        "keyword-percentage": 14.285714285714285
+    },
+    {
+        "query": "Was wird durch kleine Kursgruppen erreicht?",
+        "response": " \nNach dem Studium von Source 1 und Source 3 wird durch kleine Kursgruppen in den Theoriephasen erreicht, dass die sozialen und kommunikativen Fähigkeiten der Studierenden gestärkt werden. In diesen Kleingruppen werden realistische, betriebliche Fragestellungen bearbeitet, wie z.B. interaktive Webpräsenz, Datenbankanwendungen oder studentische Unternehmensberatung [1].",
+        "reference": "Durch kleine Kursgruppen wird eine  intensive Betreuung ermöglicht ",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 0.9795841373797659,
+        "meteor_score": 0.3232758620689655,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.375,
+                    "p": 0.07142857142857142,
+                    "f": 0.11999999731200006
+                },
+                "rouge-2": {
+                    "r": 0.14285714285714285,
+                    "p": 0.022727272727272728,
+                    "f": 0.03921568390619007
+                },
+                "rouge-l": {
+                    "r": 0.25,
+                    "p": 0.047619047619047616,
+                    "f": 0.07999999731200008
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Wie sind die Vorlesungsräume ausgestattet?",
+        "response": "Die Hörsäle, Computer-Labore und Gruppenarbeitsräume der DHBW Heidenheim sind modern und funktional ausgestattet , was die Motivation der Studierenden fördert und zum Lernerfolg beiträgt.",
+        "reference": "Die Vorlesungsräume sind modern und funktional ausgestattet, zusätzlich sind Computerlabore  vorzufinden",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 10.414419091986513,
+        "meteor_score": 0.2032520325203252,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.5,
+                    "p": 0.23809523809523808,
+                    "f": 0.32258064079084287
+                },
+                "rouge-2": {
+                    "r": 0.3,
+                    "p": 0.13043478260869565,
+                    "f": 0.18181817759412314
+                },
+                "rouge-l": {
+                    "r": 0.5,
+                    "p": 0.23809523809523808,
+                    "f": 0.32258064079084287
+                }
+            }
+        ],
+        "keyword-percentage": 66.66666666666666
+    },
+    {
+        "query": "Welche unterschiedlichen Fähigkeiten fördert das Studium der Wirtschaftsinformatik?",
+        "response": "**Antwort 2**\n\nDiese Antwort ist präziser und genauer als Antwort 1, da sie spezifischere Beispiele für die geförderten Fähigkeiten nennt und die Anforderungen an eine wissenschaftliche Arbeit ausführt. Die Antwort ist auch kürzer als Antwort 1.",
+        "reference": " Es werden fachliche, persönliche und soziale Kompetenzen der Studierenden weiterentwickelt. Darüber hinaus wird die methodische Fähigkeit der Problemlösung gefördert. ",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 0.6132910803680853,
+        "meteor_score": 0.04830917874396135,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.10526315789473684,
+                    "p": 0.06896551724137931,
+                    "f": 0.0833333285503475
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.10526315789473684,
+                    "p": 0.06896551724137931,
+                    "f": 0.0833333285503475
+                }
+            }
+        ],
+        "keyword-percentage": 20.0
+    },
+    {
+        "query": "Wer legt die monatliche Vergütung fest?",
+        "response": "Der Dualen Partner legt die monatliche Vergütung fest.",
+        "reference": "Die Vergütung wird durch den dualen Partner festgelegt",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 3.303164318013808,
+        "meteor_score": 0.39453125,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.25,
+                    "p": 0.25,
+                    "f": 0.24999999500000009
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.125,
+                    "p": 0.125,
+                    "f": 0.1249999950000002
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Zu welcher Adresse müssen die Studierenden fahren, um an den Vorlesungen der Wirtschaftsinformatik teilzunehmen?",
+        "response": " Laut Source 5 muss man zur Dualen Hochschule Baden-Württemberg Heidenheim fahren, Marienstraße 20, 89518 Heidenheim.",
+        "reference": "Die Studierenden müssen in die Marienstraße 20, 89522 Heidenheim fahren",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 3.0934588294313716,
+        "meteor_score": 0.24338624338624337,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.3,
+                    "p": 0.21428571428571427,
+                    "f": 0.24999999513888896
+                },
+                "rouge-2": {
+                    "r": 0.1111111111111111,
+                    "p": 0.07142857142857142,
+                    "f": 0.0869565169754256
+                },
+                "rouge-l": {
+                    "r": 0.3,
+                    "p": 0.21428571428571427,
+                    "f": 0.24999999513888896
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Was können Studierende tun, wenn sie noch unsicher sind, ob sie Wirtschaftsinformatik studieren sollen?",
+        "response": " \nWenn Studierende noch unsicher sind, ob sie Wirtschaftsinformatik studieren sollen, können sie verschiedene Aktivitäten an der DHBW durchführen, um ein besseres Verständnis für den Studiengang zu gewinnen . Dazu gehören:\n\n* Durchführen von Projekten in den Theorie- und Praxisphasen\n* Teilnahme an Seminaren, um Projekt-Ergebnisse aufzubereiten und zu präsentieren\n* Teilnahme an Planspielen und Simulationen, um ihren Wissens- und Erfahrungsschatz zu erweitern\n* Praktische Übungen, um die Funktionsweise und den Aufbau von betriebswirtschaftlichen Unternehmensanwendungen zu vermitteln\n\nDiese Aktivitäten können Studierenden helfen, ein realistisches Bild vom Studiengang Wirtschaftsinformatik zu erhalten und eine fundierte Entscheidung über ihre Zukunft zu treffen .\n\nDarüber hinaus kann die DHBW als eine der größten Hochschulen in Deutschland mit einer Vielzahl von Angeboten und Kontakten zu internationalen Partnern eine gute Plattform für Studierende sein, um sich weiterzubilden und ihre Karriere zu planen .",
+        "reference": "In diesem Fall können sich die Studierenden an die Studienberatung, studienberatung@dhbw-heidenheim.de wenden",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 0.20693337145956656,
+        "meteor_score": 0.1434426229508197,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.4166666666666667,
+                    "p": 0.05555555555555555,
+                    "f": 0.09803921361014999
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.25,
+                    "p": 0.03333333333333333,
+                    "f": 0.05882352733564021
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Was können Studierende unternehmen, wenn sie sich noch nicht sicher sind, ob das Studium der Wirtschaftsinformatik das Richtige für sie ist?",
+        "response": "\nWenn Studierende sich noch nicht sicher sind, ob das Studium der Wirtschaftsinformatik das Richtige für sie ist, können sie verschiedene Schritte unternehmen. Zunächst sollten sie ihre Interessen und Ziele im Blick haben . Sie sollten auch herausfinden, welche Fähigkeiten und Kenntnisse sie bereits besitzen und wie diese mit dem Studium der Wirtschaftsinformatik übereinstimmen könnten.\n\nDarüber hinaus können sie sich über die Inhalte des Studiums informieren und sich mit anderen Studierenden austauschen, um ein realistisches Bild davon zu bekommen . Es ist auch ratsam, dass sie sich an die Studiengangsleitung wenden, um mehr über das Studium zu erfahren und mögliche Fragen oder Bedenken anzusprechen.\n\nWenn sie immer noch unsicher sind, können sie auch ein Praktikum oder eine Projektarbeit durchführen, um erste Erfahrungen im Bereich der Wirtschaftsinformatik zu sammeln . Dies kann ihnen helfen, ihre Fähigkeiten und Interessen besser zu verstehen und zu entscheiden, ob das Studium der Wirtschaftsinformatik für sie geeignet ist.\n\nIn jedem Fall ist es wichtig, dass sie sich nicht unter Druck setzen und genug Zeit nehmen, um über ihre Entscheidung nachzudenken .",
+        "reference": "In diesem Fall können sich die Studierenden an die Studienberatung, studienberatung@dhbw-heidenheim.de wenden",
+        "stage": "1",
+        "difficulty": "mittel",
+        "bleu_score": 0.30831348448719637,
+        "meteor_score": 0.18866356382978725,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.5833333333333334,
+                    "p": 0.0660377358490566,
+                    "f": 0.11864406596954902
+                },
+                "rouge-2": {
+                    "r": 0.08333333333333333,
+                    "p": 0.006493506493506494,
+                    "f": 0.012048191429815799
+                },
+                "rouge-l": {
+                    "r": 0.5833333333333334,
+                    "p": 0.0660377358490566,
+                    "f": 0.11864406596954902
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Was lernen die Studierenden in den Seminarangeboten?",
+        "response": " \nIn den Seminarangeboten werden Studierende vermittelt, wie Projekt-Ergebnisse am besten aufbereitet und präsentiert werden können sowie aktuelle Themen aufgearbeitet werden können [1].",
+        "reference": "Die Aufbereitung und Präsentation von Projektergebnissen.",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 0.8687475782716616,
+        "meteor_score": 0.06578947368421054,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.16666666666666666,
+                    "p": 0.05263157894736842,
+                    "f": 0.07999999635200017
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.16666666666666666,
+                    "p": 0.05263157894736842,
+                    "f": 0.07999999635200017
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Wie können Studierende ihr Wissen und ihre Erfahrungen auf unterhaltsame Weise erweitern?",
+        "response": " \nBasierend auf den bereitgestellten Quellen kann festgestellt werden, dass die Studierenden am Studiengang Wirtschaftsinformatik der Dualen Hochschule Baden-Württemberg Heidenheim verschiedene Möglichkeiten haben, ihr Wissen und ihre Erfahrungen auf unterhaltsame Weise zu erweitern.\n\nIn den Theoriephasen werden Projekte in Kleingruppen durchgeführt, bei denen realistische betriebliche Fragestellungen bearbeitet werden . Diese Projekte ermöglichen es den Studierenden, ihr Wissen und ihre Erfahrungen auf unterhaltsame Weise zu erweitern, indem sie sich mit aktuellen Themen auseinandersetzen und Lösungsalternativen entwickeln.\n\nDarüber hinaus bietet der Studiengang auch die Möglichkeit, in Seminaren und Planspielen zu lernen, wie Projektresultate aufbereitet und präsentiert werden können . Dies ermöglicht es den Studierenden, ihr Wissen und ihre Erfahrungen auf unterhaltsame Weise zu erweitern, indem sie sich mit verschiedenen Kommunikationsformen auseinandersetzen und ihre Fähigkeiten in der Präsentation von Ergebnissen verbessern.\n\nZusätzlich können die Studierenden auch an Seminaren und Planspielen teilnehmen, bei denen sie ihre Fähigkeiten in der Problemlösung und der Teamarbeit unter Beweis stellen können . Durch diese Aktivitäten werden die Studierenden in der Lage, ihr Wissen und ihre Erfahrungen auf unterhaltsame Weise zu erweitern und sich für das Berufsleben vorzubereiten.\n\nInsgesamt bieten die Projekte, Seminare und Planspiele des Studiengangs Wirtschaftsinformatik der Dualen Hochschule Baden-Württemberg Heidenheim den Studierenden Möglichkeiten, ihr Wissen und ihre Erfahrungen auf unterhaltsame Weise zu erweitern.",
+        "reference": "In Planspielen und Simulationen erweitern die Studierenden auf spielerische Art ihren Wissens- und Erfahrungsschatz. Praktische Übungen vermitteln die Funktionsweise und den Aufbau von betriebswirtschaftlichen Unternehmens-anwendungen",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 0.2878117298916497,
+        "meteor_score": 0.1392111368909513,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.4090909090909091,
+                    "p": 0.08653846153846154,
+                    "f": 0.14285713997480481
+                },
+                "rouge-2": {
+                    "r": 0.041666666666666664,
+                    "p": 0.006944444444444444,
+                    "f": 0.011904759455782817
+                },
+                "rouge-l": {
+                    "r": 0.3181818181818182,
+                    "p": 0.0673076923076923,
+                    "f": 0.11111110822877307
+                }
+            }
+        ],
+        "keyword-percentage": 33.33333333333333
+    },
+    {
+        "query": "Mit welchen Hochschulen steht der Studiengang Wirtschaftsinformatik in engem Austausch?",
+        "response": "Keine Antwort konnte die Frage beantworten.",
+        "reference": "Der Studiengang Wirtschaftsinformatik pflegt eigene Kontakte zu Hochschulen auf der ganzen Welt wie USA, China, Indien, Australien",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 0,
+        "meteor_score": 0.0,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Mit welchen Hochschulen ist der Studiengang Wirtschaftsinformatik eng verbunden?",
+        "response": " Der Studiengang Wirtschaftsinformatik an der Dualen Hochschule Baden-Württemberg unterhält eigene Kontakte zu Hochschulen auf der ganzen Welt, wie zum Beispiel in den USA, China, Indien und Australien [1]. Darüber hinaus zählen auch berufsintegrierende und berufsbegleitende Masterstudiengänge zum Angebot der DHBW, die jedoch nicht speziell für den Studiengang Wirtschaftsinformatik angeboten werden [2].",
+        "reference": "Der Studiengang Wirtschaftsinformatik pflegt eigene Kontakte zu Hochschulen auf der ganzen Welt wie USA, China, Indien, Australien",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 14.984804188561688,
+        "meteor_score": 0.6222488995598239,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.8235294117647058,
+                    "p": 0.3181818181818182,
+                    "f": 0.4590163894221984
+                },
+                "rouge-2": {
+                    "r": 0.5625,
+                    "p": 0.1836734693877551,
+                    "f": 0.27692307321183435
+                },
+                "rouge-l": {
+                    "r": 0.8235294117647058,
+                    "p": 0.3181818181818182,
+                    "f": 0.4590163894221984
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Bitte gebe eine Kurzbeschreibung der Tätigkeitsfelder, in denen die Studierenden nach dem Studium der Wirtschaftsinformatik arbeiten können",
+        "response": "\nNach dem Studium der Wirtschaftsinformatik können die Studierenden in verschiedenen Tätigkeitsfeldern arbeiten, wie z.B.:\n\n* Projektmanagement\n* Organisationsentwicklung und -beratung\n* Anwendungsentwicklung und -beratung\n* Systemanalyse, -konfiguration und -integration\n* Vertrieb, Online-Marketing\n* Logistik, Materialwirtschaft, Einkauf\n* IT-Management\n* Geschäftsprozess- und Projektmanagement",
+        "reference": "Die Studiernden arbeiten beispielsweise in Industrie- und Handelsbetrieben, in Software-Häusern und Beratungsunternehmen, in Banken und Versicherungen sowie in öffentlichen Institutionen. ",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 0.6211915815063893,
+        "meteor_score": 0.11261261261261263,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.125,
+                    "p": 0.0625,
+                    "f": 0.08333332888888913
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.125,
+                    "p": 0.0625,
+                    "f": 0.08333332888888913
+                }
+            }
+        ],
+        "keyword-percentage": 35.714285714285715
+    },
+    {
+        "query": "Was bieten Fachausflüge?",
+        "response": "Ich kann diese Frage nicht beantworten.",
+        "reference": "Exkursionen ermöglichen den Studierenden weitere differenzierte Einblicke in die betriebliche Praxis",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 0,
+        "meteor_score": 0.04761904761904762,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Was ist ein wesentliches Ziel des Wirtschaftsinformatik-Studiums?",
+        "response": " Ein wesentliches Ziel des Wirtschaftsinformatik-Studiums ist die Ausbildung von Wirtschaftsinformatikern, die in der Lage sind, die digitale Transformation beteiligt zu sein und die Entwicklung von Informations- und Kommunikationssystemen zur Unterstützung betrieblicher, überbetrieblicher und globaler Abläufe zu gestalten .",
+        "reference": "Die Analyse, Gestaltung und Optimierung von Geschäftsprozessen.",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 0.579653593359586,
+        "meteor_score": 0.14851485148514854,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.2857142857142857,
+                    "p": 0.06666666666666667,
+                    "f": 0.1081081050401754
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.2857142857142857,
+                    "p": 0.06666666666666667,
+                    "f": 0.1081081050401754
+                }
+            }
+        ],
+        "keyword-percentage": 33.33333333333333
+    },
+    {
+        "query": "In welchen Geschäftsbereichen werden Wirtschaftsinformatiker*innen beschäftigt?",
+        "response": " \nNach den bereitgestellten Quellen werden Wirtschaftsinformatiker*innen in verschiedenen Geschäftsbereichen eingesetzt, darunter:\n\n* Projektmanagement\n* Organisationsentwicklung und -beratung\n* Anwendungsentwicklung und -beratung\n* Systemanalyse, -konfiguration und -integration\n* Vertrieb, Online-Marketing\n* Logistik, Materialwirtschaft, Einkauf\n\nDarüber hinaus wird erwähnt, dass Wirtschaftsinformatiker*innen in Industrie- und Handelsbetrieben, Software-Häusern und Beratungsunternehmen, Banken und Versicherungen sowie in öffentlichen Institutionen tätig sind .",
+        "reference": "Sie können in Industrie- und Handelsbetrieben, in Software-Häusern und Beratungsunternehmen, in Banken und Versicherungen sowie in öffentlichen Institutionen beschäftigt werden",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 16.810788270220947,
+        "meteor_score": 0.6600900423728814,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.8,
+                    "p": 0.2926829268292683,
+                    "f": 0.4285714246492347
+                },
+                "rouge-2": {
+                    "r": 0.5789473684210527,
+                    "p": 0.21568627450980393,
+                    "f": 0.31428571033061226
+                },
+                "rouge-l": {
+                    "r": 0.7333333333333333,
+                    "p": 0.2682926829268293,
+                    "f": 0.3928571389349491
+                }
+            }
+        ],
+        "keyword-percentage": 76.92307692307693
+    },
+    {
+        "query": "Welches Programm wird zur Modellierung von Geschäftsprozessen eingesetzt?",
+        "response": " Laut Source 1 [1] werden in den Praxisphasen der Wirtschaftsinformatik-Studiengänge an der DHBW Heidenheim \"betriebswirtschaftliche Unternehmensanwendungen, Lösungen zum Lieferkettenmanagement und zur Managementunterstützung sowie Modellierung und Optimierung von Geschäftsprozessen\" vermittelt. Als Beispiel wird die Standardsoftware ERP-Systeme genannt.\n\nEine spezifische Software für die Modellierung von Geschäftsprozessen, die in diesem Zusammenhang erwähnt wird, ist jedoch nicht explizit angegeben.",
+        "reference": "Dies geschieht am Beispiel von Standardsoftware wie ERP-Systeme.",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 0.43754366275866163,
+        "meteor_score": 0.15748031496062992,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.5,
+                    "p": 0.08333333333333333,
+                    "f": 0.14285714040816327
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.5,
+                    "p": 0.08333333333333333,
+                    "f": 0.14285714040816327
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Was sind die besonderen Eigenschaften von Wirtschaftsinformatiker*innen?",
+        "response": " \nWirtschaftsinformatiker*innen zeichnen sich durch Freude am Umgang mit Menschen, Teamfähigkeit, Internationalität, Leistungsbereitschaft und Eigeninitiative aus [1]. Sie sind in hohem Maße durch eigenverantwortliche Arbeit in interdisziplinären und -kulturellen Teams geprägt. Darüber hinaus werden sie befähigt, neue Systeme zu konzipieren und zu entwickeln sowie bestehende Systeme auf Schwachstellen zu untersuchen und zu optimieren [1].",
+        "reference": "Sie zeichnet Freude am Umgang mit Menschen, Teamfähigkeit, Internationalität, Leistungsbereitschaft und Eigeninitiative aus",
+        "stage": "1",
+        "difficulty": "schwer",
+        "bleu_score": 18.725075919970365,
+        "meteor_score": 0.6928104575163399,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.9230769230769231,
+                    "p": 0.27906976744186046,
+                    "f": 0.4285714250063776
+                },
+                "rouge-2": {
+                    "r": 0.8333333333333334,
+                    "p": 0.19607843137254902,
+                    "f": 0.31746031437641725
+                },
+                "rouge-l": {
+                    "r": 0.9230769230769231,
+                    "p": 0.27906976744186046,
+                    "f": 0.4285714250063776
+                }
+            }
+        ],
+        "keyword-percentage": 70.0
+    },
+    {
+        "query": "Welche Möglichkeiten gibt es für Studierende, ihre Sprachkenntnisse auszubauen?",
+        "response": "Die Möglichkeit für Studierende, ihre Sprachkenntnisse auszubauen, umfassen Sprachkurse und englischsprachliche Lehrveranstaltungen [5].",
+        "reference": "Durch die Internationalisierung und Sprachkursen und englischsprachigen Lehrveranstaltungen können die Studierenden ihre Sprachkenntnisse ausbauen",
+        "stage": "2",
+        "difficulty": "leicht",
+        "bleu_score": 3.6180820304487202,
+        "meteor_score": 0.2676258992805755,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.3333333333333333,
+                    "p": 0.3076923076923077,
+                    "f": 0.3199999950080001
+                },
+                "rouge-2": {
+                    "r": 0.07692307692307693,
+                    "p": 0.08333333333333333,
+                    "f": 0.07999999500800031
+                },
+                "rouge-l": {
+                    "r": 0.16666666666666666,
+                    "p": 0.15384615384615385,
+                    "f": 0.15999999500800016
+                }
+            }
+        ],
+        "keyword-percentage": 75.0
+    },
+    {
+        "query": "Was ist der Hauptgegenstand des Studiums der Wirtschaftsinformatik?",
+        "response": " Der Hauptgegenstand des Studiums der Wirtschaftsinformatik ist der Einsatz und die Entwicklung von Informations- und Kommunikationssystemen zur Unterstützung betrieblicher, überbetrieblicher und globaler Abläufe [2].",
+        "reference": "Gegenstand der Wirtschaftsinformatik ist der Einsatz und die Entwicklung von Informations- und Kommunikationssystemen zur Unterstützung betrieblicher, überbetrieblicher und globaler Prozesse. ",
+        "stage": "2",
+        "difficulty": "leicht",
+        "bleu_score": 73.25510644096215,
+        "meteor_score": 0.8822772936335029,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.8333333333333334,
+                    "p": 0.7142857142857143,
+                    "f": 0.7692307642603551
+                },
+                "rouge-2": {
+                    "r": 0.85,
+                    "p": 0.7391304347826086,
+                    "f": 0.7906976694429422
+                },
+                "rouge-l": {
+                    "r": 0.8333333333333334,
+                    "p": 0.7142857142857143,
+                    "f": 0.7692307642603551
+                }
+            }
+        ],
+        "keyword-percentage": 80.0
+    },
+    {
+        "query": "Was ist ein wesentliches Erfolgskriterium für ein Unternehmen?",
+        "response": " \nEin wesentliches Kriterium für den Erfolg eines Unternehmens stellt die Güte der unternehmensinternen und -übergreifenden Geschäftsprozesse dar [1].",
+        "reference": "Die Güte der unternehmensinternen und -übergreifenden Geschäftsprozesse stellen den Erfolg des Unternehmens dar ",
+        "stage": "2",
+        "difficulty": "leicht",
+        "bleu_score": 31.466609969564157,
+        "meteor_score": 0.7952249770431591,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.7692307692307693,
+                    "p": 0.5555555555555556,
+                    "f": 0.6451612854526535
+                },
+                "rouge-2": {
+                    "r": 0.5,
+                    "p": 0.35294117647058826,
+                    "f": 0.41379309859690844
+                },
+                "rouge-l": {
+                    "r": 0.5384615384615384,
+                    "p": 0.3888888888888889,
+                    "f": 0.4516128983558793
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Was ist ein wesentliches Merkmal für den Erfolg eines Unternehmens?",
+        "response": " \nEin wesentliches Kriterium für den Erfolg jedes Unternehmens stellt die Güte der unternehmensinternen und -übergreifenden Geschäftsprozesse dar – d. h. wie erfolgt das Zusammenspiel der einzelnen Tätigkeiten innerhalb des Unternehmens und mit seinen Kunden und Lieferanten [1].",
+        "reference": "Die Güte der unternehmensinternen und -übergreifenden Geschäftsprozesse stellen den Erfolg des Unternehmens dar ",
+        "stage": "2",
+        "difficulty": "leicht",
+        "bleu_score": 15.538360611157637,
+        "meteor_score": 0.6637806637806638,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.8461538461538461,
+                    "p": 0.3333333333333333,
+                    "f": 0.47826086551039704
+                },
+                "rouge-2": {
+                    "r": 0.5833333333333334,
+                    "p": 0.19444444444444445,
+                    "f": 0.2916666629166667
+                },
+                "rouge-l": {
+                    "r": 0.6923076923076923,
+                    "p": 0.2727272727272727,
+                    "f": 0.39130434377126655
+                }
+            }
+        ],
+        "keyword-percentage": 50.0
+    },
+    {
+        "query": "Was ist für die Studierenden im Hinblick auf das spätere Berufsleben von Bedeutung?",
+        "response": "\nNach den bereitgestellten Quellen sind für die Studierenden im Hinblick auf das spätere Berufsleben folgende Aspekte von Bedeutung:\n\n* Eine frühzeitige Einbindung in Projekte, um soziale und kommunikative Fähigkeiten zu stärken und Wissen in Theorie- und Praxisphasen zu vermitteln \n* Die Möglichkeit, realistische, betriebliche Fragestellungen in Kleingruppen durchzuführen und Inhalte wie interaktive Webpräsenzen, Datenbankanwendungen und Integration von Softwarekomponenten zu bearbeiten \n\nDarüber hinaus werden die Studierenden befähigt, neue Systeme zu konzipieren und zu entwickeln, bestehende Systeme auf Schwachstellen zu untersuchen und zu optimieren . Sie erhalten auch eine breite Palette an Kompetenzen, darunter fachliche, persönliche und soziale Kompetenzen, sowie methodische Fähigkeiten zur Problemlösung .\n\nInsgesamt werden die Studierenden auf ein interessantes und vielseitiges Berufsleben mit guten Einkommens- und Karrierechancen vorbereitet.\n\nQuelle: \n Leitlinien für wissenschaftliche Arbeiten. Gibt eine Übersicht über die durchzuführenden Projektarbeiten und die Anforderungen\n Leitlinien für wissenschaftliche Arbeiten. Gibt eine Übersicht über die durchzuführenden Projektarbeiten und die Anforderungen\n Leitlinien für wissenschaftliche Arbeiten. Gibt eine Übersicht über die durchzuführenden Projektarbeiten und die Anforderungen",
+        "reference": "eine frühzeitige Einbindung in Projekte ist für die Studierenden entscheidend",
+        "stage": "2",
+        "difficulty": "leicht",
+        "bleu_score": 0.958478791027894,
+        "meteor_score": 0.19031422092646585,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.7,
+                    "p": 0.07291666666666667,
+                    "f": 0.13207546998932007
+                },
+                "rouge-2": {
+                    "r": 0.4444444444444444,
+                    "p": 0.03125,
+                    "f": 0.058394159356385554
+                },
+                "rouge-l": {
+                    "r": 0.7,
+                    "p": 0.07291666666666667,
+                    "f": 0.13207546998932007
+                }
+            }
+        ],
+        "keyword-percentage": 100.0
+    },
+    {
+        "query": "Fasse die Besonderheiten des Studiums zusammen",
+        "response": "\nBasierend auf den bereitgestellten Quellen können folgende Besonderheiten des Studiums in Wirtschaftsinformatik zusammengefasst werden:\n\n* Das Studium kombiniert Theorie und Praxis durch Projekte, die in Theorie- und Praxisphasen durchgeführt werden .\n* Die sozialen und kommunikativen Fähigkeiten werden gestärkt, indem die Studierenden in Kleingruppen arbeiten und ihre Ergebnisse aufbereiten und präsentieren .\n* Der Internationalisierung wird Rechnung getragen, indem Sprachkurse und englischsprachige Lehrveranstaltungen angeboten werden .\n* Die Studierenden haben die Möglichkeit, sich an Exkursionen zu beteiligen, um Einblicke in die betriebliche Praxis zu gewinnen .\n* Das Studium bietet ein breites Spektrum von Themen und Arbeitsgebieten, wie z.B. Projektmanagement, Organisationsentwicklung, Anwendungsentwicklung und Systemanalyse .\n* Die Nachfrage nach Wirtschaftsinformatikern ist größer als das Angebot, was gute Berufs- und Verdienstaussichten bietet .\n* Die Studierenden werden befähigt, neue Systeme zu konzipieren und zu entwickeln, bestehende Systeme zu analysieren und zu optimieren .\n\nInsgesamt bietet das Studium in Wirtschaftsinformatik eine vielseitige und praxisorientierte Ausbildung, die auf die Bedürfnisse der Arbeitswelt abgestimmt ist.",
+        "reference": "Projekte, Seminare, Planspiele, Internationalisierung und Exkursionen kennzeichnen das Studium.",
+        "stage": "2",
+        "difficulty": "mittel",
+        "bleu_score": 0.16672183574766222,
+        "meteor_score": 0.10330578512396695,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.6666666666666666,
+                    "p": 0.057692307692307696,
+                    "f": 0.10619468879943615
+                },
+                "rouge-2": {
+                    "r": 0.125,
+                    "p": 0.006944444444444444,
+                    "f": 0.013157893739612264
+                },
+                "rouge-l": {
+                    "r": 0.6666666666666666,
+                    "p": 0.057692307692307696,
+                    "f": 0.10619468879943615
+                }
+            }
+        ],
+        "keyword-percentage": 20.0
+    },
+    {
+        "query": "Wie wirkt sich die Durchführung von Projekten in Kleingruppen während der Theoriephasen auf den Lernerfolg der Studierenden aus?",
+        "response": "**Antwort 1**",
+        "reference": "Durch Kleingruppen werden die Studierenden intensiv durch Professor*innen und Dozent*innen betreut. Diese Rahmenbedingungen fördern die Motivation und tragen entscheidend zum Lernerfolg bei.",
+        "stage": "2",
+        "difficulty": "mittel",
+        "bleu_score": 0,
+        "meteor_score": 0.0,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Wie wirkt es auf den Lernerfolg der Studierenden, während der Theoriephasen projektorientiert in Kleingruppen zu arbeiten?",
+        "response": "Die kürzere Antwort lautet:\n\nBasierend auf den bereitgestellten Quellen kann folgende Antwort gegeben werden:\n\nDie Projektarbeit in Kleingruppen während der Theoriephasen wirkt sich positiv auf den Lernfortschritt der Studierenden aus. Dies wird durch die Richtlinien zur Erstellung von Projektarbeiten ab Jg. 2018 unterstützt, die besagen: \"Durch die Projekte werden die sozialen und kommunikativen Fähigkeiten ebenfalls gestärkt.\" \n\nDarüber hinaus wird in den Richtlinien erwähnt, dass die Projektarbeit ein wissenschaftliches Werkzeug ist, mit dem Studierende ihre Fähigkeiten zeigen können. Dies deutet darauf hin, dass die Projektarbeit einen positiven Einfluss auf den Lernfortschritt der Studierenden hat.\n\nIn Source 5 wird das Thema der Projektarbeit definiert als \"eine wissenschaftliche Arbeit, die den Studierenden zeigt, dass er in der Lage ist, Erkenntnisse der Wirtschaftsinformatik auf ein praktisches Problem im Ausbildungsunternehmen anzuwenden und damit zu dessen Lösung beizutragen.\" \n\nZusammenfassend kann gesagt werden, dass die Projektarbeit in Kleingruppen während der Theoriephasen einen positiven Einfluss auf den Lernfortschritt der Studierenden hat.",
+        "reference": "Durch Kleingruppen werden die Studierenden intensiv durch Professor*innen und Dozent*innen betreut. Diese Rahmenbedingungen fördern die Motivation und tragen entscheidend zum Lernerfolg bei.",
+        "stage": "2",
+        "difficulty": "mittel",
+        "bleu_score": 0.3510521930662015,
+        "meteor_score": 0.11396011396011399,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.3,
+                    "p": 0.061224489795918366,
+                    "f": 0.1016949124389544
+                },
+                "rouge-2": {
+                    "r": 0.047619047619047616,
+                    "p": 0.007575757575757576,
+                    "f": 0.013071893056517153
+                },
+                "rouge-l": {
+                    "r": 0.3,
+                    "p": 0.061224489795918366,
+                    "f": 0.1016949124389544
+                }
+            }
+        ],
+        "keyword-percentage": 12.5
+    },
+    {
+        "query": "Wie können Studierende spielerisch ihr Wissen und ihre Erfahrungen erweitern?",
+        "response": " Studierende können spielerisch ihr Wissen und ihre Erfahrungen erweitern durch Planspiele und Simulationen [3].",
+        "reference": "In Planspielen und Simulationen erweitern die Studierenden auf spielerische Art ihren Wissens- und Erfahrungsschatz. Praktische Übungen vermitteln die Funktionsweise und den Aufbau von betriebswirtschaftlichen Unternehmens-anwendungen",
+        "stage": "2",
+        "difficulty": "mittel",
+        "bleu_score": 1.6372774839686344,
+        "meteor_score": 0.10460251046025104,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.13636363636363635,
+                    "p": 0.23076923076923078,
+                    "f": 0.17142856675918378
+                },
+                "rouge-2": {
+                    "r": 0.041666666666666664,
+                    "p": 0.07692307692307693,
+                    "f": 0.05405404949598286
+                },
+                "rouge-l": {
+                    "r": 0.09090909090909091,
+                    "p": 0.15384615384615385,
+                    "f": 0.11428570961632674
+                }
+            }
+        ],
+        "keyword-percentage": 33.33333333333333
+    },
+    {
+        "query": "Welche Themen und Fragestellungen beinhalten die Projekte in den Theoriephasen?",
+        "response": "**Antwort 1**",
+        "reference": "Themeninhalte und Fragestellungen sind realistische, betriebliche Frage-stellungen, z.B. interaktive Webpräsenz, Datenbank-anwendungen, Integration von Softwarekompenenten undstudentische Unternehmensberatung.",
+        "stage": "2",
+        "difficulty": "mittel",
+        "bleu_score": 0,
+        "meteor_score": 0.0,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Vergleiche die Module Wirtschaftsinformatik und Schlüsselqualifikationen",
+        "response": "\nBasierend auf den bereitgestellten Quellen kann ich folgendes sagen:\n\nDer Studiengang Wirtschaftsinformatik an der DHBW Heidenheim umfasst eine Vielzahl von Modulen, darunter Wirtschaftsinformatik und Schlüsselqualifikationen. Die Wirtschaftsinformatik-Module umfassen Themen wie Systemanalyse, IT-Management, Geschäftsprozess- und Projektmanagement . Darüber hinaus werden auch Module aus den Bereichen Informatik, Betriebswirtschaftslehre, Recht, Volkswirtschaftslehre und Mathematik angeboten.\n\nDie Schlüsselqualifikationen, die im Studiengang Wirtschaftsinformatik vermittelt werden, umfassen unter anderem Wissenschaftliches Arbeiten, Präsentationstechniken und Interkulturelles Management . Diese Qualifikationen sollen den Studierenden helfen, ihre sozialen und kommunikativen Fähigkeiten zu stärken und sich auf ein vielfältiges Berufsleben vorzubereiten.\n\nIm Gegensatz dazu enthält Source 4 keine Informationen über die Module Wirtschaftsinformatik oder Schlüsselqualifikationen. Es handelt sich um eine Richtlinie für wissenschaftliche Arbeiten, in der die Anforderungen an Projektarbeiten und Seminararbeiten beschrieben werden.\n\nInsgesamt kann man sagen, dass der Studiengang Wirtschaftsinformatik an der DHBW Heidenheim ein breites Spektrum an Modulen und Schlüsselqualifikationen bietet, um den Studierenden eine solide Ausbildung in der Wirtschaftsinformatik zu ermöglichen.\n\nQuellen:\n Richtlinien zur Erstellung von Projektarbeiten ab Jg. 2018 Stand Juni 2024 Wirtschaftsinformatik \n\nHinweis: Da die Quellen nicht explizit eine Liste der Module und Schlüsselqualifikationen enthalten, kann diese Antwort nur auf der Grundlage der bereitgestellten Informationen erstellt werden.",
+        "reference": "Das Modul Wirtschaftsinformatik bezieht sich auf technische und betriebswirtschaftliche Inhalte wie Systemanalyse, IT-Management, Geschäftsprozess- und Projektmanagement, während sich das Modul Schlüsselqualifikationen auf Forschung  Wissenschaftliches Arbeiten und  Präsentationstechniken bezieht.",
+        "stage": "2",
+        "difficulty": "schwer",
+        "bleu_score": 2.4305327260561156,
+        "meteor_score": 0.3107321015522671,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.5,
+                    "p": 0.08661417322834646,
+                    "f": 0.1476510041944057
+                },
+                "rouge-2": {
+                    "r": 0.18518518518518517,
+                    "p": 0.028089887640449437,
+                    "f": 0.048780485517668164
+                },
+                "rouge-l": {
+                    "r": 0.5,
+                    "p": 0.08661417322834646,
+                    "f": 0.1476510041944057
+                }
+            }
+        ],
+        "keyword-percentage": 46.666666666666664
+    },
+    {
+        "query": "Was sind die zukünftigen Arbeitsbereiche für die Wirtschaftsinformatik Studierenden?",
+        "response": "Antwort 2",
+        "reference": "Industrie- und Handelsbetrieben, Software-Häusern und Beratungsunternehmen, Banken und Versicherungen sowie öffentlichen Institutionen sind mögliche Arbeitsbereiche",
+        "stage": "2",
+        "difficulty": "schwer",
+        "bleu_score": 0,
+        "meteor_score": 0.0,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Bitte gebe eine Kurzbeschreibung der Berufsfelder, in denen die Studierenden nach dem Studium der Wirtschaftsinformatik arbeiten können?",
+        "response": "Ich kann diese Frage nicht beantworten.",
+        "reference": "Die Studiernden arbeiten beispielsweise in Industrie- und Handelsbetrieben, in Software-Häusern und Beratungsunternehmen, in Banken und Versicherungen sowie in öffentlichen Institutionen. ",
+        "stage": "2",
+        "difficulty": "schwer",
+        "bleu_score": 0,
+        "meteor_score": 0.026881720430107527,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    },
+    {
+        "query": "Warum sind Absolventen der Wirtschaftsinformatik auch in rezessiven Zeiten gefragt?",
+        "response": " \nNach den bereitgestellten Quellen ist zu vermuten, dass Absolventen der Wirtschaftsinformatik auch in repressiven Zeiten gefragt sind, da die Nachfrage nach ihnen größer als das Angebot ist und sie sehr begehrt sind, selbst in konjunkturell schlechten Zeiten . Dies liegt daran, dass Unternehmen in solchen Zeiten auf Effizienz angewiesen sind, was Wirtschaftsinformatikern ermöglicht, Lösungen zu entwickeln, die den Betrieben helfen, ihre Prozesse zu optimieren und effizienter zu arbeiten .\n\nEine mögliche Erklärung für diese Nachfrage liegt in der Fähigkeit von Wirtschaftsinformatikern, Unternehmen bei der Digitalisierung zu unterstützen. So zeigt beispielsweise eine Studie, dass die Digitalisierung der Landwirtschaft ein wichtiger Schritt zur Steigerung der Effizienz und Produktivität ist . Dies könnte bedeuten, dass Wirtschaftsinformatiker in repressiven Zeiten gefragt sind, um Unternehmen bei der Umsetzung von digitalen Lösungen zu unterstützen.\n\nEs ist jedoch auch wichtig zu beachten, dass die Nachfrage nach Wirtschaftsinformatikern nicht nur auf die konjunkturelle Situation zurückzuführen ist. Vielmehr liegt sie auch an der zunehmenden Bedeutung von Digitalisierung und Effizienz in Unternehmen .",
+        "reference": "Die Nachfrage nach Wirtschaftsinformatikern ist sehr hoch, da auch in konjunkturell schwierigen Zeiten die Effizienz von Unternehmen noch wichtiger wird. ",
+        "stage": "2",
+        "difficulty": "schwer",
+        "bleu_score": 0.9691158424649737,
+        "meteor_score": 0.34136980685131196,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.7142857142857143,
+                    "p": 0.15789473684210525,
+                    "f": 0.2586206866899525
+                },
+                "rouge-2": {
+                    "r": 0.2,
+                    "p": 0.027210884353741496,
+                    "f": 0.047904189508408426
+                },
+                "rouge-l": {
+                    "r": 0.6666666666666666,
+                    "p": 0.14736842105263157,
+                    "f": 0.2413793073796076
+                }
+            }
+        ],
+        "keyword-percentage": 77.77777777777779
+    },
+    {
+        "query": "In welchen Schwerpunktbereich kann das Modul Disruptive Geschäftsmodelle eingeordnet werden?",
+        "response": "Keine Antwort konnte die Frage genau beantworten.",
+        "reference": "Das Modul kann dem Themenbereich der Betriebswirtschaftslehre und den aktuellen Themen zugeordnet werden.",
+        "stage": "2",
+        "difficulty": "schwer",
+        "bleu_score": 0,
+        "meteor_score": 0.0,
+        "rouge_scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "keyword-percentage": 0.0
+    }
+]

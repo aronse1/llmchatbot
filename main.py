@@ -25,6 +25,10 @@ def loadTestset(file):
 
 import os
 async def makeEvaluation(iterations : int, course, chat_bot, name: str):
+    if course != Course.WI:
+        print(Fore.RED + "Wrong Course selected for eval" + Fore.RESET)
+        return
+    
     testset = loadTestset("./data/documents/it/output/test/testset_wi.json")
     
     for a in range(iterations):
@@ -35,20 +39,21 @@ async def makeEvaluation(iterations : int, course, chat_bot, name: str):
             print(Fore.BLUE + f"\nIteration {a} of {iterations} Evaluating question {i} of {len(testset)}..." + Fore.RESET)
             try:
                 response = await chat_bot.run(query=query)
+                print(Fore.MAGENTA + response + Fore.RESET)
             except:
                 response = "Das konnte ich nicht beantworten"
             allevaluations.append(evaluate(item, response))
             i+=1
         for item in allevaluations:
             print(item)
-        output_path = f"./data/documents/it/output/output_json/{name}_evaluation_results{a+6}.json"
+        output_path = f"./data/documents/it/output/output_json/{name}_evaluation_results{a+16}.json"
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(allevaluations, f, ensure_ascii=False, indent=4)
 
 
 async def main():
     initialise()
-    course = Course.IT
+    course = Course.WI
     #c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course)
     #await makeEvaluation(20, course=course, chat_bot=c, name="thinker_other_index")
     d = AdvancedRAGWorkflow3(timeout=3600, verbose=True, course=course)

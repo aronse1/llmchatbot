@@ -48,6 +48,7 @@ import re
 from llama_index.core.text_splitter import TokenTextSplitter
 #from evaluator import evaluate
 from colorama import Fore, Back, Style
+from llama_index.postprocessor.cohere_rerank import CohereRerank
 
 DATA_DIR = ""
 PERSIST_DIR = ""
@@ -306,7 +307,7 @@ async def create_agent2(course: Course, chat_history=None, index=None, topk=3,ch
     :return: agent to chat with
     """
     tools = []
-    
+
     index = index
     query_engine = CitationQueryEngine.from_args(
         index,
@@ -349,12 +350,14 @@ async def create_agent3(course: Course, chat_history=None, index=None, topk=3,ch
     :return: agent to chat with
     """
     tools = []
-    
+    api_key = os.environ["COHERE_API_KEY"]
+    cohere_rerank = CohereRerank(api_key=api_key, top_n=topk)
     index = index
     query_engine = CitationQueryEngine.from_args(
         index,
         similarity_top_k=topk,         #3
-        citation_chunk_size=chunksize   #512
+        citation_chunk_size=chunksize,
+        #node_postprocessors=[cohere_rerank]   #512
         #streaming=True
     )
     return query_engine
@@ -736,6 +739,7 @@ class AdvancedRAGWorkflow3(Workflow):
     async def HandleHighKRAG(self, ctx: Context, ev: RAGhighK) -> ResponseEvent:
         agent = await create_agent3(course=self.course, index=ctx.data["chromaindex"], chat_history=ctx.data["chatHistory"],topk=6,chunksize=1024)
         response = await agent.aquery(ev.query)
+        print(Fore.YELLOW + response.response + Fore.RESET)
         source = "High_K"
         ctx.data[source] = "\n\n".join(source.text for source in response.source_nodes if source.text)
         self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
@@ -745,6 +749,7 @@ class AdvancedRAGWorkflow3(Workflow):
     async def HandleLowKRAG(self, ctx: Context, ev: RAGlowK) -> ResponseEvent:
         agent = await create_agent3(course=self.course, index=ctx.data["chromaindex"], chat_history=ctx.data["chatHistory"])
         response = await agent.aquery(ev.query)
+        print(Fore.YELLOW + response.response + Fore.RESET)
         source = "Low_K"
         ctx.data[source] = "\n\n".join(source.text for source in response.source_nodes if source.text)
         self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
@@ -782,7 +787,7 @@ Du bist ein Assistent, der zwei Antworten auf die gleiche Frage bewertet.
 - Sollte keiner der Antworten die Frage genau beantworten können, sag ohne Begründung dass du die Frage nicht beantworten kannst
 
 **Ausgabeformat:**  
-Gib ausschließlich die kürzere Antwort zurück. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der exakten Antwort.
+Gib ausschließlich die kürzere Antwort zurück außer keine Antwort konnte die Frage beantworten, dann sag dass du sie nicht beantworten kannst. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der exakten Antwort.
         """
         print(Fore.CYAN + evaluation_prompt + Fore.RESET)
         best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)

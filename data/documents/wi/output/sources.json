@@ -13,6 +13,13 @@
       "file": "Studiengangsflyer_web_Wirtschaftsinformatik.pdf.txt",
       "description": "Infos zum Studium. Vorteile des dualen Studiums. Studiengangsleitung und Schwerpunkte der Studienrichtung, sowie mögliche Berufsfelder nach Abschluss",
       "web_link": "https://www.heidenheim.dhbw.de/fileadmin/Heidenheim/Studienangebot/Bachelor_Wirtschaft/Wirtschaftsinformatik/Studiengangsflyer_web_Wirtschaftsinformatik.pdf"
+    },
+    {
+      "priority": 1,
+      "name": "FAQ",
+      "file": "FAQ.txt",
+      "description": "Allgemeine Fragen und Antworten zum Studium",
+      "web_link": ""
     }
   ]
 }
