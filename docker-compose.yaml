@@ -7,6 +7,18 @@ services:
     volumes:
       - redis_data:/data
     restart: always
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    restart: always
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    environment:
+      QDRANT__LOG_LEVEL: INFO
 
 volumes:
   redis_data:
+  qdrant_storage:

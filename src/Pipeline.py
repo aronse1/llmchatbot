@@ -52,7 +52,12 @@ from llama_index.postprocessor.cohere_rerank import CohereRerank
 
 DATA_DIR = ""
 PERSIST_DIR = ""
+from llama_index.vector_stores.qdrant import QdrantVectorStore
+from qdrant_client import QdrantClient, AsyncQdrantClient
 
+# creates a persistant index to disk
+client = QdrantClient(host="localhost", port=6333)
+aclient = AsyncQdrantClient(host="localhost", port=6333)
 
 classifier_manager = ClassifierManager()
 
@@ -142,7 +147,7 @@ def load_documents(course):
     """
     Lädt Plaintext-Dokumente und Tabellen getrennt und gibt sie als kombinierte Liste zurück.
     """
-    text_docs = SimpleDirectoryReader(course.data_dir(), required_exts=[".txt", ".table"]).load_data()
+    text_docs = SimpleDirectoryReader(course.data_dir(), required_exts=[".txt"]).load_data()
     table_docs = []
 
   
@@ -161,6 +166,58 @@ def load_documents(course):
     enrich_metadata(documents=alldocs, course=course)
     return alldocs
 
+
+def loadOrCreateIndexQdrant(course:Course):
+    global client
+    global aclient
+    collection_name = f"{course.value}_embeddings"
+    
+    # Check if collection exists
+    collections = client.get_collections().collections
+    collection_exists = any(collection.name == collection_name for collection in collections)
+    
+    if collection_exists:
+        try:
+            vector_store = QdrantVectorStore(
+                collection_name=collection_name,
+                client=client,
+                aclient=aclient,
+                enable_hybrid=True,
+                fastembed_sparse_model="Qdrant/bm42-all-minilm-l6-v2-attentions"
+            )
+            storage_context = StorageContext.from_defaults(vector_store=vector_store)
+            index = VectorStoreIndex.from_vector_store(
+                vector_store,
+                storage_context=storage_context,
+            )
+            print(f"Loaded existing index from collection '{collection_name}'")
+            return index
+        except Exception as e:
+            print(f"Existing collection found but couldn't load index: {str(e)}")
+            client.delete_collection(collection_name)
+            collection_exists = False
+    
+    if not collection_exists:
+        print(f"Creating new index for collection '{collection_name}'")
+        documents = load_documents(course)
+
+        vector_store = QdrantVectorStore(
+            collection_name=collection_name,
+            client=client,
+            aclient=aclient,
+            enable_hybrid=True,
+            fastembed_sparse_model="Qdrant/bm42-all-minilm-l6-v2-attentions"
+        )
+        storage_context = StorageContext.from_defaults(vector_store=vector_store)
+
+        index = VectorStoreIndex.from_documents(
+            documents,
+            storage_context=storage_context,
+            show_progress=True
+        )
+        
+        print(f"Created and persisted new index in collection '{collection_name}'")
+        return index
 
 def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
     global chromastore
@@ -187,7 +244,7 @@ def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
     
     print(f"Creating new index for collection '{collection_name}'")
     documents = load_documents(course)
-    
+
     collection = chromastore.create_collection(collection_name)
     vector_store = ChromaVectorStore(chroma_collection=collection)
     storage_context = StorageContext.from_defaults(vector_store=vector_store)
@@ -731,7 +788,8 @@ class AdvancedRAGWorkflow3(Workflow):
     @step(pass_context=True)
     async def LoadIndex(self, ctx : Context, ev: LoadIndexEvent) -> RAGhighK | RAGlowK:
         #ctx.data["qdrantindex"] = load_index_oldway(self.course)
-        ctx.data["chromaindex"] = loadOrCreateIndexChroma(self.course)
+        #ctx.data["chromaindex"] = loadOrCreateIndexChroma(self.course)
+        ctx.data["chromaindex"] = loadOrCreateIndexQdrant(self.course)
         self.send_event(RAGhighK(query=ev.query))
         self.send_event(RAGlowK(query=ev.query))
 
@@ -791,9 +849,8 @@ Gib ausschließlich die kürzere Antwort zurück außer keine Antwort konnte die
         """
         print(Fore.CYAN + evaluation_prompt + Fore.RESET)
         best_response = await Settings.llm.acomplete(prompt=evaluation_prompt)
-        ctx.data["responseObj"] = best_response
-        best_response = remove_parentheses(best_response.text)
-        best_response = best_response.replace("**Antwort 1:**", "").replace("**Antwort 2:**", "").replace("  ", " ").replace("Antwort 1:", "").replace("Antwort 2:", "")
+        #best_response = remove_parentheses(best_response.text)
+        best_response = best_response.text.replace("**Antwort 1:**", "").replace("**Antwort 2:**", "").replace("  ", " ").replace("Antwort 1:", "").replace("Antwort 2:", "")
         if ctx.data["language"] != "de":
             best_response = await classifier_manager.translate(best_response, "de", ctx.data["language"] )
         

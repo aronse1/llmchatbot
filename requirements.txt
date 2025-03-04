@@ -11,3 +11,4 @@ chromadb==0.6.3
 llama-index==0.10.65
 llama-index-llms-ollama==0.2.2
 llama-index-embeddings-huggingface==0.2.3
+pip install fastembed-gpu

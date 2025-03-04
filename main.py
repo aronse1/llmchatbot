@@ -57,7 +57,7 @@ async def main():
     #c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course)
     #await makeEvaluation(20, course=course, chat_bot=c, name="thinker_other_index")
     d = AdvancedRAGWorkflow3(timeout=3600, verbose=True, course=course)
-    #await makeEvaluation(10, course=course, chat_bot=d, name="no_context_query_other_index")
+    await makeEvaluation(15, course=course, chat_bot=d, name="no_context_query_qdrant")
     #e = AdvancedRAGWorkflow2(timeout=3600, verbose=True, course=course)
     #await makeEvaluation(10, course=course, chat_bot=e, name="no_context_react_other_index")
 
