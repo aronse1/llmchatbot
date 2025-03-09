@@ -211,6 +211,7 @@ class ChatBot(object):
         messages = system_message + (chat_history or [])
         
         # Return the agent with the relevant tools
+
         return ReActAgent.from_tools(
             chat_history=messages,
             tools=tools,

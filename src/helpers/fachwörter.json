@@ -3,5 +3,9 @@
     "T1000": ["Praxisprojekt I", "T3_1000", "Projektarbeit I"],
     "T3000": ["Praxisprojekt III", "T3_3000"],
     "Studienarbeit": ["Studienarbeiten", "T3_3100", "T3_3200"],
-    "Bachelorarbeit": ["T3_3300"]
+    "Bachelorarbeit": ["T3_3300"], 
+    "Fachausflüge" : ["Exkursionen"],
+    "WI" : ["Wirtschaftsinformatik"],
+    "AI" : ["Allgemeine Informatik"]
+    
 }

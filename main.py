@@ -38,15 +38,16 @@ async def makeEvaluation(iterations : int, course, chat_bot, name: str):
             query = item['question']
             print(Fore.BLUE + f"\nIteration {a} of {iterations} Evaluating question {i} of {len(testset)}..." + Fore.RESET)
             try:
-                response = await chat_bot.run(query=query)
+                d = AdvancedRAGWorkflow3(timeout=3600, verbose=True, course=course)
+                response = await d.run(query=query)
                 print(Fore.MAGENTA + response + Fore.RESET)
-            except:
-                response = "Das konnte ich nicht beantworten"
+            except Exception as e:
+                response = f"Exception: {e}"
             allevaluations.append(evaluate(item, response))
             i+=1
         for item in allevaluations:
             print(item)
-        output_path = f"./data/documents/it/output/output_json/{name}_evaluation_results{a+16}.json"
+        output_path = f"./data/documents/it/output/output_json/{name}_evaluation_results{a}.json"
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(allevaluations, f, ensure_ascii=False, indent=4)
 
@@ -57,7 +58,7 @@ async def main():
     #c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course)
     #await makeEvaluation(20, course=course, chat_bot=c, name="thinker_other_index")
     d = AdvancedRAGWorkflow3(timeout=3600, verbose=True, course=course)
-    await makeEvaluation(15, course=course, chat_bot=d, name="no_context_query_qdrant")
+    #await makeEvaluation(10, course=course, chat_bot=d, name="qdrant_german")
     #e = AdvancedRAGWorkflow2(timeout=3600, verbose=True, course=course)
     #await makeEvaluation(10, course=course, chat_bot=e, name="no_context_react_other_index")
 
@@ -67,7 +68,7 @@ async def main():
         if user_input.lower() in ["exit", "quit", "q"]:
             print("Beende den Chat...")
             break
-    
+        d = AdvancedRAGWorkflow3(timeout=3600, verbose=True, course=course)
         result = await d.run(query=user_input)
         print("Antwort:", result)
 

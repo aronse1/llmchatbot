@@ -62,9 +62,12 @@ class DiscordBot(commands.Bot):
             #   self.chatbot.perform_query, message.content, course)
             
             #response = await self.loop.run_in_executor(None, fun)
-            c = AdvancedRAGWorkflow3(timeout=3600, verbose=True, course=course, userid=message.author.id)
+            c = AdvancedRAGWorkflow3(timeout=360, verbose=True, course=course, userid=message.author.id)
             #try:
-            response = await c.run(query=message.content)
+            try:
+                response = await c.run(query=message.content)
+            except:
+                response = "Error try again later!"
             # except:
             #     response = "Das kann ich leider nicht Beantworten"
             await sent_message.edit(content=response)
