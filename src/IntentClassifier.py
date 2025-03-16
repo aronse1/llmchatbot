@@ -4,7 +4,7 @@ from transformers import pipeline
 class ClassifierManager:
     def __init__(self):
         self.lock = asyncio.Lock()
-        self.intent_classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+        self.intent_classifier = pipeline("zero-shot-classification", model="MoritzLaurer/deberta-v3-base-zeroshot-v1.1-all-33")
         self.language_detector = pipeline("text-classification", model="papluca/xlm-roberta-base-language-detection")
         self.translator =  pipeline("translation", model="facebook/m2m100_418M")
         #self.translator =  pipeline("translation", model="facebook/nllb-200-distilled-600M")
