@@ -4,7 +4,7 @@ from transformers import pipeline
 class ClassifierManager:
     def __init__(self):
         self.lock = asyncio.Lock()
-        self.intent_classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+        self.intent_classifier = pipeline("zero-shot-classification", model="MoritzLaurer/deberta-v3-base-zeroshot-v1.1-all-33")
         self.language_detector = pipeline("text-classification", model="papluca/xlm-roberta-base-language-detection")
         self.translator =  pipeline("translation", model="facebook/m2m100_418M")
         #self.translator =  pipeline("translation", model="facebook/nllb-200-distilled-600M")
@@ -52,20 +52,29 @@ class ClassifierManager:
     async def classify_intent(self, query: str, threshold: float = 0.4) -> str:
         async with self.lock:
             hypotheses = []
-            for intent, data in self.intent_categories.items():
-                hypothesis = f"This is a {intent} question. Similar examples: {'. '.join(data['examples'][:3])}"
-                hypotheses.append(hypothesis)
 
-            result = self.intent_classifier(
-                query,
-                candidate_labels=list(self.intent_categories.keys()),
-                hypothesis_template="This input is similar to: {}"
-            )     
-            if "study_topics" in result['labels']:
-                study_idx = result['labels'].index("study_topics")
-                if result['scores'][study_idx] > 0.4:  
-                    return "study_topics"
-            return result['labels'][0] if result['scores'][0] > threshold else "unclear"
+            hypothesis_template = "This example is about {}"
+            classes_verbalized = ["small talk", "study topics"]
+            result = self.intent_classifier(query, classes_verbalized, hypothesis_template=hypothesis_template, multi_label=False)
+            if "study topics" in result['labels'][0]:
+                return "study_topics"
+            else:
+                return "small_talk"
+            # hypotheses = []
+            # for intent, data in self.intent_categories.items():
+            #     hypothesis = f"This is a {intent} question. Similar examples: {'. '.join(data['examples'][:3])}"
+            #     hypotheses.append(hypothesis)
+
+            # result = self.intent_classifier(
+            #     query,
+            #     candidate_labels=list(self.intent_categories.keys()),
+            #     hypothesis_template="This input is similar to: {}"
+            # )     
+            # if "study_topics" in result['labels']:
+            #     study_idx = result['labels'].index("study_topics")
+            #     if result['scores'][study_idx] > 0.4:  
+            #         return "study_topics"
+            # return result['labels'][0] if result['scores'][0] > threshold else "unclear"
         
     async def detect_language(self, query):
         async with self.lock:

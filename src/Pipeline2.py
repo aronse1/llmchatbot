@@ -11,16 +11,14 @@ from llama_index.core.query_engine import CitationQueryEngine
 from llama_index.core.tools import FunctionTool, QueryEngineTool, ToolMetadata
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.embeddings.openai import OpenAIEmbedding
-
+from llama_index.core.llms import ChatMessage
 from llama_index.llms.ollama import Ollama
-#from src.helpers.PriorityNodeScoreProcessor import PriorityNodeScoreProcessor
-#from src.helpers.RagPrompt import rag_messages, rag_template
 from src.helpers.SystemMessage import system_message, getChatHistoryAsString, getChatHistory, citation_refine, citation_prompt
 from src.IntentClassifier import ClassifierManager
+from src.helpers.mdparser import *
 from llama_index.core import Document
 import os
 from llama_index.core.response_synthesizers import ResponseMode
-#from llama_index.core.agent.react import ReActAgent
 from llama_index.core.workflow import (
     step,
     Context,
@@ -31,7 +29,6 @@ from llama_index.core.workflow import (
 )
 from chromadb import PersistentClient
 from llama_index.vector_stores.chroma import ChromaVectorStore
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.ollama import Ollama
 from llama_index.llms.openai import OpenAI
 from llama_index.core import Settings
@@ -40,21 +37,27 @@ import torch
 from llama_index.core.agent import ReActAgent, StructuredPlannerAgent,FunctionCallingAgentWorker, ReActAgentWorker
 from llama_index.core.query_engine import CitationQueryEngine
 from enum import Enum
-
 from src.fachwoerter import fachwoerter, expand_query
 import asyncio
 import glob
 from chromadb.errors import InvalidCollectionException
 import re
 from llama_index.core.text_splitter import TokenTextSplitter
-#from evaluator import evaluate
 from colorama import Fore, Back, Style
 from llama_index.postprocessor.cohere_rerank import CohereRerank
+from llama_index.vector_stores.qdrant import QdrantVectorStore
+from qdrant_client import QdrantClient, AsyncQdrantClient, models
+from llama_index.core.postprocessor import LLMRerank
+from llama_index.core.postprocessor import PrevNextNodePostprocessor
+
+
 DEVICE = ""
 DATA_DIR = ""
 PERSIST_DIR = ""
-from llama_index.vector_stores.qdrant import QdrantVectorStore
-from qdrant_client import QdrantClient, AsyncQdrantClient
+SPARSE_MODEL = "Qdrant/bm25"
+DENSE_MODEL = "text-embedding-3-small"
+CITATION_MODEL = "ft:gpt-4o-mini-2024-07-18:annikus:chatbot-dataset2:C05zf2zv"
+EVAL_MODEL = "gpt-4o-mini"
 
 # creates a persistant index to disk
 client = QdrantClient(host="localhost", port=6333)
@@ -80,7 +83,6 @@ class RAGhighK(Event):
 class RAGlowK(Event):
     query : str
 
-
 class ResponseEvent(Event):
     query: str
     response: str
@@ -101,15 +103,6 @@ class Course(Enum):
         return DATA_DIR + "/" + self.value + "/output"
 
 
-# class Course(Enum):
-#     WI = "wi"
-#     IT = "it"
-
-#     def data_dir(self) -> str:
-#         return DATA_DIR + "/" + self.value
-
-#     def persist_dir(self) -> str:
-#         return PERSIST_DIR + "/" + self.value
 
 
 def get_source_info(course, document):
@@ -141,86 +134,52 @@ def enrich_metadata(documents, course):
             continue
 
         document.metadata.update({
-            "priority": source_info["priority"],
             "file_name": source_info["name"],
             "source_link": source_info["web_link"],
-            "description": source_info["description"],
         })
 
-def load_documents(course):
-    """
-    Lädt Plaintext-Dokumente und Tabellen getrennt und gibt sie als kombinierte Liste zurück.
-    """
-    text_docs = SimpleDirectoryReader(course.data_dir(), required_exts=[".txt"]).load_data()
-    table_docs = []
 
-  
+
+def load_documents(course):
+    data_dir = Path(course.data_dir())   
+    txt_paths = list(data_dir.glob("*.txt"))
+    documentnodes = []
+    table_nodes = []
+    for file in txt_paths:
+        documentnodes.extend(md_to_sentence_chunks_with_numbers(file))
+
     for file in glob.glob(os.path.join(course.data_dir(), "*.table")):
         with open(file, "r", encoding="utf-8") as f:
             content = f.read()
             tables = content.split("-------------------------\n")
+            for table in tables:
+                table_nodes.extend(mdtable_to_sentence_chunks_with_numbers(file, table))
 
-            for table_json in tables:
-                table_docs.append(Document(
-                    text=table_json,
-                    metadata={"file_name": os.path.basename(file)}
-                ))
 
-    alldocs = text_docs + table_docs
-    enrich_metadata(documents=alldocs, course=course)
-    return alldocs
-
-# def load_documents(course):
-#     """
-#     Lädt Plaintext-Dokumente und Tabellen getrennt und gibt sie als kombinierte Liste zurück.
-#     """
-#     text_docs = SimpleDirectoryReader(course.data_dir(), required_exts=[".txt"]).load_data()
-#     table_docs = []
-
-#     for file in glob.glob(os.path.join(course.data_dir(), "*.table")):
-#         with open(file, "r", encoding="utf-8") as f:
-#             content = f.read()
-#             tables = content.split("-------------------------\n")
-
-#             for table_json in tables:
-#                 table_docs.append(Document(
-#                     text=table_json,
-#                     metadata={"file_name": os.path.basename(file)}
-#                 ))
-
-#     text_splitter = TokenTextSplitter(chunk_size=500, chunk_overlap=80)
-#     chunked_text_docs = []
+    all_nodes = documentnodes + table_nodes
+    enrich_metadata(all_nodes, course)
+    return all_nodes
     
-#     for doc in text_docs:
-#         chunks = text_splitter.split_text(doc.text)
-#         for chunk in chunks:
-#             chunked_text_docs.append(Document(
-#                 text=chunk,
-#                 metadata=doc.metadata
-#             ))
-
-#     alldocs = chunked_text_docs + table_docs
-#     enrich_metadata(documents=alldocs, course=course)
-#     return alldocs
-
 
 def loadOrCreateIndexQdrant(course:Course):
     global client
     global aclient
     collection_name = f"{course.value}_embeddings"
-    
-    # Check if collection exists
+
     collections = client.get_collections().collections
     collection_exists = any(collection.name == collection_name for collection in collections)
-    
+
     if collection_exists:
         try:
             vector_store = QdrantVectorStore(
                 collection_name=collection_name,
                 client=client,
                 aclient=aclient,
+                embeddings=OpenAIEmbedding(model=DENSE_MODEL),
                 enable_hybrid=True,
-                fastembed_sparse_model="Qdrant/bm42-all-minilm-l6-v2-attentions"
+                fastembed_sparse_model=SPARSE_MODEL,
+                text_payload_keys=["text","Header_1","Header_2","chunk_id", "section"],  # Felder, die BM25 sehen soll
+                hnsw_config=models.HnswConfigDiff(m=32, ef_construct=512) 
             )
             storage_context = StorageContext.from_defaults(vector_store=vector_store)
             index = VectorStoreIndex.from_vector_store(
@@ -236,6 +195,7 @@ def loadOrCreateIndexQdrant(course:Course):
     
     if not collection_exists:
         print(f"Creating new index for collection '{collection_name}'")
+
         documents = load_documents(course)
 
         vector_store = QdrantVectorStore(
@@ -243,57 +203,26 @@ def loadOrCreateIndexQdrant(course:Course):
             client=client,
             aclient=aclient,
             enable_hybrid=True,
-            fastembed_sparse_model="Qdrant/bm42-all-minilm-l6-v2-attentions"
+            embeddings=OpenAIEmbedding(model=DENSE_MODEL),
+            fastembed_sparse_model=SPARSE_MODEL,
+            text_payload_keys=["text","Header_1","Header_2","chunk_id", "section"],
+            hnsw_config=models.HnswConfigDiff(m=32, ef_construct=512) 
         )
         storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
-        index = VectorStoreIndex.from_documents(
-            documents,
-            storage_context=storage_context,
-            show_progress=True
-        )
+
+        index = VectorStoreIndex(documents, storage_context=storage_context, show_progress=True)
+        for f in ["Header_1","Header_2","chunk_id", "section"]:
+            client.create_payload_index(
+                collection_name=collection_name,
+                field_name=f,
+                field_schema=models.PayloadSchemaType.TEXT,
+            )
+
         
         print(f"Created and persisted new index in collection '{collection_name}'")
         return index
 
-def loadOrCreateIndexChroma(course:Course) -> VectorStoreIndex:
-    global chromastore
-    collection_name = f"{course.value}_embeddings"
-    try:
-        collection = chromastore.get_collection(collection_name)
-        vector_store = ChromaVectorStore(chroma_collection=collection)
-        storage_context = StorageContext.from_defaults(vector_store=vector_store)
-        
-        try:
-            index = VectorStoreIndex.from_vector_store(
-                vector_store,
-                storage_context=storage_context,
-            )
-            print(f"Loaded existing index from collection '{collection_name}'")
-            return index
-        except Exception as e:
-            print(f"Existing collection found but couldn't load index: {str(e)}")
-            chromastore.delete_collection(collection_name)
-            
-    except InvalidCollectionException:
-        pass
-    
-    
-    print(f"Creating new index for collection '{collection_name}'")
-    documents = load_documents(course)
-
-    collection = chromastore.create_collection(collection_name)
-    vector_store = ChromaVectorStore(chroma_collection=collection)
-    storage_context = StorageContext.from_defaults(vector_store=vector_store)
-
-    index = VectorStoreIndex.from_documents(
-        documents,
-        storage_context=storage_context,
-        show_progress=True
-    )
-    
-    print(f"Created and persisted new index in collection '{collection_name}'")
-    return index
 
 
 def load_documents_oldway(course: Course):
@@ -306,7 +235,6 @@ def load_documents_oldway(course: Course):
         course.data_dir(), filename_as_id=True).load_data()
     enrich_metadata(documents, course)
 
-    # Filter documents
     filtered_documents = [doc for doc in documents if doc.metadata.get(
         "file_name") != "sources.json"]
 
@@ -318,7 +246,7 @@ def load_documents_oldway(course: Course):
         for chunk in chunks:
             chunked_documents.append(Document(
                 text=chunk,
-                metadata=doc.metadata  # Metadaten für jeden Chunk behalten
+                metadata=doc.metadata 
             ))
 
     return chunked_documents
@@ -328,12 +256,10 @@ def load_index_oldway(course: Course) -> VectorStoreIndex:
     documents = load_documents_oldway(course)
 
     try:
-        # Try load index from storage
         storage_context = StorageContext.from_defaults(
             persist_dir=course.persist_dir())
         index = load_index_from_storage(storage_context)
     except FileNotFoundError:
-        # Create index from documents and persist it
         index = VectorStoreIndex.from_documents(
             documents, show_progress=True)
         index.storage_context.persist(persist_dir=course.persist_dir())
@@ -344,9 +270,8 @@ def load_index_oldway(course: Course) -> VectorStoreIndex:
 def initialise(datadir="./data/documents", index_dir="./data/index"):
     global DATA_DIR, PERSIST_DIR, DEVICE
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-    Settings.llm = Ollama(model="llama3.1:8b-instruct-q6_K", request_timeout=360.0, device=DEVICE, temperature=0.3)
-    #Settings.llm = OpenAI(model="gpt-4o-mini", temperature=0.0)
-    Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-m3")
+    Settings.llm = OpenAI(model=EVAL_MODEL, temperature=0.3)
+    Settings.chunk_overlap = 80
     DATA_DIR = datadir
     PERSIST_DIR = index_dir
 
@@ -354,85 +279,58 @@ def initialise(datadir="./data/documents", index_dir="./data/index"):
 
 
 
-
-async def create_agent(course: Course, chat_history=None, index=None, topk=3,chunksize=512):
-    """
-    Create chatbot agent and set up tools to be called trough ai. Each user needs his own agent to have its own context
-    :param course: the desired course
-    :return: agent to chat with
-    """
-    tools = []
-    
-    index = index
-    query_engine = CitationQueryEngine.from_args(
+def build_hybrid_query_engine(index, sparse_top_k, dense_top_k, similarity_top_k):
+    """Erzeugt einen CitationQueryEngine mit expliziten Hybrid‑Parametern."""
+    return CitationQueryEngine.from_args(
         index,
-        similarity_top_k=topk,         #3
-        citation_chunk_size=chunksize   #512
-        #streaming=True
+        llm=OpenAI(model=CITATION_MODEL, temperature=0.1),
+        vector_store_query_mode="hybrid",
+        sparse_top_k=sparse_top_k,
+        dense_top_k=dense_top_k,
+        similarity_top_k=similarity_top_k,
+        citation_qa_template=citation_prompt,
+        citation_refine_template=citation_refine,
+        citation_chunk_size=512,
+        citation_chunk_overlap=80,
+        response_mode=ResponseMode.COMPACT,
+        node_postprocessors=[]
     )
-    #return query_engine
-    rag_tool = QueryEngineTool(
-        query_engine=query_engine,
-        metadata=ToolMetadata(
-            name="rag_tool",
-            description=(
-                #"This tool provides several information about the course. Use the complete user prompt question as input!"
-                "This Tool is the standard tool. It provides several information about study topics"
-            ),
-        )
-    )
-    tools.append(rag_tool)
-    #worker = ReActAgentWorker.from_tools(tools=tools, verbose=True, max_iterations=10)
-    worker = FunctionCallingAgentWorker.from_tools(tools=tools, verbose=True)
-    # Combine system messages with chat history
-    messages = system_message + (chat_history or [])
-    agent = StructuredPlannerAgent( worker, tools=tools, verbose=True, chat_history=messages)
-    return agent
-    # Return the agent with the relevant tools
-    # return ReActAgent.from_tools(
-    #     chat_history=messages,
-    #     tools=tools,
-    #     verbose=True
-    # )
-async def create_agent2(course: Course, chat_history=None, index=None, topk=3,chunksize=512):
-    """
-    Create chatbot agent and set up tools to be called trough ai. Each user needs his own agent to have its own context
-    :param course: the desired course
-    :return: agent to chat with
-    """
-    tools = []
 
-    index = index
-    query_engine = CitationQueryEngine.from_args(
+
+def create_agent5(course, chat_history=None, index=None, sparse_topk=20, dense_top_k=20, final__topk=12):
+    if index is None:
+        raise ValueError("index darf nicht None sein – zuerst Index erstellen!")
+
+    query_engine = build_hybrid_query_engine(
         index,
-        similarity_top_k=topk,         #3
-        citation_chunk_size=chunksize   #512
-        #streaming=True
+        sparse_top_k=sparse_topk,
+        dense_top_k=dense_top_k,
+        similarity_top_k=final__topk,
     )
-    #return query_engine
-    rag_tool = QueryEngineTool(
+
+    rag_tool = QueryEngineTool.from_defaults(
         query_engine=query_engine,
-        metadata=ToolMetadata(
-            name="rag_tool",
-            description=(
-                #"This tool provides several information about the course. Use the complete user prompt question as input!"
-                "This Tool is the standard tool. It provides several information about study topics"
-            ),
-        )
+        name="rag_tool",
+        description="This tool provides information about study topics.",
+        return_direct=True,
     )
-    tools.append(rag_tool)
-    worker = ReActAgentWorker.from_tools(tools=tools, verbose=True, max_iterations=10)
-    #worker = FunctionCallingAgentWorker.from_tools(tools=tools, verbose=True)
-    # Combine system messages with chat history
-    messages = system_message + (chat_history or [])
-    agent = StructuredPlannerAgent( worker, tools=tools, verbose=True, chat_history=messages)
-    return agent
-    # Return the agent with the relevant tools
-    # return ReActAgent.from_tools(
-    #     chat_history=messages,
-    #     tools=tools,
-    #     verbose=True
-    # )
+
+    return ReActAgent.from_tools(
+        tools=[rag_tool],
+        system_message=system_message,
+        chat_history=chat_history or [],
+        verbose=True,
+        max_iterations=10,
+    )
+
+def printSources(response, whichK):
+    print("--------START------------" + whichK + "-----------------------------")
+    for source in response.source_nodes:
+        print(Fore.RED + source.text + Fore.RESET)
+    print("--------END------------" + whichK + "-----------------------------")
+
+
+
 
 async def extract_source_numbers(text):
     pattern = r'\[(\d+)\]|\((\d+(?:,\s*\d+)*)\)|Quelle\s(\d+)|Source\s(\d+)'
@@ -449,16 +347,13 @@ async def makeSources(response, outputListMode : bool, responsestring=""):
     if outputListMode:
         sourcenumbers = await extract_source_numbers(response.response)
         metadataIDs = []
+        sourceDict = {}
         for number in sourcenumbers:
             node = response.source_nodes[number-1]
             metadataIDs.append((number, node.id_))
-        
-        sourceDict = {}
-        for tupel in metadataIDs:
-            metadata = response.metadata[tupel[1]]
-            sourcestring = f"{metadata["file_name"]}: {metadata["source_link"]}\n"
-            sourceDict[tupel[0]] = sourcestring
-            #sourceList.append({tupel[0]: sourcestring})
+            sourcestring = f"{node.metadata["file_name"]}: {node.metadata["source_link"]}\n"
+            sourceDict[number] = sourcestring
+    
         return sourceDict
     else:
         sourcenumbers = await extract_source_numbers(responsestring)
@@ -470,65 +365,62 @@ async def makeSources(response, outputListMode : bool, responsestring=""):
         return "\n\nWeitere Informationen findest du hier:\n" + returnString
 
 
-async def create_agent3(course: Course, chat_history=None, index=None, topk=3,chunksize=512):
-    """
-    Create chatbot agent and set up tools to be called trough ai. Each user needs his own agent to have its own context
-    :param course: the desired course
-    :return: agent to chat with
-    """
-    tools = []
-    api_key = os.environ["COHERE_API_KEY"]
-    cohere_rerank = CohereRerank(api_key=api_key, top_n=topk)
-    index = index
-    query_engine = CitationQueryEngine.from_args(
-        index,
-        similarity_top_k=topk,         #3
-        citation_chunk_size=chunksize,
-        citation_qa_template=citation_prompt,
-        citation_refine_template=citation_refine,
-        response_mode=ResponseMode.COMPACT,
-        citation_chunk_overlap=80
-        #node_postprocessors=[cohere_rerank]   #512
-        #streaming=True
-    )
-    return query_engine
+
+
+
+
+
+def printFullInput(response, query):
+    outstring = "\n------\n"
+    for item in response.source_nodes:
+        outstring += item.text
+    outstring += f"\n------\nFrage:\n{query}\n"
+    outstring += "Antwort: "
+    print(Fore.RED + outstring + Fore.RESET)
+
+
+
 
 def remove_parentheses(text: str) -> str:
     return re.sub(r'\([^)]*\)', '', text)
     
 
-async def makeRagQuery(chatHistory :str, query:str):
-#     prompt = f"""
-# Du bist ein KI Asistent der für die DHBW Heidenheim welcher ein retrieval System benutzt.
-# Anhand des folgenden Chatverlaufs:
-# {chatHistory}
 
-# Und der neusten Query:
-# {query}
+async def make_rag_query(chat_history: str, new_input: str) -> str:
+    system_prompt = """
+Du bist ein Assistant, der aus einem Chatverlauf eine präzise, semantisch sinnvolle Suchanfrage (Query) generiert. Diese Query wird später verwendet, um wissenschaftliche oder technische Informationen aus einer Wissensdatenbank zu finden.
 
-# Generiere eine optimierte Frage welche die relevanten Dokumente retrieved. Sollte die neue Query nichts mit dem Verlauf zu tun haben, gib die neuste Query zurück.
-# **Ausgabeformat:**  
-# Gib ausschließlich die verbesserte Query zurück. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der Query.
+Deine Aufgaben sind:
+1. Prüfe, ob die aktuelle Nutzerfrage thematisch zum bisherigen Chatverlauf passt. Also schau auch ob sich die Nutzerfrage auf den vorherigen Verlauf beziehen kann.
+2. Wenn ja, formuliere eine kurze, präzise und kontextreiche Suchanfrage, die den Verlauf und die neue Frage berücksichtigt.
+3. Wenn nein, gib zurück: "KEINE QUERY - Thema nicht relevant zum bisherigen Verlauf."
 
-# """
-    model = Ollama(model="llama3.1:8b-instruct-q6_K", request_timeout=360.0, device=DEVICE, temperature=0.20)
-    prompt = f"""
-Du bist ein KI Asistent der für die DHBW Heidenheim welcher ein retrieval System benutzt.
-Anhand des folgenden Chatverlaufs:
-{chatHistory}
+### Wichtige Regeln:
+- Die Query darf keine Umgangssprache oder irrelevante Nebensätze enthalten.
+- Verwende nach Möglichkeit Fachbegriffe oder abstrahiere einfache Sprache in eine suchbare Form.
+- Du sollst keine Inhalte halluzinieren oder über den Verlauf hinaus raten, was gemeint sein *könnte*.
 
-Und der neusten Query:
-{query}
+### Ausgabeformat:
+Query: <deine generierte Suchanfrage>
+ODER
+KEINE QUERY - Thema nicht relevant zum bisherigen Verlauf.
+""".strip()
 
-Generiere eine optimierte Frage welche die relevanten Dokumente retrieved. Sollte die neue Query nichts mit dem Verlauf zu tun haben, antworte nur mit der neusten Query ohne sie zu verändern.
-**Ausgabeformat:**  
-Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der Query.
+    user_prompt = f"""
+### Chatverlauf:
+{chat_history}
 
-"""
+### Neue Eingabe:
+User: {new_input}
+""".strip()
 
-    result = await model.acomplete(prompt=prompt)
-    return result.text
+    messages = [
+        ChatMessage(role="system", content=system_prompt),
+        ChatMessage(role="user", content=user_prompt)
+    ]
 
+    response = await Settings.llm.achat(messages)
+    return response.message.content.strip()
     
 class AdvancedRAGWorkflow3(Workflow):
     def __init__(self, course=None, userid=None, timeout = 10, disable_validation = False, verbose = False, service_manager = ...):
@@ -545,12 +437,11 @@ class AdvancedRAGWorkflow3(Workflow):
             errormessage = "Bitte gib eine kürzere Frage an!"
             if(ctx.data["language"] != "de"):
                 errormessage = await classifier_manager.translate("Bitte gib eine kürzere Frage an!", "de", ctx.data["language"] )
-            return StopEvent(result=errormessage)
+                return StopEvent(result=errormessage)
         response = await classifier_manager.classify_intent(ev.query)
         ctx.data["intent"] = response
-        result = "Language: " + ctx.data["language"] + " Intent: " +ctx.data["intent"]
         ctx.data["chatHistory"] = await getChatHistoryAsString(self.userid)
-        print(result)
+        ctx.data["chatHistoryListe"] = await getChatHistory(self.userid)
 
         if response == "small_talk":
            self.send_event(NoRAGQuestionEvent(query=ev.query))
@@ -560,6 +451,7 @@ class AdvancedRAGWorkflow3(Workflow):
 
     @step(pass_context=True)
     async def HandleNoRagQuestion(self, ctx: Context, ev: NoRAGQuestionEvent) -> StopEvent: 
+        llm =  OpenAI(model=EVAL_MODEL, temperature=0.3)
 
         prompt = f"""
         Du bist ein Assistent der Dualen Hochschule Heidenheim (DHBW) und beantwortest Fragen zum Studium und wissenschaftlichen Arbeiten.
@@ -581,94 +473,113 @@ class AdvancedRAGWorkflow3(Workflow):
         Hier ist die Nachricht des Benutzers:
         {ev.query}
         """
-        result = await Settings.llm.acomplete(prompt=prompt)
+        result = await llm.acomplete(prompt=prompt)
         return StopEvent(result=result)
 
     @step(pass_context=True)
     async def EnhanceSearchQuery(self, ctx: Context, ev: QueryVerbesserungsEvent) -> LoadIndexEvent: 
         query = ev.query
-        if ctx.data["language"] != "de":
-            query = await classifier_manager.translate(ev.query,ctx.data["language"], "de" )
-        
+
         if ctx.data["chatHistory"] != "":
-            query = await makeRagQuery(ctx.data["chatHistory"], query)
+            query = await make_rag_query(ctx.data["chatHistory"], query)
             print(Fore.GREEN + query + Fore.RESET)
+            if "KEINE QUERY" in query:
+                query = ev.query
+                print(Fore.GREEN + query + Fore.RESET)
 
         expanded_query = await expand_query(query,fachwoerter)
-        
+          
         self.send_event(LoadIndexEvent(query=expanded_query))
-        #self.send_event(RAGlowK(query=expanded_query))
-        #return StopEvent(result=expanded_query)
+
+
 
     @step(pass_context=True)
-    async def LoadIndex(self, ctx : Context, ev: LoadIndexEvent) -> RAGhighK | RAGlowK:
-        #ctx.data["qdrantindex"] = load_index_oldway(self.course)
-        #ctx.data["index"] = loadOrCreateIndexChroma(self.course)
+    async def LoadIndex(self, ctx : Context, ev: LoadIndexEvent) -> RAGhighK | RAGlowK|StopEvent:
+
         ctx.data["index"] = loadOrCreateIndexQdrant(self.course)
+        retriever = ctx.data["index"].as_retriever(
+            vector_store_query_mode="hybrid",  
+            similarity_top_k=5,   
+            sparse_top_k=5,      
+            dense_top_k=5,
+            alpha=0.5,            
+            #
+            search_kwargs={       
+                "search_params": models.SearchParams(hnsw_ef=128),
+                "score_threshold": 0.2,
+            },
+        )
+        nodes_with_scores = retriever.retrieve(ev.query)  
+        for rank, nws in enumerate(nodes_with_scores, start=1):
+            node      = nws.node         
+            score     = nws.score        
+            metadata  = node.metadata     
+
+            print(f"\n=== Treffer {rank} (Score {score:.3f}) ===")
+            print(Fore.CYAN + node.text + Fore.RESET)        
+            print("Metadaten:", metadata)
+            print("--------------------")
         self.send_event(RAGhighK(query=ev.query))
-        self.send_event(RAGlowK(query=ev.query))
+        self.send_event(RAGlowK(query=ev.query))        
+
 
     @step(pass_context=True)
     async def HandleHighKRAG(self, ctx: Context, ev: RAGhighK) -> ResponseEvent:
-        agent = await create_agent3(course=self.course, index=ctx.data["index"], chat_history=ctx.data["chatHistory"], topk=6)
+        agent = create_agent5(course=self.course, chat_history=ctx.data["chatHistoryListe"], index=ctx.data["index"])
         response = await agent.aquery(ev.query)
-
         print(Fore.YELLOW + response.response + Fore.RESET)
         source = "High_K"
+        printSources(response, source)
         ctx.data[source] = await makeSources(response, True)
-        #ctx.data[source] = "\n\n".join(source.text for source in response.source_nodes if source.text)
-        #ctx.data[source] = response.response
         self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
 
     
     @step(pass_context=True)
     async def HandleLowKRAG(self, ctx: Context, ev: RAGlowK) -> ResponseEvent:
-        agent = await create_agent3(course=self.course, index=ctx.data["index"], chat_history=ctx.data["chatHistory"])
+        agent = create_agent5(course=self.course, index=ctx.data["index"], chat_history=ctx.data["chatHistoryListe"], final__topk=8, dense_top_k=10, sparse_topk=10)
         response = await agent.aquery(ev.query)
         print(Fore.YELLOW + response.response + Fore.RESET)
-        source = "Low_K"
-        ctx.data[source] = await makeSources(response, True)
-        #ctx.data[source] = response.response
-        self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
+        printFullInput(response, ev.query)
 
+        source = "Low_K"
+
+        ctx.data[source] = await makeSources(response, True)
+        self.send_event(ResponseEvent(query=ev.query,source=source, response=response.response))
     
     @step(pass_context=True)
-    async def HandleResponse(self, ctx: Context, ev: ResponseEvent) -> SourceEvent:
+    async def HandleResponse(self, ctx: Context, ev: ResponseEvent) -> SourceEvent | StopEvent:
         ready = ctx.collect_events(ev, [ResponseEvent]*2)
-        llm = Ollama(model="llama3.1:8b-instruct-q6_K", request_timeout=360.0, device=DEVICE, temperature=0.3)
+        llm = OpenAI(model=EVAL_MODEL, temperature=0.3)
         if ready is None:
             return None
         query = ev.query
         response_1 = ready[0].response
         response_2 = ready[1].response
-        #print( Fore.RED + ready[0].source + ": " + ctx.data[ready[0].source] + "\n")
-        #print(ready[1].source + ": " + ctx.data[ready[1].source] + "\n" + Fore.RESET)
+
         evaluation_prompt = f"""
-Du bist ein Assistent, der zwei Antworten auf die gleiche Frage bewertet und eine auswählt.
+Du bist ein Assistent, der drei Antworten auf die gleiche Frage bewertet und eine auswählt.
 
 Bewertungsanweisungen:
-- Wähle die kürzere Antwort. Wenn sie gleich lang sind wähle eine aus.
-- Die beste Antwort sollte präziser und genauer sein.
-- Erzähle nichts darüber hinaus.
-- Die Fragen dürfen nur anhand von Quellen beantwortet werden.
-  Ein Beispiel für eine Quellenangabe ist: [1], (1) oder Quelle 1: 
-- Sollten bei beiden Antworten keine Quellen angegeben sein, sag ohne Begründung dass du die Frage nicht beantworten kannst
-- Sollte keiner der Antworten die Frage genau beantworten können, sag ohne Begründung dass du die Frage nicht beantworten kannst
+- Beantworte die Frage ausschließlich auf Grundlage der angegebenen Quellen (z. B. [1], (1), „Quelle 1:“).
+- Wenn **nur eine Antwort Quellen angibt**, wähle diese.
+- Wenn **beide Antworten Quellen angeben**, wähle die **kürzere**.
+- Wenn beide Antworten **gleich lang sind**, wähle eine beliebig.
+- Wenn **keine** der beiden Antworten Quellen angibt oder keine Antwort die Frage korrekt beantwortet, gib aus:  
+**„Ich kann die Frage nicht beantworten.“**
 
-Ausgabeformat:  
-Gib ausschließlich die Antwort mit den Quellen zurück außer keine Antwort konnte die Frage beantworten, dann sag dass du sie nicht beantworten kannst. Jegliche zusätzliche Erklärung oder Meta-Kommentar ist verboten. Antworte nur mit der exakten Antwort.
+Ausgabeformat:
+Gib ausschließlich die gewählte Antwort mit den Quellen zurück. Antworte **nicht** mit zusätzlichen Kommentaren oder Erklärungen.
+# \n------\n
+# Frage: {query}
 
-Gib jetzt die Antwort zurück ohne Erklärung
-\n------\n
-Frage: {query}
+# Antwort 1:
+# {response_1}
 
-Antwort 1:
-{response_1}
+# Antwort 2:
+# {response_2}
 
-Antwort 2:
-{response_2}
-\n------\n
-Antwort:
+# \n------\n
+# Antwort:
         """
         print(Fore.CYAN + evaluation_prompt + Fore.RESET)
         best_response = await llm.acomplete(prompt=evaluation_prompt)
@@ -679,8 +590,8 @@ Antwort:
         if ctx.data["language"] != "de":
             best_response = await classifier_manager.translate(best_response, "de", ctx.data["language"] )
        
-        self.send_event(SourceEvent(response=best_response))
-        #return StopEvent(result=best_response)
+        return StopEvent(result=best_response)
+    
     @step(pass_context=True)
     async def FinaliseWithSources(self, ctx: Context, ev: SourceEvent) -> StopEvent:
         sources = ctx.data["High_K"] | ctx.data["Low_K"]

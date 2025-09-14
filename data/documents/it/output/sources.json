@@ -2,7 +2,7 @@
   "sources": [
     {
       "priority": 1,
-      "name": "Prüfungsordnung (Tabellen)",
+      "name": "Prüfungsordnung",
       "file": "21_2023_Bekanntmachung_StuPrO_Technik_inkl._Siebter_AEnderungssatzung.pdf.table",
       "description": "Prüfungsordnung wichtige Tabellen",
       "web_link": ""
@@ -23,14 +23,14 @@
     },
     {
       "priority": 1,
-      "name": "Leitlinien wissenschaftliches Arbeiten Tabellen",
+      "name": "Leitlinien wissenschaftliches Arbeiten",
       "file": "191212_Leitlinien_Praxismodule_Studien_Bachelorarbeiten.pdf.table",
       "description": "Leitlinien für wissenschaftliche Arbeiten. Gibt eine Übersicht über die durchzuführenden Projektarbeiten und die Anforderungen",
       "web_link": "https://www.dhbw.de/fileadmin/user_upload/Dokumente/Dokumente_fuer_Studierende/191212_Leitlinien_Praxismodule_Studien_Bachelorarbeiten.pdf"
     },
     {
       "priority": 1,
-      "name": "Aufbau von Projektarbeiten (Tabellen)",
+      "name": "Aufbau von Projektarbeiten",
       "file": "Aufbau_Projektarbeit.pdf.table",
       "description": "Wichtiger Aufbau für Projektarbeiten",
       "web_link": ""
@@ -51,7 +51,7 @@
     },
     {
       "priority": 1,
-      "name": "IntroInformatik (Tabellen)",
+      "name": "IntroInformatik",
       "file": "IntroInf.pdf.table",
       "description": "Infos zum Wissenschaftlichen Arbeiten",
       "web_link": ""
@@ -65,7 +65,7 @@
     },
     {
       "priority": 1,
-      "name": "OnePager Wissenschaftliches Arbeiten (Tabellen)",
+      "name": "OnePager Wissenschaftliches Arbeiten",
       "file": "OnePagerWissArb.pdf.table",
       "description": "Ein One Pager für wissenschaftliches Arbeiten",
       "web_link": ""

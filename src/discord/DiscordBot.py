@@ -7,7 +7,7 @@ from discord.ext import commands
 from src.ChatBot import ChatBot, Course
 from src.discord.Dropdowns import DropdownView
 from src.discord.disclaimer import disclaimer
-from src.Pipeline import *
+from src.Pipeline2 import *
 from src.discord.MessageManager import *
 chatbot_logger = logging.getLogger('ChatBot')
 
@@ -66,8 +66,10 @@ class DiscordBot(commands.Bot):
             #try:
             try:
                 response = await c.run(query=message.content)
-            except:
+            except Exception as e:
                 response = "Error try again later!"
+                print(e)
+
             # except:
             #     response = "Das kann ich leider nicht Beantworten"
             await sent_message.edit(content=response)

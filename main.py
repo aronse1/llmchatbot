@@ -5,7 +5,7 @@ from llama_index.core.evaluation import FaithfulnessEvaluator
 #from src.ChatBot import ChatBot, Course
 from src.logger import (chatbot_logger, message_logger,
                         unanswered_questions_logger)
-from src.Pipeline import *
+from src.Pipeline2 import *
 from src.evaluator import evaluate
 import json
 import asyncio
@@ -47,18 +47,18 @@ async def makeEvaluation(iterations : int, course, chat_bot, name: str):
             i+=1
         for item in allevaluations:
             print(item)
-        output_path = f"./data/documents/it/output/output_json/{name}_evaluation_results{a}.json"
+        output_path = f"./data/documents/it/output/output_json/{name}_evaluation_results{a+16}.json"
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(allevaluations, f, ensure_ascii=False, indent=4)
 
 
 async def main():
     initialise()
-    course = Course.WI
+    course = Course.IT
     #c = AdvancedRAGWorkflow(timeout=3600, verbose=True, course=course)
     #await makeEvaluation(20, course=course, chat_bot=c, name="thinker_other_index")
     d = AdvancedRAGWorkflow3(timeout=3600, verbose=True, course=course)
-    #await makeEvaluation(10, course=course, chat_bot=d, name="qdrant_german")
+    #await makeEvaluation(6, course=course, chat_bot=d, name="3ft_gptmodell")
     #e = AdvancedRAGWorkflow2(timeout=3600, verbose=True, course=course)
     #await makeEvaluation(10, course=course, chat_bot=e, name="no_context_react_other_index")
 

@@ -6,16 +6,23 @@
     "configurations": [
         {
             "name": "Python Debugger: Current File",
-            "type": "debugpy",
+            "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
         },
         {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
+            "name": "Chatbot",
+            "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Discord Bot",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Bot_main.py",
             "console": "integratedTerminal"
         }
     ]
